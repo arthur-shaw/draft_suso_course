@@ -20,45 +20,45 @@ execute:
 ## Roadmap `r fontawesome::fa(name = "route")` {.suso}
 
 ::: {.box .box-s}
-Login
+Login `r fontawesome::fa(name = "right-to-bracket")`
 :::
 
 ::: {.box .box-s}
-Search
+Search `r fontawesome::fa(name = "magnifying-glass")`
 :::
 
 ::: {.box .box-s}
-Create
+Create `r fontawesome::fa(name = "folder-plus")`
 :::
 
 ::: {.box .box-s}
-Develop
+Develop `r fontawesome::fa(name = "laptop-code")`
 :::
 
 ::: {.box .box-s}
-Test
+Test `r fontawesome::fa(name = "vial-circle-check")`
 :::
 
 ::: {.box .box-s}
-Share
+Share `r fontawesome::fa(name = "share-from-square")`
 :::
 
 
-## Login {.suso}
+## Login `r fontawesome::fa(name = "right-to-bracket")` {.suso}
 
 TODO: video of:
 
 - navigate to URL
 - provide login and password
 
-## Search {.suso}
+## Search `r fontawesome::fa(name = "magnifying-glass")` {.suso}
 
 TODO: video of: 
 
 - click on `QUESTIONNAIRES SHARED WITH ME`, `PUBLIC`, `MY QUESTIONNAIRES` tabs
 - use search bar 
 
-## Create {.suso}
+## Create `r fontawesome::fa(name = "folder-plus")` {.suso}
 
 TODO: video of:
 
@@ -66,7 +66,7 @@ TODO: video of:
 - Provide name and variable name
 - Show name and variable name in UI
 
-## Develop {.suso}
+## Develop `r fontawesome::fa(name = "laptop-code")` {.suso}
 
 TODO: video of:
 
@@ -75,7 +75,7 @@ TODO: video of:
 - Add roster
 - Add (enablement) conditions
 
-## Test {.suso}
+## Test `r fontawesome::fa(name = "vial-circle-check")` {.suso}
 
 - TODO: video of:
 
@@ -83,7 +83,7 @@ TODO: video of:
 - see error, hover over, click on link, remedy; press COMPILE again
 - press TEST
 
-## Share {.suso}
+## Share `r fontawesome::fa(name = "share-from-square")` {.suso}
 
 TODO: video of:
 
