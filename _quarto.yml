@@ -5,6 +5,7 @@ project:
 website:
   title: "Learning Survey Solutions"
   navbar:
+    logo: suso_logo.png
     pinned: true
     background: "#3346d3"
     right:
