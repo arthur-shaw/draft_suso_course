@@ -1398,5 +1398,12 @@
     "title": "Learning Survey Solutions",
     "section": "Roadmap ",
     "text": "Roadmap \n\nLogin \n\n\nSearch \n\n\nCreate \n\n\nDevelop \n\n\nTest \n\n\nShare"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "suso_course",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

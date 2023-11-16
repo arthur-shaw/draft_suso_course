@@ -58,5 +58,8 @@
   },
   "slides/02_headquarters/02_get_server/02_get_server.qmd": {
     "02_get_server.html": "ab95c9f4"
+  },
+  "index.qmd": {
+    "index.html": "4194a7c8"
   }
 }
