@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Learning Survey Solutions"
+  search: true
   navbar:
     logo: suso_logo.png
     pinned: true
