@@ -8,7 +8,7 @@ website:
   navbar:
     logo: suso_logo.png
     pinned: true
-    background: "#3346d3"
+    background: "#0042c8"
     right:
       - text: "Home"
         icon: "house-door-fill"
