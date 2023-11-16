@@ -4,7 +4,6 @@ format:
         theme: [default, ../../css/core.scss, ../../css/colors.scss]
         height: 900
         width: 1600
-        self-contained: true
 highlight-style: github
 execute: 
   eval: false
