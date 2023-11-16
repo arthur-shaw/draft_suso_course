@@ -6,6 +6,10 @@ format:
         width: 1600
 ---
 
+```{r}
+
+```
+
 # Create a basic questionnaire {background-color=var(--suso)}
 
 ## Roadmap `r fontawesome::fa(name = "route")` {.suso}

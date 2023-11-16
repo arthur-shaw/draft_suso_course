@@ -10,6 +10,10 @@ execute:
   echo: true
 ---
 
+```{r}
+
+```
+
 # Designer: the whole game {background-color=var(--suso)}
 
 
