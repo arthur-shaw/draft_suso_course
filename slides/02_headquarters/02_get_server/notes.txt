@@ -1,0 +1,13 @@
+## Access WBG demo
+
+- Public demo
+    - Cut out part with password in URL
+    - Consider navigating to SuSo documentation with password so users can see (i.e., integrating your screenshot into the video)
+    - Consider typing our demo URL so users can see
+- Personal demo
+    - Consider typing pds portal URL into browser so users can see
+    - Remove first second or two where ShareX appears in frame
+    - Consider disabling password auto-complete for the video--or open Chrome in Incognito mode 
+    - Consider not showing your email inbox (even if it's filtered). Perhaps  you can show the message itself opened full screen. Perhaps VLC could merge together multiple videos (e.g., before stopping to get PDS notice; after starting to show PDS notice)
+    - If the video shows your login and password, consider blurring/redacting that information somehow. Not sure which video tools have this capability.
+    - Consider whether it's safe to show your login and password. You don't want users to access your server if the training materials go live while your PDS is still live.

@@ -1,0 +1,90 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/designer_overview.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+highlight-style: github
+execute: 
+  eval: false
+  echo: true
+---
+
+# Designer: the whole game {background-color=var(--suso)}
+
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-s}
+Login
+:::
+
+::: {.box .box-s}
+Search
+:::
+
+::: {.box .box-s}
+Create
+:::
+
+::: {.box .box-s}
+Develop
+:::
+
+::: {.box .box-s}
+Test
+:::
+
+::: {.box .box-s}
+Share
+:::
+
+
+## Login {.suso}
+
+TODO: video of:
+
+- navigate to URL
+- provide login and password
+
+## Search {.suso}
+
+TODO: video of: 
+
+- click on `QUESTIONNAIRES SHARED WITH ME`, `PUBLIC`, `MY QUESTIONNAIRES` tabs
+- use search bar 
+
+## Create {.suso}
+
+TODO: video of:
+
+- Click button to create
+- Provide name and variable name
+- Show name and variable name in UI
+
+## Develop {.suso}
+
+TODO: video of:
+
+- Add sections
+- Add questions (creating a duplicate question to trigger compile error on purpose)
+- Add roster
+- Add (enablement) conditions
+
+## Test {.suso}
+
+- TODO: video of:
+
+- press COMPILE
+- see error, hover over, click on link, remedy; press COMPILE again
+- press TEST
+
+## Share {.suso}
+
+TODO: video of:
+
+- Click share button
+- Provide email/user name
+- Toggle permissions
+- Send edit request

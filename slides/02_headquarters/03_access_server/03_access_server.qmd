@@ -1,0 +1,67 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+---
+
+# Access server {background-color=var(--suso)}
+
+## Connect {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/server_login.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- Navigate to the server URL
+- Provide login and password
+:::
+
+::::
+
+## Different types of users {.t1}
+
+::: {.box .box-1}
+Admin
+:::
+
+::: {.box .box-1}
+API
+:::
+
+::: {.box .box-1}
+Headquarters
+:::
+
+::: {.box .box-1}
+Supervisor
+:::
+
+::: {.box .box-1}
+Interviewer
+:::
+
+## Access same URL, but have different UI/rights {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of login with different accounts
+:::
+
+::: {.column width="30%"}
+
+- **Admin.** Create workspaces, users.
+- **Headquarters.** Create assignments, interviews.
+- **Supervisor.** ^[A Tablet preferred] Reassign, review.
+- **Interviewer.** ^[A Tablet preferred] Complete interviews 
+
+:::
+
+::::
+
+

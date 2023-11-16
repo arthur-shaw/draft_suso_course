@@ -1,0 +1,394 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+execute: 
+  echo: false
+  warning: false
+  error: false 
+---
+
+# Question types {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+:::: {.columns}
+
+<!-- first column -->
+
+::: {.column width="33%"}
+
+
+::: {.box .box-1}
+Overview
+:::
+
+::: {.box .box-2}
+Single-select
+:::
+
+::: {.box .box-3}
+Multi-select
+:::
+
+::: {.box .box-4}
+Numeric
+:::
+
+
+:::
+
+<!-- Second column -->
+
+::: {.column width="33%"}
+
+
+::: {.box .box-5}
+Text
+:::
+
+::: {.box .box-6}
+List
+:::
+
+
+:::
+
+<!-- Third column -->
+
+::: {.column width="33%"}
+
+
+::: {.box .box-7}
+Date
+:::
+
+::: {.box .box-8}
+GPS
+:::
+
+::: {.box .box-9}
+Everything else
+:::
+
+
+:::
+
+
+::::
+
+## Full menu {.t1}
+
+![](assets/question_types.png){fig-align="center"}
+
+## Today's specials {.t1}
+
+![](assets/question_types_covered.png){fig-align="center"}
+
+# How to order {background-color=var(--s1)}
+
+## Attributes {.t1}
+
+![](assets/attributes_required_optional.png){fig-align="center"}
+
+## Type {.t1}
+
+TODO: image of question type expanded in Designer
+
+## Type {.t1}
+
+![](assets/answering_all_question-_types.mp4){fig-align="center"}
+
+<!-- Variable name -->
+
+## Variable name {.t1}
+
+![](assets/attributes_varname.png){fig-align="center"}
+
+## Variable name {.t1}
+
+![](assets/attributes_varname_result.png){fig-align="center"}
+
+<!-- Variable label -->
+
+## Variable label {.t1}
+
+![](assets/attributes_variable_label.png)
+
+## Variable label {.t1}
+
+![](assets/attributes_variable_label_result.png){fig-align="center"}
+
+<!-- Question text -->
+
+## Question text {.t1}
+
+![](assets/attributes_question_text.png){fig-align="center"}
+
+## Question text {.t1}
+
+![](assets/attributes_question_text_result.png){fig-align="center"}
+
+<!-- Interviewer instruction -->
+
+## Interviewer instruction {.t1}
+
+![](assets/attributes_interviewer_instruction.png){fig-align="center"}
+
+## Interviewer instruction {.t1}
+
+![](assets/attributes_interviewer_instruction_result.png){fig-align="center"}
+
+
+## Type-specific attributes {.t1}
+
+![](assets/attributes_type_specific.png){fig-align="center"}
+
+
+
+# First course: single-select {background-color=var(--s2)}
+
+## Example {.t2}
+
+TODO: get picture on paper
+
+TODO: content here
+
+## Single-select {.t2}
+
+TODO: either image of basic question in Designer or video of it with answer options being added.
+
+## Display mode {.t2}
+
+![](assets/single_select_display_mode.png){fig-align="center"}
+
+## Radio button {.t2}
+
+![](assets/single_select_radio_button.png){fig-align="center"}
+
+## Combo box {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Radio = Good
+
+![](assets/single_select_radio_button.png){fig-align="center"}
+
+:::
+
+::: {.column width="50%" .fragment}
+
+### Combo = Better (?)
+
+![](assets/single_select_combo_box.mp4){fig-align="center"}
+
+:::
+
+::::
+
+
+## Cascading combo box {.t2}
+
+TODO: content here
+
+## Cascading combo box {.t2}
+
+TODO: content here
+
+
+
+# Second course: multi-select {background-color=var(--s3)}
+
+## Example {.t3}
+
+![](assets/multi-select_paper.png){fig-align="center"}
+
+## Designer options {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/multi-select_designer.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- **Display mode.** How answer options are presented and answers recorded.
+- **Other options.** Whether to record answer order. Whether/how much to limit number of answers provided.
+
+:::
+
+::::
+
+
+## Display mode {.t3}
+
+![](assets/multi_select_display_mode.png){fig-align="center"}
+
+## Checkboxes {.t3}
+
+![](assets/multi-select_checkboxes.mp4){fig-align="center"}
+
+## Yes/No buttons {.t3}
+
+TODO: image of paper instrument
+
+## Yes/No buttons {.t3}
+
+![](assets/multi-select_yn_designer.png){fig-align="center"}
+
+## Yes/No buttons {.t3}
+
+![](assets/multi-select_yn.mp4){fig-align="center"}
+
+## Combo box {.t3}
+
+![](assets/multi-select_combo_box.mp4){fig-align="center"}
+
+## Other options {.t3}
+
+::: {.box .box-3}
+Record answer order
+:::
+
+::: {.box .box-3}
+Max number of answers
+:::
+
+## Record answer order {.t3}
+
+![](assets/multi-select_record_answer_order.mp4){fig-align="center"}
+
+## Max number of answers {.t3}
+
+![](assets/multi-select_max_answers.mp4){fig-align="center"}
+
+
+
+# Third course: numeric {background-color=var(--s4)}
+
+## Example {.t4}
+
+![](assets/numeric_paper.png){fig-align="center"}
+
+## Numeric {.t4}
+
+![](assets/numeric.mp4){fig-align="center"}
+
+## Integer {.t4}
+
+![](assets/numeric_integer_designer.png)
+
+## Number of decimal places {.t4}
+
+![](assets/numeric_decimal_designer.png){fig-align="center"}
+
+## Use 1000s separator {.t4}
+
+![](assets/numeric_thousands_separator_designer.png){fig-align="center"}
+
+# Text {background-color=var(--s5)}
+
+## Text {.t5}
+
+![](assets/text.mp4){fig-align="center"}
+
+## Text {.t5}
+
+![](assets/text_designer.png){fig-align="center"}
+
+## Pattern {.t5}
+
+TODO: provide example
+
+
+# List {background-color=var(--s6)}
+
+## List {.t6}
+
+![](assets/list_paper.png){fig-align="center"}
+
+## List {.t6}
+
+![](assets/list.mp4){fig-align="center"}
+
+## List {.t6}
+
+TODO: image of simple list question in Designer
+
+## Max number of answers {.t6}
+
+TODO: video of question with list answers limited
+
+## Max number of answers {.t6}
+
+![](assets/list_max_answers_designer.png){fig-align="center"}
+
+
+
+# Date {background-color=var(--s7)}
+
+## Date {.t7}
+
+![](assets/date.mp4){fig-align="center"}
+
+## Calendar date {.t7}
+
+![](assets/date_calendar_designer.png){fig-align="center"}
+
+## Timestamp {.t7}
+
+![](assets/date_timestamp_designer.png){fig-align="center"}
+
+
+
+# GPS {background-color=var(--s8)}
+
+## GPS {.t8}
+
+TODO: video of result
+
+## GPS {.t8}
+
+TODO: image of GPS type
+
+
+
+# Everything else {background-color=var(--s9)}
+
+## Everything else {.t9}
+
+::: {.panel-tabset}
+
+## Picture `r fontawesome::fa(name = "camera")`
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/questions/picture-question/", height = "700px")
+```
+
+## Barcode `r fontawesome::fa(name = "barcode")`
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/questions/barcode-question/", height = "700px")
+```
+
+## Audio  `r fontawesome::fa(name = "microphone")`
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/questions/audio-question/", height = "700px")
+```
+
+## Geography  `r fontawesome::fa(name = "draw-polygon")`
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/questions/geography-question/", height = "700px")
+```
+
+:::
+
+

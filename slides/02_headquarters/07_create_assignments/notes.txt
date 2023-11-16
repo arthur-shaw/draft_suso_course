@@ -1,0 +1,32 @@
+## On paper
+
+Need a few images:
+
+- Cover page, without annotations
+- Cover page with annotations to identify identifying variables
+
+## In Interviewer
+
+- List of cases. Image showing list of cases in `Create New` tab
+- Details for each case. Video showing how details shown (hidden) when card tapped to expand (collapse) details.
+- Details to identify a case. Show two processes for finding a case:
+    - Manual tap to expand
+    - Search, which demonstrably operates across tabs (with target case in `Started`) tab
+
+## Designer
+
+- In Survey Solutions > User provides IDs. Show cover page in Designer.
+
+## Headquarters
+
+- One-by-one. Short video showing the process of creating an assignment one-by-one. Could be same as in "whole game" slides. See intent [here](02_headquarters/07_create_assignments/create_assignments.html#/one-by-one). Maybe edit down the content from `server overview create assignments.mp4`.
+- Batch. Short video of process for creating and uploading assignments in bulk. See intent [here](02_headquarters/07_create_assignments/create_assignments.html#/batch).
+
+## In practice
+
+See the videos on these slides:
+
+- Obtain the list of ID variables
+- Compare inputs with desired outputs
+- Modify inputs
+- Export tab-delimited outputs

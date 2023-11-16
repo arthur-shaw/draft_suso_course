@@ -1,0 +1,2 @@
+- Navigate to users screen. Short video that shows just this. Similar to [this](05_create_users/create_users.html#/navigate-to-users-screen), but with cleaner server.
+- In bulk. Need video of creating users in bulk via file. Make it a simple-to-follow example.

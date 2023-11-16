@@ -1,0 +1,69 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# Create a basic questionnaire {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Create questionnaire
+:::
+
+::: {.box .box-2}
+Add questions
+:::
+
+::: {.box .box-3}
+Provide attributes
+:::
+
+::: {.box .box-4}
+Copy/paste and move questions
+:::
+
+::: {.box .box-5}
+Test questionnaires
+:::
+
+
+# Create questionnaire {background-color=var(--s1)}
+
+## Create questionnaire {.t1}
+
+![](assets/create_questionnaire.mp4){fig-align="center"}
+
+# Add questions {background-color=var(--s2)}
+
+## Add questions {.t2}
+
+![](assets/add_question.mp4){fig-align="center"}
+
+# Provide attributes {background-color=var(--s3)}
+
+## Provide attributes {.t3}
+
+![](assets/provide_attributes.mp4){fig-align="center"}
+
+::: {.section}
+# Copy/paste and move questions {background-color=var(--s4)}
+:::
+
+## Copy/paste {.t4}
+
+![](assets/copy_and_paste.mp4){fig-align="center"}
+
+## Move {.t4}
+
+![](assets/move_question.mp4){fig-align="center"}
+
+# Test questionnaire {background-color=var(--s5)}
+
+## Test questionnaire {.t5}
+
+![](assets/test_questionnaire.mp4){fig-align="center"}

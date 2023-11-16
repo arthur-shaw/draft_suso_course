@@ -1,0 +1,315 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+```{r}
+
+```
+
+# Creating groups (of questions) {background-color=var(--suso)}
+
+# Definitions {background-color=var(--s1)}
+
+## What do we mean by "groups" ? {.t1}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+::: {.box .box-1}
+`r fontawesome::fa(name = "folder")` Sections
+:::
+
+:::
+
+::: {.column width="70%"}
+![](assets/sections_paper.png){fig-align="center"}
+:::
+
+::::
+
+## What do we mean by "groups" ? {.t1}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+
+::: {.box .box-1}
+`r fontawesome::fa(name = "folder")` Sections
+:::
+
+::: {.box .box-1}
+`r fontawesome::fa(name = "folder-tree")` Sub-sections
+:::
+
+:::
+
+::: {.column width="70%"}
+TODO: need image of sub-sections example on paper
+:::
+
+::::
+
+
+# `r fontawesome::fa(name = "folder")` Sections {background-color=var(--s2)}
+
+## How they look on paper {.t2}
+
+![](assets/sections_paper.png){fig-align="center"}
+
+## How they look on paper {.t2}
+
+TODO: TODO: content here
+
+## How they look in CAPI {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+TODO: Image of TOC in Designer
+
+:::
+
+::: {.column width="50%"}
+
+TODO: Image or video (ideally) of TOC in Interviewer
+
+:::
+
+::::
+
+## One is system-generated {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of cover page section
+
+:::
+
+::: {.column width="30%"}
+
+- Section like any other
+- With two exeptions:
+    1. Cannot be deleted
+    2. Questions here appear as ID vars
+
+:::
+
+::::
+
+## How to create {.t2}
+
+:::: {.columns}
+
+::: {.column width="80%"}
+TODO: content here
+:::
+
+::: {.column width="20%"}
+
+- Click on `r fontawesome::fa(name = "bars")`
+- Click on ADD NEW SECTION
+- Provide attributes
+    - Title
+    - Variable name (optional)
+    - Enabling condition (optional)
+
+<!-- Motivation for variable: section functions: https://docs.mysurvey.solutions/syntax-guide/functions/section-functions/ -->
+
+:::
+
+::::
+
+## How to make the title better {.t2}
+
+::: {.box .box-2}
+Make it short
+:::
+
+::: {.box .box-2}
+Consider emojis
+:::
+
+
+## Make it short {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: content here
+
+:::
+
+::: {.column width="30%"}
+
+### Principles
+
+- Consider form factor
+- Consider function
+
+### Practices
+
+- Check whether it fits in UI
+    - Navigation bar
+    - Title bar
+
+:::
+
+::::
+
+
+## Consider emojis {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: content here
+
+:::
+
+::: {.column width="30%"}
+
+- Communicate
+- Check whether it works
+
+:::
+
+::::
+
+
+## How to put questions in sections {.t2}
+
+::: {.box .box-2}
+Add them
+:::
+
+::: {.box .box-2}
+Move them
+:::
+
+
+## Add them {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: content here
+:::
+
+::: {.column width="30%"}
+- Open a section
+- Create a question inside
+    - Either `ADD A QUESTION` or
+    - Right click and select `Add question after`
+:::
+
+::::
+
+## Move them {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: content here
+:::
+
+::: {.column width="30%"}
+- Click on the target question
+- Scroll to the bottom of the right-hand panel
+- Click on `MOVE TO`
+- Select the destination section
+:::
+
+::::
+
+# `r fontawesome::fa(name = "folder-tree")` Sub-sections {background-color=var(--s3)}
+
+## How they look on paper {.t3}
+
+TODO: content here
+
+## How they look on paper {.t3}
+
+TODO: content here
+
+## How they look in CAPI {.t3}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+TODO: content here
+:::
+
+::: {.column width="50%"}
+TODO: content here
+:::
+
+::::
+
+## How to create {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: content here
+:::
+
+::: {.column width="30%"}
+- Either click on `ADD SUB-SECTION`
+- Or right-click and select `Add sub-section` after
+:::
+
+::::
+
+## How to put questions in sub-sections {.t3}
+
+::: {.box .box-3}
+Add them there
+:::
+
+::: {.box .box-3}
+Move them there
+:::
+
+## Add them there {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: content here
+:::
+
+::: {.column width="30%"}
+- Right-click on question in sub-section
+- Select `Add question after`
+:::
+
+::::
+
+## Move them there {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: content here
+:::
+
+::: {.column width="30%"}
+- Hover over the left-hand part of the question
+- Drag near the desired sub-section
+- Drag to the right under the sub-section
+- Confirm that the question is indented under the sub-section
+:::
+
+::::

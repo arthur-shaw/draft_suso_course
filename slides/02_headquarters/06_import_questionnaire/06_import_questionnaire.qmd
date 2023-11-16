@@ -1,0 +1,117 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+---
+
+# Import the questionnaire `r fontawesome::fa(name = "file-import")` {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-s}
+What
+:::
+
+::: {.box .box-s}
+Why
+:::
+
+::: {.box .box-s}
+How
+:::
+
+## What {.suso}
+
+:::: {.incremental}
+
+::: {.box .box-s}
+[Fact 1:]{.big}
+Headquarters distributes questionnaires
+:::
+
+::: {.box .box-s}
+[Fact 2:]{.big}
+Questionnaires need to come from somewhere
+:::
+
+::: {.box .box-s}
+[Fact 3:]{.big}
+Designer is that somewhere
+:::
+
+::: {.box .box-s}
+[Fact 4:]{.big}
+Importing copies a questionnaire _snapshot_ from Designer to Headquarters
+:::
+
+::: {.box .box-s}
+[Fact 5:]{.big}
+Headquarters manages several different questionnaire _snapshots_ as versions
+:::
+
+::::
+
+## Why {.suso}
+
+::: {.box .box-s}
+
+<details>
+    <summary>[Get started `r fontawesome::fa(name = "circle-play")`]{.big} </summary>
+
+During initial server, must import questionnaire before assignments can be made.
+
+</details>
+
+:::
+
+
+::: {.box .box-s}
+
+<details>
+    <summary>[Update `r fontawesome::fa(name = "rotate")`]{.big}</summary>
+
+When changes happen to the questionnaire, must import changes from Designer to Headquarters (e.g., add questions, correct conditions, etc.)
+
+</details>
+
+
+:::
+
+::: {.box .box-s}
+
+<details>
+    <summary>[Test `r fontawesome::fa(name = "vial-circle-check")`]{.big}</summary>
+
+When developing, may want to import to test (e.g., see how works on Interviewer, distribute tests to tablets, etc.)
+
+</details>
+
+:::
+
+## How {.suso}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/import_questionnaire.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+- Click on the `Survey Setup menu`
+- Select `Questionnaires`
+- Click on `IMPORT QUESTIONNAIRE`
+- Enter login and password for Designer
+- Click to select a questionnaire
+
+:::
+
+::::

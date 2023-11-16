@@ -1,0 +1,18 @@
+## Overview
+
+- Users. Consider making video more direct navigation to users. The video has a detour through workspaces that isn't quite clear to me.
+- Survey Setup. Consider having the video simply open each menu option under Survey Setup long enough for the speaker to give a quick explanation of the screen. The video goes through through questionnaire import process in detail but provides less detail for other parts. Use less detail overall. This is just to "tour d'horizon".
+
+## Whole Game
+
+- Logging in. Consider showing that one navigates to a URL. Let's talk about whether we want to show your PDS' URL or not. Could use demo instead.
+- Import questionnaire. Consider either starting the workspace in a workspace and focusing on importing a questionnaire, or choosing one from the drop-down menu once you're inside a workspace.
+- Create assignment. Meant this to cover creating the assignment file--but a quick, simplified overview to give  taste. See the `Create assignments` section in `review_zim_course/slides_not_on_zim_site/16_prepare_server.html#/create-assignments`. Something like this:
+    - Get a template. See [here](review_zim_course/slides_not_on_zim_site/16_prepare_server.html#/obtain-the-list-of-id-variables)
+    - Fill out template.
+    - Save as tab-delimited file.
+- Import assignments. Meant this to cover only the process of loading the assignments. See process [here](review_zim_course/slides_not_on_zim_site/16_prepare_server.html#/import-assignments-1)
+
+- General comments
+    - Consider either starting the workspace in a workspace and focusing on importing a questionnaire, or choosing one from the drop-down menu once you're inside a workspace.
+    - Keep it simple for the overview.

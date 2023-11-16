@@ -1,0 +1,498 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: true
+---
+
+# Creating (simple) assignments {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+On paper `r fontawesome::fa(name = "clipboard-list")`
+:::
+
+::: {.box .box-2}
+In Interviewer `r fontawesome::fa(name = "tablet-screen-button")`
+:::
+
+::: {.box .box-3}
+In Designer `r fontawesome::fa(name = "pen-ruler")`
+:::
+
+::: {.box .box-4}
+In Headquarters `r fontawesome::fa(name = "building-user")`
+:::
+
+::: {.box .box-5}
+In practice `r fontawesome::fa(name = "person-walking-arrow-right")`
+:::
+
+# On paper `r fontawesome::fa(name = "clipboard-list")` {background-color=var(--s1)}
+
+## Have {.t1}
+
+TODO: Cover page, without annotations
+
+## Have {.t1}
+
+TODO: Cover page with annotations to identify identifying variables
+
+## Need (for finding household) {.t1}
+
+TODO: Cover page with further annotations to identify ID vars needed for finding a household (potentially subset of all ID vars)
+
+# In Interviewer `r fontawesome::fa(name = "tablet-screen-button")` {background-color=var(--s2)}
+
+
+## List of cases {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: List of cases. Image showing list of cases in `Create New` tab
+
+:::
+
+::: {.column width="30%"}
+
+- Each case is a card
+- Card contains case
+    - Details
+    - Interview
+
+:::
+
+::::
+
+## Details for each case {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: Video showing how details shown (hidden) when card tapped to expand (collapse) details.
+
+:::
+
+::: {.column width="30%"}
+
+- Tap card to view more details
+- Tap `OPEN` to start interview
+
+:::
+
+::::
+
+
+## Details to identify a case {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: Show two processes for finding a case:
+    - Manual tap to expand
+    - Search, which demonstrably operates across tabs (with target case in `Started`) tab
+
+:::
+
+::: {.column width="30%"}
+
+- Spot based on visible info
+- Search across all info
+
+:::
+
+::::
+
+
+# In Designer `r fontawesome::fa(name = "pen-ruler")` {background-color=var(--s3)}
+
+## In CSPro {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/id_vars_cspro.png){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+- Provided by user (and/or lookup file)
+- Must be unique when field concatenated
+
+:::
+
+::::
+
+## In Survey Solutions {.t3}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.centered}
+
+### SuSo creates IDs
+
+- Unique
+- `r fontawesome::fa(name = "computer")`-readable IDs
+
+:::
+
+TODO: sketch table of with `interview__id`, `interview__key`, and some practical identifiers
+
+<!-- 
+#### Computer IDs
+
+Manual, user-provided IDs, human-readable IDs
+Uniqueness guaranteed
+
+-->
+
+:::
+
+::: {.column width="50%"}
+
+::: {.centered}
+
+### User provides IDs
+
+- Practical
+- `r fontawesome::fa(name = "person")`-readable
+
+:::
+
+TODO: Show cover page in Designer.
+
+<!-- 
+
+#### User IDs
+
+Automatic, computer-generated, computer-readable IDs 
+Uniqueness not required
+
+-->
+
+:::
+
+::::
+
+
+# In Headquarters `r fontawesome::fa(name = "building-user")` {background-color=var(--s4)}
+
+## One-by-one {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: Short video showing the process of creating an assignment one-by-one. Could be same as in "whole game" slides. See intent [here](02_headquarters/07_create_assignments/create_assignments.html#/one-by-one). Maybe edit down the content from `server overview create assignments.mp4`.
+
+:::
+
+::: {.column width="30%"}
+
+- Variables on the cover page
+- User responsible
+- Audio recording
+
+:::
+
+::::
+
+## Batch {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: Short video of process for creating and uploading assignments in bulk. See intent [here](02_headquarters/07_create_assignments/create_assignments.html#/batch).
+
+:::
+
+::: {.column width="30%"}
+
+- Variables on the cover page
+- `_responsible`
+- `_record_audio`
+
+:::
+
+::::
+
+
+# In practice `r fontawesome::fa(name = "person-walking-arrow-right") `{background-color=var(--s5)}
+
+## Process {.t5}
+
+- Obtain the list of ID variables
+- Create a tab-delimited assignment file
+    - Use an existing data set
+    - Keep the ID variables
+    - Create other columns, such as
+        - `_responsible`
+        - `_record_audio`
+
+## Obtain the list of ID variables {.t5}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of steps outlined in right-hand column of this slide
+
+:::
+
+::: {.column width="30%"}
+
+- Click on `Survey Setup`
+- Select `Questionnaires`
+- Click on a questionnaire
+- Select `Upload assignments`
+- Click on `View list of preloaded values`
+- Get tab-delimited template (optionally)
+
+:::
+
+::::
+
+## Create a tab-delimited assignment file {.t5}
+
+::: {.box .box-5}
+Compare inputs with desired outputs
+:::
+
+::: {.box .box-5}
+Modify inputs
+:::
+
+::: {.box .box-5}
+Export tab-delimited output
+:::
+
+## Compare inputs with desired outputs {.t5}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of comparison, potentially with annotations:
+
+1. SuSo variables on cover page with one opened to see type and codes
+2. SuSo template (i.e., tab-delimited file downloaded in earlier step)
+3. Raw (fake) data whose values are in a different format than desired by Survey Solutions (e.g., in raw data, categorical quesiton stored as string variable corresponding to value labels)
+
+If with annotations, perhaps let the image occupy the full slide, rather than limited to the 70% on the left.
+
+:::
+
+::: {.column width="30%"}
+
+### `r fontawesome::fa(name = "pencil-ruler")` Designer
+
+- Contains: all variables
+- <details>
+    <summary>Confirm</summary>
+
+    <ul>
+            <li>Data type expected</li>
+            <li>Values allowed</li>
+    </ul>
+
+</details>
+
+
+
+### `r fontawesome::fa(name = "file-lines")`  `.tab` template
+
+- What: list of ID variables
+- <details>
+    <summary>Confirm:</summary>
+
+    <ul>
+        <li>Variables expected</li>
+        <li>Variable names</li>
+    </ul>
+
+</details>
+
+### `r fontawesome::fa(name = "table")` Raw data
+
+- What: data values
+- Confirm modifications needed
+
+:::
+
+::::
+
+## Modify inputs {.t5}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+### Objectives `r emoji::emoji("target")`
+
+TODO: list requirements for raw -> assignment
+
+For ZiHBS example: 
+
+- Load raw data
+- Transform character provience to categorical
+
+:::
+
+::: {.column width="70%"}
+
+TODO: adapt code to example created for slides
+
+```{stata}
+
+* =============================================================================
+* Set paths
+* =============================================================================
+
+* !!! WARNING !!! Put your paths here before executing
+local dir_in "C:/your/path"
+local dir_out "`dir_in'"
+
+* =============================================================================
+* Data preparation
+* =============================================================================
+
+* -----------------------------------------------------------------------------
+* Import the sample to be assigned
+* -----------------------------------------------------------------------------
+
+import delimited using "`dir_in'/example_sample.tsv", ///
+    varnames(1) /// treat first line as variable names
+    clear
+
+* -----------------------------------------------------------------------------
+* Transform columns into those expected by SuSo
+* -----------------------------------------------------------------------------
+
+* convert from numeric to string
+rename province province_old
+gen province = 
+gen days_preferred = .
+
+replace province = 1 if province_old == "Bulawayo
+replace province = 2 if province_old == "Harare
+replace province = 3 if province_old == "Manicaland
+replace province = 4 if province_old == "Mashonaland Central
+replace province = 5 if province_old == "Mashonaland East
+replace province = 6 if province_old == "Mashonaland West
+replace province = 7 if province_old == "Masvingo
+replace province = 8 if province_old == "Matabeleland North
+replace province = 9 if province_old == "Matabeleland South
+replace province = 10 if province_old == "Midlands
+
+* rename variables to match expected name
+
+```
+
+:::
+
+::::
+
+## Check matches SuSo {.t5}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+### Objectives `r emoji::emoji("target")`
+
+1. Check that required columns are present
+2. Confirm that columns contain right type of data
+
+:::
+
+::: {.column width="70%"}
+
+TODO: adapt to Capturing What Matters Example
+
+```{stata}
+
+* ==============================================================================
+* Check matches SuSo
+* ==============================================================================
+
+* -----------------------------------------------------------------------------
+* Confirm that data contain desired columns
+* -----------------------------------------------------------------------------
+
+#delim ;
+local vars "
+province
+ea
+hh_num
+hh_head
+";
+#delim cr
+
+foreach var of local vars {
+    confirm variable `var'
+}
+
+* -----------------------------------------------------------------------------
+* Check that columns contain desired data format
+* -----------------------------------------------------------------------------
+
+* TODO
+
+```
+
+:::
+
+
+::::
+
+## Export tab-delimited output {.t5}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+### Objectives `r emoji::emoji("target")`
+
+1. Export to tab-delimited format
+2. Save where expected
+
+:::
+
+::: {.column width="70%"}
+
+```{stata}
+
+* =============================================================================
+* Export to a tab-delimited file
+* =============================================================================
+
+export delimited using 
+    "`dir_out'/assignments_to_import.tab", /// where to write the file
+    delimiter(tab)  /// tab-delimited format
+    nolabel         /// how to handle labelled data: write numbers; not labels
+    replace
+
+```
+
+:::
+
+::::

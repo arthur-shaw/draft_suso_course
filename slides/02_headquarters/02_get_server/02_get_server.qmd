@@ -1,0 +1,175 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+---
+
+# Getting a server `r fontawesome::fa(name = "server")` {background-color=var(--suso)}
+
+## Roadmap {.suso}
+
+::: {.box .box-1}
+Access WBG demo
+:::
+
+::: {.box .box-2}
+Deploy your own
+:::
+
+# Access WBG demo {background-color=var(--s1)}
+
+## Demo {.t1}
+
+::: {.box .box-1}
+Public demo
+:::
+
+::: {.box .box-1}
+Personal demo
+:::
+
+## Public demo {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/demo_public.mp4)
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+- Explore SuSo with mimimum setup
+- Test features of latest release
+
+### How
+
+- Get credentials from documentation [here](https://docs.mysurvey.solutions/headquarters/config/demo-server/)
+- Navigate to demo server [here](https://demo.mysurvey.solutions/) 
+- Login
+
+:::
+
+::::
+
+## Personal demo {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process. Awaiting redacted video without sensitive info.
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+- Test SuSo with private information
+- Temporary private access
+
+### How
+
+- Navigate to [self-service portal](https://pds.mysurvey.solutions/)
+- Log in with Designer credentails
+- Request server
+- Get details in email (i.e., URL, login, password)
+- See more details [here](https://docs.mysurvey.solutions/headquarters/config/personal-demo-server/)
+
+:::
+
+::::
+
+
+# Deploy you own server {background-color=var(--s2)}
+
+## Where {.t2}
+
+::: {.box .box-2}
+Local `r fontawesome::fa(name = "building")` `r fontawesome::fa(name = "server")`
+:::
+
+
+::: {.box .box-2}
+Cloud `r fontawesome::fa(name = "cloud")` `r fontawesome::fa(name = "server")`
+:::
+
+## Local `r fontawesome::fa(name = "building")` `r fontawesome::fa(name = "server")` {.t2}
+
+```{r}
+#| label: local
+knitr::include_url("https://docs.mysurvey.solutions/headquarters/config/server-installation/", height = "600px")
+```
+
+[https://docs.mysurvey.solutions/headquarters/config/server-installation/](https://docs.mysurvey.solutions/headquarters/config/server-installation/)
+
+## Cloud `r fontawesome::fa(name = "cloud")` `r fontawesome::fa(name = "server")` {.t2}
+
+::: {.panel-tabset}
+
+### AWS
+
+```{r}
+#| label: cloud-aws
+knitr::include_url("https://docs.mysurvey.solutions/headquarters/config/aws-setup/", height = "600px")
+```
+
+[https://docs.mysurvey.solutions/headquarters/config/aws-setup/](https://docs.mysurvey.solutions/headquarters/config/aws-setup/)
+
+### Azure
+
+```{r}
+#| label: cloud-azure
+knitr::include_url("https://docs.mysurvey.solutions/headquarters/config/azure-setup/", height = "600px")
+```
+
+[https://docs.mysurvey.solutions/headquarters/config/azure-setup/](https://docs.mysurvey.solutions/headquarters/config/azure-setup/)
+
+:::
+
+## How {.t2}
+
+::: {.box .box-2}
+Manual `r fontawesome::fa(name = "screwdriver-wrench")`
+:::
+
+::: {.box .box-2}
+Scripted `r fontawesome::fa(name = "file-code")`
+:::
+
+## Manual `r fontawesome::fa(name = "screwdriver-wrench")` {.t2}
+
+```{r}
+#| label: how-manual
+knitr::include_url("https://docs.mysurvey.solutions/headquarters/config/aws-setup/", height = "600px")
+```
+
+[https://docs.mysurvey.solutions/headquarters/config/aws-setup/](https://docs.mysurvey.solutions/headquarters/config/aws-setup/)
+
+## Scripted `r fontawesome::fa(name = "file-code")` {.t2}
+
+::: {.panel-tabset}
+
+### Azure
+
+```{r}
+#| label: how-scripted-azure
+knitr::include_url("https://docs.mysurvey.solutions/headquarters/config/docker/", height = "600px")
+```
+
+[https://docs.mysurvey.solutions/headquarters/config/docker/](https://docs.mysurvey.solutions/headquarters/config/docker/)
+
+### Docker
+
+
+```{r}
+#| label: how-scripted-docker
+knitr::include_url("https://docs.mysurvey.solutions/headquarters/config/azure-setup/", height = "600px")
+```
+
+[https://docs.mysurvey.solutions/headquarters/config/azure-setup/](https://docs.mysurvey.solutions/headquarters/config/azure-setup/)
+
+:::
+

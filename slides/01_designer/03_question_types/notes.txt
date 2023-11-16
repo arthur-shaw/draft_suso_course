@@ -1,0 +1,20 @@
+TODOs:
+
+- For Type slide, image of question type expanded in Designer
+- For First course > single-select, need image of example on paper--ideally same shown subsequently in section
+- Single-select, need either image of basic question in Designer or video of it with answer options being added.
+- Cascading combo box. Need example on paper as in Zimbabwe presentation. See [here](https://zim-hbs.suso-training.com/slides/04_question_types.html#/cascading-combo-box). Alternatively, remove cascading combo box as out-of-scope.
+- For Yes/No buttons, need example on paper as [here](https://zim-hbs.suso-training.com/slides/04_question_types.html#/yesno-buttons)
+- For image in Designer and demo in interviewer, consider using the same example shown on paper (rather than changing the example used for whole multi-select section).
+- Multi-select > record answer order, need image of Designer with field highlighted. Not combination of recorded and max answers.
+- Multi-select > max number of answers, need image in Designer with field highlighted. Not combination of recorded and max answers.
+- Text, need an example on paper--ideally the one shown in the video (i.e., name of houshold head)
+- Text > Pattern, need:
+    - Example on paper, potentially, since might bear some explanation (e.g., phone number)
+    - Video of example (e.g., phone number)
+    - Image of example in Designer so that can briefly discuss (and point to documentation of) how to create pattern
+- List, need image of list question in Designer without max number of answers provided
+- List > max number of answers, need video of max number in effect
+- GPS, need:
+    - Video of question in interviewer
+    - Image of GPS question type in Designer

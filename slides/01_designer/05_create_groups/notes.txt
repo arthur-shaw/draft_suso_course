@@ -1,0 +1,17 @@
+- Sections on paper. Need image
+- Sections. How they look on paper. Need a picture of the contents of a section after the table of contents for sections.
+- Sections > How they look in CAPI.
+    - Image of TOC in Designer
+    - Video or image of TOC in Interviewer
+- Sections > One is system-generated. Need image of Cover section in Designer
+- Sections > How to create. Need video of section creation process.
+- Sections > Make it short. Need video of taking long title on paper and making it short in Designer. See [here](https://zim-hbs.suso-training.com/slides/06_create_groups.html#make-it-short)
+- Section > Consider emojis. See [here](https://zim-hbs.suso-training.com/slides/06_create_groups.html#consider-emojis)
+- Section > Add them. Need video of adding a section, unless want to reuse from [here](https://zim-hbs.suso-training.com/slides/06_create_groups.html#add-them)
+- Section > Move them. Need video of adding a section, unless want to reuse from [here](https://zim-hbs.suso-training.com/slides/06_create_groups.html#move-them)
+- Sub-sections > How they look on paper. Need image of sub-section in paper instrument. Could be image as [here](https://zim-hbs.suso-training.com/slides/06_create_groups.html#how-they-look-on-paper-2) and [here](https://zim-hbs.suso-training.com/slides/06_create_groups.html#how-they-look-on-paper-3)
+- Sub-section > How they look in CAPI. Need two assets as [here](https://zim-hbs.suso-training.com/slides/06_create_groups.html#how-they-look-in-capi-1):
+    - Image of sub-sections appearing in Designer
+    - Image/video of those same sub-sections in Interviewer
+- Sub-sections > Add them here. Video of process
+- Sub-sections > Move them there. Video of process

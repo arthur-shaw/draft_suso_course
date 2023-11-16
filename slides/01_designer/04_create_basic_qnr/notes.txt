@@ -1,0 +1,5 @@
+- Replace `create questionnaire` video. Can see ShareX in video at the beginning. Alternatively, edit the video to remove that content.
+- Replace `add question` video. Can see ShareX in video at the beginning. Alternatively, edit the video to remove that content.
+- Replace `provide attributes` video. Can see ShareX in video at the beginning. Alternatively, edit the video to remove that content.
+- Replace `move question` video. Can see ShareX in video at the beginning. Alternatively, edit the video to remove that content.
+- Replace `test questionnaire` video. Can see ShareX in video at the beginning. Alternatively, edit the video to remove that content.

@@ -1,0 +1,124 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: true
+---
+
+# Server overview `r fontawesome::fa(name = "street-view")` {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Overview of UI
+:::
+
+::: {.box .box-2}
+Demonstration of the whole game
+:::
+
+# Overview of UI {background-color=var(--s1)}
+
+
+## Login {.t1}
+
+![](assets/overview_login.png){fig-align="center"}
+
+## Main page {.t1}
+
+![](assets/overview_main_page.png){fig-align="center"}
+
+::: {.notes}
+Will only show components used in this module
+:::
+
+## Workspaces {.t1}
+
+![](assets/overview_workspaces.mp4){fig-align="center"}
+
+::: {.notes}
+Note what changes when workspace is changes:
+
+- Name in UI
+- Questionnaires in report
+- URL in address bar
+
+:::
+
+## Users {.t1}
+
+![](assets/overview_users.mp4){fig-align="center"}
+
+## Survey Setup {.t1}
+
+![](assets/overview_survey_setup_menu.mp4){fig-align="center"}
+
+
+# Demonstration of the whole game {background-color=var(--s2)}
+
+## Steps {.t2}
+
+::: {.box .box-2}
+Access the server
+:::
+
+::: {.box .box-2}
+Create workspace
+:::
+
+::: {.box .box-2}
+Create users
+:::
+
+::: {.box .box-2}
+Import the questionnaire
+:::
+
+::: {.box .box-2}
+Create the assignments
+:::
+
+::: {.box .box-2}
+Import assignments
+:::
+
+<!-- NOTE: for subsequent slides: see if these videos can be reused for more detailed presentation later -->
+
+## Access the server {.t2}
+
+![](assets/demo_log_in.mp4){fig-align="center"}
+
+## Create workspace {.t2}
+
+![](assets/demo_create_workspaces.mp4){fig-align="center"}
+
+## Create users {.t2}
+
+![](assets/demo_create_users.mp4){fig-align="center"}
+
+## Import the questionnaire {.t2}
+
+![](assets/demo_import_questionnaire.mp4){fig-align="center"}
+
+## Create the assignments {.t2}
+
+TODO: Craft a simpler video. Meant this to cover creating the assignment file--but a quick, simplified overview to give  taste. See the `Create assignments` section in `review_zim_course/slides_not_on_zim_site/16_prepare_server.html#/create-assignments`. Something like this:
+
+- Get a template. See [here](review_zim_course/slides_not_on_zim_site/16_prepare_server.html#/obtain-the-list-of-id-variables)
+- Fill out template.
+- Save as tab-delimited file.
+
+## Import assignments {.t2}
+
+TODO: Craft a video like [this](review_zim_course/slides_not_on_zim_site/16_prepare_server.html#/import-assignments-1)
+
+

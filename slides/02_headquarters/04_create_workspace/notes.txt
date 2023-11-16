@@ -1,0 +1,2 @@
+- Toggling workspaces. Need short video of toggling between workspaces (in simplest way to possible) and showing that there's different content in each workspace. Will reuse this video for 2 slides.
+- Creating workspaces. Remove fraction of a second in the video where ShareX appears. Didn't notice it until saw video thumbnail in slides.

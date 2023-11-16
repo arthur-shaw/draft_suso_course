@@ -1,0 +1,2 @@
+- Connect. Consider removing the URL from the image so that users don't try to navigate to your instance.
+- Access same URL, but have different UI/rights. Need video of logging in with two different accounts (e.g., admin, HQ, supervisor, interviewer, etc.)

@@ -1,0 +1,1 @@
+- How. Consider removing selection of workspace. For simplicity, should we simply show a workspace and mention (verbally), that importing a questionnaire happens for a workspace (not for a server globally)?

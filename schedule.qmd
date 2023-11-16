@@ -1,0 +1,119 @@
+---
+title: "Schedule"
+sidebar: false
+execute: 
+  echo: false
+  warning: false
+---
+
+
+```{r}
+#| label: create schedule data set
+#| eval: true
+module_df <- data.frame(
+    module = c(
+        "Designer", "Headquarters", "Supervisor", "Interviewer", 
+        "Managing a CAPI survey", "Preparing a survey"
+    )
+)
+
+schedule_df <- tibble::tribble(
+    ~module,    ~topic,     ~course,    ~slides,    ~assignment,
+    # Designer
+    "Designer",  "Overview", NA, "slides/01_designer/01_designer_overview/01_designer_overview.qmd", NA,
+    "Designer", "Introduction", NA, "slides/01_designer/02_designer_intro/02_designer_intro.qmd", NA,
+    "Designer", "Question types", NA, "slides/01_designer/03_question_types/03_question_types.qmd",   NA,
+    "Designer", "Create basic questionnaire", NA, "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.qmd",   NA,
+    "Designer", "Create groups", NA, "slides/01_designer/05_create_groups/05_create_groups.qmd",    NA,
+    "Designer", "Moving/copying questions", NA, NA, NA,
+    "Designer", "Creating basic rosters", NA, NA, NA,
+    "Designer", "Creating complex rosters", NA, NA, NA,
+    "Designer", "Introduction to conditions", NA, NA, NA,
+    "Designer", "Conditions in rosters", NA, NA, NA,
+    "Designer", "Design for UX/survey protocol", NA, NA, NA,
+    "Designer", "Design for efficiency/modularity", NA, NA, NA,
+    # Headquarters
+    "Headquarter",  "Server Overview", NA, "slides/02_headquarters/01_server_overview/01_server_overview.qmd",  NA,
+    "Headquarter",  "Get a server", NA, "slides/02_headquarters/02_get_server/02_get_server.qmd", NA,
+    "Headquarter",  "Access server", NA, "slides/02_headquarters/03_access_server/03_access_server.qmd",    NA,
+    "Headquarter",  "Create workspace", NA, "slides/02_headquarters/04_create_workspace/04_create_workspace.qmd", NA,
+    "Headquarter",  "Create users", NA, "slides/02_headquarters/05_create_users/05_create_users.qmd", NA,
+    "Headquarter",  "Import questionnaire", NA, "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.qmd", NA,
+    "Headquarter",  "Create assignments", NA, "slides/02_headquarters/07_create_assignments/07_create_assignments.qmd",   NA,
+    "Headquarter",  "Import assignments", NA, NA,   NA,
+    # Supervisor
+    "Supervisor",  "Set up Supervisor", NA, NA,   NA,
+    "Supervisor",  "Use Supervisor", NA, NA,   NA,
+    # Interviewer
+    "Interviewer",  "Set up Interviewer", NA, NA,   NA,
+    "Interviewer",  "Use Interviewer", NA, NA,   NA,
+    # Managing a survey
+    "Managing a survey",  "Managing with Interviewer", NA, NA,   NA,
+    "Managing a survey",  "Monitor with Supervisor", NA, NA,   NA,
+    "Managing a survey",  "Monitor with Headquarters", NA, NA,   NA,
+    "Managing a survey",  "Get/use data from Survey Solutions", NA, NA,   NA,
+    "Managing a survey",  "Monitor with Survey Solutions' data", NA, NA,   NA,
+    # Preparing a survey
+    "Preparing a survey",  "Overview of the CAPI survey process", NA, NA,   NA,
+    "Preparing a survey",  "Procuring the right equipment", NA, NA,   NA,
+    "Preparing a survey",  "Testing the application", NA, NA,   NA,
+    "Preparing a survey",  "Setting up tablets", NA, NA,   NA,
+    "Preparing a survey",  "Preparing a training", NA, NA,   NA,
+    "Preparing a survey",  "Managing the data quality system", NA, NA,   NA,
+    "Preparing a survey",  "Maintenance/Troubleshooting", NA, NA,   NA
+)
+```
+
+
+```{r}
+# load table manipulation function
+source(fs::path(here::here(), "R/schedule.R"))
+
+schedule_df |>
+dplyr::group_by(module) |>
+gt::gt() |>
+gt::tab_header(
+    title = "Schedule of sessions",
+    subtitle = "With links to session pages, slides, and assignments"
+) |>
+gt::cols_label(
+    topic = "Topic",
+    course = "Course",
+    slides = "Slides",
+    assignment = "Assignment"
+) |>
+gt::tab_options(
+    heading.background.color = "#202c86",
+    column_labels.background.color = "#202c86",
+    row_group.font.weight = "bolder",
+    row_group.background.color = "#3346d3"
+) |>
+create_icon_w_link(
+    column = course,
+    fa_name = "book-open-reader",
+    enabled_color = "#cf4446",
+    disabled_color = "#e9ecef"
+) |>
+create_icon_w_link(
+    column = slides,
+    fa_name = "person-chalkboard",
+    enabled_color = "#cf4446",
+    disabled_color = "#e9ecef"
+) |>
+create_icon_w_link(
+    column = assignment,
+    fa_name = "laptop-code",
+    enabled_color = "#cf4446",
+    disabled_color = "#e9ecef"
+) |>
+gt::cols_width(
+    course ~ gt::px(150),
+    slides ~ gt::px(150),
+    assignment ~ gt::px(150)
+) |>
+gt::cols_align(
+    columns = c(course, slides, assignment),
+    align = "center"
+)
+
+```

@@ -1,0 +1,89 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+---
+
+# Create workspace `r fontawesome::fa(name = "house-laptop")` {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Roadmap {.suso}
+
+::: {.box .box-s}
+What
+:::
+
+::: {.box .box-s}
+Why
+:::
+
+::: {.box .box-s}
+How
+:::
+
+
+## What {.suso}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of toggling between different workspaces that show different questionnaires, different interviews, different data
+:::
+
+::: {.column width="30%"}
+
+- Split server into (mostly) isolated divisions
+- Segregate own objects (e.g., questionnaires, interviews, assignments, etc.)
+- Restrict user access by workspace (i.e., whitelist users)
+- Allow only admin access to all workspaces
+- See more [here](https://docs.mysurvey.solutions/headquarters/accounts/workspaces/)
+
+:::
+
+::::
+
+
+## Why {.suso}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: same video as in prior slide
+:::
+
+::: {.column width="30%"}
+
+### Practical reasons
+
+- Different surveys (e.g., living standards, labor force, etc.)
+- Different phases of same survey (e.g., pretest, pilot, training, data collection, etc.)
+
+:::
+
+::::
+
+## How {.suso}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/create_workspace.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+- Log in as admin
+- Click on `r fontawesome::fa(name = "gear")` icon 
+- Click on `Workspaces` tab
+- Click on the `NEW` button
+- Provide parameters (i.e., name and display name)
+- Press name
+:::
+
+::::

@@ -1,0 +1,214 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+execute: 
+  eval: true
+  echo: false
+---
+
+# Create users `r fontawesome::fa(name = "user-plus")` {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Roadmap {.suso}
+::: {.box .box-1}
+Types of users
+:::
+
+::: {.box .box-2}
+Create one at a time
+
+:::
+
+::: {.box .box-3}
+Create in batch
+:::
+
+# Types of users {background-color=var(--s1)}
+
+## Types {.t1 auto-animate="true"}
+
+::: {data-id="box1" .box .box-1}
+Interviewer
+:::
+
+::: {data-id="box2" .box .box-1}
+Supervisor
+:::
+
+::: {data-id="box3" .box .box-1}
+Observer
+:::
+
+::: {data-id="box4" .box .box-1}
+Headquarters
+:::
+
+::: {data-id="box5" .box .box-1}
+Admin
+:::
+
+::: {data-id="box6" .box .box-1}
+API
+:::
+
+## Types {.t1 auto-animate="true"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### For field operations
+
+::: {data-id="box1" .box .box-1}
+Interviewer
+:::
+
+::: {data-id="box2" .box .box-1}
+Supervisor
+:::
+
+::: {data-id="box3" .box .box-1}
+Observer
+:::
+
+::: {data-id="box4" .box .box-1}
+Headquarters
+:::
+
+:::
+
+::: {.column width="50%"}
+
+### For technical tasks
+
+::: {data-id="box5" .box .box-1}
+Admin
+:::
+
+::: {data-id="box6" .box .box-1}
+API
+:::
+
+:::
+
+::::
+
+## For field operations {.t1}
+
+- **Interviewer.** Complete interviews,
+- **Supervisor.** Reassign work, review interviews.
+- **Headquarters.** Manages survey:
+    - Creates users (i.e., Interviewer, Supervisor)
+    - Imports interviews
+    - Creates assignments
+    - Reviews interviews
+    - Exports data
+- **Observer.** Like Headquarters, but can only observe.
+
+
+## For technical tasks {.t1}
+
+- **Admin.** Like "super" Headquarters. 
+    - Can do everything Headquarters can.
+    - Can do things Headquarters cannot: 
+        - Create workspaces. 
+        - Create all users (including Headquarters).
+- **API.** Like "super" Headquarters, but through API rather than GUI
+
+## Users {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/users.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+- Click on `r fontawesome::fa(name = "gear")`
+- Click on `Users`
+
+:::
+
+::::
+
+# Create users {background-color=var(--s3)}
+
+## Navigate to users screen {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/users.mp4){fig-align="center"}
+
+TODO: replace with version on cleaner server.
+
+:::
+
+::: {.column width="30%"}
+
+- Click on `r fontawesome::fa(name = "gear")` icon
+- Click on `Users` tab
+
+:::
+
+::::
+
+## Use one of two methods {.t3}
+
+::: {.box .box-3}
+One at a time `r fontawesome::fa(name = "user")` `r fontawesome::fa(name = "user")`
+:::
+
+::: {.box .box-3}
+In bulk `r fontawesome::fa(name = "users")`
+:::
+
+## One at a time `r fontawesome::fa(name = "user")` {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/add_one_at_a_time.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+- Click on `ADD USER`
+- Provide attributes
+- Save
+
+:::
+
+::::
+
+## In bulk `r fontawesome::fa(name = "users")` {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process for adding multiple users via simple tab file
+:::
+
+::: {.column width="30%"}
+
+- Click on `UPLOAD USERS`
+- Select a default workspace
+- Download .tab template and fill it. See details [here](https://docs.mysurvey.solutions/headquarters/accounts/batch-user-upload/).
+- Select a tab-delimited file
+- Click on `UPLOAD .TAB FILE`
+
+:::
+
+::::
