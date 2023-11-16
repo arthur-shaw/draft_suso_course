@@ -7,9 +7,9 @@ format:
         fig-align: center
 ---
 
-# Getting started with Designer {background-color=var(--designer)}
+# Getting started with Designer {background-color=var(--suso)}
 
-## Roadmap {.designer}
+## Roadmap {.suso}
 
 ::: {.box .box-1}
 Sign up
