@@ -1,5 +1,4 @@
 ---
-title: "Schedule"
 sidebar: false
 execute: 
   echo: false
