@@ -1,7 +1,7 @@
 ---
 format: 
     revealjs: 
-        theme: [default, assets/core.scss, assets/designer_overview.scss]
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
         height: 900
         width: 1600
         self-contained: true
