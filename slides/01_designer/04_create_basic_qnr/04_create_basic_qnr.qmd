@@ -37,12 +37,6 @@ Test questionnaires
 
 # Create questionnaire {background-color=var(--s1)}
 
-## Change with Victor {.t1}
-
-![](assets/attributes_interviewer_instruction_result.png){fig-align="center"}
-
-<!-- Small comment that won't be included initially -->
-
 ## Create questionnaire {.t1}
 
 ![](assets/create_questionnaire.mp4){fig-align="center"}
