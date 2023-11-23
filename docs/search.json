@@ -1269,42 +1269,42 @@
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#create-questionnaire-1",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#create-questionnaire-1",
-    "title": "Learning Survey Solutions",
+    "title": "Create a basic questionnaire",
     "section": "Create questionnaire",
     "text": "Create questionnaire\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#add-questions-1",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#add-questions-1",
-    "title": "Learning Survey Solutions",
+    "title": "Create a basic questionnaire",
     "section": "Add questions",
     "text": "Add questions\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#provide-attributes-1",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#provide-attributes-1",
-    "title": "Learning Survey Solutions",
+    "title": "Create a basic questionnaire",
     "section": "Provide attributes",
     "text": "Provide attributes\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#copypaste",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#copypaste",
-    "title": "Learning Survey Solutions",
+    "title": "Create a basic questionnaire",
     "section": "Copy/paste",
     "text": "Copy/paste\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#move",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#move",
-    "title": "Learning Survey Solutions",
+    "title": "Create a basic questionnaire",
     "section": "Move",
     "text": "Move\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#test-questionnaire-1",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#test-questionnaire-1",
-    "title": "Learning Survey Solutions",
+    "title": "Create a basic questionnaire",
     "section": "Test questionnaire",
     "text": "Test questionnaire\n\n\nVideo"
   },
@@ -1388,9 +1388,9 @@
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#roadmap",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#roadmap",
-    "title": "Learning Survey Solutions",
-    "section": "Roadmap ",
-    "text": "Roadmap \n\nCreate questionnaire\n\n\nAdd questions\n\n\nProvide attributes\n\n\nCopy/paste and move questions\n\n\nTest questionnaires"
+    "title": "Create a basic questionnaire",
+    "section": "",
+    "text": "Create questionnaire\n\n\nAdd questions\n\n\nProvide attributes\n\n\nCopy/paste and move questions\n\n\nTest questionnaires"
   },
   {
     "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#roadmap",
@@ -1405,5 +1405,12 @@
     "title": "suso_course",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#change-with-victor",
+    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#change-with-victor",
+    "title": "Create a basic questionnaire",
+    "section": "Change with Victor",
+    "text": "Change with Victor"
   }
 ]
