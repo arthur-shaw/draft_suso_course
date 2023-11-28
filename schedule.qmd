@@ -41,8 +41,8 @@ schedule_df <- tibble::tribble(
     "Headquarter",  "Create assignments", NA, "slides/02_headquarters/07_create_assignments/07_create_assignments.qmd",   NA,
     "Headquarter",  "Import assignments", NA, NA,   NA,
     # Supervisor
-    "Supervisor",  "Set up Supervisor", NA, NA,   NA,
-    "Supervisor",  "Use Supervisor", NA, NA,   NA,
+    "Supervisor",  "Set up Supervisor", NA, "slides/04_supervisor/01_setup/01_supervisor_setup.qmd",   NA,
+    "Supervisor",  "Use Supervisor", NA, "slides/04_supervisor/02_use/02_supervisor_use.qmd",   NA,
     # Interviewer
     "Interviewer",  "Set up Interviewer", NA, NA,   NA,
     "Interviewer",  "Use Interviewer", NA, NA,   NA,

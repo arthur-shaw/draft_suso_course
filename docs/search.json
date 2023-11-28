@@ -1026,7 +1026,7 @@
     "href": "schedule.html",
     "title": "Learning Survey Solutions",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying questions\n\n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying questions\n\n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n  \n\n\n    Use Supervisor\n\n\n  \n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
   },
   {
     "objectID": "about.html",
@@ -1412,5 +1412,124 @@
     "title": "Create a basic questionnaire",
     "section": "Change with Victor",
     "text": "Change with Victor"
+  },
+  {
+    "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#two-supervisor-apps",
+    "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#two-supervisor-apps",
+    "title": "Learning Survey Solutions",
+    "section": "Two supervisor apps",
+    "text": "Two supervisor apps\n\n\nTODO: image of web app\n\nTODO: image of tablet app"
+  },
+  {
+    "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#only-one-needs-setup",
+    "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#only-one-needs-setup",
+    "title": "Learning Survey Solutions",
+    "section": "Only one needs setup",
+    "text": "Only one needs setup\n\n\nTODO: image of web app\n\nTODO: image of tablet app\nTODO: use CSS to draw thick line around image, potentially with drop shadow"
+  },
+  {
+    "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#roadmap",
+    "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nDownload\n\n\nInstall\n\n\nLink"
+  },
+  {
+    "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#download-1",
+    "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#download-1",
+    "title": "Learning Survey Solutions",
+    "section": "Download",
+    "text": "Download\n\n\nTODO: video of process\n\n\nNavigate to server\nLog in as supervisor\nClick on drop-down menu in upper right\nSelect Download Supervisor app\nClick on DOWNLOAD LATEST SUPERVISOR APP button"
+  },
+  {
+    "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#install-1",
+    "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#install-1",
+    "title": "Learning Survey Solutions",
+    "section": "Install",
+    "text": "Install\n\n\nTODO: video of process\n\n\nFind the installer\nExecute it\nAllow installation from “unknown sources” for this install"
+  },
+  {
+    "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#link-to-server",
+    "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#link-to-server",
+    "title": "Learning Survey Solutions",
+    "section": "Link to server",
+    "text": "Link to server\n\n\nTODO: video of process\n\nOn \n\nNavigate to download page\nLocate the QR code\n\nOn \n\nOpen Supervisor\nTap on the QR icon \nRead the  on the  screen\nProvide user name and password"
+  },
+  {
+    "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#link-interviewer-app-to-supervisor",
+    "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#link-interviewer-app-to-supervisor",
+    "title": "Learning Survey Solutions",
+    "section": "Link Interviewer app to Supervisor",
+    "text": "Link Interviewer app to Supervisor\n\n\nTODO: video of process\n\n\nBy default, Interviewer syncs to server\nTo change this, in the Interviewer app:\n\nTap on the \nTap on Settings\nScroll to the Connection settings heading\nFind Allow synchronization with Headquarters\nTap to untick\n\nRepeat for each device"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#roadmap",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nSync\n\n\nAssign\n\n\nReview\n\n\nUpdate"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#sync-in-two-directions",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#sync-in-two-directions",
+    "title": "Learning Survey Solutions",
+    "section": "Sync in two directions",
+    "text": "Sync in two directions\n\nWith the Headquarters \n\n\nWith Interviewer"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#with-the-headquarters",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#with-the-headquarters",
+    "title": "Learning Survey Solutions",
+    "section": "With the Headquarters ",
+    "text": "With the Headquarters \n\n\nTODO: video of sync with Headquarters\n\nWhy\nGet from Headquarters new:\n\nAssignments\nInterviews\n\nHow\n\nConnect to the internet\nTap vertical sync icon (i.e., with  and )\nWait for synchronization to complete"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#sync_with_int",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#sync_with_int",
+    "title": "Learning Survey Solutions",
+    "section": "With Interviewer ",
+    "text": "With Interviewer \n\n\nTODO: video of sync with Interviewer\n\nWhy\n\nPush new work (i.e., assignments, interviews)\nPull completed work\n\nHow\nOn Supervsor and Interviewer tablets:\n\nEnable / (if not already enabled)\nPress the horizontal sync button (i.e. )\nWait for synchronization to complete"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#assign-1",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#assign-1",
+    "title": "Learning Survey Solutions",
+    "section": "Assign",
+    "text": "Assign\n\n\nTODO: video of making initial assignment\n\n\nSync with Headquarters  (if needed)\nTap on  to reveal menu\nTap on Tasks to assign\nFind assignment (e.g., scan or  &gt; Search)\nTap on ASSIGN button\nSelect Interviewer\nTap ASSIGN\nSync horizontally to Interviewer."
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#reassign",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#reassign",
+    "title": "Learning Survey Solutions",
+    "section": "Reassign",
+    "text": "Reassign\nTODO: either reproduce on 2 Samsungs or get clarification from Victor"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#get-interview",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#get-interview",
+    "title": "Learning Survey Solutions",
+    "section": "Get interview",
+    "text": "Get interview\n\n\nTODO: video of process\n\n\nSync with Interviewer \nTap on  to reveal menu\nTap on Waiting for your action\nFind interview (e.g., scan or  &gt; Search)"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#review-interview",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#review-interview",
+    "title": "Learning Survey Solutions",
+    "section": "Review interview",
+    "text": "Review interview\n\n\nTODO: video of reviewing, commenting, marking for action\n\n\nTap OPEN\nReview the content\nLeave question-level comments (optional)\n\nSupervisor observations\nAnswers to interviewer comments\n\nDecide on action: approve or reject"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#get-software-update-on",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#get-software-update-on",
+    "title": "Learning Survey Solutions",
+    "section": "Get software update on ",
+    "text": "Get software update on \n\n\nTODO: video of update process\n\nWhy\nGet updates for all software:\n\nSupervisor, to be applied to supervisor’s tablet\nInterviewer, to be synched horizontally to interviewer tablets\n\nHow\n\nTap on \nSelect Diagnostics\nTap on Version, the first entry on the screen\nWait for update to complete"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#share-updates-with",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html#share-updates-with",
+    "title": "Learning Survey Solutions",
+    "section": "Share updates with ",
+    "text": "Share updates with \n\n\nTODO: video of update process\n\nOn  and  :\n\nEnable / (if not already enabled)\nPress the horizontal sync button (i.e. )\nWait for sync to complete\n\nOn  :\n\nGet and install the update\n\n\n\nIf automatic updates enabled on HQ\n\nfollow prompt to install mandatory update\n\n\n\n\n\nIf automatic updates NOT enabled\n\nfollow the same steps as for Supervisor"
   }
 ]
