@@ -47,10 +47,10 @@ schedule_df <- tibble::tribble(
     "Interviewer",  "Set up Interviewer", NA, NA,   NA,
     "Interviewer",  "Use Interviewer", NA, NA,   NA,
     # Managing a survey
-    "Managing a survey",  "Managing with Interviewer", NA, NA,   NA,
+    "Managing a survey",  "Managing with Interviewer", NA, "slides/05_manage_survey/01_manage_w_interviewer/01_manage_w_interviewer.qmd",   NA,
     "Managing a survey",  "Monitor with Supervisor", NA, NA,   NA,
-    "Managing a survey",  "Monitor with Headquarters", NA, NA,   NA,
-    "Managing a survey",  "Get/use data from Survey Solutions", NA, NA,   NA,
+    "Managing a survey",  "Monitor with Headquarters", NA, "slides/05_manage_survey/03_manage_w_hq/03_manage_w_hq.qmd",   NA,
+    "Managing a survey",  "Get/use data from Survey Solutions", NA, "slides/05_manage_survey/04_get_use_data/04_get_use_data.qmd",   NA,
     "Managing a survey",  "Monitor with Survey Solutions' data", NA, NA,   NA,
     # Preparing a survey
     "Preparing a survey",  "Overview of the CAPI survey process", NA, NA,   NA,
