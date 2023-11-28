@@ -1026,7 +1026,7 @@
     "href": "schedule.html",
     "title": "Learning Survey Solutions",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying questions\n\n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying questions\n\n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Testing the application\n\n\n  \n\n\n    Procuring the right equipment\n\n\n  \n\n\n    Setting up tablets\n\n\n  \n\n\n    Preparing a training\n\n\n  \n\n\n    Managing the data quality system\n\n\n  \n\n\n    Maintenance/Troubleshooting"
   },
   {
     "objectID": "about.html",
@@ -1412,5 +1412,656 @@
     "title": "Create a basic questionnaire",
     "section": "Change with Victor",
     "text": "Change with Victor"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#roadmap",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nInstall apps \n\n\nApply updates \n\n\nInstall Interviewer \n\n\nLock device \n\n\nPrepare for survey"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#which-apps",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#which-apps",
+    "title": "Learning Survey Solutions",
+    "section": "Which apps",
+    "text": "Which apps\n\n\nGeneral needs\n\nSurvey manual reader /\nProject communication \n\n\nSpecific needs\n\nData collection outside of SuSo\nFile storage \nAids with GPS capture"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#how-to-install",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#how-to-install",
+    "title": "Learning Survey Solutions",
+    "section": "How to install",
+    "text": "How to install\n\n\nTODO:: video of process like this\n\n\nConnect to Google Play \nSearch for the app \nInstall"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#android-operating-system",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#android-operating-system",
+    "title": "Learning Survey Solutions",
+    "section": "Android operating system ",
+    "text": "Android operating system \n\n\nTODO: video of process like this NOTE: need to have an OS update available to show this; might need to use older device\n\nObservations\n\nMethod may vary by \nGoogle searches will help uncover the right process\n\nSolutions\n\nSee  for Samsung Galaxy Tab [NOTE: update based on model]\nFor other Samsungs, see here.\nFor other brands, see general Android advice here"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#installed-applications",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#installed-applications",
+    "title": "Learning Survey Solutions",
+    "section": "Installed applications ",
+    "text": "Installed applications \n\n\nTODO: video of process like this\n\n\nOpen \nNavigate to My applications\nNavigate to the updates\nUpdate apps as needed"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#overview",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#overview",
+    "title": "Learning Survey Solutions",
+    "section": "Overview",
+    "text": "Overview\n\nGet\n\n\nInstall"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#method-1-download-on-tablet",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#method-1-download-on-tablet",
+    "title": "Learning Survey Solutions",
+    "section": "Method 1: Download on tablet",
+    "text": "Method 1: Download on tablet\n\n\nTODO: video of process See 03_interviewer/setup/setup_interviewer.qmd and also this\n\nOn \n\nNavigate to your server \nTap on DOWNLOAD INTERVIEWER APP button\nSelect desired version\n\nDefault: without map support\nUntick Exclude ESRI Map support\n\nTap on DOWNLOAD LATEST INTERVIEWER APP button to download"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#method-2-download-distribute",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#method-2-download-distribute",
+    "title": "Learning Survey Solutions",
+    "section": "Method 2: Download; distribute",
+    "text": "Method 2: Download; distribute\n\n\nTODO: video of process. See past presentation here\n\nOn \n\nNavigate to your server \nDownload the Interviwer app\nConnect  to  by \nCopy Interviewer file from  to \n\nOn \n\nConfirm Interview file copied \nInstall Interviewer as usual"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#install",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#install",
+    "title": "Learning Survey Solutions",
+    "section": "Install",
+    "text": "Install\n\n\nTODO: video of process\nNOTE: same as 03_interviewer/setup/setup_interviewer.qmd\n\n\nFind the installer\nExecute it\nAllow installation from “unknown sources” for this install"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#overview-1",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#overview-1",
+    "title": "Learning Survey Solutions",
+    "section": "Overview",
+    "text": "Overview\n\nCreate a restricted account\n\n\nEnable apps\n\n\nDeactivate updates"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#create-a-restricted-account",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#create-a-restricted-account",
+    "title": "Learning Survey Solutions",
+    "section": "Create a restricted account",
+    "text": "Create a restricted account\n\n\nTODO: video of process like in past slides here\n\n\nOpen Settings\nSelect Accounts and backups\nTap on Users\nTap on Add user or profile\nSelect User (restricted profile)\nProvide a user name\nSave user"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#enable-apps",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#enable-apps",
+    "title": "Learning Survey Solutions",
+    "section": "Enable apps",
+    "text": "Enable apps\n\n\nTODO: video of process like in past slides here\n\nSuSo needs\n\nLocation (required)\nCamera (required)\nInterviewer app\n\nOther needs\n\nUtilities (e.g., files browser, / reader, etc.)\nOther data capture applications"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#deactivate-updates",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#deactivate-updates",
+    "title": "Learning Survey Solutions",
+    "section": "Deactivate updates",
+    "text": "Deactivate updates\n\n\nTODO: video of process like in past slides here\n\n\nOpen \nOpen \nDisable automatic updates"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#overview-2",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#overview-2",
+    "title": "Learning Survey Solutions",
+    "section": "Overview",
+    "text": "Overview\n\nProvide URL and user name\n\n\nChange password\n\n\nSync"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#provide-url-and-user-name",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#provide-url-and-user-name",
+    "title": "Learning Survey Solutions",
+    "section": "Provide URL and user name",
+    "text": "Provide URL and user name\n\n\nTODO: image of process\n\nOn \n\nLog into server as Headquarters\nOpen Teams and Roles &gt; Interviewers\nSelect an interviewer account\n\nOn \n\nOpen Interviewer\nTap on the QR icon \nRead the  on the  screen"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#change-password",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#change-password",
+    "title": "Learning Survey Solutions",
+    "section": "Change password",
+    "text": "Change password\n\n\nTODO: video of process\n\n\nProvide current password\nCompose a new password–possibly same as the current one"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#sync",
+    "href": "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.html#sync",
+    "title": "Learning Survey Solutions",
+    "section": "Sync",
+    "text": "Sync\n\n\nTODO: video of process\n\nHow\nEither:\n\nTap sync button or\nTap sync icon\n\nWhy\n\nLink the user’s account and tablet\nConfirm that synchronization works\nObtain initial assignments"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#roadmap",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nProcess\n\n\nProgram(s)\n\n\nPeople"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#process-1",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#process-1",
+    "title": "Learning Survey Solutions",
+    "section": "Process",
+    "text": "Process\n\nGet data\n\n\nReview data\n\n\nAct"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#get-data",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#get-data",
+    "title": "Learning Survey Solutions",
+    "section": "Get data",
+    "text": "Get data\n\n\nTODO: image\n\n\nRequest data for target questionnaire(s)\nDownload data\nPrepare data files for processing"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#review-data",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#review-data",
+    "title": "Learning Survey Solutions",
+    "section": "Review data",
+    "text": "Review data\n\n\nTODO: image of script or of some fake (Stata) data\n\n\nIdentify issues\n\nImpossible/implausible values\nInternal incoherence\n\nReview trends\n\n“Strategic behavior” by interviewers\nMisunderstanding of key concepts"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#act",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#act",
+    "title": "Learning Survey Solutions",
+    "section": "Act",
+    "text": "Act\n\n\nDecide\n\nScrutinize data\nReview comments, if any\nSeek clarifications from the field, as needed\n\n\nExecute\n\nCompile comments\nApprove/reject\nEdit records, if necessary changes not made after rejection"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#connect-to-server",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#connect-to-server",
+    "title": "Learning Survey Solutions",
+    "section": "Connect to server",
+    "text": "Connect to server\n\n\nTODO: image of providing authentication to program\n\nIf possible, via API\n\nCreate an API user\nRecord the server, workspace, login, and password\nUse authentication in program(s)\n\nIf not, with Headquarters\n\nNavigate to server\nLog in"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#get-data-1",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#get-data-1",
+    "title": "Learning Survey Solutions",
+    "section": "Get data",
+    "text": "Get data\n\n\nTODO: image of susoapi script, for example\n\nIn principal\n\nSpecify the desired data\nStart process to export data\nWait until data export available\nDownload data\n\nIn practice\n\nEither automate process via API\nOr undertake manually via HQ"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#review-data-1",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#review-data-1",
+    "title": "Learning Survey Solutions",
+    "section": "Review data",
+    "text": "Review data\n\n\nTODO: image of high-frequency checks program\n\n\nCheck data against validation rules\nIdentify potential issues\n\nRecord issues\nNote the issue and action to take"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#act-1",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#act-1",
+    "title": "Learning Survey Solutions",
+    "section": "Act",
+    "text": "Act\n\n\nTODO: image of rejection part of high frequency check script\n\nDecide\n\nDetermine action based on issues identified\nSearch for potentialy explanatory comments\nDecide whether to approve, review, or reject\n\nExecute\n\nSend decision to the server–approve or reject–along with appropriate (error) messages\nMark interviews for manual review"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#design-phase",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#design-phase",
+    "title": "Learning Survey Solutions",
+    "section": "Design phase",
+    "text": "Design phase\n\nDesignerDeveloper\n\n\n\n\nProfile\n\nKnows context\nMasters subject matter (e.g., anthro, agriculture, etc.)\nHas past experience with same/similar survey\n\n\nActions\n\nProvides conceptual architecture for system\nDecides on validation rules\nDictates what to monitor\n\n\n\n\n\n\n\nProfile\n\nPast experience with data management\nProficient in least one statistical programming language\n\n\nActions\n\nWrites code to check data\nSeeks input/guidance from subject matter experts\nProvides documentation/training to implementers"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#implementation-phase",
+    "href": "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.html#implementation-phase",
+    "title": "Learning Survey Solutions",
+    "section": "Implementation phase",
+    "text": "Implementation phase\n\nManagerMonitor\n\n\n\n\nProfile\n\nPast experience with data management\nProficient in least one statistical programming language\nUnderstands data quality system technically\n\nEither knows the codebase\nOr can talk with someone who does\n\n\n\nActions\n\nManages data quality programs\n\nRuns scripts, if not automated\nRemedies errors, if any\n\nManages manual processes, if any\n\nRuns non-automated code (e.g., reject interviews once review complete)\nDistributes files (e.g., review assignments for monitors)\n\nOversees monitors\n\nManages monitors (e.g., allocates, monitors, and helps monitors)\nProvides technical support (e.g., review cases on SuSo, inspect data, etc.)\n\n\n\n\n\n\n\n\nProfile\n\nKnows survey instrument(s)\nUnderstands data quality system procedurally\n\nKnows processes and how they are linked\nKnows their role in the overall system\n\nMasters the method for reviewing interviews (e.g., SuSo HQ, R/Stata to review data, etc.)\n\n\nActions\n\nReview assigned cases carefully\n\nReview issues flagged by data system\nRead comments interview- and/or question-level comments, if any\nScrutinize data (e.g., assess whether answers make sense)\nDecide on action to take and feedback to leave\n\nSeek input from the field promptly\n\nSeek clarifications on comments\nCall supervisor/interviewer with questions"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#roadmap",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nOrganizational \n\n\nPedagogical \n\n\nLogistical"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#overview",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#overview",
+    "title": "Learning Survey Solutions",
+    "section": "Overview",
+    "text": "Overview\n\nWhen to train on CAPI software\n\n\nWhen to train supervisors"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#two-models",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#two-models",
+    "title": "Learning Survey Solutions",
+    "section": "Two models",
+    "text": "Two models\n\nModel 1: Progress from content to tool\n\n\nModel 2: Interleave content and tool"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#model-1-progress-from-content-to-tool",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#model-1-progress-from-content-to-tool",
+    "title": "Learning Survey Solutions",
+    "section": "Model 1: Progress from content to tool",
+    "text": "Model 1: Progress from content to tool\n\nContent\n\n\nTool\n\n\nPractice"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#commence-with-content",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#commence-with-content",
+    "title": "Learning Survey Solutions",
+    "section": "Commence with content",
+    "text": "Commence with content\n\n\nTODO: image of paper questionnaire (could be sourced from other learning modules)\n\n\nOverview of module\nHow to administer\nWho answers\nMajor concepts\nMeaning of questions and answer options"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#add-tool",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#add-tool",
+    "title": "Learning Survey Solutions",
+    "section": "Add tool",
+    "text": "Add tool\n\n\nTODO: video of overview of Interviewer; perhaps overview of dashboard (sourced from another learning module)\n\nInterviewer basics\n\nOverview of dashboard\nHow to sync\nHow to start an interview\nHow to move around\n\nWithin section\nAcross sections\n\nHow to (un)answer common question types\nHow to mark interview as complete"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#practice-content-with-tool",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#practice-content-with-tool",
+    "title": "Learning Survey Solutions",
+    "section": "Practice content with tool",
+    "text": "Practice content with tool\n\n\nTODO: video of answering questions in a (sub)section of a realistic (vraisemblable) interview\nConsider using same video later in this presentation\n\n\nFill out section\nGroup interview\nPair interview\nField practice"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#model-2-interleave-content-and-tool",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#model-2-interleave-content-and-tool",
+    "title": "Learning Survey Solutions",
+    "section": "Model 2: Interleave content and tool",
+    "text": "Model 2: Interleave content and tool\n\nIntroduce early\n\n\nUse often\n\n\nPractice"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#introduce-tool-early",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#introduce-tool-early",
+    "title": "Learning Survey Solutions",
+    "section": "Introduce tool early",
+    "text": "Introduce tool early\n\nPotentially as first thing in training\nMore likely as transition to first practice exercise\nJust before first use"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#use-tool-often",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#use-tool-often",
+    "title": "Learning Survey Solutions",
+    "section": "Use tool often",
+    "text": "Use tool often\n\nFor practice\n\nAfter each module, fill out module in CAPI\nAfter each section, conduct group interviews for section\n\nFor testing/getting feedback\n\nKnowledge checks\nQuizzes\nTests"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#practice-content-with-tool-1",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#practice-content-with-tool-1",
+    "title": "Learning Survey Solutions",
+    "section": "Practice content with tool",
+    "text": "Practice content with tool\n\n\nTODO: image or video of filling out part of a realistic (vraisemblable) interview section\n\n\nFill out section\nGroup interview\nPair interview\nField practice"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#two-scenarios",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#two-scenarios",
+    "title": "Learning Survey Solutions",
+    "section": "Two scenarios",
+    "text": "Two scenarios\n\nScenario 1: supervisors pre-selected\n\n\nScenario 2: supervisors selected after training"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#scenario-1-supervisors-pre-selected",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#scenario-1-supervisors-pre-selected",
+    "title": "Learning Survey Solutions",
+    "section": "Scenario 1: supervisors pre-selected",
+    "text": "Scenario 1: supervisors pre-selected\n\nIf possible, after training of interviewers\nIf necessary, after hours during interviewer training"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#scenario-2-supervisors-selected-after-training",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#scenario-2-supervisors-selected-after-training",
+    "title": "Learning Survey Solutions",
+    "section": "Scenario 2: supervisors selected after training",
+    "text": "Scenario 2: supervisors selected after training\n\nOnly option: after training"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#both-scenarios-time-to-learn-and-practice",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#both-scenarios-time-to-learn-and-practice",
+    "title": "Learning Survey Solutions",
+    "section": "Both scenarios: time to learn and practice",
+    "text": "Both scenarios: time to learn and practice\n\nLearn skills–in classroom\nPractice skills–in real or simulated setting"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#approach",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#approach",
+    "title": "Learning Survey Solutions",
+    "section": "Approach",
+    "text": "Approach\n\nRamp up responsiblity\n\n\nPlentiful practice"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#ramp-up-responsiblity",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#ramp-up-responsiblity",
+    "title": "Learning Survey Solutions",
+    "section": "Ramp up responsiblity",
+    "text": "Ramp up responsiblity\n\n\nI do\n\nTrainer demonstrates process\nParticipants watch\n\n\n\nWe do\n\nTrainer demonstrates\nParticipant replicates\n\n\n\nYou do\n\nTrainer gives instructions\nParticipant does"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#plentiful-practice",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#plentiful-practice",
+    "title": "Learning Survey Solutions",
+    "section": "Plentiful practice",
+    "text": "Plentiful practice\nTODO: think of content"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#exercises",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#exercises",
+    "title": "Learning Survey Solutions",
+    "section": "Exercises",
+    "text": "Exercises\n\nGuided tours\n\n\nPractice interviews"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#guided-tours",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#guided-tours",
+    "title": "Learning Survey Solutions",
+    "section": "Guided tours",
+    "text": "Guided tours\n\n\nSuSo overview\n\nHQ assigns\n(Supervisor reassign)\nInterviewer\n\nInterviews\nSyncs\n\nHQ and/or supervisor\n\nReview\nAct\n\n\n\n\nSyncing\n\nHow to sync\nWhat sync does\n\nSend completed work\nPull new or rejected interviews\n\n\n\n\nInterviewing\n\nStart interview\nMove around\n\nWithin section\nAcross sections\n\n(Un)answer question types relevant for this survey\nMark interview as complete"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#practice-interviews",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#practice-interviews",
+    "title": "Learning Survey Solutions",
+    "section": "Practice interviews",
+    "text": "Practice interviews\n\n\nGroup\n\nSimulated interview\n\nTwo participants\nOne plays the interviewer\nOther the respondent\n\nEveryone else follows\n\nListens to the exchange\nCaptures the data\n\nPause periodically for feedback\n\nOn interview\nOn CAPI app usage\n\n\n\n\nPair\n\nSimulated interview\n\nDivide all participants into two-person groups\nOne plays the interviewer\nOther the respondent\nBoth capture data\n\nPause periodically\n\nChange role within group\nCollect questions / comments from all groups\nProvide feedback\n\n\n\n\nField\n\nReal interview\n\nIdentify out-of-sample respondents\nFollow all survey protocols\n\nSupervise interviews\n\nSit in part of interview\nGet post-interview debrief\n\nProvide feedback\n\nInterview content\nCAPI use"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#finding-a-venue",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#finding-a-venue",
+    "title": "Learning Survey Solutions",
+    "section": "Finding a venue",
+    "text": "Finding a venue\n\nElectricity\nInternet"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#staffing",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#staffing",
+    "title": "Learning Survey Solutions",
+    "section": "Staffing",
+    "text": "Staffing\n\nPre-training\n\nPrepare devices for training\n\nTraining\n\nTrainer(s)\nRoaming (tech) support\n\nPost-training\n\nPrepare devices for the field"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#preparing-equipment",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#preparing-equipment",
+    "title": "Learning Survey Solutions",
+    "section": "Preparing equipment",
+    "text": "Preparing equipment\n\nPrepare CAPI equipment\n\nSee 06_prepare_devices.qmd\nRemove (unnecessary) friction\n\nServer login\nConnection to WiFi\n\n\nPrepare routers\n\nInstall SIM\nConfirm connection"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#providing-equipment",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#providing-equipment",
+    "title": "Learning Survey Solutions",
+    "section": "Providing equipment",
+    "text": "Providing equipment\n\nDevices\n\nTablets\nRouters\n\nChargers"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#projecting",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#projecting",
+    "title": "Learning Survey Solutions",
+    "section": "Projecting",
+    "text": "Projecting\n\nProjector to connect to laptop\nSoftware for displaying tablet screen on laptop\n\nSamsung SideSync\nscrcpy"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#training-supervisors",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#training-supervisors",
+    "title": "Learning Survey Solutions",
+    "section": "Training supervisors",
+    "text": "Training supervisors\nConsider repeating slides from earlier on when to hold supervisor training"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/04_training/04_training.html#providing-field-practice",
+    "href": "slides/06_prepare_survey/04_training/04_training.html#providing-field-practice",
+    "title": "Learning Survey Solutions",
+    "section": "Providing (field) practice",
+    "text": "Providing (field) practice\nAllow enough time to conduct at least 1-2 interviews"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#roadmap",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nWhat\n\n\nHow\n\n\nWith what"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#content",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#content",
+    "title": "Learning Survey Solutions",
+    "section": "Content",
+    "text": "Content\n\nQuestionnaire\n\n\nUpstream systems\n\n\nDownstream systems"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#questionnaire",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "Questionnaire",
+    "text": "Questionnaire\n\nContent\n\n\nSkips\n\n\nValidations\n\n\nDesign choices"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#content-1",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#content-1",
+    "title": "Learning Survey Solutions",
+    "section": "Content",
+    "text": "Content\n\n\nTODO: image\n\nPaper questionnaire with questions\nCAPI app with one question missing\nHighlight that question\n\n\nPAPI matches CAPI\n\nQuestions\nAnswer options"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#skips",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#skips",
+    "title": "Learning Survey Solutions",
+    "section": "Skips",
+    "text": "Skips\n\n\nTODO: image of SuSo condition (and, potentially, result)\n\n\nMatches PAPI\nWorks correctly in CAPI\n\nRight default (e.g., disabled)\nRight response (e.g., conditionally enabled)"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#validations",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#validations",
+    "title": "Learning Survey Solutions",
+    "section": "Validations",
+    "text": "Validations\n\n\nTODO: image of SuSo validation (and, potentially, result)\n\n\nMatches design specifications\nWorks correctly"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#design-choices",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#design-choices",
+    "title": "Learning Survey Solutions",
+    "section": "Design choices",
+    "text": "Design choices\n\n\nTODO: good and bad designs\nSee more here\n\n\nFulfills survey design/protocol needs\nMakes survey navigation/administration easy for interviewer"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#upstream-systems",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#upstream-systems",
+    "title": "Learning Survey Solutions",
+    "section": "Upstream systems",
+    "text": "Upstream systems\n\n\nTODO: image or video, potentially reused from HQ section\n\nCreate assignments\n\nCreate SuSo assignments from data (e.g., listing, panel IDs, etc.)\nImport SuSo assignments on server"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#downstream-systems",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#downstream-systems",
+    "title": "Learning Survey Solutions",
+    "section": "Downstream systems",
+    "text": "Downstream systems\n\n\nTODO: image of source code and/or report as an example\n\nSurvey management systems\n\nReports\nHigh-frequency checks"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#types-of-testing",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#types-of-testing",
+    "title": "Learning Survey Solutions",
+    "section": "Types of testing",
+    "text": "Types of testing\n\nUnit\n\n\nIntegration / Functional\n\n\nSmoke\n\n\nEnd-to-end\n\n\nPerformance\n\n\nReference: https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#unit-testing",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#unit-testing",
+    "title": "Learning Survey Solutions",
+    "section": "Unit testing",
+    "text": "Unit testing\n\n\nTODO: image of a condition to check\n\nDefinition\nCheck that the smallest units of code work\nExamples\n\nSkip works correctly\nValidation fires appropriately\nAnswers filter properly"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#integration-functional-testing",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#integration-functional-testing",
+    "title": "Learning Survey Solutions",
+    "section": "Integration / Functional testing",
+    "text": "Integration / Functional testing\n\n\nTODO: images of script on one side; outcome on the other\n\nDefinition\nCheck that parts of system work together as expected\nExamples\n\nScript creates right inputs for SuSo preloading\nPreloading leads to right skip behavior for panel households"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#smoke-testing",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#smoke-testing",
+    "title": "Learning Survey Solutions",
+    "section": "Smoke testing",
+    "text": "Smoke testing\n\n\nTODO: image/video of tester checking skips\n\nDefinition\nSince testing may be expensive, quickly check for problems in functionality (“smoke”) that may indicate problems needed careful inspection (“fire”)\nExamples\n\nMajor skips work\nApplication data contains desired variables"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#end-to-end-testing",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#end-to-end-testing",
+    "title": "Learning Survey Solutions",
+    "section": "End-to-end testing",
+    "text": "End-to-end testing\n\n\nTODO: image/video of filling interview in tester–potentially same as for prior slide\n\nDefinition\nClick through the whole application manually\nExamples\nComplete questionnaire, ideally with different completion paths\n\nComplete agricultural module for one household\nComplete non-agricultural enterprise module for another household"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#performance-testing",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#performance-testing",
+    "title": "Learning Survey Solutions",
+    "section": "Performance testing",
+    "text": "Performance testing\n\n\nTODO: image of tablet with several interviews on it\n\nDefinition\nCheck how app works operating under a particular load\nExamples\nApp works well under field conditions:\n\nLarge sections are fully completed\nFull interview completed\nSeveral interviews completed on device"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#testing-tools",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#testing-tools",
+    "title": "Learning Survey Solutions",
+    "section": "Testing tools",
+    "text": "Testing tools\n\nTester\n\n\nInterviewer"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#how-1",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#how-1",
+    "title": "Learning Survey Solutions",
+    "section": "How",
+    "text": "How\n\n\nTODO: video of:\n\nOpen questionnaire\nClick on TEST\nFill questionnaire\n\n\n\nNavigate to Designer\nOpen a questionnaire\nClick on TEST"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#why",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#why",
+    "title": "Learning Survey Solutions",
+    "section": "Why",
+    "text": "Why\n\n\nTODO: video of:\n\nlaunching from Designer\nupdating when application changes while keeping data\n\n\n\nFast. Click of 1 button.\nAvailable. From inside Designer/browser.\nLive updates. In sync with changes in Designer."
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#why-not",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#why-not",
+    "title": "Learning Survey Solutions",
+    "section": "Why not",
+    "text": "Why not\n\n\nEphemeral. Session expires quickly. Leaves no data.\nInternet. Requires continuous internet connection.\nAccess. Requires Designer account + acces to app.\nIncomplete. No visibility on other things to test:\n\nPreloading data\nSynchronizing\nFinding assignments\nHow tablet works with app\nEtc."
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#how-2",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#how-2",
+    "title": "Learning Survey Solutions",
+    "section": "How",
+    "text": "How\n\n\nTODO: video of process\n\nIn \n\nCreate users\nImport questionnaires\nCreate fake data for ID variables\nCreate assignments from fake data\n\nIn \n\nSync\nComplete assignments"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#why-1",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#why-1",
+    "title": "Learning Survey Solutions",
+    "section": "Why",
+    "text": "Why\n\nMore control. Which version to test. Which cases to test. Who tests what.\nMore informative. Evaluate the performance of the app on the tablet.\nMore permanence. Saves issues encountered as well as data for producing them.\nMore independence. Can enter across several sessions and offline."
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#why-not-1",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#why-not-1",
+    "title": "Learning Survey Solutions",
+    "section": "Why not",
+    "text": "Why not\n\nMore setup. Need to setup whole survey architecture: questionnaire, users, assignments, etc.\nMore complexity. Must enter as during data collection."
+  },
+  {
+    "objectID": "slides/06_prepare_survey/02_testing/02_testing.html#synthesis",
+    "href": "slides/06_prepare_survey/02_testing/02_testing.html#synthesis",
+    "title": "Learning Survey Solutions",
+    "section": "Synthesis",
+    "text": "Synthesis\n\n\nDuring development\nTODO: image of Tester\n\nDuring finalization\nTODO: image of Interviewer"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html",
+    "title": "Procurement  ",
+    "section": "",
+    "text": "Server \n\n\nTablets \n\n\nRouters \n\n\nOther equipment"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#roadmap",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nServer \n\n\nTablets \n\n\nRouters \n\n\nOther equipment"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#requirements",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#requirements",
+    "title": "Learning Survey Solutions",
+    "section": "Requirements",
+    "text": "Requirements\n\n\nHard\n\n\n\n\nhttps://docs.mysurvey.solutions/faq/server-requirements/\n\nSoft\n\nSupports expected load\nScalable to increased load if needed"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#options",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#options",
+    "title": "Learning Survey Solutions",
+    "section": "Options",
+    "text": "Options\n\nLocal\n\n\nCloud"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#local",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#local",
+    "title": "Learning Survey Solutions",
+    "section": "Local",
+    "text": "Local\n\n\n👍\n\nYou manage your server\nServer physically on-prem\nData stored on-prem\n\n\n👎\n\n\n\nYou NEED to manage everything about your server\n\n\n\nPower supply\n\n\nComputational resources\n\n\nBackup\n\n\nRedundancy\n\n\nMonitoring\n\n\nSecurity\n\n\nEtc.\n\n\n\nYou must pay for the costs of the above\nYour security is only as good as:\n\nOn-prem physical security\nIn-house digital security protections"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#cloud",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#cloud",
+    "title": "Learning Survey Solutions",
+    "section": "Cloud",
+    "text": "Cloud\n\n\n👍\n\nSomeone else manages your server infrastructure (for a small monthly fee)\nEasily scale resources as a function of needs (e.g. more RAM, more storage, etc.)\nBetter security, easier\nEasy to script deployment\n\n\n👎\n\nProcurement requires a credit or prepaid card to pay service provider\nDeployment may require new skills (e.g., learning provider’s services, how to orchestrate services, etc.)\nClearance for cloud deployment may be harder to obtain (even if it’s generally cheaper and more secure)"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#requirements-1",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#requirements-1",
+    "title": "Learning Survey Solutions",
+    "section": "Requirements",
+    "text": "Requirements\n\n\nHard\n\n\n\n\n\nhttps://docs.mysurvey.solutions/faq/what-tablets-should-i-buy-/\n\nSoft\n\nMore RAM -&gt; faster performance\nReputable manufacturer\n\nBetter product\nBetter (public) support\nMore updates"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#other-considerations",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#other-considerations",
+    "title": "Learning Survey Solutions",
+    "section": "Other considerations",
+    "text": "Other considerations\n\nIf planning for offline interview transfer, equipped with …\n\n… Bluetooth\n… WiFi Direct\n\nIf GPS points or area matter …\n\n… number satellite constellations (GPS, Glonas, Beidou, etc.)\n… Bluetooth to connect with GPS devices"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#number-to-buy",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#number-to-buy",
+    "title": "Learning Survey Solutions",
+    "section": "Number to buy",
+    "text": "Number to buy\n\n\nField team\n\nSupervisor\nInterviewer\n\n\nBackup\n\nPer team, kept with the team\nAdditional, kept with the head office\n\n\nOthers\n\nFor extra field staff trained but not hired\nFor the head office team, to replicate issues flagged by the field"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#requirements-2",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#requirements-2",
+    "title": "Learning Survey Solutions",
+    "section": "Requirements",
+    "text": "Requirements\n\nConnect with mobile internet service provider\n4G or 5G connection strongly recommended"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#number-to-buy-1",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#number-to-buy-1",
+    "title": "Learning Survey Solutions",
+    "section": "Number to buy",
+    "text": "Number to buy\n\n\nField team\nOne per team\n\nBackup\nKept with the head office\n\nOthers\n\nFor extra field staff trained but not hired\nFor the head office team, to be connected while on field supervision mission"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#other-considerations-1",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#other-considerations-1",
+    "title": "Learning Survey Solutions",
+    "section": "Other considerations",
+    "text": "Other considerations\n\nMobile, with battery for autonomuous usage\nUnlocked, so can use SIM card of other internet service providers, as needed"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#charging",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#charging",
+    "title": "Learning Survey Solutions",
+    "section": "Charging  ",
+    "text": "Charging  \n\n\nBattery packs\n\nSmaller for each field worker (e.g., 8k mAh)\nLarger ones for teams (e.g., 30k mAh)\n\n\nCharger\n\nPower strip, so team can charge multiple tablets at once over night\nPlug adapters, if tablet has different plug than country"
+  },
+  {
+    "objectID": "slides/06_prepare_survey/03_procurement/03_procurement.html#protection",
+    "href": "slides/06_prepare_survey/03_procurement/03_procurement.html#protection",
+    "title": "Learning Survey Solutions",
+    "section": "Protection ",
+    "text": "Protection \n\n\nCase\n\nOne per tablet\nConsider a small number of extras, since typically not replaced\n\n\nScreen protector\n\nOne per tablet\nConsider small number of extras, but larger number than of cases. Screen protectors might be replaced more regularly."
   }
 ]

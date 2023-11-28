@@ -54,11 +54,11 @@ schedule_df <- tibble::tribble(
     "Managing a survey",  "Monitor with Survey Solutions' data", NA, NA,   NA,
     # Preparing a survey
     "Preparing a survey",  "Overview of the CAPI survey process", NA, NA,   NA,
-    "Preparing a survey",  "Procuring the right equipment", NA, NA,   NA,
-    "Preparing a survey",  "Testing the application", NA, NA,   NA,
-    "Preparing a survey",  "Setting up tablets", NA, NA,   NA,
-    "Preparing a survey",  "Preparing a training", NA, NA,   NA,
-    "Preparing a survey",  "Managing the data quality system", NA, NA,   NA,
+    "Preparing a survey",  "Testing the application", NA, "slides/06_prepare_survey/02_testing/02_testing.qmd",   NA,
+    "Preparing a survey",  "Procuring the right equipment", NA, "slides/06_prepare_survey/03_procurement/03_procurement.qmd",   NA,
+    "Preparing a survey",  "Setting up tablets", NA, "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.qmd",   NA,
+    "Preparing a survey",  "Preparing a training", NA, "slides/06_prepare_survey/04_training/04_training.qmd",   NA,
+    "Preparing a survey",  "Managing the data quality system", NA, "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.qmd",   NA,
     "Preparing a survey",  "Maintenance/Troubleshooting", NA, NA,   NA
 )
 ```

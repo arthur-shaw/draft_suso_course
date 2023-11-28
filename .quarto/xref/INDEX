@@ -61,5 +61,20 @@
   },
   "index.qmd": {
     "index.html": "4194a7c8"
+  },
+  "slides/06_prepare_survey/06_prepare_devices/06_prepare_devices.qmd": {
+    "06_prepare_devices.html": "1638548a"
+  },
+  "slides/06_prepare_survey/05_data_quality_system/05_data_quality_system.qmd": {
+    "05_data_quality_system.html": "765d5d17"
+  },
+  "slides/06_prepare_survey/04_training/04_training.qmd": {
+    "04_training.html": "e23b4e90"
+  },
+  "slides/06_prepare_survey/02_testing/02_testing.qmd": {
+    "02_testing.html": "c35b2b5c"
+  },
+  "slides/06_prepare_survey/03_procurement/03_procurement.qmd": {
+    "03_procurement.html": "4624c471"
   }
 }
