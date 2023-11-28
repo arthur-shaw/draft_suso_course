@@ -1,0 +1,1962 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: false
+---
+
+```{r}
+#| label: define reactable theme
+#| eval: true
+s2_theme = reactable::reactableTheme(
+    headerStyle = list(
+        color = "white",
+        background = "var(--s2)"
+    )
+) 
+```
+
+```{r}
+#| label: define functions for creating interview__key
+#| eval: true
+
+#' Add leading zero to 2-digit number
+#' 
+#' @param x Numeric. Two-digit number to give padding
+#' 
+#' @importFrom stringr str_pad
+pad_num <- function(x) {
+    stringr::str_pad(
+        string = x,
+        width = 2,
+        pad = 0
+    )
+}
+
+#' Create valid, fake `interview__key`
+#' 
+#' @return Character. Valid, fake `interview__id` of form XX-XX-XX-XX
+#' @importFrom glue glue
+create_key <- function() {
+
+    # draw 4 random integers between 0 and 99
+    nums <- sample(
+        x = 0:99,
+        size = 4,
+        replace = TRUE
+    )
+    
+    # construct key like XX-XX-XX-XX, where XX is a number with leading zero
+    key <- glue::glue("{pad_num(nums[1])}-{pad_num(nums[2])}-{pad_num(nums[3])}-{pad_num(nums[4])}")
+
+    return(key)
+
+}
+
+#' Create N valid, fake `interview__key` values
+#' 
+#' @param n Numeric. Number of `interview__key` values to return
+#' 
+#' @return Character vector. Composed of valid `interview__key` values.
+#' 
+#' @importFrom purrr map_chr
+create_keys <- function(n) {
+
+    purrr::map_chr(
+        .x = seq(1, n),
+        .f = ~ create_key()
+    )
+
+}
+ 
+```
+
+# Get and use Survey Solutions' data `r fontawesome::fa(name = "download")` `r fontawesome::fa(name = "magnifying-glass-chart")` {background-color=var(--suso)}
+
+## Roadmap {.suso}
+
+::: {.box .box-1}
+Get
+:::
+
+::: {.box .box-2}
+Understand
+:::
+
+::: {.box .box-3}
+Use
+:::
+
+<!-- Get data -->
+
+# Get data {background-color=var(--s1)}
+
+## Process {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video similar to [this one](/review_zim_course/slides_not_on_zim_site/19_get_use_data.html#/process)
+
+:::
+
+::: {.column width="30%"}
+
+Select:
+
+- Questionnaire
+- Data type
+- Questionnaire information*
+- Data format*
+- Export file destination
+
+* Relevant only for microdata
+
+:::
+
+::::
+
+## Questionnaire {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of UI for `Filter interviews to export`
+
+:::
+
+::: {.column width="30%"}
+
+- **Questionnaire.** Title of questionnaire.
+- **Questionnaire version.** Version of questionnaire. If there are multiple versions, may need to export data for each version.
+- **Status.** Survey Solutions interview status. Default: all statuses.
+
+:::
+
+::::
+
+## Data types {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: potentially reuse screenshot [here](/slides_not_on_zim_site/19_get_use_data.html#/types)
+
+:::
+
+::: {.column width="30%"}
+
+- **Main survey data.** Otherwise known as microdata. Answers to survey questions.
+- **Paradata.** Event data of all interactions / transactions with an interview.
+:::
+
+::::
+
+## Questionnaire information {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of `Questionnaire information` block of export UI
+
+:::
+
+::: {.column width="30%"}
+
+- **What.** Metadata that describes the questionnaire used to capture survey data and the data sets that it exports. See more [here](TODO: LINK HERE)
+- **Why.** Several potential uses:
+    - Document data after data collection.
+    - Use metadata to assist with analyses.
+
+:::
+
+::::
+
+## Data formats {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: potentially reuse screenshot [here](/review_zim_course/slides_not_on_zim_site/19_get_use_data.html#/formats) 
+
+:::
+
+::: {.column width="30%"}
+
+- **Tab-delimited.** Data in flat files. Labels provided in Stata `.do` files.
+- **Stata.** Compiled `.dta` files, with variable and value labels applied.
+- **SPSS.** Compiled `.sav`, with variable and value labels applied.
+
+:::
+
+::::
+
+## Export file destination {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of `Export file destination` interface on `Data Export` 
+
+:::
+
+::: {.column width="30%"}
+
+- **Download.** To the device fetching the export archive. Default option.
+- **Upload.** To a cloud service provider using your credentials. 
+    - First, click the cloud option.
+    - Then, select your profile / provide your credentials.
+
+:::
+
+::::
+
+# Understand data {background-color=var(--s2)}
+
+## Data types {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Two types of data
+
+::: {.box .box-2}
+Main survey data
+:::
+
+::: {.box .box-2}
+Paradata
+:::
+
+:::
+
+::: {.column width="50%" .fragment}
+
+### But only discuss one today
+
+::: {.box .box-2}
+Main survey data
+:::
+
+:::
+
+::::
+
+## Roadmap `r fontawesome::fa(name = "route")` {.t2}
+
+::: {.box .box-2}
+File overview `r fontawesome::fa(name = "folder-tree")`
+:::
+
+::: {.box .box-2}
+Files `r fontawesome::fa(name = "arrow-right-arrow-left")` questionnaire
+:::
+
+::: {.box .box-2}
+Variables `r fontawesome::fa(name = "arrow-right-arrow-left")` questionnaire
+:::
+
+::: {.box .box-2}
+Identifiers `r fontawesome::fa(name = "id-card")`
+:::
+
+::: {.box .box-2}
+Missing values `r fontawesome::fa(name = "notdef")`
+:::
+
+# File overview `r fontawesome::fa(name = "folder-tree")` {background-color=var(--s1)}
+
+## Exported data {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Get a zip archive
+
+<br><br>
+
+`r fontawesome::fa(name = "file-zipper", height = "400px")`
+
+:::
+
+::: {.column width="50%" .fragment}
+
+### Files found inside
+
+```
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+│   ├── Categories
+│   ├── content.zip
+│   ├── ddi.xml
+│   ├── document.json
+│   └── Preview
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::::
+
+## Export file manifest {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="5"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+│   ├── Categories
+│   ├── content.zip
+│   ├── ddi.xml
+│   ├── document.json
+│   └── Preview
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+```{.text}
+- TODO: add code block containing text from `export__readme.txt` from "Capturing What Matters"
+- TODO: use `code-line-numbers` to walk through code and explain
+
+Generated by Survey Solutions export module 23.06.1 (build 34560) on Saturday, 16 September 2023
+The data in this download were collected using the Survey Solutions questionnaire "ZiHBS 2023 Actual Pilot". 
+You can open the questionnaire in the Survey Solutions Designer online by that link: https://designer.mysurvey.solutions/questionnaire/details/07a29ec50a0f4b5f9a7f45dd591d2514$2
+
+ZiHBS_2023_Actual_pilot.dta
+cp_province, cp_district, cp_ward, cp_sector, cp_ea, cp_region, cp_geocode, cp_area, cp_structure, cp_hhnumber, cp_hhid, cp_hhead, cp_phoneno, cp_address, cp_gps, cp_main, st_supname, st_intname, st_identified, st_HHmove, M1_Q0a, M1_Q0b, M1_start_date, M1_Q01, M1_Q02, M1_Q03, M1_Q04, M1_Q05, M2_START_DATE, M2_Q01, M3_start_date_time, M3_respondent, M3_Q00, M3_Q01, M4_start_date, M4_respondent, M4_Q01, M4_Q01_oth, M4_Q01a, M4_Q01b_Amt, M5_Q01b_Curr, M4_Q01c_Amt, M4_Q01c_Curr, M4_Q02, M4_Q02_oth, M4_Q03, M4_Q03_oth, M4_Q04, M4_Q04_oth, M4_Q05, M4_Q05_oth, M4_Q06, M4_Q07, M4_Q08, M4_Q08_oth, M4_Q09, M4_Q09_oth, M4_Q10, M4_Q10_oth, M4_Q11, M4_Q12, M4_Q13, M4_Q13_oth, M4_Q14, M4_Q14_oth, M4_Q15, M4_Q15_oth, M4_Q16, M4_Q16_oth, M4_Q17, M4_Q18, M4_Q18_oth, M4_Q19, M4_Q19_oth, M4_Q20, M4_Q21, M4_Q22, M4_Q23, M4_Q24, M4_Q24_oth, M4_Q25, M4_Q25_oth, M4_Q26, H27, M4_Q28, M4_Q28_oth, M4_Q29, M4_Q30, M4_Q31, M4_Q32, M4_Q33, M4_Q33_oth, M4_Q34, M4_Q35, M4_Q35_oth, M4_Q37, M4_Q38a_Amt, M4_Q38a_Curr, M4_Q38b_Amt, M4_Q38b_Curr, M4_Q38c_Amt, M4_Q38c_Curr, M5_15d_Amt, M4_Q38d_Curr, M4_Q39, M4_Q40_Amt, M5_Q40b_Curr, M8_start_date_time, M8_respondent, M8_Q01, M9_START_DATE, M10_START_DATE, M10_RESPONDENT, M11_start_date, M11_respondent, M12_start_date, M13_start_date, M14_start_date_time, M14_Q00, M14_Q01, M14_Q0E1, M15_Q02a, M16_StartTime, M16_respondent, M16_Q1a, M16_Q1b, M16_Q1c, M16_Q1d, M16_Q1B2, M16_Q2a, M16_Q2b, M16_Q2c, M16_Q2d, M16_Q2B2, M16_Q3a, M16_Q3b, M16_Q3c, M16_Q3d, M16_Q3B2, M16_Q4a, M16_Q4b, Module17_start_date, Respondent_for_module17, M17_01B, M17_Q01, M18_startDateTime, M18_respondent, M18_Q01, Q18_Q02, M18_Q11_amt, M18_Q11_cuur, M18_Q12, M18_Q13_amt, M18_Q13_cuur, M19_START_DATE, M19_RESPONDENT, M19_Q01, M20_START_DATE, M20_RESPONDENT, M21_Starting_Time, M21_Q01, M21_FAFH, M22A_StartTime, M22A_respondent, M22A_Q02_EXPENDITURE, check_M22A_complete, M22A_Q02_cereals, M22A_Q02_flours, M22A_Q02_bakery, M22A_Q02_BF_cereals, M22A_Q02_pasta, M22A_Q02_OthCreals, M22A_Q02_LiveAnimal, M22A_Q02_Meat_fresh, M22A_Q02_Meat_dried, M22A_Q02_Offal_blood, M22A_Q02_meat_prep, M22A_Q02_Fish_fresh, M22A_Q02_Fish_dried, M22A_Q02_Fish_prep, M22A_Q02_OthSFFresh, M22A_Q02_OtSFDried, M22A_Q02_oth_sf_prep, M22A_Q02_milk_raw, M22A_Q02_MilkSkimm, M22A_Q02_OthMilkCre, M22A_Q02_NonAni_milk, M22A_Q02_Cheese, M22A_Q02_Yoghurt, M22A_Q02_MilkDessert, M22A_Q02_Eggs, M22A_Q02_Vege_oils, M22A_Q02_Butter_fats, M22A_Q02_Margarine, M22A_Q02_Oth_Ani_fat, M22A_Q02_Tropi_fruit, M22A_Q02_CitrusFrt, M22A_Q02_StoneFrut, M22A_Q02_BerriyFresh, M22A_Q02_Oth_fruit_f, M22A_Q02_FrozFruit, M22A_Q02_Fruit_dried, M22A_Q02_Nuts, M22A_Q02_Fr_nut_prep, M22A_Q02_Leafy_veg, M22A_Q02_Fruit_veg, M22A_Q02_Green_leg, M22A_Q02_Ot_veg_tube, M22A_Q02_potatoes, M22A_Q02_Pulses, M22A_Q02_OtVegiDried, M22A_Q02_vegi_froze, M22A_Q02_Vegi_prep, M22A_Q02_Cane_sugar, M22A_Q02_Other_sugar, M22A_Q02_Jams, M22A_Q02_Nut_paste, M22A_Q02_Chocolate, M22A_Q02_Ice_cream, M22A_Q02_gums_candy, M22A_Q02_PrepFood, M22A_Q02_Baby_food, M22A_Q02_Salt_cond, M22A_Q02_Spices, M22A_Q02_juices, M22A_Q02_Coffee, M22A_Q02_tea, M22A_Q02_CocoaDrink, M22A_Q02_Water, M22A_Q02_Soft_drinks, M22A_Q02_OthNonAlcoh, M22B_StartTime, M22B_respondent, M22B_Q01_EXPENDITURE, check_M22B_complete, M22B_Q01_cereals, M22B_Q01_flours, M22B_Q01_bakery, M22B_Q01_BF_cereals, M22B_Q01_pasta, M22B_Q01_OthCreals, M22B_Q01_LiveAnimal, M22B_Q01_Meat_fresh, M22B_Q01_Meat_dried, M22B_Q01_Offal_blood, M22B_Q01_meat_prep, M22B_Q01_Fish_fresh, M22B_Q01_Fish_dried, M22B_Q01_Fish_prep, M22B_Q01_OthSFFresh, M22B_Q01_OtSFDried, M22B_Q01_oth_sf_prep, M22B_Q01_milk_raw, M22B_Q01_MilkSkimm, M22B_Q01_OthMilkCre, M22B_Q01_NonAni_milk, M22B_Q01_Cheese, M22B_Q01_Yoghurt, M22B_Q01_MilkDessert, M22B_Q01_Eggs, M22B_Q01_Vege_oils, M22B_Q01_Butter_fats, M22B_Q01_Margarine, M22B_Q01_Oth_Ani_fat, M22B_Q01_Tropi_fruit, M22B_Q01_CitrusFrt, M22B_Q01_StoneFrut, M22B_Q01_BerriyFresh, M22B_Q01_Oth_fruit_f, M22B_Q01_FrozFruit, M22B_Q01_Fruit_dried, M22B_Q01_Nuts, M22B_Q01_Fr_nut_prep, M22B_Q01_Leafy_veg, M22B_Q01_Fruit_veg, M22B_Q01_Green_leg, M22B_Q01_Ot_veg_tube, M22B_Q01_potatoes, M22B_Q01_Pulses, M22B_Q01_OtVegiDried, M22B_Q01_vegi_froze, M22B_Q01_Vegi_prep, M22B_Q01_Cane_sugar, M22B_Q01_Other_sugar, M22B_Q01_Jams, M22B_Q01_Nut_paste, M22B_Q01_Chocolate, M22B_Q01_Ice_cream, M22B_Q01_gums_candy, M22B_Q01_PrepFood, M22B_Q01_Baby_food, M22B_Q01_Salt_cond, M22B_Q01_Spices, M22B_Q01_juices, M22B_Q01_Coffee, M22B_Q01_tea, M22B_Q01_CocoaDrink, M22B_Q01_Water, M22B_Q01_Soft_drinks, M22B_Q01_OthNonAlcoh, M23A_start_date, M23A_respondent, M23A_Q01, M23A_Q02_check, M23A_Q02_SpiritsLiq, M23A_Q02_WineGrapes, M23A_Q02_CiderPerry, M23A_Q02_Beer, M23A_Q02_Cigarettes, M23A_Q02_Cigars, M23A_Q02_OthTobacco, M23A_Q02_Narcotics, M23B_start_date, M23b_respondent, M23B_Q01, M23B_Q02_check, M23B_Q02_SpiritsLiq, M23B_Q02_WineGrapes, M23B_Q02_CiderPerry, M23B_Q02_Beer, M23B_Q02_Cigarettes, M23B_Q02_Cigars, M23B_Q02_OthTobacco, M23B_Q02_Narcotics, Module24_start_date, Respondent_for_module_24, M24_Q01, M25_start_date, M25_Respondent, M25_Q01, M25b_start_date, M25b_Respondent, M25b_Q01, M26_start_date, M26_Respondent, M26_Q01, M27_start_date, M27_Respondent, M27_Q01, M28a_start_date, M28a_Respondent, M28a_Q01, M28b_start_date, M28b_Respondent, M28b_Q01, M29_start_date, M29_Respondent, M29_Q01, M30_start_date, M30_Respondent, M30_Q01, M31_start_date, M31_Respondent, M31_Q01, M32_START_DATE, M32_RESPONDENT, M32_Q00, M33_Start_Date, M33_respondent, M33_Q1, M33_Q2, M33_Q3, M33_Q4, M33_Q5, M33_Q6, M34_StartTime, M34_respondent, M34_Q1a, M34_Q1b, M34_Q1c, M34_Q1d, M34_Q1e, M34_Q1f, M34_Q1g, M34_Q1h, M35_StartTime, M35_respondent, M35_Q01, M35_Q02, M35_Q03, M35_Q04, M35_Q05, M35_Q06, M35_Q07, M35_Q08, M35_Q09, M35_Q10, M35_Q11, M35_Q12, M35_Q13, M35_Q14, M35_Q15, M36_Q01a, M36_Q02a1, M36_Q02_1, M36_Q01b, M36_Q02a2, M36_Q02_2, M36_Q01c, M36_Q02a3, M36_Q02_3, M36_Q03, M36_Q04a, M36_Q04b, M36_Q04c, M36_Q04c_oth
+
+hhmembers.dta
+M2_Q02, M2_Q03, M2_Q04, M2_Q05, M2_Q06, M2_Q07, M2_Q08, M2_Q09, M2_Q10, M2_Q11, M2_Q12, M2_Q13, M2_Q14, M2_Q14_OTH, M2_Q15, M2_Q16, M2_Q17, M2_Q18, M2_Q19, M2_Q20, M2_Q21, M2_Q21_ISCO, M2_Q22, M2_Q23, M2_Q24, M2_Q25, M2_Q26, M2_Q26_ISIC, M2_Q27, M2_Q28, M2_Q29_auth, M2_Q29, M9_Q0respondent, M9_RES_ID, M9_Q01, M9_Q02, M2_Q02_oth, M9_Q03, M9_Q03a, M9_Q04, M9_Q05, M9_Q06, M2_Q06_oth, M9_Q07, M9_Q07_oth, M9_Q08, M9_Q09, M9_Q10, M9_Q11, M9_Q11_oth, M9_Q12, M9_Q13_amt, M9_Q13_curr, M9_Q14, M9_Q15, M9_Q16_AMT, M9_Q16_curr, M9_Q17, M9_Q18_AMT, M9_Q18_Curr, M9_Q19, M9_Q20, M9_Q21_AMT, M9_Q21_Curr, M9_Q22, M9_Q22_oth, M9_Q23, M9_Q24, M10_Q0respondent, M10_RES_ID, M10_Q01, M10_Q02, M10_Q03, M10_Q04, M10_Q06, M10_Q07, M10_Q08, M10_Q09, M10_Q10, M10_Q11, M10_Q12, M10_Q13, M10_Q14, M10_Q14_oth, M10_Q15, M10_Q15_oth, M10_Q16, M10_Q17, M10_Q17ISCO, M10_Q18, M10_Q18_ISIC, M10_Q19, M10_Q20, M10_Q21, M10_Q22, M10_Q23, M10_Q23_oth, M10_Q24, M10_Q25, M10_Q26, M10_Q27, M10_Q28, M10_Q28_ISCO, M10_Q29, M10_Q29_ISIC, M11_Q0respondent, M11_RES_ID, M11_Q01, M11_Q02, M11_Q02_oth, M11_Q03, M11_Q03_oth, M11_Q04, M11_Q04_oth, M11_Q05, M11_Q05_oth, M11_Q06, M11_Q07, M11_Q07_oth, M11_Q08, M11_Q09, M11_Q10, M11_Q10_oth, M11_Q11, M11_Q12, M11_Q13, M11_Q14, M11_Q15, M11_Q16, M11_Q16_oth, M12_Q0respondent, M12_RES_ID, M12_Q01, M12_Q02, M12_Q03, M12_Q04, M12_Q05, M12_Q06, M12_Q07a, M12_Q7a_oth, M12_Q07b, M12_Q07b_oth, M12_Q07c, M12_Q07c_oth, M12_Q07d, M12_Q07d_oth, M12_Q07e, M12_Q07e_oth, M12_Q07f, M12_Q07f_oth, M12_Q08, M12_Q08_oth, M12_Q09, M13_Q0respondent, M13_RES_ID, M13_Q01, M13_Q02, M13_Q03, M13_Q04_curr, M13_Q04_amt_ZWD, M13_Q04_amt_USD, M13_Q04_amt_RAND, M13_Q04_amt_PULA, M13_Q05, M13_Q06, M13_Q07_curr, M13_Q07_amt, M13_Q08_curr, M13_Q08_amt, M13_Q09_amt, M13_Q09_curr, M13_Q10, M13_Q11_amt, M13_Q11_curr, M13_Q12, M13_Q13_amt, M13_Q13_Curr, M13_Q14, M13_Q15_amt, M13_Q15_curr, M13_Q16, M13_Q17_Amt, M13_Q17_Curr, M13_Q18
+
+International_Migration.dta
+M3_Q02, M3_Q03, M3_Q04, M3_Q05, M3_Q06, M3_Q07, M3_Q08, M3_Q09, M3_Q10, M3_Q11, M3_Q12, M3_Q13A, M3_Q13B, M3_Q14, M3_Q15, M3_Q16_amt, M3_Q16_curr, M3_Q17_amt, M3_Q18_curr
+
+hh_assets_roster.dta
+M8_Q02, M8_Q03, M8_Q04, M8_Q05_amt, M8_Q05_curr, M8_Q06, M8_Q07_amt, M8_Q07_curr
+
+nfe_roster.dta
+M15_Q02_b, M15_Q03, M15_Q04, M15_Q05, M15_Q05_oth, M15_Q06, M15_Q07, M15_Q08_amt, M15_Q08_curr, M15_Q09_amt, M15_Q09_curr, M15_Q10_amt, M15_Q10_curr, M15_Q11_a_amt, M15_Q11_a_curr, M15_Q11_b_amt, M15_Q11_b_curr, M15_Q11_c_amt, M15_Q11_c_curr, M15_Q11_d_amt, M15_Q11_d_curr, M15_Q11_e_amt, M15_Q11_e_curr, M15_Q11_f_amt, M15_Q11_f_curr, M15_Q11_g_amt, M15_Q11_g_curr, M15_Q11_h_amt, M15_Q11_h_curr, M15_Q11_j_amt, M15_Q11_j_curr, M15_Q11_k_amt, M15_Q11_k_curr, M15_Q11_l_amt, M15_Q11_l_curr, M15_Q11_m_amt, M15_Q11_m_curr, M15_Q11_n_amt, M15_Q11_n_curr, M15_Q11_o_amt, M15_Q11_o_curr, M15_Q11_o, M15_Q11_p_amt, M15_Q11_p_curr
+
+Mod17_Crops.dta
+M17_Q02b, M17_Q02, M17_Q02_UNIT, M17_Q03, M17_Q04, M17_Q05, M17_Q05_oth, M17_Q06_QTY, M17_Q06_UNIT, M17_Q07, M17_Q07_CURRENCY, M17_Q08, M17_Q09, M17_Q09_CURRENCY, M17_Q10, M17_Q10_CURRENCY, M17_Q11, M17_Q11_oth, M17_Q12, M17_Q13, M17_Q14, M17_Q15, M17_Q15_CURRENCY, M17_Q16, M17_Q17, M17_Q17_CURRENCY, M17_Q18, M17_Q19, M17_Q19_CURRENCY, M17_Q20, M17_Q21, M17_Q21_CURRENCY, M17_Q22, M17_Q23, M17_Q24, M17_Q24_CURRENCY, M17_Q25
+
+livestock.dta
+M18_Q02_oth, M18_Q03, Q18_Q04, M18_Q05_amt, M18_Q05_cuur, M18_Q06, M18_Q07, M18_Q08_amt, M18_Q08_curr, M18_Q09, M18_Q10
+
+M19_LABOUR_INCOME_Roster.dta
+M19_Q02_curr, M19_Q02_amt_ZWD, M19_Q02_amt_USD, M19_Q02_amt_RAND, M19_Q02_amt_PULA
+
+FAFH_roster.dta
+M21_Q02_amt, M21_Q02_curr, M21_Q03
+
+M24_Q07_gifts.dta
+M24_Q02_ItemList
+
+M25_Product.dta
+M25_Q02_ItemList
+
+M25b_Product.dta
+M25b_Q02_ItemList
+
+M26_Product.dta
+M26_Q02_ItemList
+
+M27_Product.dta
+M27_Q02_ItemList
+
+M28a_Product.dta
+M28a_Q02_ItemList
+
+M28b_Product.dta
+M28b_Q02_ItemList
+
+M29_Product.dta
+M29_Q02_ItemList
+
+M30_Product.dta
+M30_Q02_ItemList
+
+M31_Product.dta
+M31_Q02_ItemList
+
+Commodities_non_food_1mon.dta
+M24_Q02_Item_os, M24_Q03, M24_Q04, M24_Q05_amt, M24_Q05_curr, M24_Q06_amt, M24_Q06_curr, M24_Q07, M24_Q08a_amt_gift, M24_Q08a_curr_gift, M24_Q08b_amt_trans, M24_Q08b_curr_trans, M24_Q08c_amt_inkin, M24_Q08c_curr_inkin
+
+M25_ITEM.dta
+M25_Q02_Item_os, M25_Q03, M25_Q04, M25_Q05_amt, M25_Q05_curr, M25_Q06_amt, M25_Q06_curr, M25_Q07, M25_Q08a_amt_gift, M25_Q08a_curr_gift, M25_Q08b_amt_trans, M25_Q08b_curr_trans, M25_Q08c_amt_inkin, M25_Q08c_curr_inkin
+
+M25b_ITEM.dta
+M25b_Q02_Item_os, M25b_Q03, M25b_Q04, M25b_Q05_amt, M25b_Q05_curr, M25b_Q06_amt, M25b_Q06_curr, M25b_Q07, M25b_Q08a_amt_gift, M25b_Q08a_curr_gift, M25b_Q08b_amt_trans, M25b_Q08b_curr_trans, M25b_Q08c_amt_inkin, M25b_Q08c_curr_inkin
+
+M26_ITEM.dta
+M26_Q02_Item_os, M26_Q03, M26_Q04, M26_Q05_amt, M26_Q05_curr, M26_Q06_amt, M26_Q06_curr, M26_Q07, M26_Q08a_amt_gift, M26_Q08a_curr_gift, M26_Q08b_amt_trans, M26_Q08b_curr_trans, M26_Q08c_amt_inkin, M26_Q08c_curr_inkin
+
+M27_ITEM.dta
+M27_Q02_Item_os, M27_Q03, M27_Q04, M27_Q05_amt, M27_Q05_curr, M27_Q06_amt, M27_Q06_curr, M27_Q07, M27_Q08a_amt_gift, M27_Q08a_curr_gift, M27_Q08b_amt_trans, M27_Q08b_curr_trans, M27_Q08c_amt_inkin, M27_Q08c_curr_inkin
+
+M28a_ITEM.dta
+M28a_Q02_Item_os, M28a_Q03, M28a_Q04, M28a_Q05_amt, M28a_Q05_curr, M28a_Q06_amt, M28a_Q06_curr, M28a_Q07, M28a_Q08a_amt_gift, M28a_Q08a_curr_gift, M28a_Q08b_amt_trans, M28a_Q08b_curr_trans, M28a_Q08c_amt_inkin, M28a_Q08c_curr_inkin
+
+M28b_ITEM.dta
+M28b_Q02_Item_os, M28b_Q03, M28b_Q04, M28b_Q05_amt, M28b_Q05_curr, M28b_Q06_amt, M28b_Q06_curr, M28b_Q07, M28b_Q08a_amt_gift, M28b_Q08a_curr_gift, M28b_Q08b_amt_trans, M28b_Q08b_curr_trans, M28b_Q08c_amt_inkin, M28b_Q08c_curr_inkin
+
+M29_ITEM.dta
+M29_Q02_Item_os, M29_Q03, M29_Q04, M29_Q05_amt, M29_Q05_curr, M29_Q06_amt, M29_Q06_curr, M29_Q07, M29_Q08a_amt_gift, M29_Q08a_curr_gift, M29_Q08b_amt_trans, M29_Q08b_curr_trans, M29_Q08c_amt_inkin, M29_Q08c_curr_inkin
+
+M30_ITEM.dta
+M30_Q02_Item_os, M30_Q03, M30_Q04, M30_Q05_amt, M30_Q05_curr, M30_Q06_amt, M30_Q06_curr, M30_Q07, M30_Q08a_amt_gift, M30_Q08a_curr_gift, M30_Q08b_amt_trans, M30_Q08b_curr_trans, M30_Q08c_amt_inkin, M30_Q08c_curr_inkin
+
+M31_ITEM.dta
+M31_Q02_Item_os, M31_Q03, M31_Q04, M31_Q05_amt, M31_Q05_curr, M31_Q06_amt, M31_Q06_curr, M31_Q07, M31_Q08a_amt_gift, M31_Q08a_curr_gift, M31_Q08b_amt_trans, M31_Q08b_curr_trans, M31_Q08c_amt_inkin, M31_Q08c_curr_inkin
+
+facility_distance_roster.dta
+M4_Q36
+
+social_safety_nets.dta
+M20_Q01, M20_Q02, M20_Q03_MONTH, M20_Q03_YEAR, M20_Q04_VALUE, M20_Q04_CURRENCY, M20_Q05, M20_Q06, M20_Q07, M20_Q08, M20_Q09
+
+M22A_Roster_A.dta
+M22A_Q02_OS_A, M22A_Q03_A, M22A_Q04_A, M22A_Q05_qty_A, M22A_Q05_unit_A, M22A_Q05_size_A, M22A_Q06_amt_A, M22A_Q06_curr_A, M22A_Q07_qty_A, M22A_Q07_unit_A, M22A_Q07_size_A, M22A_Q08_amt_A, M22A_Q08_curr_A, M22A_Q09_A, M22A_Q10_qty_A, M22A_Q10_unit_A, M22A_Q10_size_A, M22A_Q11_qty_A, M22A_Q11_unit_A, M22A_Q11_size_A, M22A_Q12_qty_A, M22A_Q12_unit_A, M22A_Q12_size_A
+
+M22A_Roster_B.dta
+M22A_Q02_OS_B, M22A_Q03_B, M22A_Q04_B, M22A_Q05_qty_B, M22A_Q05_unit_B, M22A_Q05_size_B, M22A_Q06_Bmt_B, M22A_Q06_curr_B, M22A_Q07_qty_B, M22A_Q07_unit_B, M22A_Q07_size_B, M22A_Q08_Bmt_B, M22A_Q08_curr_B, M22A_Q09_B, M22A_Q10_qty_B, M22A_Q10_unit_B, M22A_Q10_size_B, M22A_Q11_qty_B, M22A_Q11_unit_B, M22A_Q11_size_B, M22A_Q12_qty_B, M22A_Q12_unit_B, M22A_Q12_size_B
+
+M22B_Roster_A.dta
+M22B_Q01_OS_A, M22B_Q03_qty_A, M22B_Q03_unit_A, M22B_Q03_size_A, M22B_Q04_A, M22B_Q05_qty_A, M22B_Q06_val_A, M22B_Q06_curr_A, M22B_Q07_qty_A, M22B_Q08_qty_A, M22B_Q09_qty_A, M22B_Q10_qty_A
+
+M22B_Roster_B.dta
+M22B_Q01_OS_B, M22B_Q03_qty_B, M22B_Q03_unit_B, M22B_Q03_size_B, M22B_Q04_B, M22B_Q05_qty_B, M22B_Q06_val_B, M22B_Q06_curr_B, M22B_Q07_qty_B, M22B_Q08_qty_B, M22B_Q09_qty_B, M22B_Q10_qty_B
+
+M23A_Roster_A.dta
+M23A_Q02_OS_A, M23A_Q03_A, M23A_Q04_A, M23A_Q05_qty_A, M23A_Q05_unit_A, M23A_Q05_size_A, M23A_Q06_amt_A, M23A_Q06_curr_A, M23A_Q07_qty_A, M23A_Q07_unit_A, M23A_Q07_size_A, M23A_Q08_amt_A, M23A_Q08_curr_A, M23A_Q09_A, M23A_Q10_qty_A, M23A_Q10_unit_A, M23A_Q10_size_A, M23A_Q11_qty_A, M23A_Q11_unit_A, M23A_Q11_size_A, M23A_Q12_qty_A, M23A_Q12_unit_A, M23A_Q12_size_A
+
+M22B_Roster.dta
+M22B_Q01_OS, M22B_Q03_qty, M22B_Q03_unit, M22B_Q03_size, M22B_Q04, M22B_Q05_qty, M22B_Q06_val, M22B_Q06_curr, M22B_Q07_qty, M22B_Q08_qty, M22B_Q09_qty, M22B_Q10_qty
+
+Points_of_purchase.dta
+M32_Q01, M32_Q01_oth
+
+M33_domestic.dta
+M33_Q7_Amt, M33_Q7_Curr, M33_Q8_Amt, M33_Q8_Curr, M33_Q9_Amt, M33_Q9_Curr, M33_Q10_Amt, M33_Q10_Curr
+
+```
+
+:::
+
+
+::::
+
+
+<!-- 
+::: {.notes}
+
+- Version of SuSo used to export
+- Questionnaire version on Designer
+- Data sets and variables contained in them. Interpret as follows
+    - Top line: name of data set
+    - Remaining line(s): variables in data set
+
+:::
+ -->
+
+## Export file manifest {.t2}
+
+:::: {.columns}
+
+::: {.column width="80%"}
+
+```{.text code-line-numbers="4"}
+- TODO: add code block containing text from `export__readme.txt` from "Capturing What Matters"
+- TODO: use `code-line-numbers` to walk through code and explain
+
+Generated by Survey Solutions export module 23.06.1 (build 34560) on Saturday, 16 September 2023
+The data in this download were collected using the Survey Solutions questionnaire "ZiHBS 2023 Actual Pilot". 
+You can open the questionnaire in the Survey Solutions Designer online by that link: https://designer.mysurvey.solutions/questionnaire/details/07a29ec50a0f4b5f9a7f45dd591d2514$2
+
+ZiHBS_2023_Actual_pilot.dta
+cp_province, cp_district, cp_ward, cp_sector, cp_ea, cp_region, cp_geocode, cp_area, cp_structure, cp_hhnumber, cp_hhid, cp_hhead, cp_phoneno, cp_address, cp_gps, cp_main, st_supname, st_intname, st_identified, st_HHmove, M1_Q0a, M1_Q0b, M1_start_date, M1_Q01, M1_Q02, M1_Q03, M1_Q04, M1_Q05, M2_START_DATE, M2_Q01, M3_start_date_time, M3_respondent, M3_Q00, M3_Q01, M4_start_date, M4_respondent, M4_Q01, M4_Q01_oth, M4_Q01a, M4_Q01b_Amt, M5_Q01b_Curr, M4_Q01c_Amt, M4_Q01c_Curr, M4_Q02, M4_Q02_oth, M4_Q03, M4_Q03_oth, M4_Q04, M4_Q04_oth, M4_Q05, M4_Q05_oth, M4_Q06, M4_Q07, M4_Q08, M4_Q08_oth, M4_Q09, M4_Q09_oth, M4_Q10, M4_Q10_oth, M4_Q11, M4_Q12, M4_Q13, M4_Q13_oth, M4_Q14, M4_Q14_oth, M4_Q15, M4_Q15_oth, M4_Q16, M4_Q16_oth, M4_Q17, M4_Q18, M4_Q18_oth, M4_Q19, M4_Q19_oth, M4_Q20, M4_Q21, M4_Q22, M4_Q23, M4_Q24, M4_Q24_oth, M4_Q25, M4_Q25_oth, M4_Q26, H27, M4_Q28, M4_Q28_oth, M4_Q29, M4_Q30, M4_Q31, M4_Q32, M4_Q33, M4_Q33_oth, M4_Q34, M4_Q35, M4_Q35_oth, M4_Q37, M4_Q38a_Amt, M4_Q38a_Curr, M4_Q38b_Amt, M4_Q38b_Curr, M4_Q38c_Amt, M4_Q38c_Curr, M5_15d_Amt, M4_Q38d_Curr, M4_Q39, M4_Q40_Amt, M5_Q40b_Curr, M8_start_date_time, M8_respondent, M8_Q01, M9_START_DATE, M10_START_DATE, M10_RESPONDENT, M11_start_date, M11_respondent, M12_start_date, M13_start_date, M14_start_date_time, M14_Q00, M14_Q01, M14_Q0E1, M15_Q02a, M16_StartTime, M16_respondent, M16_Q1a, M16_Q1b, M16_Q1c, M16_Q1d, M16_Q1B2, M16_Q2a, M16_Q2b, M16_Q2c, M16_Q2d, M16_Q2B2, M16_Q3a, M16_Q3b, M16_Q3c, M16_Q3d, M16_Q3B2, M16_Q4a, M16_Q4b, Module17_start_date, Respondent_for_module17, M17_01B, M17_Q01, M18_startDateTime, M18_respondent, M18_Q01, Q18_Q02, M18_Q11_amt, M18_Q11_cuur, M18_Q12, M18_Q13_amt, M18_Q13_cuur, M19_START_DATE, M19_RESPONDENT, M19_Q01, M20_START_DATE, M20_RESPONDENT, M21_Starting_Time, M21_Q01, M21_FAFH, M22A_StartTime, M22A_respondent, M22A_Q02_EXPENDITURE, check_M22A_complete, M22A_Q02_cereals, M22A_Q02_flours, M22A_Q02_bakery, M22A_Q02_BF_cereals, M22A_Q02_pasta, M22A_Q02_OthCreals, M22A_Q02_LiveAnimal, M22A_Q02_Meat_fresh, M22A_Q02_Meat_dried, M22A_Q02_Offal_blood, M22A_Q02_meat_prep, M22A_Q02_Fish_fresh, M22A_Q02_Fish_dried, M22A_Q02_Fish_prep, M22A_Q02_OthSFFresh, M22A_Q02_OtSFDried, M22A_Q02_oth_sf_prep, M22A_Q02_milk_raw, M22A_Q02_MilkSkimm, M22A_Q02_OthMilkCre, M22A_Q02_NonAni_milk, M22A_Q02_Cheese, M22A_Q02_Yoghurt, M22A_Q02_MilkDessert, M22A_Q02_Eggs, M22A_Q02_Vege_oils, M22A_Q02_Butter_fats, M22A_Q02_Margarine, M22A_Q02_Oth_Ani_fat, M22A_Q02_Tropi_fruit, M22A_Q02_CitrusFrt, M22A_Q02_StoneFrut, M22A_Q02_BerriyFresh, M22A_Q02_Oth_fruit_f, M22A_Q02_FrozFruit, M22A_Q02_Fruit_dried, M22A_Q02_Nuts, M22A_Q02_Fr_nut_prep, M22A_Q02_Leafy_veg, M22A_Q02_Fruit_veg, M22A_Q02_Green_leg, M22A_Q02_Ot_veg_tube, M22A_Q02_potatoes, M22A_Q02_Pulses, M22A_Q02_OtVegiDried, M22A_Q02_vegi_froze, M22A_Q02_Vegi_prep, M22A_Q02_Cane_sugar, M22A_Q02_Other_sugar, M22A_Q02_Jams, M22A_Q02_Nut_paste, M22A_Q02_Chocolate, M22A_Q02_Ice_cream, M22A_Q02_gums_candy, M22A_Q02_PrepFood, M22A_Q02_Baby_food, M22A_Q02_Salt_cond, M22A_Q02_Spices, M22A_Q02_juices, M22A_Q02_Coffee, M22A_Q02_tea, M22A_Q02_CocoaDrink, M22A_Q02_Water, M22A_Q02_Soft_drinks, M22A_Q02_OthNonAlcoh, M22B_StartTime, M22B_respondent, M22B_Q01_EXPENDITURE, check_M22B_complete, M22B_Q01_cereals, M22B_Q01_flours, M22B_Q01_bakery, M22B_Q01_BF_cereals, M22B_Q01_pasta, M22B_Q01_OthCreals, M22B_Q01_LiveAnimal, M22B_Q01_Meat_fresh, M22B_Q01_Meat_dried, M22B_Q01_Offal_blood, M22B_Q01_meat_prep, M22B_Q01_Fish_fresh, M22B_Q01_Fish_dried, M22B_Q01_Fish_prep, M22B_Q01_OthSFFresh, M22B_Q01_OtSFDried, M22B_Q01_oth_sf_prep, M22B_Q01_milk_raw, M22B_Q01_MilkSkimm, M22B_Q01_OthMilkCre, M22B_Q01_NonAni_milk, M22B_Q01_Cheese, M22B_Q01_Yoghurt, M22B_Q01_MilkDessert, M22B_Q01_Eggs, M22B_Q01_Vege_oils, M22B_Q01_Butter_fats, M22B_Q01_Margarine, M22B_Q01_Oth_Ani_fat, M22B_Q01_Tropi_fruit, M22B_Q01_CitrusFrt, M22B_Q01_StoneFrut, M22B_Q01_BerriyFresh, M22B_Q01_Oth_fruit_f, M22B_Q01_FrozFruit, M22B_Q01_Fruit_dried, M22B_Q01_Nuts, M22B_Q01_Fr_nut_prep, M22B_Q01_Leafy_veg, M22B_Q01_Fruit_veg, M22B_Q01_Green_leg, M22B_Q01_Ot_veg_tube, M22B_Q01_potatoes, M22B_Q01_Pulses, M22B_Q01_OtVegiDried, M22B_Q01_vegi_froze, M22B_Q01_Vegi_prep, M22B_Q01_Cane_sugar, M22B_Q01_Other_sugar, M22B_Q01_Jams, M22B_Q01_Nut_paste, M22B_Q01_Chocolate, M22B_Q01_Ice_cream, M22B_Q01_gums_candy, M22B_Q01_PrepFood, M22B_Q01_Baby_food, M22B_Q01_Salt_cond, M22B_Q01_Spices, M22B_Q01_juices, M22B_Q01_Coffee, M22B_Q01_tea, M22B_Q01_CocoaDrink, M22B_Q01_Water, M22B_Q01_Soft_drinks, M22B_Q01_OthNonAlcoh, M23A_start_date, M23A_respondent, M23A_Q01, M23A_Q02_check, M23A_Q02_SpiritsLiq, M23A_Q02_WineGrapes, M23A_Q02_CiderPerry, M23A_Q02_Beer, M23A_Q02_Cigarettes, M23A_Q02_Cigars, M23A_Q02_OthTobacco, M23A_Q02_Narcotics, M23B_start_date, M23b_respondent, M23B_Q01, M23B_Q02_check, M23B_Q02_SpiritsLiq, M23B_Q02_WineGrapes, M23B_Q02_CiderPerry, M23B_Q02_Beer, M23B_Q02_Cigarettes, M23B_Q02_Cigars, M23B_Q02_OthTobacco, M23B_Q02_Narcotics, Module24_start_date, Respondent_for_module_24, M24_Q01, M25_start_date, M25_Respondent, M25_Q01, M25b_start_date, M25b_Respondent, M25b_Q01, M26_start_date, M26_Respondent, M26_Q01, M27_start_date, M27_Respondent, M27_Q01, M28a_start_date, M28a_Respondent, M28a_Q01, M28b_start_date, M28b_Respondent, M28b_Q01, M29_start_date, M29_Respondent, M29_Q01, M30_start_date, M30_Respondent, M30_Q01, M31_start_date, M31_Respondent, M31_Q01, M32_START_DATE, M32_RESPONDENT, M32_Q00, M33_Start_Date, M33_respondent, M33_Q1, M33_Q2, M33_Q3, M33_Q4, M33_Q5, M33_Q6, M34_StartTime, M34_respondent, M34_Q1a, M34_Q1b, M34_Q1c, M34_Q1d, M34_Q1e, M34_Q1f, M34_Q1g, M34_Q1h, M35_StartTime, M35_respondent, M35_Q01, M35_Q02, M35_Q03, M35_Q04, M35_Q05, M35_Q06, M35_Q07, M35_Q08, M35_Q09, M35_Q10, M35_Q11, M35_Q12, M35_Q13, M35_Q14, M35_Q15, M36_Q01a, M36_Q02a1, M36_Q02_1, M36_Q01b, M36_Q02a2, M36_Q02_2, M36_Q01c, M36_Q02a3, M36_Q02_3, M36_Q03, M36_Q04a, M36_Q04b, M36_Q04c, M36_Q04c_oth
+
+hhmembers.dta
+M2_Q02, M2_Q03, M2_Q04, M2_Q05, M2_Q06, M2_Q07, M2_Q08, M2_Q09, M2_Q10, M2_Q11, M2_Q12, M2_Q13, M2_Q14, M2_Q14_OTH, M2_Q15, M2_Q16, M2_Q17, M2_Q18, M2_Q19, M2_Q20, M2_Q21, M2_Q21_ISCO, M2_Q22, M2_Q23, M2_Q24, M2_Q25, M2_Q26, M2_Q26_ISIC, M2_Q27, M2_Q28, M2_Q29_auth, M2_Q29, M9_Q0respondent, M9_RES_ID, M9_Q01, M9_Q02, M2_Q02_oth, M9_Q03, M9_Q03a, M9_Q04, M9_Q05, M9_Q06, M2_Q06_oth, M9_Q07, M9_Q07_oth, M9_Q08, M9_Q09, M9_Q10, M9_Q11, M9_Q11_oth, M9_Q12, M9_Q13_amt, M9_Q13_curr, M9_Q14, M9_Q15, M9_Q16_AMT, M9_Q16_curr, M9_Q17, M9_Q18_AMT, M9_Q18_Curr, M9_Q19, M9_Q20, M9_Q21_AMT, M9_Q21_Curr, M9_Q22, M9_Q22_oth, M9_Q23, M9_Q24, M10_Q0respondent, M10_RES_ID, M10_Q01, M10_Q02, M10_Q03, M10_Q04, M10_Q06, M10_Q07, M10_Q08, M10_Q09, M10_Q10, M10_Q11, M10_Q12, M10_Q13, M10_Q14, M10_Q14_oth, M10_Q15, M10_Q15_oth, M10_Q16, M10_Q17, M10_Q17ISCO, M10_Q18, M10_Q18_ISIC, M10_Q19, M10_Q20, M10_Q21, M10_Q22, M10_Q23, M10_Q23_oth, M10_Q24, M10_Q25, M10_Q26, M10_Q27, M10_Q28, M10_Q28_ISCO, M10_Q29, M10_Q29_ISIC, M11_Q0respondent, M11_RES_ID, M11_Q01, M11_Q02, M11_Q02_oth, M11_Q03, M11_Q03_oth, M11_Q04, M11_Q04_oth, M11_Q05, M11_Q05_oth, M11_Q06, M11_Q07, M11_Q07_oth, M11_Q08, M11_Q09, M11_Q10, M11_Q10_oth, M11_Q11, M11_Q12, M11_Q13, M11_Q14, M11_Q15, M11_Q16, M11_Q16_oth, M12_Q0respondent, M12_RES_ID, M12_Q01, M12_Q02, M12_Q03, M12_Q04, M12_Q05, M12_Q06, M12_Q07a, M12_Q7a_oth, M12_Q07b, M12_Q07b_oth, M12_Q07c, M12_Q07c_oth, M12_Q07d, M12_Q07d_oth, M12_Q07e, M12_Q07e_oth, M12_Q07f, M12_Q07f_oth, M12_Q08, M12_Q08_oth, M12_Q09, M13_Q0respondent, M13_RES_ID, M13_Q01, M13_Q02, M13_Q03, M13_Q04_curr, M13_Q04_amt_ZWD, M13_Q04_amt_USD, M13_Q04_amt_RAND, M13_Q04_amt_PULA, M13_Q05, M13_Q06, M13_Q07_curr, M13_Q07_amt, M13_Q08_curr, M13_Q08_amt, M13_Q09_amt, M13_Q09_curr, M13_Q10, M13_Q11_amt, M13_Q11_curr, M13_Q12, M13_Q13_amt, M13_Q13_Curr, M13_Q14, M13_Q15_amt, M13_Q15_curr, M13_Q16, M13_Q17_Amt, M13_Q17_Curr, M13_Q18
+
+International_Migration.dta
+M3_Q02, M3_Q03, M3_Q04, M3_Q05, M3_Q06, M3_Q07, M3_Q08, M3_Q09, M3_Q10, M3_Q11, M3_Q12, M3_Q13A, M3_Q13B, M3_Q14, M3_Q15, M3_Q16_amt, M3_Q16_curr, M3_Q17_amt, M3_Q18_curr
+
+hh_assets_roster.dta
+M8_Q02, M8_Q03, M8_Q04, M8_Q05_amt, M8_Q05_curr, M8_Q06, M8_Q07_amt, M8_Q07_curr
+
+nfe_roster.dta
+M15_Q02_b, M15_Q03, M15_Q04, M15_Q05, M15_Q05_oth, M15_Q06, M15_Q07, M15_Q08_amt, M15_Q08_curr, M15_Q09_amt, M15_Q09_curr, M15_Q10_amt, M15_Q10_curr, M15_Q11_a_amt, M15_Q11_a_curr, M15_Q11_b_amt, M15_Q11_b_curr, M15_Q11_c_amt, M15_Q11_c_curr, M15_Q11_d_amt, M15_Q11_d_curr, M15_Q11_e_amt, M15_Q11_e_curr, M15_Q11_f_amt, M15_Q11_f_curr, M15_Q11_g_amt, M15_Q11_g_curr, M15_Q11_h_amt, M15_Q11_h_curr, M15_Q11_j_amt, M15_Q11_j_curr, M15_Q11_k_amt, M15_Q11_k_curr, M15_Q11_l_amt, M15_Q11_l_curr, M15_Q11_m_amt, M15_Q11_m_curr, M15_Q11_n_amt, M15_Q11_n_curr, M15_Q11_o_amt, M15_Q11_o_curr, M15_Q11_o, M15_Q11_p_amt, M15_Q11_p_curr
+
+Mod17_Crops.dta
+M17_Q02b, M17_Q02, M17_Q02_UNIT, M17_Q03, M17_Q04, M17_Q05, M17_Q05_oth, M17_Q06_QTY, M17_Q06_UNIT, M17_Q07, M17_Q07_CURRENCY, M17_Q08, M17_Q09, M17_Q09_CURRENCY, M17_Q10, M17_Q10_CURRENCY, M17_Q11, M17_Q11_oth, M17_Q12, M17_Q13, M17_Q14, M17_Q15, M17_Q15_CURRENCY, M17_Q16, M17_Q17, M17_Q17_CURRENCY, M17_Q18, M17_Q19, M17_Q19_CURRENCY, M17_Q20, M17_Q21, M17_Q21_CURRENCY, M17_Q22, M17_Q23, M17_Q24, M17_Q24_CURRENCY, M17_Q25
+
+livestock.dta
+M18_Q02_oth, M18_Q03, Q18_Q04, M18_Q05_amt, M18_Q05_cuur, M18_Q06, M18_Q07, M18_Q08_amt, M18_Q08_curr, M18_Q09, M18_Q10
+
+M19_LABOUR_INCOME_Roster.dta
+M19_Q02_curr, M19_Q02_amt_ZWD, M19_Q02_amt_USD, M19_Q02_amt_RAND, M19_Q02_amt_PULA
+
+FAFH_roster.dta
+M21_Q02_amt, M21_Q02_curr, M21_Q03
+
+M24_Q07_gifts.dta
+M24_Q02_ItemList
+
+M25_Product.dta
+M25_Q02_ItemList
+
+M25b_Product.dta
+M25b_Q02_ItemList
+
+M26_Product.dta
+M26_Q02_ItemList
+
+M27_Product.dta
+M27_Q02_ItemList
+
+M28a_Product.dta
+M28a_Q02_ItemList
+
+M28b_Product.dta
+M28b_Q02_ItemList
+
+M29_Product.dta
+M29_Q02_ItemList
+
+M30_Product.dta
+M30_Q02_ItemList
+
+M31_Product.dta
+M31_Q02_ItemList
+
+Commodities_non_food_1mon.dta
+M24_Q02_Item_os, M24_Q03, M24_Q04, M24_Q05_amt, M24_Q05_curr, M24_Q06_amt, M24_Q06_curr, M24_Q07, M24_Q08a_amt_gift, M24_Q08a_curr_gift, M24_Q08b_amt_trans, M24_Q08b_curr_trans, M24_Q08c_amt_inkin, M24_Q08c_curr_inkin
+
+M25_ITEM.dta
+M25_Q02_Item_os, M25_Q03, M25_Q04, M25_Q05_amt, M25_Q05_curr, M25_Q06_amt, M25_Q06_curr, M25_Q07, M25_Q08a_amt_gift, M25_Q08a_curr_gift, M25_Q08b_amt_trans, M25_Q08b_curr_trans, M25_Q08c_amt_inkin, M25_Q08c_curr_inkin
+
+M25b_ITEM.dta
+M25b_Q02_Item_os, M25b_Q03, M25b_Q04, M25b_Q05_amt, M25b_Q05_curr, M25b_Q06_amt, M25b_Q06_curr, M25b_Q07, M25b_Q08a_amt_gift, M25b_Q08a_curr_gift, M25b_Q08b_amt_trans, M25b_Q08b_curr_trans, M25b_Q08c_amt_inkin, M25b_Q08c_curr_inkin
+
+M26_ITEM.dta
+M26_Q02_Item_os, M26_Q03, M26_Q04, M26_Q05_amt, M26_Q05_curr, M26_Q06_amt, M26_Q06_curr, M26_Q07, M26_Q08a_amt_gift, M26_Q08a_curr_gift, M26_Q08b_amt_trans, M26_Q08b_curr_trans, M26_Q08c_amt_inkin, M26_Q08c_curr_inkin
+
+M27_ITEM.dta
+M27_Q02_Item_os, M27_Q03, M27_Q04, M27_Q05_amt, M27_Q05_curr, M27_Q06_amt, M27_Q06_curr, M27_Q07, M27_Q08a_amt_gift, M27_Q08a_curr_gift, M27_Q08b_amt_trans, M27_Q08b_curr_trans, M27_Q08c_amt_inkin, M27_Q08c_curr_inkin
+
+M28a_ITEM.dta
+M28a_Q02_Item_os, M28a_Q03, M28a_Q04, M28a_Q05_amt, M28a_Q05_curr, M28a_Q06_amt, M28a_Q06_curr, M28a_Q07, M28a_Q08a_amt_gift, M28a_Q08a_curr_gift, M28a_Q08b_amt_trans, M28a_Q08b_curr_trans, M28a_Q08c_amt_inkin, M28a_Q08c_curr_inkin
+
+M28b_ITEM.dta
+M28b_Q02_Item_os, M28b_Q03, M28b_Q04, M28b_Q05_amt, M28b_Q05_curr, M28b_Q06_amt, M28b_Q06_curr, M28b_Q07, M28b_Q08a_amt_gift, M28b_Q08a_curr_gift, M28b_Q08b_amt_trans, M28b_Q08b_curr_trans, M28b_Q08c_amt_inkin, M28b_Q08c_curr_inkin
+
+M29_ITEM.dta
+M29_Q02_Item_os, M29_Q03, M29_Q04, M29_Q05_amt, M29_Q05_curr, M29_Q06_amt, M29_Q06_curr, M29_Q07, M29_Q08a_amt_gift, M29_Q08a_curr_gift, M29_Q08b_amt_trans, M29_Q08b_curr_trans, M29_Q08c_amt_inkin, M29_Q08c_curr_inkin
+
+M30_ITEM.dta
+M30_Q02_Item_os, M30_Q03, M30_Q04, M30_Q05_amt, M30_Q05_curr, M30_Q06_amt, M30_Q06_curr, M30_Q07, M30_Q08a_amt_gift, M30_Q08a_curr_gift, M30_Q08b_amt_trans, M30_Q08b_curr_trans, M30_Q08c_amt_inkin, M30_Q08c_curr_inkin
+
+M31_ITEM.dta
+M31_Q02_Item_os, M31_Q03, M31_Q04, M31_Q05_amt, M31_Q05_curr, M31_Q06_amt, M31_Q06_curr, M31_Q07, M31_Q08a_amt_gift, M31_Q08a_curr_gift, M31_Q08b_amt_trans, M31_Q08b_curr_trans, M31_Q08c_amt_inkin, M31_Q08c_curr_inkin
+
+facility_distance_roster.dta
+M4_Q36
+
+social_safety_nets.dta
+M20_Q01, M20_Q02, M20_Q03_MONTH, M20_Q03_YEAR, M20_Q04_VALUE, M20_Q04_CURRENCY, M20_Q05, M20_Q06, M20_Q07, M20_Q08, M20_Q09
+
+M22A_Roster_A.dta
+M22A_Q02_OS_A, M22A_Q03_A, M22A_Q04_A, M22A_Q05_qty_A, M22A_Q05_unit_A, M22A_Q05_size_A, M22A_Q06_amt_A, M22A_Q06_curr_A, M22A_Q07_qty_A, M22A_Q07_unit_A, M22A_Q07_size_A, M22A_Q08_amt_A, M22A_Q08_curr_A, M22A_Q09_A, M22A_Q10_qty_A, M22A_Q10_unit_A, M22A_Q10_size_A, M22A_Q11_qty_A, M22A_Q11_unit_A, M22A_Q11_size_A, M22A_Q12_qty_A, M22A_Q12_unit_A, M22A_Q12_size_A
+
+M22A_Roster_B.dta
+M22A_Q02_OS_B, M22A_Q03_B, M22A_Q04_B, M22A_Q05_qty_B, M22A_Q05_unit_B, M22A_Q05_size_B, M22A_Q06_Bmt_B, M22A_Q06_curr_B, M22A_Q07_qty_B, M22A_Q07_unit_B, M22A_Q07_size_B, M22A_Q08_Bmt_B, M22A_Q08_curr_B, M22A_Q09_B, M22A_Q10_qty_B, M22A_Q10_unit_B, M22A_Q10_size_B, M22A_Q11_qty_B, M22A_Q11_unit_B, M22A_Q11_size_B, M22A_Q12_qty_B, M22A_Q12_unit_B, M22A_Q12_size_B
+
+M22B_Roster_A.dta
+M22B_Q01_OS_A, M22B_Q03_qty_A, M22B_Q03_unit_A, M22B_Q03_size_A, M22B_Q04_A, M22B_Q05_qty_A, M22B_Q06_val_A, M22B_Q06_curr_A, M22B_Q07_qty_A, M22B_Q08_qty_A, M22B_Q09_qty_A, M22B_Q10_qty_A
+
+M22B_Roster_B.dta
+M22B_Q01_OS_B, M22B_Q03_qty_B, M22B_Q03_unit_B, M22B_Q03_size_B, M22B_Q04_B, M22B_Q05_qty_B, M22B_Q06_val_B, M22B_Q06_curr_B, M22B_Q07_qty_B, M22B_Q08_qty_B, M22B_Q09_qty_B, M22B_Q10_qty_B
+
+M23A_Roster_A.dta
+M23A_Q02_OS_A, M23A_Q03_A, M23A_Q04_A, M23A_Q05_qty_A, M23A_Q05_unit_A, M23A_Q05_size_A, M23A_Q06_amt_A, M23A_Q06_curr_A, M23A_Q07_qty_A, M23A_Q07_unit_A, M23A_Q07_size_A, M23A_Q08_amt_A, M23A_Q08_curr_A, M23A_Q09_A, M23A_Q10_qty_A, M23A_Q10_unit_A, M23A_Q10_size_A, M23A_Q11_qty_A, M23A_Q11_unit_A, M23A_Q11_size_A, M23A_Q12_qty_A, M23A_Q12_unit_A, M23A_Q12_size_A
+
+M22B_Roster.dta
+M22B_Q01_OS, M22B_Q03_qty, M22B_Q03_unit, M22B_Q03_size, M22B_Q04, M22B_Q05_qty, M22B_Q06_val, M22B_Q06_curr, M22B_Q07_qty, M22B_Q08_qty, M22B_Q09_qty, M22B_Q10_qty
+
+Points_of_purchase.dta
+M32_Q01, M32_Q01_oth
+
+M33_domestic.dta
+M33_Q7_Amt, M33_Q7_Curr, M33_Q8_Amt, M33_Q8_Curr, M33_Q9_Amt, M33_Q9_Curr, M33_Q10_Amt, M33_Q10_Curr
+
+```
+
+:::
+
+::: {.column width="20%"}
+
+- Survey Solutions software version used to export
+- Date of export
+
+:::
+
+::::
+
+## Export file manifest {.t2}
+
+:::: {.columns}
+
+::: {.column width="80%"}
+
+```{.text code-line-numbers="6"}
+- TODO: add code block containing text from `export__readme.txt` from "Capturing What Matters"
+- TODO: use `code-line-numbers` to walk through code and explain
+
+Generated by Survey Solutions export module 23.06.1 (build 34560) on Saturday, 16 September 2023
+The data in this download were collected using the Survey Solutions questionnaire "ZiHBS 2023 Actual Pilot". 
+You can open the questionnaire in the Survey Solutions Designer online by that link: https://designer.mysurvey.solutions/questionnaire/details/07a29ec50a0f4b5f9a7f45dd591d2514$2
+
+ZiHBS_2023_Actual_pilot.dta
+cp_province, cp_district, cp_ward, cp_sector, cp_ea, cp_region, cp_geocode, cp_area, cp_structure, cp_hhnumber, cp_hhid, cp_hhead, cp_phoneno, cp_address, cp_gps, cp_main, st_supname, st_intname, st_identified, st_HHmove, M1_Q0a, M1_Q0b, M1_start_date, M1_Q01, M1_Q02, M1_Q03, M1_Q04, M1_Q05, M2_START_DATE, M2_Q01, M3_start_date_time, M3_respondent, M3_Q00, M3_Q01, M4_start_date, M4_respondent, M4_Q01, M4_Q01_oth, M4_Q01a, M4_Q01b_Amt, M5_Q01b_Curr, M4_Q01c_Amt, M4_Q01c_Curr, M4_Q02, M4_Q02_oth, M4_Q03, M4_Q03_oth, M4_Q04, M4_Q04_oth, M4_Q05, M4_Q05_oth, M4_Q06, M4_Q07, M4_Q08, M4_Q08_oth, M4_Q09, M4_Q09_oth, M4_Q10, M4_Q10_oth, M4_Q11, M4_Q12, M4_Q13, M4_Q13_oth, M4_Q14, M4_Q14_oth, M4_Q15, M4_Q15_oth, M4_Q16, M4_Q16_oth, M4_Q17, M4_Q18, M4_Q18_oth, M4_Q19, M4_Q19_oth, M4_Q20, M4_Q21, M4_Q22, M4_Q23, M4_Q24, M4_Q24_oth, M4_Q25, M4_Q25_oth, M4_Q26, H27, M4_Q28, M4_Q28_oth, M4_Q29, M4_Q30, M4_Q31, M4_Q32, M4_Q33, M4_Q33_oth, M4_Q34, M4_Q35, M4_Q35_oth, M4_Q37, M4_Q38a_Amt, M4_Q38a_Curr, M4_Q38b_Amt, M4_Q38b_Curr, M4_Q38c_Amt, M4_Q38c_Curr, M5_15d_Amt, M4_Q38d_Curr, M4_Q39, M4_Q40_Amt, M5_Q40b_Curr, M8_start_date_time, M8_respondent, M8_Q01, M9_START_DATE, M10_START_DATE, M10_RESPONDENT, M11_start_date, M11_respondent, M12_start_date, M13_start_date, M14_start_date_time, M14_Q00, M14_Q01, M14_Q0E1, M15_Q02a, M16_StartTime, M16_respondent, M16_Q1a, M16_Q1b, M16_Q1c, M16_Q1d, M16_Q1B2, M16_Q2a, M16_Q2b, M16_Q2c, M16_Q2d, M16_Q2B2, M16_Q3a, M16_Q3b, M16_Q3c, M16_Q3d, M16_Q3B2, M16_Q4a, M16_Q4b, Module17_start_date, Respondent_for_module17, M17_01B, M17_Q01, M18_startDateTime, M18_respondent, M18_Q01, Q18_Q02, M18_Q11_amt, M18_Q11_cuur, M18_Q12, M18_Q13_amt, M18_Q13_cuur, M19_START_DATE, M19_RESPONDENT, M19_Q01, M20_START_DATE, M20_RESPONDENT, M21_Starting_Time, M21_Q01, M21_FAFH, M22A_StartTime, M22A_respondent, M22A_Q02_EXPENDITURE, check_M22A_complete, M22A_Q02_cereals, M22A_Q02_flours, M22A_Q02_bakery, M22A_Q02_BF_cereals, M22A_Q02_pasta, M22A_Q02_OthCreals, M22A_Q02_LiveAnimal, M22A_Q02_Meat_fresh, M22A_Q02_Meat_dried, M22A_Q02_Offal_blood, M22A_Q02_meat_prep, M22A_Q02_Fish_fresh, M22A_Q02_Fish_dried, M22A_Q02_Fish_prep, M22A_Q02_OthSFFresh, M22A_Q02_OtSFDried, M22A_Q02_oth_sf_prep, M22A_Q02_milk_raw, M22A_Q02_MilkSkimm, M22A_Q02_OthMilkCre, M22A_Q02_NonAni_milk, M22A_Q02_Cheese, M22A_Q02_Yoghurt, M22A_Q02_MilkDessert, M22A_Q02_Eggs, M22A_Q02_Vege_oils, M22A_Q02_Butter_fats, M22A_Q02_Margarine, M22A_Q02_Oth_Ani_fat, M22A_Q02_Tropi_fruit, M22A_Q02_CitrusFrt, M22A_Q02_StoneFrut, M22A_Q02_BerriyFresh, M22A_Q02_Oth_fruit_f, M22A_Q02_FrozFruit, M22A_Q02_Fruit_dried, M22A_Q02_Nuts, M22A_Q02_Fr_nut_prep, M22A_Q02_Leafy_veg, M22A_Q02_Fruit_veg, M22A_Q02_Green_leg, M22A_Q02_Ot_veg_tube, M22A_Q02_potatoes, M22A_Q02_Pulses, M22A_Q02_OtVegiDried, M22A_Q02_vegi_froze, M22A_Q02_Vegi_prep, M22A_Q02_Cane_sugar, M22A_Q02_Other_sugar, M22A_Q02_Jams, M22A_Q02_Nut_paste, M22A_Q02_Chocolate, M22A_Q02_Ice_cream, M22A_Q02_gums_candy, M22A_Q02_PrepFood, M22A_Q02_Baby_food, M22A_Q02_Salt_cond, M22A_Q02_Spices, M22A_Q02_juices, M22A_Q02_Coffee, M22A_Q02_tea, M22A_Q02_CocoaDrink, M22A_Q02_Water, M22A_Q02_Soft_drinks, M22A_Q02_OthNonAlcoh, M22B_StartTime, M22B_respondent, M22B_Q01_EXPENDITURE, check_M22B_complete, M22B_Q01_cereals, M22B_Q01_flours, M22B_Q01_bakery, M22B_Q01_BF_cereals, M22B_Q01_pasta, M22B_Q01_OthCreals, M22B_Q01_LiveAnimal, M22B_Q01_Meat_fresh, M22B_Q01_Meat_dried, M22B_Q01_Offal_blood, M22B_Q01_meat_prep, M22B_Q01_Fish_fresh, M22B_Q01_Fish_dried, M22B_Q01_Fish_prep, M22B_Q01_OthSFFresh, M22B_Q01_OtSFDried, M22B_Q01_oth_sf_prep, M22B_Q01_milk_raw, M22B_Q01_MilkSkimm, M22B_Q01_OthMilkCre, M22B_Q01_NonAni_milk, M22B_Q01_Cheese, M22B_Q01_Yoghurt, M22B_Q01_MilkDessert, M22B_Q01_Eggs, M22B_Q01_Vege_oils, M22B_Q01_Butter_fats, M22B_Q01_Margarine, M22B_Q01_Oth_Ani_fat, M22B_Q01_Tropi_fruit, M22B_Q01_CitrusFrt, M22B_Q01_StoneFrut, M22B_Q01_BerriyFresh, M22B_Q01_Oth_fruit_f, M22B_Q01_FrozFruit, M22B_Q01_Fruit_dried, M22B_Q01_Nuts, M22B_Q01_Fr_nut_prep, M22B_Q01_Leafy_veg, M22B_Q01_Fruit_veg, M22B_Q01_Green_leg, M22B_Q01_Ot_veg_tube, M22B_Q01_potatoes, M22B_Q01_Pulses, M22B_Q01_OtVegiDried, M22B_Q01_vegi_froze, M22B_Q01_Vegi_prep, M22B_Q01_Cane_sugar, M22B_Q01_Other_sugar, M22B_Q01_Jams, M22B_Q01_Nut_paste, M22B_Q01_Chocolate, M22B_Q01_Ice_cream, M22B_Q01_gums_candy, M22B_Q01_PrepFood, M22B_Q01_Baby_food, M22B_Q01_Salt_cond, M22B_Q01_Spices, M22B_Q01_juices, M22B_Q01_Coffee, M22B_Q01_tea, M22B_Q01_CocoaDrink, M22B_Q01_Water, M22B_Q01_Soft_drinks, M22B_Q01_OthNonAlcoh, M23A_start_date, M23A_respondent, M23A_Q01, M23A_Q02_check, M23A_Q02_SpiritsLiq, M23A_Q02_WineGrapes, M23A_Q02_CiderPerry, M23A_Q02_Beer, M23A_Q02_Cigarettes, M23A_Q02_Cigars, M23A_Q02_OthTobacco, M23A_Q02_Narcotics, M23B_start_date, M23b_respondent, M23B_Q01, M23B_Q02_check, M23B_Q02_SpiritsLiq, M23B_Q02_WineGrapes, M23B_Q02_CiderPerry, M23B_Q02_Beer, M23B_Q02_Cigarettes, M23B_Q02_Cigars, M23B_Q02_OthTobacco, M23B_Q02_Narcotics, Module24_start_date, Respondent_for_module_24, M24_Q01, M25_start_date, M25_Respondent, M25_Q01, M25b_start_date, M25b_Respondent, M25b_Q01, M26_start_date, M26_Respondent, M26_Q01, M27_start_date, M27_Respondent, M27_Q01, M28a_start_date, M28a_Respondent, M28a_Q01, M28b_start_date, M28b_Respondent, M28b_Q01, M29_start_date, M29_Respondent, M29_Q01, M30_start_date, M30_Respondent, M30_Q01, M31_start_date, M31_Respondent, M31_Q01, M32_START_DATE, M32_RESPONDENT, M32_Q00, M33_Start_Date, M33_respondent, M33_Q1, M33_Q2, M33_Q3, M33_Q4, M33_Q5, M33_Q6, M34_StartTime, M34_respondent, M34_Q1a, M34_Q1b, M34_Q1c, M34_Q1d, M34_Q1e, M34_Q1f, M34_Q1g, M34_Q1h, M35_StartTime, M35_respondent, M35_Q01, M35_Q02, M35_Q03, M35_Q04, M35_Q05, M35_Q06, M35_Q07, M35_Q08, M35_Q09, M35_Q10, M35_Q11, M35_Q12, M35_Q13, M35_Q14, M35_Q15, M36_Q01a, M36_Q02a1, M36_Q02_1, M36_Q01b, M36_Q02a2, M36_Q02_2, M36_Q01c, M36_Q02a3, M36_Q02_3, M36_Q03, M36_Q04a, M36_Q04b, M36_Q04c, M36_Q04c_oth
+
+hhmembers.dta
+M2_Q02, M2_Q03, M2_Q04, M2_Q05, M2_Q06, M2_Q07, M2_Q08, M2_Q09, M2_Q10, M2_Q11, M2_Q12, M2_Q13, M2_Q14, M2_Q14_OTH, M2_Q15, M2_Q16, M2_Q17, M2_Q18, M2_Q19, M2_Q20, M2_Q21, M2_Q21_ISCO, M2_Q22, M2_Q23, M2_Q24, M2_Q25, M2_Q26, M2_Q26_ISIC, M2_Q27, M2_Q28, M2_Q29_auth, M2_Q29, M9_Q0respondent, M9_RES_ID, M9_Q01, M9_Q02, M2_Q02_oth, M9_Q03, M9_Q03a, M9_Q04, M9_Q05, M9_Q06, M2_Q06_oth, M9_Q07, M9_Q07_oth, M9_Q08, M9_Q09, M9_Q10, M9_Q11, M9_Q11_oth, M9_Q12, M9_Q13_amt, M9_Q13_curr, M9_Q14, M9_Q15, M9_Q16_AMT, M9_Q16_curr, M9_Q17, M9_Q18_AMT, M9_Q18_Curr, M9_Q19, M9_Q20, M9_Q21_AMT, M9_Q21_Curr, M9_Q22, M9_Q22_oth, M9_Q23, M9_Q24, M10_Q0respondent, M10_RES_ID, M10_Q01, M10_Q02, M10_Q03, M10_Q04, M10_Q06, M10_Q07, M10_Q08, M10_Q09, M10_Q10, M10_Q11, M10_Q12, M10_Q13, M10_Q14, M10_Q14_oth, M10_Q15, M10_Q15_oth, M10_Q16, M10_Q17, M10_Q17ISCO, M10_Q18, M10_Q18_ISIC, M10_Q19, M10_Q20, M10_Q21, M10_Q22, M10_Q23, M10_Q23_oth, M10_Q24, M10_Q25, M10_Q26, M10_Q27, M10_Q28, M10_Q28_ISCO, M10_Q29, M10_Q29_ISIC, M11_Q0respondent, M11_RES_ID, M11_Q01, M11_Q02, M11_Q02_oth, M11_Q03, M11_Q03_oth, M11_Q04, M11_Q04_oth, M11_Q05, M11_Q05_oth, M11_Q06, M11_Q07, M11_Q07_oth, M11_Q08, M11_Q09, M11_Q10, M11_Q10_oth, M11_Q11, M11_Q12, M11_Q13, M11_Q14, M11_Q15, M11_Q16, M11_Q16_oth, M12_Q0respondent, M12_RES_ID, M12_Q01, M12_Q02, M12_Q03, M12_Q04, M12_Q05, M12_Q06, M12_Q07a, M12_Q7a_oth, M12_Q07b, M12_Q07b_oth, M12_Q07c, M12_Q07c_oth, M12_Q07d, M12_Q07d_oth, M12_Q07e, M12_Q07e_oth, M12_Q07f, M12_Q07f_oth, M12_Q08, M12_Q08_oth, M12_Q09, M13_Q0respondent, M13_RES_ID, M13_Q01, M13_Q02, M13_Q03, M13_Q04_curr, M13_Q04_amt_ZWD, M13_Q04_amt_USD, M13_Q04_amt_RAND, M13_Q04_amt_PULA, M13_Q05, M13_Q06, M13_Q07_curr, M13_Q07_amt, M13_Q08_curr, M13_Q08_amt, M13_Q09_amt, M13_Q09_curr, M13_Q10, M13_Q11_amt, M13_Q11_curr, M13_Q12, M13_Q13_amt, M13_Q13_Curr, M13_Q14, M13_Q15_amt, M13_Q15_curr, M13_Q16, M13_Q17_Amt, M13_Q17_Curr, M13_Q18
+
+International_Migration.dta
+M3_Q02, M3_Q03, M3_Q04, M3_Q05, M3_Q06, M3_Q07, M3_Q08, M3_Q09, M3_Q10, M3_Q11, M3_Q12, M3_Q13A, M3_Q13B, M3_Q14, M3_Q15, M3_Q16_amt, M3_Q16_curr, M3_Q17_amt, M3_Q18_curr
+
+hh_assets_roster.dta
+M8_Q02, M8_Q03, M8_Q04, M8_Q05_amt, M8_Q05_curr, M8_Q06, M8_Q07_amt, M8_Q07_curr
+
+nfe_roster.dta
+M15_Q02_b, M15_Q03, M15_Q04, M15_Q05, M15_Q05_oth, M15_Q06, M15_Q07, M15_Q08_amt, M15_Q08_curr, M15_Q09_amt, M15_Q09_curr, M15_Q10_amt, M15_Q10_curr, M15_Q11_a_amt, M15_Q11_a_curr, M15_Q11_b_amt, M15_Q11_b_curr, M15_Q11_c_amt, M15_Q11_c_curr, M15_Q11_d_amt, M15_Q11_d_curr, M15_Q11_e_amt, M15_Q11_e_curr, M15_Q11_f_amt, M15_Q11_f_curr, M15_Q11_g_amt, M15_Q11_g_curr, M15_Q11_h_amt, M15_Q11_h_curr, M15_Q11_j_amt, M15_Q11_j_curr, M15_Q11_k_amt, M15_Q11_k_curr, M15_Q11_l_amt, M15_Q11_l_curr, M15_Q11_m_amt, M15_Q11_m_curr, M15_Q11_n_amt, M15_Q11_n_curr, M15_Q11_o_amt, M15_Q11_o_curr, M15_Q11_o, M15_Q11_p_amt, M15_Q11_p_curr
+
+Mod17_Crops.dta
+M17_Q02b, M17_Q02, M17_Q02_UNIT, M17_Q03, M17_Q04, M17_Q05, M17_Q05_oth, M17_Q06_QTY, M17_Q06_UNIT, M17_Q07, M17_Q07_CURRENCY, M17_Q08, M17_Q09, M17_Q09_CURRENCY, M17_Q10, M17_Q10_CURRENCY, M17_Q11, M17_Q11_oth, M17_Q12, M17_Q13, M17_Q14, M17_Q15, M17_Q15_CURRENCY, M17_Q16, M17_Q17, M17_Q17_CURRENCY, M17_Q18, M17_Q19, M17_Q19_CURRENCY, M17_Q20, M17_Q21, M17_Q21_CURRENCY, M17_Q22, M17_Q23, M17_Q24, M17_Q24_CURRENCY, M17_Q25
+
+livestock.dta
+M18_Q02_oth, M18_Q03, Q18_Q04, M18_Q05_amt, M18_Q05_cuur, M18_Q06, M18_Q07, M18_Q08_amt, M18_Q08_curr, M18_Q09, M18_Q10
+
+M19_LABOUR_INCOME_Roster.dta
+M19_Q02_curr, M19_Q02_amt_ZWD, M19_Q02_amt_USD, M19_Q02_amt_RAND, M19_Q02_amt_PULA
+
+FAFH_roster.dta
+M21_Q02_amt, M21_Q02_curr, M21_Q03
+
+M24_Q07_gifts.dta
+M24_Q02_ItemList
+
+M25_Product.dta
+M25_Q02_ItemList
+
+M25b_Product.dta
+M25b_Q02_ItemList
+
+M26_Product.dta
+M26_Q02_ItemList
+
+M27_Product.dta
+M27_Q02_ItemList
+
+M28a_Product.dta
+M28a_Q02_ItemList
+
+M28b_Product.dta
+M28b_Q02_ItemList
+
+M29_Product.dta
+M29_Q02_ItemList
+
+M30_Product.dta
+M30_Q02_ItemList
+
+M31_Product.dta
+M31_Q02_ItemList
+
+Commodities_non_food_1mon.dta
+M24_Q02_Item_os, M24_Q03, M24_Q04, M24_Q05_amt, M24_Q05_curr, M24_Q06_amt, M24_Q06_curr, M24_Q07, M24_Q08a_amt_gift, M24_Q08a_curr_gift, M24_Q08b_amt_trans, M24_Q08b_curr_trans, M24_Q08c_amt_inkin, M24_Q08c_curr_inkin
+
+M25_ITEM.dta
+M25_Q02_Item_os, M25_Q03, M25_Q04, M25_Q05_amt, M25_Q05_curr, M25_Q06_amt, M25_Q06_curr, M25_Q07, M25_Q08a_amt_gift, M25_Q08a_curr_gift, M25_Q08b_amt_trans, M25_Q08b_curr_trans, M25_Q08c_amt_inkin, M25_Q08c_curr_inkin
+
+M25b_ITEM.dta
+M25b_Q02_Item_os, M25b_Q03, M25b_Q04, M25b_Q05_amt, M25b_Q05_curr, M25b_Q06_amt, M25b_Q06_curr, M25b_Q07, M25b_Q08a_amt_gift, M25b_Q08a_curr_gift, M25b_Q08b_amt_trans, M25b_Q08b_curr_trans, M25b_Q08c_amt_inkin, M25b_Q08c_curr_inkin
+
+M26_ITEM.dta
+M26_Q02_Item_os, M26_Q03, M26_Q04, M26_Q05_amt, M26_Q05_curr, M26_Q06_amt, M26_Q06_curr, M26_Q07, M26_Q08a_amt_gift, M26_Q08a_curr_gift, M26_Q08b_amt_trans, M26_Q08b_curr_trans, M26_Q08c_amt_inkin, M26_Q08c_curr_inkin
+
+M27_ITEM.dta
+M27_Q02_Item_os, M27_Q03, M27_Q04, M27_Q05_amt, M27_Q05_curr, M27_Q06_amt, M27_Q06_curr, M27_Q07, M27_Q08a_amt_gift, M27_Q08a_curr_gift, M27_Q08b_amt_trans, M27_Q08b_curr_trans, M27_Q08c_amt_inkin, M27_Q08c_curr_inkin
+
+M28a_ITEM.dta
+M28a_Q02_Item_os, M28a_Q03, M28a_Q04, M28a_Q05_amt, M28a_Q05_curr, M28a_Q06_amt, M28a_Q06_curr, M28a_Q07, M28a_Q08a_amt_gift, M28a_Q08a_curr_gift, M28a_Q08b_amt_trans, M28a_Q08b_curr_trans, M28a_Q08c_amt_inkin, M28a_Q08c_curr_inkin
+
+M28b_ITEM.dta
+M28b_Q02_Item_os, M28b_Q03, M28b_Q04, M28b_Q05_amt, M28b_Q05_curr, M28b_Q06_amt, M28b_Q06_curr, M28b_Q07, M28b_Q08a_amt_gift, M28b_Q08a_curr_gift, M28b_Q08b_amt_trans, M28b_Q08b_curr_trans, M28b_Q08c_amt_inkin, M28b_Q08c_curr_inkin
+
+M29_ITEM.dta
+M29_Q02_Item_os, M29_Q03, M29_Q04, M29_Q05_amt, M29_Q05_curr, M29_Q06_amt, M29_Q06_curr, M29_Q07, M29_Q08a_amt_gift, M29_Q08a_curr_gift, M29_Q08b_amt_trans, M29_Q08b_curr_trans, M29_Q08c_amt_inkin, M29_Q08c_curr_inkin
+
+M30_ITEM.dta
+M30_Q02_Item_os, M30_Q03, M30_Q04, M30_Q05_amt, M30_Q05_curr, M30_Q06_amt, M30_Q06_curr, M30_Q07, M30_Q08a_amt_gift, M30_Q08a_curr_gift, M30_Q08b_amt_trans, M30_Q08b_curr_trans, M30_Q08c_amt_inkin, M30_Q08c_curr_inkin
+
+M31_ITEM.dta
+M31_Q02_Item_os, M31_Q03, M31_Q04, M31_Q05_amt, M31_Q05_curr, M31_Q06_amt, M31_Q06_curr, M31_Q07, M31_Q08a_amt_gift, M31_Q08a_curr_gift, M31_Q08b_amt_trans, M31_Q08b_curr_trans, M31_Q08c_amt_inkin, M31_Q08c_curr_inkin
+
+facility_distance_roster.dta
+M4_Q36
+
+social_safety_nets.dta
+M20_Q01, M20_Q02, M20_Q03_MONTH, M20_Q03_YEAR, M20_Q04_VALUE, M20_Q04_CURRENCY, M20_Q05, M20_Q06, M20_Q07, M20_Q08, M20_Q09
+
+M22A_Roster_A.dta
+M22A_Q02_OS_A, M22A_Q03_A, M22A_Q04_A, M22A_Q05_qty_A, M22A_Q05_unit_A, M22A_Q05_size_A, M22A_Q06_amt_A, M22A_Q06_curr_A, M22A_Q07_qty_A, M22A_Q07_unit_A, M22A_Q07_size_A, M22A_Q08_amt_A, M22A_Q08_curr_A, M22A_Q09_A, M22A_Q10_qty_A, M22A_Q10_unit_A, M22A_Q10_size_A, M22A_Q11_qty_A, M22A_Q11_unit_A, M22A_Q11_size_A, M22A_Q12_qty_A, M22A_Q12_unit_A, M22A_Q12_size_A
+
+M22A_Roster_B.dta
+M22A_Q02_OS_B, M22A_Q03_B, M22A_Q04_B, M22A_Q05_qty_B, M22A_Q05_unit_B, M22A_Q05_size_B, M22A_Q06_Bmt_B, M22A_Q06_curr_B, M22A_Q07_qty_B, M22A_Q07_unit_B, M22A_Q07_size_B, M22A_Q08_Bmt_B, M22A_Q08_curr_B, M22A_Q09_B, M22A_Q10_qty_B, M22A_Q10_unit_B, M22A_Q10_size_B, M22A_Q11_qty_B, M22A_Q11_unit_B, M22A_Q11_size_B, M22A_Q12_qty_B, M22A_Q12_unit_B, M22A_Q12_size_B
+
+M22B_Roster_A.dta
+M22B_Q01_OS_A, M22B_Q03_qty_A, M22B_Q03_unit_A, M22B_Q03_size_A, M22B_Q04_A, M22B_Q05_qty_A, M22B_Q06_val_A, M22B_Q06_curr_A, M22B_Q07_qty_A, M22B_Q08_qty_A, M22B_Q09_qty_A, M22B_Q10_qty_A
+
+M22B_Roster_B.dta
+M22B_Q01_OS_B, M22B_Q03_qty_B, M22B_Q03_unit_B, M22B_Q03_size_B, M22B_Q04_B, M22B_Q05_qty_B, M22B_Q06_val_B, M22B_Q06_curr_B, M22B_Q07_qty_B, M22B_Q08_qty_B, M22B_Q09_qty_B, M22B_Q10_qty_B
+
+M23A_Roster_A.dta
+M23A_Q02_OS_A, M23A_Q03_A, M23A_Q04_A, M23A_Q05_qty_A, M23A_Q05_unit_A, M23A_Q05_size_A, M23A_Q06_amt_A, M23A_Q06_curr_A, M23A_Q07_qty_A, M23A_Q07_unit_A, M23A_Q07_size_A, M23A_Q08_amt_A, M23A_Q08_curr_A, M23A_Q09_A, M23A_Q10_qty_A, M23A_Q10_unit_A, M23A_Q10_size_A, M23A_Q11_qty_A, M23A_Q11_unit_A, M23A_Q11_size_A, M23A_Q12_qty_A, M23A_Q12_unit_A, M23A_Q12_size_A
+
+M22B_Roster.dta
+M22B_Q01_OS, M22B_Q03_qty, M22B_Q03_unit, M22B_Q03_size, M22B_Q04, M22B_Q05_qty, M22B_Q06_val, M22B_Q06_curr, M22B_Q07_qty, M22B_Q08_qty, M22B_Q09_qty, M22B_Q10_qty
+
+Points_of_purchase.dta
+M32_Q01, M32_Q01_oth
+
+M33_domestic.dta
+M33_Q7_Amt, M33_Q7_Curr, M33_Q8_Amt, M33_Q8_Curr, M33_Q9_Amt, M33_Q9_Curr, M33_Q10_Amt, M33_Q10_Curr
+
+```
+
+:::
+
+::: {.column width="20%"}
+
+- Link to questionnaire on Designer
+- Points to snapshot of version imported into Headquarters
+
+:::
+
+::::
+
+## Export file manifest {.t2}
+
+:::: {.columns}
+
+::: {.column width="80%"}
+
+```{.text code-line-numbers="8-9"}
+- TODO: add code block containing text from `export__readme.txt` from "Capturing What Matters"
+- TODO: use `code-line-numbers` to walk through code and explain
+
+Generated by Survey Solutions export module 23.06.1 (build 34560) on Saturday, 16 September 2023
+The data in this download were collected using the Survey Solutions questionnaire "ZiHBS 2023 Actual Pilot". 
+You can open the questionnaire in the Survey Solutions Designer online by that link: https://designer.mysurvey.solutions/questionnaire/details/07a29ec50a0f4b5f9a7f45dd591d2514$2
+
+ZiHBS_2023_Actual_pilot.dta
+cp_province, cp_district, cp_ward, cp_sector, cp_ea, cp_region, cp_geocode, cp_area, cp_structure, cp_hhnumber, cp_hhid, cp_hhead, cp_phoneno, cp_address, cp_gps, cp_main, st_supname, st_intname, st_identified, st_HHmove, M1_Q0a, M1_Q0b, M1_start_date, M1_Q01, M1_Q02, M1_Q03, M1_Q04, M1_Q05, M2_START_DATE, M2_Q01, M3_start_date_time, M3_respondent, M3_Q00, M3_Q01, M4_start_date, M4_respondent, M4_Q01, M4_Q01_oth, M4_Q01a, M4_Q01b_Amt, M5_Q01b_Curr, M4_Q01c_Amt, M4_Q01c_Curr, M4_Q02, M4_Q02_oth, M4_Q03, M4_Q03_oth, M4_Q04, M4_Q04_oth, M4_Q05, M4_Q05_oth, M4_Q06, M4_Q07, M4_Q08, M4_Q08_oth, M4_Q09, M4_Q09_oth, M4_Q10, M4_Q10_oth, M4_Q11, M4_Q12, M4_Q13, M4_Q13_oth, M4_Q14, M4_Q14_oth, M4_Q15, M4_Q15_oth, M4_Q16, M4_Q16_oth, M4_Q17, M4_Q18, M4_Q18_oth, M4_Q19, M4_Q19_oth, M4_Q20, M4_Q21, M4_Q22, M4_Q23, M4_Q24, M4_Q24_oth, M4_Q25, M4_Q25_oth, M4_Q26, H27, M4_Q28, M4_Q28_oth, M4_Q29, M4_Q30, M4_Q31, M4_Q32, M4_Q33, M4_Q33_oth, M4_Q34, M4_Q35, M4_Q35_oth, M4_Q37, M4_Q38a_Amt, M4_Q38a_Curr, M4_Q38b_Amt, M4_Q38b_Curr, M4_Q38c_Amt, M4_Q38c_Curr, M5_15d_Amt, M4_Q38d_Curr, M4_Q39, M4_Q40_Amt, M5_Q40b_Curr, M8_start_date_time, M8_respondent, M8_Q01, M9_START_DATE, M10_START_DATE, M10_RESPONDENT, M11_start_date, M11_respondent, M12_start_date, M13_start_date, M14_start_date_time, M14_Q00, M14_Q01, M14_Q0E1, M15_Q02a, M16_StartTime, M16_respondent, M16_Q1a, M16_Q1b, M16_Q1c, M16_Q1d, M16_Q1B2, M16_Q2a, M16_Q2b, M16_Q2c, M16_Q2d, M16_Q2B2, M16_Q3a, M16_Q3b, M16_Q3c, M16_Q3d, M16_Q3B2, M16_Q4a, M16_Q4b, Module17_start_date, Respondent_for_module17, M17_01B, M17_Q01, M18_startDateTime, M18_respondent, M18_Q01, Q18_Q02, M18_Q11_amt, M18_Q11_cuur, M18_Q12, M18_Q13_amt, M18_Q13_cuur, M19_START_DATE, M19_RESPONDENT, M19_Q01, M20_START_DATE, M20_RESPONDENT, M21_Starting_Time, M21_Q01, M21_FAFH, M22A_StartTime, M22A_respondent, M22A_Q02_EXPENDITURE, check_M22A_complete, M22A_Q02_cereals, M22A_Q02_flours, M22A_Q02_bakery, M22A_Q02_BF_cereals, M22A_Q02_pasta, M22A_Q02_OthCreals, M22A_Q02_LiveAnimal, M22A_Q02_Meat_fresh, M22A_Q02_Meat_dried, M22A_Q02_Offal_blood, M22A_Q02_meat_prep, M22A_Q02_Fish_fresh, M22A_Q02_Fish_dried, M22A_Q02_Fish_prep, M22A_Q02_OthSFFresh, M22A_Q02_OtSFDried, M22A_Q02_oth_sf_prep, M22A_Q02_milk_raw, M22A_Q02_MilkSkimm, M22A_Q02_OthMilkCre, M22A_Q02_NonAni_milk, M22A_Q02_Cheese, M22A_Q02_Yoghurt, M22A_Q02_MilkDessert, M22A_Q02_Eggs, M22A_Q02_Vege_oils, M22A_Q02_Butter_fats, M22A_Q02_Margarine, M22A_Q02_Oth_Ani_fat, M22A_Q02_Tropi_fruit, M22A_Q02_CitrusFrt, M22A_Q02_StoneFrut, M22A_Q02_BerriyFresh, M22A_Q02_Oth_fruit_f, M22A_Q02_FrozFruit, M22A_Q02_Fruit_dried, M22A_Q02_Nuts, M22A_Q02_Fr_nut_prep, M22A_Q02_Leafy_veg, M22A_Q02_Fruit_veg, M22A_Q02_Green_leg, M22A_Q02_Ot_veg_tube, M22A_Q02_potatoes, M22A_Q02_Pulses, M22A_Q02_OtVegiDried, M22A_Q02_vegi_froze, M22A_Q02_Vegi_prep, M22A_Q02_Cane_sugar, M22A_Q02_Other_sugar, M22A_Q02_Jams, M22A_Q02_Nut_paste, M22A_Q02_Chocolate, M22A_Q02_Ice_cream, M22A_Q02_gums_candy, M22A_Q02_PrepFood, M22A_Q02_Baby_food, M22A_Q02_Salt_cond, M22A_Q02_Spices, M22A_Q02_juices, M22A_Q02_Coffee, M22A_Q02_tea, M22A_Q02_CocoaDrink, M22A_Q02_Water, M22A_Q02_Soft_drinks, M22A_Q02_OthNonAlcoh, M22B_StartTime, M22B_respondent, M22B_Q01_EXPENDITURE, check_M22B_complete, M22B_Q01_cereals, M22B_Q01_flours, M22B_Q01_bakery, M22B_Q01_BF_cereals, M22B_Q01_pasta, M22B_Q01_OthCreals, M22B_Q01_LiveAnimal, M22B_Q01_Meat_fresh, M22B_Q01_Meat_dried, M22B_Q01_Offal_blood, M22B_Q01_meat_prep, M22B_Q01_Fish_fresh, M22B_Q01_Fish_dried, M22B_Q01_Fish_prep, M22B_Q01_OthSFFresh, M22B_Q01_OtSFDried, M22B_Q01_oth_sf_prep, M22B_Q01_milk_raw, M22B_Q01_MilkSkimm, M22B_Q01_OthMilkCre, M22B_Q01_NonAni_milk, M22B_Q01_Cheese, M22B_Q01_Yoghurt, M22B_Q01_MilkDessert, M22B_Q01_Eggs, M22B_Q01_Vege_oils, M22B_Q01_Butter_fats, M22B_Q01_Margarine, M22B_Q01_Oth_Ani_fat, M22B_Q01_Tropi_fruit, M22B_Q01_CitrusFrt, M22B_Q01_StoneFrut, M22B_Q01_BerriyFresh, M22B_Q01_Oth_fruit_f, M22B_Q01_FrozFruit, M22B_Q01_Fruit_dried, M22B_Q01_Nuts, M22B_Q01_Fr_nut_prep, M22B_Q01_Leafy_veg, M22B_Q01_Fruit_veg, M22B_Q01_Green_leg, M22B_Q01_Ot_veg_tube, M22B_Q01_potatoes, M22B_Q01_Pulses, M22B_Q01_OtVegiDried, M22B_Q01_vegi_froze, M22B_Q01_Vegi_prep, M22B_Q01_Cane_sugar, M22B_Q01_Other_sugar, M22B_Q01_Jams, M22B_Q01_Nut_paste, M22B_Q01_Chocolate, M22B_Q01_Ice_cream, M22B_Q01_gums_candy, M22B_Q01_PrepFood, M22B_Q01_Baby_food, M22B_Q01_Salt_cond, M22B_Q01_Spices, M22B_Q01_juices, M22B_Q01_Coffee, M22B_Q01_tea, M22B_Q01_CocoaDrink, M22B_Q01_Water, M22B_Q01_Soft_drinks, M22B_Q01_OthNonAlcoh, M23A_start_date, M23A_respondent, M23A_Q01, M23A_Q02_check, M23A_Q02_SpiritsLiq, M23A_Q02_WineGrapes, M23A_Q02_CiderPerry, M23A_Q02_Beer, M23A_Q02_Cigarettes, M23A_Q02_Cigars, M23A_Q02_OthTobacco, M23A_Q02_Narcotics, M23B_start_date, M23b_respondent, M23B_Q01, M23B_Q02_check, M23B_Q02_SpiritsLiq, M23B_Q02_WineGrapes, M23B_Q02_CiderPerry, M23B_Q02_Beer, M23B_Q02_Cigarettes, M23B_Q02_Cigars, M23B_Q02_OthTobacco, M23B_Q02_Narcotics, Module24_start_date, Respondent_for_module_24, M24_Q01, M25_start_date, M25_Respondent, M25_Q01, M25b_start_date, M25b_Respondent, M25b_Q01, M26_start_date, M26_Respondent, M26_Q01, M27_start_date, M27_Respondent, M27_Q01, M28a_start_date, M28a_Respondent, M28a_Q01, M28b_start_date, M28b_Respondent, M28b_Q01, M29_start_date, M29_Respondent, M29_Q01, M30_start_date, M30_Respondent, M30_Q01, M31_start_date, M31_Respondent, M31_Q01, M32_START_DATE, M32_RESPONDENT, M32_Q00, M33_Start_Date, M33_respondent, M33_Q1, M33_Q2, M33_Q3, M33_Q4, M33_Q5, M33_Q6, M34_StartTime, M34_respondent, M34_Q1a, M34_Q1b, M34_Q1c, M34_Q1d, M34_Q1e, M34_Q1f, M34_Q1g, M34_Q1h, M35_StartTime, M35_respondent, M35_Q01, M35_Q02, M35_Q03, M35_Q04, M35_Q05, M35_Q06, M35_Q07, M35_Q08, M35_Q09, M35_Q10, M35_Q11, M35_Q12, M35_Q13, M35_Q14, M35_Q15, M36_Q01a, M36_Q02a1, M36_Q02_1, M36_Q01b, M36_Q02a2, M36_Q02_2, M36_Q01c, M36_Q02a3, M36_Q02_3, M36_Q03, M36_Q04a, M36_Q04b, M36_Q04c, M36_Q04c_oth
+
+hhmembers.dta
+M2_Q02, M2_Q03, M2_Q04, M2_Q05, M2_Q06, M2_Q07, M2_Q08, M2_Q09, M2_Q10, M2_Q11, M2_Q12, M2_Q13, M2_Q14, M2_Q14_OTH, M2_Q15, M2_Q16, M2_Q17, M2_Q18, M2_Q19, M2_Q20, M2_Q21, M2_Q21_ISCO, M2_Q22, M2_Q23, M2_Q24, M2_Q25, M2_Q26, M2_Q26_ISIC, M2_Q27, M2_Q28, M2_Q29_auth, M2_Q29, M9_Q0respondent, M9_RES_ID, M9_Q01, M9_Q02, M2_Q02_oth, M9_Q03, M9_Q03a, M9_Q04, M9_Q05, M9_Q06, M2_Q06_oth, M9_Q07, M9_Q07_oth, M9_Q08, M9_Q09, M9_Q10, M9_Q11, M9_Q11_oth, M9_Q12, M9_Q13_amt, M9_Q13_curr, M9_Q14, M9_Q15, M9_Q16_AMT, M9_Q16_curr, M9_Q17, M9_Q18_AMT, M9_Q18_Curr, M9_Q19, M9_Q20, M9_Q21_AMT, M9_Q21_Curr, M9_Q22, M9_Q22_oth, M9_Q23, M9_Q24, M10_Q0respondent, M10_RES_ID, M10_Q01, M10_Q02, M10_Q03, M10_Q04, M10_Q06, M10_Q07, M10_Q08, M10_Q09, M10_Q10, M10_Q11, M10_Q12, M10_Q13, M10_Q14, M10_Q14_oth, M10_Q15, M10_Q15_oth, M10_Q16, M10_Q17, M10_Q17ISCO, M10_Q18, M10_Q18_ISIC, M10_Q19, M10_Q20, M10_Q21, M10_Q22, M10_Q23, M10_Q23_oth, M10_Q24, M10_Q25, M10_Q26, M10_Q27, M10_Q28, M10_Q28_ISCO, M10_Q29, M10_Q29_ISIC, M11_Q0respondent, M11_RES_ID, M11_Q01, M11_Q02, M11_Q02_oth, M11_Q03, M11_Q03_oth, M11_Q04, M11_Q04_oth, M11_Q05, M11_Q05_oth, M11_Q06, M11_Q07, M11_Q07_oth, M11_Q08, M11_Q09, M11_Q10, M11_Q10_oth, M11_Q11, M11_Q12, M11_Q13, M11_Q14, M11_Q15, M11_Q16, M11_Q16_oth, M12_Q0respondent, M12_RES_ID, M12_Q01, M12_Q02, M12_Q03, M12_Q04, M12_Q05, M12_Q06, M12_Q07a, M12_Q7a_oth, M12_Q07b, M12_Q07b_oth, M12_Q07c, M12_Q07c_oth, M12_Q07d, M12_Q07d_oth, M12_Q07e, M12_Q07e_oth, M12_Q07f, M12_Q07f_oth, M12_Q08, M12_Q08_oth, M12_Q09, M13_Q0respondent, M13_RES_ID, M13_Q01, M13_Q02, M13_Q03, M13_Q04_curr, M13_Q04_amt_ZWD, M13_Q04_amt_USD, M13_Q04_amt_RAND, M13_Q04_amt_PULA, M13_Q05, M13_Q06, M13_Q07_curr, M13_Q07_amt, M13_Q08_curr, M13_Q08_amt, M13_Q09_amt, M13_Q09_curr, M13_Q10, M13_Q11_amt, M13_Q11_curr, M13_Q12, M13_Q13_amt, M13_Q13_Curr, M13_Q14, M13_Q15_amt, M13_Q15_curr, M13_Q16, M13_Q17_Amt, M13_Q17_Curr, M13_Q18
+
+International_Migration.dta
+M3_Q02, M3_Q03, M3_Q04, M3_Q05, M3_Q06, M3_Q07, M3_Q08, M3_Q09, M3_Q10, M3_Q11, M3_Q12, M3_Q13A, M3_Q13B, M3_Q14, M3_Q15, M3_Q16_amt, M3_Q16_curr, M3_Q17_amt, M3_Q18_curr
+
+hh_assets_roster.dta
+M8_Q02, M8_Q03, M8_Q04, M8_Q05_amt, M8_Q05_curr, M8_Q06, M8_Q07_amt, M8_Q07_curr
+
+nfe_roster.dta
+M15_Q02_b, M15_Q03, M15_Q04, M15_Q05, M15_Q05_oth, M15_Q06, M15_Q07, M15_Q08_amt, M15_Q08_curr, M15_Q09_amt, M15_Q09_curr, M15_Q10_amt, M15_Q10_curr, M15_Q11_a_amt, M15_Q11_a_curr, M15_Q11_b_amt, M15_Q11_b_curr, M15_Q11_c_amt, M15_Q11_c_curr, M15_Q11_d_amt, M15_Q11_d_curr, M15_Q11_e_amt, M15_Q11_e_curr, M15_Q11_f_amt, M15_Q11_f_curr, M15_Q11_g_amt, M15_Q11_g_curr, M15_Q11_h_amt, M15_Q11_h_curr, M15_Q11_j_amt, M15_Q11_j_curr, M15_Q11_k_amt, M15_Q11_k_curr, M15_Q11_l_amt, M15_Q11_l_curr, M15_Q11_m_amt, M15_Q11_m_curr, M15_Q11_n_amt, M15_Q11_n_curr, M15_Q11_o_amt, M15_Q11_o_curr, M15_Q11_o, M15_Q11_p_amt, M15_Q11_p_curr
+
+Mod17_Crops.dta
+M17_Q02b, M17_Q02, M17_Q02_UNIT, M17_Q03, M17_Q04, M17_Q05, M17_Q05_oth, M17_Q06_QTY, M17_Q06_UNIT, M17_Q07, M17_Q07_CURRENCY, M17_Q08, M17_Q09, M17_Q09_CURRENCY, M17_Q10, M17_Q10_CURRENCY, M17_Q11, M17_Q11_oth, M17_Q12, M17_Q13, M17_Q14, M17_Q15, M17_Q15_CURRENCY, M17_Q16, M17_Q17, M17_Q17_CURRENCY, M17_Q18, M17_Q19, M17_Q19_CURRENCY, M17_Q20, M17_Q21, M17_Q21_CURRENCY, M17_Q22, M17_Q23, M17_Q24, M17_Q24_CURRENCY, M17_Q25
+
+livestock.dta
+M18_Q02_oth, M18_Q03, Q18_Q04, M18_Q05_amt, M18_Q05_cuur, M18_Q06, M18_Q07, M18_Q08_amt, M18_Q08_curr, M18_Q09, M18_Q10
+
+M19_LABOUR_INCOME_Roster.dta
+M19_Q02_curr, M19_Q02_amt_ZWD, M19_Q02_amt_USD, M19_Q02_amt_RAND, M19_Q02_amt_PULA
+
+FAFH_roster.dta
+M21_Q02_amt, M21_Q02_curr, M21_Q03
+
+M24_Q07_gifts.dta
+M24_Q02_ItemList
+
+M25_Product.dta
+M25_Q02_ItemList
+
+M25b_Product.dta
+M25b_Q02_ItemList
+
+M26_Product.dta
+M26_Q02_ItemList
+
+M27_Product.dta
+M27_Q02_ItemList
+
+M28a_Product.dta
+M28a_Q02_ItemList
+
+M28b_Product.dta
+M28b_Q02_ItemList
+
+M29_Product.dta
+M29_Q02_ItemList
+
+M30_Product.dta
+M30_Q02_ItemList
+
+M31_Product.dta
+M31_Q02_ItemList
+
+Commodities_non_food_1mon.dta
+M24_Q02_Item_os, M24_Q03, M24_Q04, M24_Q05_amt, M24_Q05_curr, M24_Q06_amt, M24_Q06_curr, M24_Q07, M24_Q08a_amt_gift, M24_Q08a_curr_gift, M24_Q08b_amt_trans, M24_Q08b_curr_trans, M24_Q08c_amt_inkin, M24_Q08c_curr_inkin
+
+M25_ITEM.dta
+M25_Q02_Item_os, M25_Q03, M25_Q04, M25_Q05_amt, M25_Q05_curr, M25_Q06_amt, M25_Q06_curr, M25_Q07, M25_Q08a_amt_gift, M25_Q08a_curr_gift, M25_Q08b_amt_trans, M25_Q08b_curr_trans, M25_Q08c_amt_inkin, M25_Q08c_curr_inkin
+
+M25b_ITEM.dta
+M25b_Q02_Item_os, M25b_Q03, M25b_Q04, M25b_Q05_amt, M25b_Q05_curr, M25b_Q06_amt, M25b_Q06_curr, M25b_Q07, M25b_Q08a_amt_gift, M25b_Q08a_curr_gift, M25b_Q08b_amt_trans, M25b_Q08b_curr_trans, M25b_Q08c_amt_inkin, M25b_Q08c_curr_inkin
+
+M26_ITEM.dta
+M26_Q02_Item_os, M26_Q03, M26_Q04, M26_Q05_amt, M26_Q05_curr, M26_Q06_amt, M26_Q06_curr, M26_Q07, M26_Q08a_amt_gift, M26_Q08a_curr_gift, M26_Q08b_amt_trans, M26_Q08b_curr_trans, M26_Q08c_amt_inkin, M26_Q08c_curr_inkin
+
+M27_ITEM.dta
+M27_Q02_Item_os, M27_Q03, M27_Q04, M27_Q05_amt, M27_Q05_curr, M27_Q06_amt, M27_Q06_curr, M27_Q07, M27_Q08a_amt_gift, M27_Q08a_curr_gift, M27_Q08b_amt_trans, M27_Q08b_curr_trans, M27_Q08c_amt_inkin, M27_Q08c_curr_inkin
+
+M28a_ITEM.dta
+M28a_Q02_Item_os, M28a_Q03, M28a_Q04, M28a_Q05_amt, M28a_Q05_curr, M28a_Q06_amt, M28a_Q06_curr, M28a_Q07, M28a_Q08a_amt_gift, M28a_Q08a_curr_gift, M28a_Q08b_amt_trans, M28a_Q08b_curr_trans, M28a_Q08c_amt_inkin, M28a_Q08c_curr_inkin
+
+M28b_ITEM.dta
+M28b_Q02_Item_os, M28b_Q03, M28b_Q04, M28b_Q05_amt, M28b_Q05_curr, M28b_Q06_amt, M28b_Q06_curr, M28b_Q07, M28b_Q08a_amt_gift, M28b_Q08a_curr_gift, M28b_Q08b_amt_trans, M28b_Q08b_curr_trans, M28b_Q08c_amt_inkin, M28b_Q08c_curr_inkin
+
+M29_ITEM.dta
+M29_Q02_Item_os, M29_Q03, M29_Q04, M29_Q05_amt, M29_Q05_curr, M29_Q06_amt, M29_Q06_curr, M29_Q07, M29_Q08a_amt_gift, M29_Q08a_curr_gift, M29_Q08b_amt_trans, M29_Q08b_curr_trans, M29_Q08c_amt_inkin, M29_Q08c_curr_inkin
+
+M30_ITEM.dta
+M30_Q02_Item_os, M30_Q03, M30_Q04, M30_Q05_amt, M30_Q05_curr, M30_Q06_amt, M30_Q06_curr, M30_Q07, M30_Q08a_amt_gift, M30_Q08a_curr_gift, M30_Q08b_amt_trans, M30_Q08b_curr_trans, M30_Q08c_amt_inkin, M30_Q08c_curr_inkin
+
+M31_ITEM.dta
+M31_Q02_Item_os, M31_Q03, M31_Q04, M31_Q05_amt, M31_Q05_curr, M31_Q06_amt, M31_Q06_curr, M31_Q07, M31_Q08a_amt_gift, M31_Q08a_curr_gift, M31_Q08b_amt_trans, M31_Q08b_curr_trans, M31_Q08c_amt_inkin, M31_Q08c_curr_inkin
+
+facility_distance_roster.dta
+M4_Q36
+
+social_safety_nets.dta
+M20_Q01, M20_Q02, M20_Q03_MONTH, M20_Q03_YEAR, M20_Q04_VALUE, M20_Q04_CURRENCY, M20_Q05, M20_Q06, M20_Q07, M20_Q08, M20_Q09
+
+M22A_Roster_A.dta
+M22A_Q02_OS_A, M22A_Q03_A, M22A_Q04_A, M22A_Q05_qty_A, M22A_Q05_unit_A, M22A_Q05_size_A, M22A_Q06_amt_A, M22A_Q06_curr_A, M22A_Q07_qty_A, M22A_Q07_unit_A, M22A_Q07_size_A, M22A_Q08_amt_A, M22A_Q08_curr_A, M22A_Q09_A, M22A_Q10_qty_A, M22A_Q10_unit_A, M22A_Q10_size_A, M22A_Q11_qty_A, M22A_Q11_unit_A, M22A_Q11_size_A, M22A_Q12_qty_A, M22A_Q12_unit_A, M22A_Q12_size_A
+
+M22A_Roster_B.dta
+M22A_Q02_OS_B, M22A_Q03_B, M22A_Q04_B, M22A_Q05_qty_B, M22A_Q05_unit_B, M22A_Q05_size_B, M22A_Q06_Bmt_B, M22A_Q06_curr_B, M22A_Q07_qty_B, M22A_Q07_unit_B, M22A_Q07_size_B, M22A_Q08_Bmt_B, M22A_Q08_curr_B, M22A_Q09_B, M22A_Q10_qty_B, M22A_Q10_unit_B, M22A_Q10_size_B, M22A_Q11_qty_B, M22A_Q11_unit_B, M22A_Q11_size_B, M22A_Q12_qty_B, M22A_Q12_unit_B, M22A_Q12_size_B
+
+M22B_Roster_A.dta
+M22B_Q01_OS_A, M22B_Q03_qty_A, M22B_Q03_unit_A, M22B_Q03_size_A, M22B_Q04_A, M22B_Q05_qty_A, M22B_Q06_val_A, M22B_Q06_curr_A, M22B_Q07_qty_A, M22B_Q08_qty_A, M22B_Q09_qty_A, M22B_Q10_qty_A
+
+M22B_Roster_B.dta
+M22B_Q01_OS_B, M22B_Q03_qty_B, M22B_Q03_unit_B, M22B_Q03_size_B, M22B_Q04_B, M22B_Q05_qty_B, M22B_Q06_val_B, M22B_Q06_curr_B, M22B_Q07_qty_B, M22B_Q08_qty_B, M22B_Q09_qty_B, M22B_Q10_qty_B
+
+M23A_Roster_A.dta
+M23A_Q02_OS_A, M23A_Q03_A, M23A_Q04_A, M23A_Q05_qty_A, M23A_Q05_unit_A, M23A_Q05_size_A, M23A_Q06_amt_A, M23A_Q06_curr_A, M23A_Q07_qty_A, M23A_Q07_unit_A, M23A_Q07_size_A, M23A_Q08_amt_A, M23A_Q08_curr_A, M23A_Q09_A, M23A_Q10_qty_A, M23A_Q10_unit_A, M23A_Q10_size_A, M23A_Q11_qty_A, M23A_Q11_unit_A, M23A_Q11_size_A, M23A_Q12_qty_A, M23A_Q12_unit_A, M23A_Q12_size_A
+
+M22B_Roster.dta
+M22B_Q01_OS, M22B_Q03_qty, M22B_Q03_unit, M22B_Q03_size, M22B_Q04, M22B_Q05_qty, M22B_Q06_val, M22B_Q06_curr, M22B_Q07_qty, M22B_Q08_qty, M22B_Q09_qty, M22B_Q10_qty
+
+Points_of_purchase.dta
+M32_Q01, M32_Q01_oth
+
+M33_domestic.dta
+M33_Q7_Amt, M33_Q7_Curr, M33_Q8_Amt, M33_Q8_Curr, M33_Q9_Amt, M33_Q9_Curr, M33_Q10_Amt, M33_Q10_Curr
+
+```
+
+:::
+
+::: {.column width="20%"}
+
+- Each lines represents an exported data file
+- First line: name of the file
+- Second line: list of columns in the file
+
+:::
+
+::::
+
+## Questionnaire information {.t2}
+
+
+```{.text code-line-numbers="16-21"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+│   ├── Categories
+│   ├── content.zip
+│   ├── ddi.xml
+│   ├── document.json
+│   └── Preview
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+## Questionnaire preview {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="16,21-22"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+│   ├── Categories
+│   ├── content.zip
+│   ├── ddi.xml
+│   ├── document.json
+│   └── Preview
+│       └── Original ZiHBS_2023_Actual_pilot.html
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+TODO: image of HTML document; basically, thumbnail of video to follow
+
+:::
+
+
+::::
+
+## Questionnaire preview {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: replace with video that gives short overview of HTML questionnaire doc for "Capturing What Matters". See [here](review_zim_course/slides_not_on_zim_site/19_get_use_data.html#/questionnairepreview.html) 
+
+:::
+
+::: {.column width="30%"}
+
+- Questionnaire metadata
+- Data dictionary
+    - Variable
+    - Type
+    - Label/question text
+    - Values
+- Contains conditions
+    - Enablement
+    - Validation
+
+:::
+
+::::
+
+## Data documentation {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="19"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+│   ├── Categories
+│   ├── content.zip
+│   ├── ddi.xml
+│   ├── document.json
+│   └── Preview
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+TODO: replace with contents of ddi.xml for "Capturing What Matters" as XML code block
+
+:::
+
+
+::::
+
+## Data documentation {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: replace with contents of ddi.xml for "Capturing What Matters" as XML code block
+
+:::
+
+::: {.column width="30%"}
+
+- Use data documentation
+- Import into [Nesstar](http://www.ihsn.org/software/ddi-metadata-editor)
+- Publish to [NADA](http://nada.ihsn.org/)
+
+:::
+
+::::
+
+## Survey microdata data {.t2}
+
+<!-- An establishing shot -->
+
+```{.text code-line-numbers="3-4,6-15,17-18"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+# Files `r fontawesome::fa(name = "arrow-right-arrow-left")` questionnaire {background-color=var(--s2)}
+
+## Overview {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{.text code-line-numbers="3-4,6-15,17-18"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+:::
+
+::: {.column width="50%"}
+
+TODO: replace with image of "Capturing What Matters" in Designer similar to this: review_zim_course/slides_not_on_zim_site/19_get_use_data.html#/link-between-data-questionnaire
+
+:::
+
+::::
+
+## Main data {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="18"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+TODO: video showing
+
+- Open settings
+- Show questionnaire variable
+
+:::
+
+::::
+
+<!-- roster file -->
+
+## Roster {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="8"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+TODO: video showing
+
+- Navigate to a roster
+- Show roster variable name
+- Repeat for 1-2 more rosters
+
+:::
+
+::::
+
+<!-- establishing shot for system-generated files -->
+
+## Survey metadata {.t2}
+
+```{.text code-line-numbers="3,11-14"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+<!-- assignment__actions -->
+
+## Assignments {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="3"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+
+:::
+
+::: {.column width="70%"}
+
+TODO: video of:
+
+- Navigate to assignments
+- Click on assignment ID
+- Show history of that assignment
+
+:::
+
+::::
+
+<!-- interview__diagnostics -->
+
+## Interview metadata {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="13"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+TODO: video of:
+
+- Navigate to interviews tab
+- Show attributes of all interviews
+
+:::
+
+::::
+
+<!-- interview__actions -->
+
+## Interview transaction history {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="11"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+TODO: video of:
+
+- Navigate to interviews
+- Click on assignment ID
+- Show history of that interview
+
+:::
+
+::::
+
+<!-- interview__comments -->
+
+## Comments {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="12"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+TODO: video of:
+
+- (Navigate to interviews)
+- Click on interview
+- Show comments question-and interview-level comments
+
+:::
+
+::::
+
+<!-- interview__errors -->
+
+## Validation errors {.t2}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+```{.text code-line-numbers="14"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="70%"}
+
+TODO: video of:
+
+- (Navigate to interviews)
+- Click on interview
+- Show either validation question-level errors or list of questions with errors on Complete screen
+
+:::
+
+::::
+
+
+# Variables `r fontawesome::fa(name = "arrow-right-arrow-left")` questionnaire {background-color=var(--s2)}
+
+## Same name in data as in Designer ... {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+TODO: image of Designer
+
+:::
+
+::: {.column width="50%"}
+
+TODO: table with variable in focus and a few fake observations
+
+:::
+
+::::
+
+## ... with some exceptions {.t2}
+
+::: {.panel-tabset}
+
+### List `r fontawesome::fa(name = "list")`
+
+:::: {.columns}
+
+::: {.column width="50%"}
+TODO: image of Designer
+:::
+
+::: {.column width="50%"}
+
+```{r}
+#| eval: true
+list_var <- data.frame(
+    var__0 = c("First", "Premier", "Primero"),
+    var__1 = c("Second", "Second", "Segundo"),
+    var__2 = c("Third", "Troisième", "Tercero"),
+    var__3 = c("Fourth", "##N/A##", "Tercero"),
+    var__4 = c("Fifth", "##N/A##", "Cuarto"),
+    var__5 = c("Sixth", "##N/A##", "##N/A##"),
+    var__6 = c("Seventh", "##N/A##", "##N/A##")
+)
+
+reactable::reactable(
+    data = list_var,
+    striped = TRUE,
+    defaultColDef = reactable::colDef(minWidth = 200),
+    theme = s2_theme
+)
+
+```
+
+`r fontawesome::fa(name = "lightbulb")` Learn more [here](https://support.mysurvey.solutions/questionnaire-designer/questions/list-question/).
+
+:::
+
+::::
+
+### Multi-select `r fontawesome::fa(name = "list-check")`
+
+:::: {.columns}
+
+::: {.column width="50%"}
+TODO: image of Designer
+:::
+
+::: {.column width="50%"}
+
+TODO: table with variable in focus and a few fake observations
+
+var__1, var__2, ... , var__N
+
+`r fontawesome::fa(name = "lightbulb")` Learn more [here](https://support.mysurvey.solutions/questionnaire-designer/questions/categorical-multi-select-question/).
+
+:::
+
+::::
+
+### GPS `r fontawesome::fa(name = "location-dot")`
+
+:::: {.columns}
+
+::: {.column width="50%"}
+TODO: image of Designer
+:::
+
+::: {.column width="50%"}
+
+TODO: table with variable in focus and a few fake observations
+
+gps__Latitude, gps__Longitude, gps__Accuracy, gps__Altitude, gps__Timestamp
+
+`r fontawesome::fa(name = "lightbulb")` Learn more [here](https://support.mysurvey.solutions/questionnaire-designer/questions/gps-question/).
+
+:::
+
+::::
+
+### Geography `r fontawesome::fa(name = "draw-polygon")`
+
+:::: {.columns}
+
+::: {.column width="50%"}
+TODO: image of Designer
+:::
+
+::: {.column width="50%"}
+
+TODO: table with variable in focus and a few fake observations
+
+geo
+<!-- sequence of coordinates of each recorded point in the string format “lg,lt;lg,lt;….;lg,lt”, where lg is the longitude and lt is the latitude of each point, a decimal dot is always used for fractional values; -->
+geo__area
+geo__len
+geo__num
+geo__racc
+geo__rfrq
+
+For simplicity, showing area
+
+`r fontawesome::fa(name = "lightbulb")` Learn more [here](https://docs.mysurvey.solutions/questionnaire-designer/questions/geography-question/).
+
+:::
+
+::::
+
+:::
+
+# Identifiers `r fontawesome::fa(name = "id-card")` {background-color=var(--s2)}
+
+## Identifiers {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+```{r}
+#| label: ID variable table
+#| eval: true
+
+id_vars <- data.frame(
+    interview__id = uuid::UUIDgenerate(n = 4),
+    interview__key = create_keys(n = 4)
+)
+
+id_vars_tbl <- reactable::reactable(
+    data = id_vars,
+    striped = TRUE,
+    columns = list(
+        interview__id = reactable::colDef(minWidth = 350),
+        interview__key = reactable::colDef(minWidth = 125)
+    ),
+    theme = s2_theme
+)
+
+id_vars_tbl
+
+```
+
+:::
+
+::: {.column width="30%"}
+
+- `interview__key`. Human-facing ID
+- `interview__id`. Computer-facing ID
+- See more [here](https://docs.mysurvey.solutions/headquarters/export/identify_records/)
+
+:::
+
+::::
+
+## interview\_\_key {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of case on the tablet (without sensitive PII)
+
+:::
+
+::: {.column width="30%"}
+
+- What the interviewer sees
+
+:::
+
+::::
+
+## interview\_\_key {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image/video of case or searching on the HQ/Supervisor
+
+:::
+
+::: {.column width="30%"}
+
+- What the interviewer sees
+- How survey manager can search
+
+:::
+
+::::
+
+## interview\_\_id {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+```{r}
+#| label: single interview__key
+#| eval: true
+
+id_vars_tbl
+```
+
+:::
+
+::: {.column width="30%"}
+
+- How identified in export
+
+:::
+
+::::
+
+
+## interview\_\_id {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: composite image of URL and API param, where `interview__id` component highlighted in each
+
+Or two images of both
+
+:::
+
+::: {.column width="30%"}
+
+- How identified in export
+- How referenced in the system
+
+:::
+
+::::
+
+## Roster IDs {.t2}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+```{.text code-line-numbers="8"}
+TODO: files exported for "Capturing What Matters"
+
+├── assignment__actions.dta
+├── Commodities_non_food_1mon.dta
+├── export__readme.txt
+├── facility_distance_roster.dta
+├── FAFH_roster.dta
+├── hhmembers.dta
+├── hh_assets_roster.dta
+├── International_Migration.dta
+├── interview__actions.dta
+├── interview__comments.dta
+├── interview__diagnostics.dta
+├── interview__errors.dta
+├── livestock.dta
+├── Questionnaire
+│   ├── Categories
+│   ├── content.zip
+│   ├── ddi.xml
+│   ├── document.json
+│   └── Preview
+├── social_safety_nets.dta
+└── ZiHBS_2023_Actual_pilot.dta
+```
+
+:::
+
+::: {.column width="33%"}
+
+```{r}
+#| label: roster in data viewer 
+#| eval: true
+
+# create realistic roster data
+roster_vars <- data.frame(
+    interview__key = c(rep(create_key(), 3), rep(create_key(), 2)),
+    hhmembers__id = c(1, 2, 3, 1, 2)
+)
+
+reactable::reactable(
+    data = roster_vars,
+    defaultColDef = reactable::colDef(minWidth = 100),
+    theme = s2_theme
+)
+```
+
+TODO: adapt variable name to "Capturing What Matters" roster name
+
+:::
+
+::: {.column width="33%"}
+
+- Name of file + `__id`
+- Value depends on roster type
+
+:::
+
+::::
+
+# Missing values `r fontawesome::fa(name = "notdef")` {background-color=var(--s2)}
+
+## Missing values (in Stata) {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+```{r}
+#| label: missing value examples
+#| eval: true
+
+# create fake data
+df_w_miss <- data.frame(
+    names = c("Hello", "##N/A##", "Goodbye", "Jambo"),
+    yes_no = c("1", "0", ".a", 1),
+    number = c("50", ".", ".a", "-999999999")
+)
+
+reactable::reactable(
+    data = df_w_miss,
+    defaultColDef = reactable::colDef(minWidth = 100),
+    theme = s2_theme
+)
+```
+
+:::
+
+::: {.column width="30%"}
+
+- Answered
+- Disabled
+- Unanswerd
+
+:::
+
+::::
+
+
+## Missing values (in Stata) {.t2}
+
+TODO: confirm info in table is correct
+
+```{r}
+#| eval: true
+missing_markers <- tibble::tribble(
+    ~type,          ~disabled,  ~unanswered,
+    "String",       '""',       "##N/A##", 
+    "Numeric",      ".",        "-999999999",
+    "Categorical",  ".",        ".a"
+)
+
+reactable::reactable(
+    data = missing_markers,
+    defaultColDef = reactable::colDef(minWidth = 100),
+    columns = list(
+        type = reactable::colDef(name = "Variable type"),
+        disabled = reactable::colDef(name = "Disabled"),
+        unanswered = reactable::colDef(name = "Unanswered")
+    ),
+    theme = s2_theme
+)
+
+# missing_markers |>
+#     gt::gt() |>
+#     gt::cols_label(
+#         type = "Variable type",
+#         disabled = "Disabled",
+#         unanswered = "Unanswered"
+#     )
+```
+
+
+# Use data {background-color=var(--s3)}
+
+## Merge {.t3}
+
+TODO: sketch data model as [here](https://dm.cynkra.com/articles/howto-dm-theory.html#model)
+
+```{r}
+
+frame <- data.frame(
+   interview__id = uuid::UUIDgenerate(n = 2),
+   interview__key = create_keys(n = 2) 
+)
+
+hholds <- frame
+
+# members <- 
+
+```
+
+<!-- 
+
+# create dm object as if a list with:
+dm_obj <- dm::dm(df1, df2, df3)
+
+# add primary keys like this:
+dm_obj <- dm_obj |>
+    dm::dm_add_pk(table = df1, columns = c(id1, id2)),
+    dm::dm_add_pk(table = df2, columns = c(id1, id2)),
+
+# add foreign key
+
+ -->
+
+## Merge {.t3}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Data
+
+::: {.panel-tabset}
+
+### Households `r fontawesome::fa(name = "house")`
+
+TODO: show household df
+
+### People `r fontawesome::fa(name = "users")`
+
+TODO: show person df
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+### Merge
+
+TODO: code for merging
+
+:::
+
+::::
+
+## Merge with Stata {.t3}
+
+TODO: Arthur to provide
+
+## Merge with SPSS {.t3}
+
+TODO: Victor to provide code
+
+## Merge with R {.t3}
+
+TODO: Arthur to provide (with tidyverse)

@@ -1,0 +1,346 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: false
+---
+
+```{r}
+
+```
+
+# Manage with Headquarters `r fontawesome::fa(name = "building-user")` {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Data collection progress `r fontawesome::fa(name = "gauge-high")`
+:::
+
+::: {.box .box-2}
+Field staff performance `r fontawesome::fa(name = "person-circle-check")`
+:::
+
+::: {.box .box-3}
+Data quality `r fontawesome::fa(name = "clipboard-check")`
+:::
+
+
+# Data collection progress `r fontawesome::fa(name = "gauge-high")` {background-color=var(--s1)} 
+
+## Overall {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO:
+
+- Video of Surveys and Statuses
+    - Filter by supervisor
+    - Sort by something
+    - Export
+- See video from ZiHBS slides: suso_course/docs/slides/18_monitor_with_suso.html#/overall
+
+:::
+
+::: {.column width="30%"}
+
+### Find it
+
+`Reports > Surveys and Statuses`
+
+### Use it
+
+- Filter
+- Sort
+- Export
+
+:::
+
+::::
+
+## By team {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO:
+
+- Video of Surveys and Statuses
+    - Filter by questionnaire (and potentially qnr version)
+    - Sort by something
+    - Export
+- See video from ZiHBS slides: suso_course/docs/slides/18_monitor_with_suso.html#/by-team
+
+:::
+
+::: {.column width="30%"}
+
+### Find it
+
+`Reports > Teams and Statuses`
+
+### Use it
+
+- Filter
+- Sort
+- Export
+
+:::
+
+::::
+
+
+## By geography {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO:
+
+- Video of map report
+    - Select different GPS variables
+    - Show info at different zoom levels
+    - Show marker details
+    - Click to see interview
+- See video from ZiHBS slides: suso_course/docs/slides/18_monitor_with_suso.html#/by-geography
+
+:::
+
+::: {.column width="30%"}
+
+### Find it
+
+`Reports > Map report`
+
+### Use it
+
+- Choose questionnaire
+- Select version
+- Choose variable GPS to display
+- Show markers
+
+:::
+
+::::
+
+## By custom filter {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO:
+
+- Video of custom "report"
+- See video from ZiHBS slides: suso_course/docs/slides/18_monitor_with_suso.html#/by-custom-filter
+
+:::
+
+::: {.column width="30%"}
+
+### Find it
+
+`Interviews`
+
+### Use it
+
+- Click on `DYNAMIC FILTER`
+- Click on `ADD RULE` to select ID or [exposed variable](https://docs.mysurvey.solutions/headquarters/svymanage/exposed-variables/)
+- Repeat 👆, as needed
+- Click on `APPLY`
+- Compare to expectations
+- See more [here](https://docs.mysurvey.solutions/headquarters/interviews/interviews-filters/)
+
+:::
+
+::::
+
+# Field staff performance `r fontawesome::fa(name = "person-circle-check")`{background-color=var(--s2)}
+
+## Quantity {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+- Video of quantity report
+- See video from ZiHBS slides: suso_course/docs/slides/18_monitor_with_suso.html#/quantity
+
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+- Plan for N interviews completed per time period
+- Check whether plan holds
+
+### How
+
+- Select indicator under `Interview action`
+- Select questionnaire and version
+- Select coverage:
+  - Start date
+  - Period
+
+:::
+
+::::
+
+## Speed {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+- Video of speed report
+- See video from ZiHBS slides: suso_course/docs/slides/18_monitor_with_suso.html#/speed
+
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+- Assume interviews take certain time
+- Check whether assumptions hold
+
+### How
+
+- Select indicator from `Interview action` drop-down
+- Select questionnaire and version
+- Select period and periodicity
+
+:::
+
+::::
+
+
+# Data quality `r fontawesome::fa(name = "clipboard-check")` {background-color=var(--s3)}
+
+## Find interviews {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO:
+
+- Video of filter mechanisms in `Filter by...` list of this slide
+- See video from ZiHBS slides: suso_course/docs/slides/18_monitor_with_suso.html#/find-interviews
+
+:::
+
+::: {.column width="30%"}
+
+### Filter by...
+
+- Parameters
+  - Questionnaire, version
+  - Status
+  - Responsible
+  - Assignment
+  - Interview mode
+- Search
+- Identifying/exposed questions
+
+:::
+
+::::
+
+## Identify problem interviews {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+- TODO: video of searching (sorting) by errors and unanswered question columns
+- See video from CV training here: https://pedantic-bell-3ef571.netlify.app/slides/monitor_w_suso#13
+
+
+:::
+
+::: {.column width="30%"}
+
+### Identify
+
+- Errors
+- Unanswered questions
+
+### Act
+
+- Reject
+- Approve
+
+:::
+
+::::
+
+## Review individual interviews {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO:
+
+- Video that shows actions mentioned in slide sidebar
+- See video from CV here: https://pedantic-bell-3ef571.netlify.app/slides/monitor_w_suso#14
+
+:::
+
+::: {.column width="30%"}
+
+- Open interview
+- See metadata
+- Navigate content
+    - Manually
+    - Filters
+- Act
+    - Comment
+    - Approve
+    - Reject
+
+:::
+
+::::
+
+## Review interviews in bulk {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of:
+
+- Finding interviews with errors
+- Selecting them all
+- Rejecting in bulk
+
+:::
+
+::: {.column width="30%"}
+
+### From Survey Solutions
+
+- Use interview metadata in `Interview` tab
+- Select select interviews in  bulk
+- Select action
+
+### From Survey Solutions' data
+
+- Topic of another module
+- Requires exporting and using data (outside Survey Solutions)
+
+:::
+
+::::

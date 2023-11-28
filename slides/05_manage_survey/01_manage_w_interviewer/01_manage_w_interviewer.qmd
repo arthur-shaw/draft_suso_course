@@ -1,0 +1,250 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: false
+---
+
+```{r}
+
+```
+
+# Manage with interviewer `r fontawesome::fa(name = "tablet-screen-button")` {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+Completeness
+Quality
+Workload
+
+
+# Completeness {background-color=var(--s1)}
+
+## Whether all questions answered {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video
+
+- Move to Complete screen
+- See statistics
+
+:::
+
+::: {.column width="30%"}
+
+- Navigate to `Complete` screen
+- Check `Unanswered` count under `Questions Status`
+
+<!-- TODO: check how UI labelled in latest Interviewer -->
+
+:::
+
+::::
+
+## Which questions unanswered {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video showing:
+
+- Open TOC
+- Identify sections whose color (blue) indicates question(s) left unanswered
+- Drill down as necessary
+
+:::
+
+::: {.column width="30%"}
+
+- Tap on `r fontawesome::fa(name = "bars")`
+- Identify sections whose color (blue) indicates question(s) left unanswered
+- Expand sectiosn as necessary
+
+:::
+
+::::
+
+# Quality {background-color=var(--s2)}
+
+## Whether any errors {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video
+
+- Move to Complete screen
+- See statistics
+
+:::
+
+::: {.column width="30%"}
+
+- Navigate to `Complete` screen
+- Check `Error(s)` count under `Questions Status`
+
+:::
+
+::::
+
+## Which questions have errors {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video showing both methods of finding errors
+
+:::
+
+::: {.column width="30%"}
+
+### Method 1: links
+
+- Navigate to `Complete` screen
+- Tap on links below `ENTITIES WITH ERRORS` to move to errors
+
+### Method 2: search
+
+- Tap on `r fontawesome::fa(name = "bars")`
+- Identify sections containing error by color:
+    - Red if error immediately in section
+    - Blue if error in child section (or if error and unanswered)
+
+:::
+
+::::
+
+# Workload {background-color=var(--s3)}
+
+<!-- Not sure if this is the right breakdown -->
+<!-- 
+
+Alternate/complementary framing
+
+- Complete
+  - All assignments
+  - All started interviews
+  - All completed interviews synced
+- Quality
+  - Rejected back to interviewer
+
+ -->
+
+## Overview {.t3}
+
+::: {.box .box-3}
+Completeness
+:::
+
+::: {.box .box-3}
+Quality
+:::
+
+## Completeness: all interviews done {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process outlined in right-hand column
+
+:::
+
+::: {.column width="30%"}
+
+- Navigate to the `Create new` tab
+- Check for any assignments
+  - For questionnaire
+  - For area where interviewing
+
+:::
+
+::::
+
+## Completeness: all intervews synched {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+Left column
+:::
+
+::: {.column width="30%"}
+
+### Step 1
+
+- Navigate to `Completed` tab
+- Confirm that no interviews appear there
+- If not, sync
+
+### Step 2
+
+- Navigated to `Started` tab
+- Confirm that no interviews are actually completed but not yet marked as scuh
+- If so,
+  - Mark those interviews as complete
+  - Sync
+
+:::
+
+::::
+
+## Quality: all errors addressed {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process described below
+
+:::
+
+::: {.column width="30%"}
+
+### Before mark as complete
+
+- Check for errors. See [here](#whether-any-errors) and [here](#which-questions-have-errors)
+- If any errors exist:
+  - Address them, if possible
+  - Comment them, so that reviewers know that answer was confirmed
+
+:::
+
+::::
+
+## Quality: all rejections adressed {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process described below
+
+:::
+
+::: {.column width="30%"}
+
+- **Review comments**
+  - Interview-level
+  - Question-level
+- **Address comments**
+  - Make corrections, if needed
+  - Provide clarifying comments, as needed
+- **Sync**
+  - Mark addressed rejections as complete
+  - Sync to send for further review
+
+:::
+
+::::
