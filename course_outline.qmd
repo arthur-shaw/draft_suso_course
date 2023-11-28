@@ -1,0 +1,260 @@
+---
+format: html
+toc: true
+toc-depth: 1
+---
+
+# Designer
+
+## Create a questionnaire
+
+<details>
+    <summary>Objectives 🎯</summary>
+
+<h3>Pedagogical</h3>
+
+Learn how to develop a basic questionnaire
+
+<h3>Practical</h3>
+
+Create a questionnaire that could be used for importing into HQ, making assignments, and filling interviews
+
+</details>
+
+<details>
+    <summary>Assessments 🧪</summary>
+
+<h3>Formative</h3>
+
+For each lesson, an exercise that reinforces skills learned
+
+<h3>Summative</h3>
+
+Create questionnaire that draws on the skills from each lesson
+
+</details>
+
+- Getting started
+- Question types
+- Creating a basic questionnaire
+- Groups of questions
+- Moving/copying questions
+- Creating basic rosters
+- Creating complex rosters
+- Introduction to conditions
+- Conditions in rosters
+
+## Improve a questionnaire
+
+<details>
+    <summary>Objectives 🎯</summary>
+
+<h3>Pedagogical</h3>
+
+Learn how to make improvements to existing questionnaires
+
+<h3>Practical</h3>
+
+None
+
+</details>
+
+<details>
+    <summary>Assessments 🧪</summary>
+
+<h3>Formative</h3>
+
+For each lesson, an exercise that reinforces skills learned
+
+<h3>Summative</h3>
+
+Makeover earlier questionnaire using all skills in this module
+
+</details>
+
+- Design for UX/survey protocol
+- Design for efficiency/modularity
+
+# Headquarters
+
+<!-- ## Setting up a server -->
+
+<details>
+    <summary>Objectives 🎯</summary>
+
+<h3>Pedagogical</h3>
+
+- Get a partial overview of what Headquarters can do and where to find it
+- Know how to perform basic (survey) setup actions
+
+<h3>Practical</h3>
+
+Prepare server for Supervisor and Interviewer work
+
+</details>
+
+<details>
+    <summary>Assessments 🧪</summary>
+
+<h3>Formative</h3>
+
+For each lesson, an exercise that reinforces skills learned
+
+<h3>Summative</h3>
+
+Set up personal demo server with some users and some assignments for questionnaire from last section--specifically, 1-2 for interviewer, 1-2 for supervisor
+
+</details>
+
+- Server overview
+- Getting a server
+- Access server
+- Create workspace
+- Create users
+- Import questionnaire
+- Create assignments
+- Import assignments
+
+# Interviewer
+
+<details>
+    <summary>Objectives 🎯</summary>
+
+<h3>Pedagogical</h3>
+
+- Learn how to set up Interviewer
+- Learn basic usage of Interviewer: sync, manage, interview
+
+<h3>Practical</h3>
+
+- Set up Interviewer for practical exercise
+- Complete interviews
+
+</details>
+
+<details>
+    <summary>Assessments 🧪</summary>
+
+<h3>Formative</h3>
+
+For each lesson, an exercise that reinforces skills learned
+
+<h3>Summative</h3>
+
+Fill out 1-2 interviews, leaving question- and interview-level comments
+
+</details>
+
+- Set up Interviewer
+- Use Interviewer
+
+# Supervisor
+
+<details>
+    <summary>Objectives 🎯</summary>
+
+<h3>Pedagogical</h3>
+
+- Learn how to set up Supervisor
+- Learn basic usage of Supervisor: sync, assign, review, update
+
+<h3>Practical</h3>
+
+- Set up Supervisor for practical exercise
+- Sync interviews to the server to be exported
+
+</details>
+
+<details>
+    <summary>Assessments 🧪</summary>
+
+<h3>Formative</h3>
+
+For each lesson, an exercise that reinforces skills learned
+
+<h3>Summative</h3>
+
+Perform all supervisor actions:
+
+- sync: vertical sync to get new HQ assignment; horizontal sync to get completed interviews
+- assign from HQ to interviewer
+- review and reject interviewer's interview(s)
+
+</details>
+
+- Set up Supervisor
+- Use Supervisor
+
+# Managing a survey
+
+<details>
+    <summary>Objectives 🎯</summary>
+
+<h3>Pedagogical</h3>
+
+- Learn how to manage a survey with Survey Solutions
+- Learn how to manage a survey with Survey Solutions' data
+
+<h3>Practical</h3>
+
+</details>
+
+<details>
+    <summary>Assessments 🧪</summary>
+
+<h3>Formative</h3>
+
+For each lesson, an exercise that reinforces skills learned
+
+<h3>Summative</h3>
+
+For monitoring with SuSo, perform most relevant HQ actions for survey monitoring
+
+- With Interviewer: sync to get rejected interview and address comments
+- With Supervisor: review that interview
+- With Headquarters: review interview and check on progress
+
+For monitoring with SuSo's data:
+
+- export data
+- find status in data
+- find comments in data
+- create a table that SuSo couldn't (easily) produce
+
+</details>
+
+## With Survey Solutions
+
+- Managing with Interviewer
+- Monitor with Supervisor
+- Monitor with Headquarters
+
+## With Survey Solutions' data
+
+- Get/use data
+- Monitor with Survey Solutions' data
+
+# Preparing a survey
+
+<details>
+    <summary>Objectives 🎯</summary>
+
+<h3>Pedagogical</h3>
+
+- Know what preparing a CAPI survey entails
+- Be able to answer practical planning questions from colleagues (e.g., which tablets to buy, what type of venue for training, etc.)
+
+<h3>Practical</h3>
+
+None
+
+</details>
+<!-- TODO: add objectives of why this -->
+
+- Overview of CAPI components of survey process
+- Procuring the right equipment
+- Testing the CAPI application
+- Setting up tablets
+- Preparing a training--logistically, techncially, and pedagogically
+- Managing data quality system
+- Maintenance/Troubleshooting

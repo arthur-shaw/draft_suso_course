@@ -1412,5 +1412,40 @@
     "title": "Create a basic questionnaire",
     "section": "Change with Victor",
     "text": "Change with Victor"
+  },
+  {
+    "objectID": "course_outline.html",
+    "href": "course_outline.html",
+    "title": "Designer",
+    "section": "",
+    "text": "Objectives 🎯\n\n\nLearn how to develop a basic questionnaire\n\nCreate a questionnaire that could be used for importing into HQ, making assignments, and filling interviews\n\n\n\nAssessments 🧪\n\n\nFor each lesson, an exercise that reinforces skills learned\n\nCreate questionnaire that draws on the skills from each lesson\n\n\nGetting started\nQuestion types\nCreating a basic questionnaire\nGroups of questions\nMoving/copying questions\nCreating basic rosters\nCreating complex rosters\nIntroduction to conditions\nConditions in rosters\n\n\n\n\n\n\nObjectives 🎯\n\n\nLearn how to make improvements to existing questionnaires\n\nNone\n\n\n\nAssessments 🧪\n\n\nFor each lesson, an exercise that reinforces skills learned\n\nMakeover earlier questionnaire using all skills in this module\n\n\nDesign for UX/survey protocol\nDesign for efficiency/modularity"
+  },
+  {
+    "objectID": "course_outline.html#create-a-questionnaire",
+    "href": "course_outline.html#create-a-questionnaire",
+    "title": "Designer",
+    "section": "",
+    "text": "Objectives 🎯\n\n\nLearn how to develop a basic questionnaire\n\nCreate a questionnaire that could be used for importing into HQ, making assignments, and filling interviews\n\n\n\nAssessments 🧪\n\n\nFor each lesson, an exercise that reinforces skills learned\n\nCreate questionnaire that draws on the skills from each lesson\n\n\nGetting started\nQuestion types\nCreating a basic questionnaire\nGroups of questions\nMoving/copying questions\nCreating basic rosters\nCreating complex rosters\nIntroduction to conditions\nConditions in rosters"
+  },
+  {
+    "objectID": "course_outline.html#improve-a-questionnaire",
+    "href": "course_outline.html#improve-a-questionnaire",
+    "title": "Designer",
+    "section": "",
+    "text": "Objectives 🎯\n\n\nLearn how to make improvements to existing questionnaires\n\nNone\n\n\n\nAssessments 🧪\n\n\nFor each lesson, an exercise that reinforces skills learned\n\nMakeover earlier questionnaire using all skills in this module\n\n\nDesign for UX/survey protocol\nDesign for efficiency/modularity"
+  },
+  {
+    "objectID": "course_outline.html#with-survey-solutions",
+    "href": "course_outline.html#with-survey-solutions",
+    "title": "Designer",
+    "section": "With Survey Solutions",
+    "text": "With Survey Solutions\n\nManaging with Interviewer\nMonitor with Supervisor\nMonitor with Headquarters"
+  },
+  {
+    "objectID": "course_outline.html#with-survey-solutions-data",
+    "href": "course_outline.html#with-survey-solutions-data",
+    "title": "Designer",
+    "section": "With Survey Solutions’ data",
+    "text": "With Survey Solutions’ data\n\nGet/use data\nMonitor with Survey Solutions’ data"
   }
 ]
