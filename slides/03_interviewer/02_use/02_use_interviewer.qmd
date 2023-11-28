@@ -1,0 +1,543 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: true
+---
+
+# Use Interviewer {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Sync
+:::
+
+::: {.box .box-2}
+Manage
+:::
+
+::: {.box .box-3}
+Interview
+:::
+
+
+# Sync {background-color=var(--s1)}
+
+## Sync {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+Left column
+:::
+
+::: {.column width="30%"}
+
+### What
+
+- Get work
+- Send work
+
+### How
+ 
+- Connect to `r fontawesome::fa(name = "wifi")` / `r fontawesome::fa(name = "bluetooth")`
+- Sync icon `r fontawesome::fa(name = "arrow-up")``r fontawesome::fa(name = "arrow-down")`
+
+:::
+
+::::
+
+# Manage {background-color=var(--s2)}
+
+## Overview {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video or image of dashboard
+:::
+
+::: {.column width="30%"}
+
+### Tabs `r fontawesome::fa(name = "arrow-right")` status
+
+- [New]{background-color="blue"}
+- Started
+- Completed
+- Rejected
+
+### Cards `r fontawesome::fa(name = "arrow-right")` work
+
+- Assignments (status: new)
+- Interviews (statuses: started, completed, rejected)
+
+:::
+
+::::
+
+## Tabs {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of toggling between status tabs
+:::
+
+::: {.column width="30%"}
+
+### Navigation
+
+- Tap or
+- Swipe left/right
+
+### Statuses
+
+- New. To be started.
+- Started. Started but not completed.
+- Completed. Completed but not synched.
+- Rejected. Rejected by Supervisor and/or Headquarters.
+
+:::
+
+::::
+
+## Cards {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of inspecting cards
+:::
+
+::: {.column width="30%"}
+
+### Anatomy
+- <details>
+    <summary>System IDs</summary>
+    <ul>
+        <li>Interview key</li>
+        <li>Assignment number</li>
+        <li>Questionnaire</li>
+    </ul> 
+</details>
+- <details>
+    <summary>Practical IDs</summary>
+    <ul>
+        <li>Three ID variables</li>
+        <li>Others</li>
+    </ul>
+</details>
+- <details>
+    <summary>Metadata</summary>
+    <ul>
+        <li>Calendar event</li>
+        <li>GPS location</li>
+    </ul>
+</details>
+
+:::
+
+::::
+
+## Search {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of using search
+:::
+
+::: {.column width="30%"}
+
+- Scan manually
+- Search
+
+:::
+
+::::
+
+## Act {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of showing actions
+:::
+
+::: {.column width="30%"}
+
+### Action(s)
+
+- <details>
+    <summary>Main action, which depends on status</summary>
+    <ul>
+        <li>New: `CREATE NEW INTERVIEW`</li>
+        <li>Started: `OPEN`</li>
+        <li>Rejected: `VIEW ISSUES`</li>
+        <li>Completed: `REOPEN`</li>
+    </ul>
+</details>
+- Additional actions
+- Expand card to see additional details
+- Navigate (with external app)
+
+:::
+
+::::
+
+# Interview {background-color=var(--s3)}
+
+## Start/Resume {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: image of staring/opening
+:::
+
+::: {.column width="30%"}
+
+### Process
+
+- Navigate to appropriate dashboard tab
+- Find card
+- Tap button to start/resume
+
+:::
+
+::::
+
+## Cover page {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of cover page and usage of components
+:::
+
+::: {.column width="30%"}
+
+### Components
+
+- **Interview-level comments.** Review.
+- **Question-level comments.** Tap to find question.
+- **Identifying information.** Use to confirm hhold ID.
+- **Start button.** Tap to start interview.
+
+:::
+
+::::
+
+## Navigate--within section {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of scrolling up/down
+:::
+
+::: {.column width="30%"}
+
+### Gestures
+
+- Scroll up
+- Scroll down
+
+:::
+
+::::
+
+## Navigate--between sections via TOC {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of opening section
+:::
+
+::: {.column width="30%"}
+
+- Tap on `r fontawesome::fa(name = "bars")`
+- Tap to expand section (optionally)
+- Tap on target section
+
+:::
+
+::::
+
+## Navigate--between sections via button {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of navigating to next section
+:::
+
+::: {.column width="30%"}
+
+- Navigate to end of section
+- Tap on button bearing name of next section
+
+:::
+
+::::
+
+## Navigate--between levels {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of navigation between levels
+
+Show two examples:
+
+1. Rosters
+1. Sub-sections
+
+:::
+
+::: {.column width="30%"}
+
+### Buttons
+
+- Tap button for "child"
+- Tap button for "parent"
+
+### Table of contents
+
+- Open table of contents (TOC)
+- Expand "parent" in TOC
+- Tap "child"
+
+:::
+
+::::
+
+## Answer {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of answering/unanswering
+
+Show for a one question of each type below:
+
+- Remove value in field. Numeric/text
+- Deselect. 
+    - Single-select
+    - Multi-select (?)
+- Tap to capture; tap X to remove
+    - GPS
+    - Date/Timestamp
+    - Image
+    - Barcode
+
+:::
+
+::: {.column width="30%"}
+
+### Answer
+
+### Remove answer
+
+:::
+
+::::
+
+## Assess progress {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of colors to indicate status
+
+Show at different levels; show how changes as qnr changes:
+
+- Interview
+- Section
+- Sub-section/roster row
+
+:::
+
+::: {.column width="30%"}
+
+### Colors &rArr; status ...
+
+- Incomplete. Some unanswered.
+- Complete. All answered; no errors.
+- Red. Some errors.
+
+### ... for all groups
+
+- Interview overall
+- Sections
+- Sub-sections/roster rows
+
+:::
+
+::::
+
+## Comment {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of comments being left at two levels:
+
+- Questions
+- Interview
+
+:::
+
+::: {.column width="30%"}
+
+### Questions
+
+- Tap and hold until input field appears
+- Type comment
+- (Repeat as needed to add more comments)
+
+### Interview
+
+- Navigate to `Complete` section
+- Type comment in the `NOTE FOR SUPERVISOR` field
+- (Repeat/revise as needed)
+
+:::
+
+::::
+
+## Review/revise {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of review/revise process
+
+- Look at statistics
+- Navigate to errors
+- Provide interview comments
+
+:::
+
+::: {.column width="30%"}
+
+### Statistics
+
+- Review statistics
+    - Unanswered
+    - Error(s)
+- Open TOC to find issues
+
+### Errors
+
+- Review errors
+- Tap on list elements to jump to location in interview
+
+### Comments
+
+- Leave interview-level comments (optional)
+
+:::
+
+::::
+
+## Close {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: Video of closing interview
+
+:::
+
+::: {.column width="30%"}
+
+### Process
+
+- Tap on `r fontawesome::fa(name = "ellipsis-vertical")`
+- Select `Dashbord`
+
+:::
+
+::::
+
+## Resume {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of finding interview and resuming it
+
+- By status and scanning
+- By searching
+
+:::
+
+::: {.column width="30%"}
+
+- Find
+    - By status
+    - By search
+- Tap on `OPEN`
+
+:::
+
+::::
+
+## Mark as complete {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process
+
+:::
+
+::: {.column width="30%"}
+
+- Navigate to `Complete` section
+- Tap on `COMPLETE` button
+
+:::
+
+::::
+
+## Reopen {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of finding interview and resuming it
+
+- By status and scanning
+- By searching
+
+:::
+
+::: {.column width="30%"}
+
+- Find
+    - By status
+    - By search
+- Tap on `OPEN`
+
+:::
+
+::::

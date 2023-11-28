@@ -1,0 +1,150 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: true
+---
+
+# Setup Interviewer `r fontawesome::fa(name = "tablet-screen-button")` {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Install
+:::
+
+::: {.box .box-2}
+Login
+:::
+
+::: {.box .box-3}
+Sync
+:::
+
+# Install {background-color=var(--s1)}
+
+## Download installer {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+:::
+
+::: {.column width="30%"}
+
+- Navigate to **your** server `r fontawesome::fa(name = "chrome")`
+- Tap on `DOWNLOAD INTERVIEWER APP` button
+- Select desired version
+    - Default: without map support
+    - Untick `Exclude ESRI Map support`
+- Tap on `DOWNLOAD LATEST INTERVIEWER APP` button to download `r fontawesome::fa(name = "file-arrow-down")`
+
+:::
+
+::::
+
+## Run installer {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+:::
+
+::: {.column width="30%"}
+
+- Find the installer
+- Execute it
+- Allow installation from “unknown sources” for this install
+
+:::
+
+::::
+
+# Login {background-color=var(--s2)}
+
+## Provide URL and user name via QR {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/scan_qr_code.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### On `r fontawesome::fa(name = "laptop")`
+
+- Log into server as Headquarters
+- Open `Teams and Roles > Interviewers`
+- Select an interviewer account
+
+### On `r fontawesome::fa(name = "tablet-screen-button")`
+
+- Open Interviewer
+- Tap on the QR icon `r fontawesome::fa(name = "qrcode")`
+- Read the `r fontawesome::fa(name = "qrcode")` on the `r fontawesome::fa(name = "laptop")` screen
+
+:::
+
+::::
+
+::: aside
+See more [here](https://docs.mysurvey.solutions/interviewer/config/set-up-an-interviewer-tablet-by-scanning-a-barcode/)
+:::
+
+## Change password {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+:::
+
+::: {.column width="30%"}
+
+- Provide current password
+- Compose a new password--possibly same as the current one
+
+:::
+
+::::
+
+# Sync {background-color=var(--s3)}
+
+## Sync {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+:::
+
+::: {.column width="30%"}
+
+### How
+
+Either:
+
+- Tap sync button or
+- Tap sync icon
+
+### Why
+
+- Link the user's account and tablet
+- Confirm that synchronization works
+- Obtain initial assignments
+
+:::
+
+::::
