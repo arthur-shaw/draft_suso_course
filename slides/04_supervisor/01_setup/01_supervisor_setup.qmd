@@ -1,0 +1,170 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: true
+---
+
+# Setup Supervisor {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Two supervisor apps {.suso}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+TODO: image of web app
+
+:::
+
+::: {.column width="50%"}
+
+TODO: image of tablet app
+
+:::
+
+::::
+
+## Only one needs setup {.suso}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+TODO: image of web app
+
+:::
+
+::: {.column width="50%"}
+
+TODO: image of tablet app
+
+TODO: use CSS to draw thick line around image, potentially with drop shadow
+
+:::
+
+::::
+
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Download
+:::
+
+::: {.box .box-2}
+Install
+:::
+
+::: {.box .box-3}
+Link
+:::
+
+# Download {background-color=var(--s1)}
+
+## Download {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process
+
+:::
+
+::: {.column width="30%"}
+
+- Navigate to server
+- Log in as supervisor
+- Click on drop-down menu in upper right
+- Select `Download Supervisor app`
+- Click on `DOWNLOAD LATEST SUPERVISOR APP` button
+
+:::
+
+::::
+
+# Install {background-color=var(--s2)}
+
+## Install {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+:::
+
+::: {.column width="30%"}
+
+- Find the installer
+- Execute it
+- Allow installation from “unknown sources” for this install
+
+:::
+
+::::
+
+## Link to server {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process
+
+:::
+
+::: {.column width="30%"}
+
+### On `r fontawesome::fa(name = "laptop")`
+
+- Navigate to download page
+- Locate the QR code
+
+### On `r fontawesome::fa(name = "tablet-screen-button")`
+
+- Open Supervisor
+- Tap on the QR icon `r fontawesome::fa(name = "qrcode")`
+- Read the `r fontawesome::fa(name = "qrcode")` on the `r fontawesome::fa(name = "laptop")` screen
+- Provide user name and password
+
+:::
+
+::::
+
+# Link {background-color=var(--s3)}
+
+## Link Interviewer app to Supervisor {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process
+
+:::
+
+::: {.column width="30%"}
+
+- By default, Interviewer syncs to server
+- To change this, in the Interviewer app:
+    - Tap on the `r fontawesome::fa(name = "ellipsis-vertical")`
+    - Tap on `Settings`
+    - Scroll to the `Connection settings` heading
+    - Find `Allow synchronization with Headquarters`
+    - Tap to untick
+- Repeat for each device
+
+:::
+
+::::
+
