@@ -1026,7 +1026,7 @@
     "href": "schedule.html",
     "title": "Learning Survey Solutions",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying questions\n\n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying questions\n\n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n  \n\n\n    Use Interviewer\n\n\n  \n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
   },
   {
     "objectID": "about.html",
@@ -1412,5 +1412,194 @@
     "title": "Create a basic questionnaire",
     "section": "Change with Victor",
     "text": "Change with Victor"
+  },
+  {
+    "objectID": "slides/03_interviewer/01_setup/01_setup_interviewer.html#roadmap",
+    "href": "slides/03_interviewer/01_setup/01_setup_interviewer.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nInstall\n\n\nLogin\n\n\nSync"
+  },
+  {
+    "objectID": "slides/03_interviewer/01_setup/01_setup_interviewer.html#download-installer",
+    "href": "slides/03_interviewer/01_setup/01_setup_interviewer.html#download-installer",
+    "title": "Learning Survey Solutions",
+    "section": "Download installer",
+    "text": "Download installer\n\n\nTODO: video of process\n\n\nNavigate to your server \nTap on DOWNLOAD INTERVIEWER APP button\nSelect desired version\n\nDefault: without map support\nUntick Exclude ESRI Map support\n\nTap on DOWNLOAD LATEST INTERVIEWER APP button to download"
+  },
+  {
+    "objectID": "slides/03_interviewer/01_setup/01_setup_interviewer.html#run-installer",
+    "href": "slides/03_interviewer/01_setup/01_setup_interviewer.html#run-installer",
+    "title": "Learning Survey Solutions",
+    "section": "Run installer",
+    "text": "Run installer\n\n\nTODO: video of process\n\n\nFind the installer\nExecute it\nAllow installation from “unknown sources” for this install"
+  },
+  {
+    "objectID": "slides/03_interviewer/01_setup/01_setup_interviewer.html#provide-url-and-user-name-via-qr",
+    "href": "slides/03_interviewer/01_setup/01_setup_interviewer.html#provide-url-and-user-name-via-qr",
+    "title": "Learning Survey Solutions",
+    "section": "Provide URL and user name via QR",
+    "text": "Provide URL and user name via QR\n\n\n\n\nVideo\n\n\n\nOn \n\nLog into server as Headquarters\nOpen Teams and Roles &gt; Interviewers\nSelect an interviewer account\n\nOn \n\nOpen Interviewer\nTap on the QR icon \nRead the  on the  screen\n\n\n\n\n\nSee more here"
+  },
+  {
+    "objectID": "slides/03_interviewer/01_setup/01_setup_interviewer.html#change-password",
+    "href": "slides/03_interviewer/01_setup/01_setup_interviewer.html#change-password",
+    "title": "Learning Survey Solutions",
+    "section": "Change password",
+    "text": "Change password\n\n\nTODO: video of process\n\n\nProvide current password\nCompose a new password–possibly same as the current one"
+  },
+  {
+    "objectID": "slides/03_interviewer/01_setup/01_setup_interviewer.html#sync-1",
+    "href": "slides/03_interviewer/01_setup/01_setup_interviewer.html#sync-1",
+    "title": "Learning Survey Solutions",
+    "section": "Sync",
+    "text": "Sync\n\n\nTODO: video of process\n\nHow\nEither:\n\nTap sync button or\nTap sync icon\n\nWhy\n\nLink the user’s account and tablet\nConfirm that synchronization works\nObtain initial assignments"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#roadmap",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nSync\n\n\nManage\n\n\nInterview"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#sync-1",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#sync-1",
+    "title": "Learning Survey Solutions",
+    "section": "Sync",
+    "text": "Sync\n\n\nLeft column\n\nWhat\n\nGet work\nSend work\n\nHow\n\nConnect to  / \nSync icon"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#overview",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#overview",
+    "title": "Learning Survey Solutions",
+    "section": "Overview",
+    "text": "Overview\n\n\nTODO: video or image of dashboard\n\nTabs  status\n\nNew\nStarted\nCompleted\nRejected\n\nCards  work\n\nAssignments (status: new)\nInterviews (statuses: started, completed, rejected)"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#tabs",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#tabs",
+    "title": "Learning Survey Solutions",
+    "section": "Tabs",
+    "text": "Tabs\n\n\nTODO: video of toggling between status tabs\n\nNavigation\n\nTap or\nSwipe left/right\n\nStatuses\n\nNew. To be started.\nStarted. Started but not completed.\nCompleted. Completed but not synched.\nRejected. Rejected by Supervisor and/or Headquarters."
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#cards",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#cards",
+    "title": "Learning Survey Solutions",
+    "section": "Cards",
+    "text": "Cards\n\n\nTODO: video of inspecting cards\n\nAnatomy\n\n\n\nSystem IDs\n\n\n\nInterview key\n\n\nAssignment number\n\n\nQuestionnaire\n\n\n\n\n\nPractical IDs\n\n\n\nThree ID variables\n\n\nOthers\n\n\n\n\n\nMetadata\n\n\n\nCalendar event\n\n\nGPS location"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#search",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#search",
+    "title": "Learning Survey Solutions",
+    "section": "Search",
+    "text": "Search\n\n\nTODO: video of using search\n\n\nScan manually\nSearch"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#act",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#act",
+    "title": "Learning Survey Solutions",
+    "section": "Act",
+    "text": "Act\n\n\nTODO: video of showing actions\n\nAction(s)\n\n\n\nMain action, which depends on status\n\n\n\nNew: CREATE NEW INTERVIEW\n\n\nStarted: OPEN\n\n\nRejected: VIEW ISSUES\n\n\nCompleted: REOPEN\n\n\n\nAdditional actions\nExpand card to see additional details\nNavigate (with external app)"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#startresume",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#startresume",
+    "title": "Learning Survey Solutions",
+    "section": "Start/Resume",
+    "text": "Start/Resume\n\n\nTODO: image of staring/opening\n\nProcess\n\nNavigate to appropriate dashboard tab\nFind card\nTap button to start/resume"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#cover-page",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#cover-page",
+    "title": "Learning Survey Solutions",
+    "section": "Cover page",
+    "text": "Cover page\n\n\nTODO: video of cover page and usage of components\n\nComponents\n\nInterview-level comments. Review.\nQuestion-level comments. Tap to find question.\nIdentifying information. Use to confirm hhold ID.\nStart button. Tap to start interview."
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#navigatewithin-section",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#navigatewithin-section",
+    "title": "Learning Survey Solutions",
+    "section": "Navigate–within section",
+    "text": "Navigate–within section\n\n\nTODO: video of scrolling up/down\n\nGestures\n\nScroll up\nScroll down"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#navigatebetween-sections-via-toc",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#navigatebetween-sections-via-toc",
+    "title": "Learning Survey Solutions",
+    "section": "Navigate–between sections via TOC",
+    "text": "Navigate–between sections via TOC\n\n\nTODO: video of opening section\n\n\nTap on \nTap to expand section (optionally)\nTap on target section"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#navigatebetween-sections-via-button",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#navigatebetween-sections-via-button",
+    "title": "Learning Survey Solutions",
+    "section": "Navigate–between sections via button",
+    "text": "Navigate–between sections via button\n\n\nTODO: video of navigating to next section\n\n\nNavigate to end of section\nTap on button bearing name of next section"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#navigatebetween-levels",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#navigatebetween-levels",
+    "title": "Learning Survey Solutions",
+    "section": "Navigate–between levels",
+    "text": "Navigate–between levels\n\n\nTODO: video of navigation between levels\nShow two examples:\n\nRosters\nSub-sections\n\n\nButtons\n\nTap button for “child”\nTap button for “parent”\n\nTable of contents\n\nOpen table of contents (TOC)\nExpand “parent” in TOC\nTap “child”"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#answer",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#answer",
+    "title": "Learning Survey Solutions",
+    "section": "Answer",
+    "text": "Answer\n\n\nTODO: video of answering/unanswering\nShow for a one question of each type below:\n\nRemove value in field. Numeric/text\nDeselect.\n\nSingle-select\nMulti-select (?)\n\nTap to capture; tap X to remove\n\nGPS\nDate/Timestamp\nImage\nBarcode\n\n\n\nAnswer\nRemove answer"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#assess-progress",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#assess-progress",
+    "title": "Learning Survey Solutions",
+    "section": "Assess progress",
+    "text": "Assess progress\n\n\nTODO: video of colors to indicate status\nShow at different levels; show how changes as qnr changes:\n\nInterview\nSection\nSub-section/roster row\n\n\nColors ⇒ status …\n\nIncomplete. Some unanswered.\nComplete. All answered; no errors.\nRed. Some errors.\n\n… for all groups\n\nInterview overall\nSections\nSub-sections/roster rows"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#comment",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#comment",
+    "title": "Learning Survey Solutions",
+    "section": "Comment",
+    "text": "Comment\n\n\nTODO: video of comments being left at two levels:\n\nQuestions\nInterview\n\n\nQuestions\n\nTap and hold until input field appears\nType comment\n(Repeat as needed to add more comments)\n\nInterview\n\nNavigate to Complete section\nType comment in the NOTE FOR SUPERVISOR field\n(Repeat/revise as needed)"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#reviewrevise",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#reviewrevise",
+    "title": "Learning Survey Solutions",
+    "section": "Review/revise",
+    "text": "Review/revise\n\n\nTODO: video of review/revise process\n\nLook at statistics\nNavigate to errors\nProvide interview comments\n\n\nStatistics\n\nReview statistics\n\nUnanswered\nError(s)\n\nOpen TOC to find issues\n\nErrors\n\nReview errors\nTap on list elements to jump to location in interview\n\nComments\n\nLeave interview-level comments (optional)"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#close",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#close",
+    "title": "Learning Survey Solutions",
+    "section": "Close",
+    "text": "Close\n\n\nTODO: Video of closing interview\n\nProcess\n\nTap on \nSelect Dashbord"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#resume",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#resume",
+    "title": "Learning Survey Solutions",
+    "section": "Resume",
+    "text": "Resume\n\n\nTODO: video of finding interview and resuming it\n\nBy status and scanning\nBy searching\n\n\n\nFind\n\nBy status\nBy search\n\nTap on OPEN"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#mark-as-complete",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#mark-as-complete",
+    "title": "Learning Survey Solutions",
+    "section": "Mark as complete",
+    "text": "Mark as complete\n\n\nTODO: video of process\n\n\nNavigate to Complete section\nTap on COMPLETE button"
+  },
+  {
+    "objectID": "slides/03_interviewer/02_use/02_use_interviewer.html#reopen",
+    "href": "slides/03_interviewer/02_use/02_use_interviewer.html#reopen",
+    "title": "Learning Survey Solutions",
+    "section": "Reopen",
+    "text": "Reopen\n\n\nTODO: video of finding interview and resuming it\n\nBy status and scanning\nBy searching\n\n\n\nFind\n\nBy status\nBy search\n\nTap on OPEN"
   }
 ]

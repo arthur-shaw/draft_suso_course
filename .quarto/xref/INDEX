@@ -61,5 +61,11 @@
   },
   "index.qmd": {
     "index.html": "4194a7c8"
+  },
+  "slides/03_interviewer/01_setup/01_setup_interviewer.qmd": {
+    "01_setup_interviewer.html": "7558a165"
+  },
+  "slides/03_interviewer/02_use/02_use_interviewer.qmd": {
+    "02_use_interviewer.html": "c6f789b6"
   }
 }

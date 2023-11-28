@@ -44,8 +44,8 @@ schedule_df <- tibble::tribble(
     "Supervisor",  "Set up Supervisor", NA, NA,   NA,
     "Supervisor",  "Use Supervisor", NA, NA,   NA,
     # Interviewer
-    "Interviewer",  "Set up Interviewer", NA, NA,   NA,
-    "Interviewer",  "Use Interviewer", NA, NA,   NA,
+    "Interviewer",  "Set up Interviewer", NA, "slides/03_interviewer/01_setup/01_setup_interviewer.qmd",   NA,
+    "Interviewer",  "Use Interviewer", NA, "slides/03_interviewer/02_use/02_use_interviewer.qmd",   NA,
     # Managing a survey
     "Managing a survey",  "Managing with Interviewer", NA, NA,   NA,
     "Managing a survey",  "Monitor with Supervisor", NA, NA,   NA,
