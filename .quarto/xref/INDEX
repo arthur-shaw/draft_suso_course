@@ -61,5 +61,14 @@
   },
   "index.qmd": {
     "index.html": "4194a7c8"
+  },
+  "slides/05_manage_survey/01_manage_w_interviewer/01_manage_w_interviewer.qmd": {
+    "01_manage_w_interviewer.html": "c529296f"
+  },
+  "slides/05_manage_survey/03_manage_w_hq/03_manage_w_hq.qmd": {
+    "03_manage_w_hq.html": "575f67b8"
+  },
+  "slides/05_manage_survey/04_get_use_data/04_get_use_data.qmd": {
+    "04_get_use_data.html": "aea7a15c"
   }
 }
