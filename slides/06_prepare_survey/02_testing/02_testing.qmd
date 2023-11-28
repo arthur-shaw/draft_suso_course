@@ -1,0 +1,499 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: true
+---
+
+```{r}
+
+```
+
+# Testing {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+What
+:::
+
+::: {.box .box-2}
+How
+:::
+
+::: {.box .box-3}
+With what
+:::
+
+# What {background-color=var(--s1)}
+
+## Content {.t1}
+
+::: {.box .box-1}
+Questionnaire
+:::
+
+::: {.box .box-1}
+Upstream systems
+:::
+
+::: {.box .box-1}
+Downstream systems
+:::
+
+## Questionnaire {.t1}
+
+::: {.box .box-1}
+Content
+:::
+
+::: {.box .box-1}
+Skips
+:::
+
+::: {.box .box-1}
+Validations
+:::
+
+::: {.box .box-1}
+Design choices
+:::
+
+## Content {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image
+
+- Paper questionnaire with questions
+- CAPI app with one question missing
+- Highlight that question
+
+:::
+
+::: {.column width="30%"}
+
+### PAPI matches CAPI
+
+- Questions
+- Answer options
+
+:::
+
+::::
+
+## Skips {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of SuSo condition (and, potentially, result)
+
+:::
+
+::: {.column width="30%"}
+
+- Matches PAPI
+- Works correctly in CAPI
+  - Right default (e.g., disabled)
+  - Right response (e.g., conditionally enabled)
+
+:::
+
+::::
+
+## Validations {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of SuSo validation (and, potentially, result)
+
+:::
+
+::: {.column width="30%"}
+
+- Matches design specifications
+- Works correctly
+
+:::
+
+::::
+
+## Design choices {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: good and bad designs
+
+See more [here](https://pedantic-bell-3ef571.netlify.app/slides/how_to_test#13)
+
+:::
+
+::: {.column width="30%"}
+
+- Fulfills survey design/protocol needs
+- Makes survey navigation/administration easy for interviewer
+
+:::
+
+::::
+
+## Upstream systems {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image or video, potentially reused from HQ section
+
+:::
+
+::: {.column width="30%"}
+
+### Create assignments
+
+- Create SuSo assignments from data (e.g., listing, panel IDs, etc.)
+- Import SuSo assignments on server
+
+:::
+
+::::
+
+
+## Downstream systems {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of source code and/or report as an example
+
+:::
+
+::: {.column width="30%"}
+
+### Survey management systems
+
+- Reports
+- High-frequency checks
+
+:::
+
+::::
+
+
+
+# How {background-color=var(--s2)}
+
+## Types of testing {.t2}
+
+::: {.box .box-2}
+Unit
+:::
+
+::: {.box .box-2}
+Integration / Functional
+:::
+
+::: {.box .box-2}
+Smoke
+:::
+
+::: {.box .box-2}
+End-to-end
+:::
+
+::: {.box .box-2}
+Performance
+:::
+
+
+::: {.notes}
+Reference: https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing
+:::
+
+## Unit testing {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of a condition to check
+
+:::
+
+::: {.column width="30%"}
+
+### Definition
+
+Check that the smallest units of code work
+
+### Examples
+
+- Skip works correctly
+- Validation fires appropriately
+- Answers filter properly
+
+:::
+
+::::
+
+## Integration / Functional testing {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: images of script on one side; outcome on the other
+
+:::
+
+::: {.column width="30%"}
+
+### Definition
+
+Check that parts of system work together as expected
+
+### Examples
+
+- Script creates right inputs for SuSo preloading
+- Preloading leads to right skip behavior for panel households
+
+:::
+
+::::
+
+## Smoke testing {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image/video of tester checking skips
+
+:::
+
+::: {.column width="30%"}
+
+### Definition
+
+Since testing may be expensive, quickly check for problems in functionality ("smoke") that may indicate problems needed careful inspection ("fire")
+
+### Examples
+
+- Major skips work
+- Application data contains desired variables
+
+:::
+
+::::
+
+
+## End-to-end testing {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image/video of filling interview in tester--potentially same as for prior slide
+
+:::
+
+::: {.column width="30%"}
+
+### Definition
+
+Click through the whole application manually
+
+### Examples
+
+Complete questionnaire, ideally with different completion paths
+
+- Complete agricultural module for one household
+- Complete non-agricultural enterprise module for another household
+
+:::
+
+::::
+
+## Performance testing {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of tablet with several interviews on it
+
+:::
+
+::: {.column width="30%"}
+
+### Definition
+
+Check how app works operating under a particular load
+
+### Examples
+
+App works well under field conditions:
+
+- Large sections are fully completed
+- Full interview completed
+- Several interviews completed on device
+
+:::
+
+::::
+
+
+# With what {background-color=var(--s3)}
+
+## Testing tools {.t3}
+
+::: {.box .box-3}
+Tester
+:::
+
+::: {.box .box-3}
+Interviewer
+:::
+
+# Tester {background-color=var(--s3)}
+
+## How {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of:
+
+- Open questionnaire
+- Click on TEST
+- Fill questionnaire
+
+:::
+
+::: {.column width="30%"}
+
+- Navigate to Designer
+- Open a questionnaire
+- Click on `TEST`
+
+:::
+
+::::
+
+## Why {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of:
+
+- launching from Designer
+- updating when application changes while keeping data
+
+:::
+
+::: {.column width="30%"}
+
+- **Fast.** Click of 1 button.
+- **Available.** From inside Designer/browser.
+- **Live updates.** In sync with changes in Designer.
+
+:::
+
+::::
+
+## Why not {.t3}
+
+::: {.incremental}
+
+- **Ephemeral.** Session expires quickly. Leaves no data.
+- **Internet.** Requires continuous internet connection.
+- **Access.** Requires Designer account + acces to app.
+- **Incomplete.** No visibility on other things to test:
+  - Preloading data
+  - Synchronizing
+  - Finding assignments
+  - How tablet works with app
+  - Etc.
+
+:::
+
+# Interviewer {background-color=var(--s3)}
+
+## How {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process
+
+:::
+
+::: {.column width="30%"}
+
+### In `r fontawesome::fa(name = "laptop")`
+
+- Create users
+- Import questionnaires
+- Create fake data for ID variables
+- Create assignments from fake data
+
+### In `r fontawesome::fa(name = "tablet-screen-button")`
+
+- Sync
+- Complete assignments
+
+:::
+
+::::
+
+## Why {.t3}
+
+- **More control.** Which version to test. Which cases to test. Who tests what.
+- **More informative.** Evaluate the performance of the app on the tablet.
+- **More permanence.** Saves issues encountered as well as data for producing them.
+- **More independence.** Can enter across several sessions and offline.
+
+## Why not {.t3}
+
+- **More setup.** Need to setup whole survey architecture: questionnaire, users, assignments, etc.
+- **More complexity.** Must enter as during data collection.
+
+## Synthesis {.t3}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### During development
+
+TODO: image of Tester
+
+:::
+
+::: {.column width="50%"}
+
+### During finalization
+
+TODO: image of Interviewer
+
+:::
+
+::::

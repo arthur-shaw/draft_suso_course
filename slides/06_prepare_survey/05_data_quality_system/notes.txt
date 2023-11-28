@@ -1,0 +1,5 @@
+In 05_data_quality_system, remind that interviewer and supervisor remain important actors
+
+Add CAPI developer to "People"
+
+Add mention of presentations on managing with Interviewer, Supervisor, and Headquarters. This helps remind and helps clarify how the scope of this presentation is different.

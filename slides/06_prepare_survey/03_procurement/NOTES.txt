@@ -1,0 +1,13 @@
+Procurement
+
+Get tablets with 
+
+- Bluetooth, necessary for 
+- WiFi Direct, since faster than Bluetooth
+
+Be sure to buy small lot of tablets before buying large number for survey. Confirm tablets work.
+
+Perhaps give a few examples
+
+- Camera without autofocus, unable to read barcode
+- ...

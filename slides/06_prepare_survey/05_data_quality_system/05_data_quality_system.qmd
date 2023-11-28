@@ -1,0 +1,356 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: false
+---
+
+```{r}
+
+```
+
+# Data quality system `r fontawesome::fa(name = "table")` `r fontawesome::fa(name = "check-double")` {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Process
+:::
+
+::: {.box .box-2}
+Program(s)
+:::
+
+::: {.box .box-3}
+People
+:::
+
+<!--  -->
+
+# Process {background-color=var(--s1)}
+
+## Process {.t1}
+
+::: {.box .box-1}
+Get data
+:::
+
+::: {.box .box-1}
+Review data
+:::
+
+::: {.box .box-1}
+Act
+:::
+
+## Get data {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: image 
+:::
+
+::: {.column width="30%"}
+
+- Request data for target questionnaire(s)
+- Download data
+- Prepare data files for processing
+
+:::
+
+::::
+
+## Review data {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: image of script or of some fake (Stata) data
+:::
+
+::: {.column width="30%"}
+
+- Identify issues
+    - Impossible/implausible values
+    - Internal incoherence
+- Review trends
+    - "Strategic behavior" by interviewers
+    - Misunderstanding of key concepts
+
+:::
+
+::::
+
+## Act {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Decide
+
+- Scrutinize data
+- Review comments, if any
+- Seek clarifications from the field, as needed
+
+:::
+
+::: {.column width="50%"}
+
+### Execute
+
+- Compile comments
+- Approve/reject
+- Edit records, if necessary changes not made after rejection
+
+:::
+
+::::
+
+<!--  -->
+
+# Program(s) {background-color=var(--s2)}
+
+## Connect to server {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of providing authentication to program
+
+:::
+
+::: {.column width="30%"}
+
+### If possible, via API
+
+- Create an API user
+- Record the server, workspace, login, and password
+- Use authentication in program(s)
+
+### If not, with Headquarters
+
+- Navigate to server
+- Log in 
+
+:::
+
+::::
+
+## Get data {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: image of susoapi script, for example
+:::
+
+::: {.column width="30%"}
+
+### In principal
+
+- Specify the desired data
+- Start process to export data
+- Wait until data export available
+- Download data
+
+### In practice
+
+- Either automate process via API
+- Or undertake manually via HQ
+
+:::
+
+::::
+
+## Review data {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of high-frequency checks program
+
+:::
+
+::: {.column width="30%"}
+
+- Check data against validation rules
+- Identify potential issues 
+    - Record issues
+    - Note the issue and action to take
+
+:::
+
+::::
+
+## Act {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of rejection part of high frequency check script
+
+:::
+
+::: {.column width="30%"}
+
+### Decide
+
+- Determine action based on issues identified
+- Search for potentialy explanatory comments
+- Decide whether to approve, review, or reject
+
+### Execute
+
+- Send decision to the server--approve or reject--along with appropriate (error) messages
+- Mark interviews for manual review
+
+:::
+
+::::
+
+<!--  -->
+
+# People {background-color=var(--s3)}
+
+## Design phase {.t3}
+
+::: {.panel-tabset}
+
+### Designer
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Profile
+
+- Knows context
+- Masters subject matter (e.g., anthro, agriculture, etc.)
+- Has past experience with same/similar survey
+
+:::
+
+::: {.column width="50%"}
+
+#### Actions
+ 
+- Provides conceptual architecture for system
+- Decides on validation rules
+- Dictates what to monitor
+
+:::
+
+::::
+
+
+### Developer
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Profile
+
+- Past experience with data management
+- Proficient in least one statistical programming language
+
+:::
+
+::: {.column width="50%"}
+
+#### Actions
+
+- Writes code to check data
+- Seeks input/guidance from subject matter experts
+- Provides documentation/training to implementers
+
+:::
+
+::::
+
+:::
+
+
+## Implementation phase {.t3}
+
+::: {.panel-tabset}
+
+### Manager
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Profile
+
+- Past experience with data management
+- Proficient in least one statistical programming language
+- Understands data quality system technically
+    - Either knows the codebase
+    - Or can talk with someone who does
+
+:::
+
+::: {.column width="50%"}
+
+#### Actions
+
+- Manages data quality programs
+    - Runs scripts, if not automated
+    - Remedies errors, if any
+- Manages manual processes, if any
+    - Runs non-automated code (e.g., reject interviews once review complete)
+    - Distributes files (e.g., review assignments for monitors)
+- Oversees monitors
+    - Manages monitors (e.g., allocates, monitors, and helps monitors)
+    - Provides technical support (e.g., review cases on SuSo, inspect data, etc.)
+
+:::
+
+::::
+
+### Monitor
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Profile
+
+- Knows survey instrument(s)
+- Understands data quality system procedurally
+    - Knows processes and how they are linked
+    - Knows their role in the overall system
+- Masters the method for reviewing interviews (e.g., SuSo HQ, R/Stata to review data, etc.)
+
+:::
+
+::: {.column width="50%"}
+
+#### Actions
+
+- Review assigned cases carefully
+    - Review issues flagged by data system
+    - Read comments interview- and/or question-level comments, if any
+    - Scrutinize data (e.g., assess whether answers make sense)
+    - Decide on action to take and feedback to leave
+- Seek input from the field promptly
+    - Seek clarifications on comments
+    - Call supervisor/interviewer with questions
+
+:::
+
+::::
+
+
+:::

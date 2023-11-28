@@ -1,0 +1,311 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: false
+---
+
+# Procurement `r fontawesome::fa(name = "sack-dollar")` `r fontawesome::fa(name = "tablet-screen-button")` {background-color=var(--suso)}
+
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Server `r fontawesome::fa(name = "server")`
+:::
+
+::: {.box .box-2}
+Tablets `r fontawesome::fa(name = "tablet-screen-button")`
+:::
+
+::: {.box .box-3}
+Routers `r fontawesome::fa(name = "wifi")`
+:::
+
+::: {.box .box-4}
+Other equipment `r fontawesome::fa(name = "plug")` `r fontawesome::fa(name = "sheet-plastic")` `r fontawesome::fa(name = "battery-three-quarters")`
+:::
+
+# Server `r fontawesome::fa(name = "server") `{background-color=var(--s1)}
+
+## Requirements {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Hard
+
+```{r}
+#| eval: true
+knitr::include_url("https://docs.mysurvey.solutions/faq/server-requirements/", height = "600px")
+```
+
+[https://docs.mysurvey.solutions/faq/server-requirements/](https://docs.mysurvey.solutions/faq/server-requirements/)
+
+:::
+
+::: {.column width="50%"}
+
+### Soft
+
+- Supports expected load
+- Scalable to increased load if needed
+
+:::
+
+::::
+
+## Options {.t1}
+
+::: {.box .box-1}
+Local
+:::
+
+::: {.box .box-1}
+Cloud
+:::
+
+
+## Local {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### 👍
+
+- You manage your server
+- Server physically on-prem
+- Data stored on-prem
+
+:::
+
+::: {.column width="50%"}
+
+### 👎
+
+- <details>
+  <summary>You NEED to manage everything about your server</summary>
+  <ul>
+    <li>Power supply</li>
+    <li>Computational resources</li>
+    <li>Backup</li>
+    <li>Redundancy</li>
+    <li>Monitoring</li>
+    <li>Security</li>
+    <li>Etc.</li>
+  </ul>
+</details>
+- You must pay for the costs of the above
+- Your security is only as good as:
+  - On-prem physical security
+  - In-house digital security protections
+
+:::
+
+::::
+
+## Cloud {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### 👍
+
+- Someone else manages your server infrastructure (for a small monthly fee)
+- Easily scale resources as a function of needs (e.g. more RAM, more storage, etc.)
+- Better security, easier
+- Easy to script deployment
+
+:::
+
+::: {.column width="50%"}
+
+### 👎
+
+- Procurement requires a credit or prepaid card to pay service provider
+- Deployment may require new skills (e.g., learning provider's services, how to orchestrate services, etc.)
+- Clearance for cloud deployment may be harder to obtain (even if it's generally cheaper and more secure)
+
+:::
+
+::::
+
+
+# Tablets `r fontawesome::fa(name = "tablet-screen-button")` {background-color=var(--s2)}
+
+## Requirements {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Hard
+
+```{r}
+#| eval: true
+knitr::include_url("https://docs.mysurvey.solutions/faq/what-tablets-should-i-buy-/", height = "600px")
+```
+
+[https://docs.mysurvey.solutions/faq/what-tablets-should-i-buy-/](https://docs.mysurvey.solutions/faq/what-tablets-should-i-buy-/)
+
+:::
+
+::: {.column width="50%"}
+
+### Soft 
+
+- More RAM -> faster performance
+- Reputable manufacturer
+  - Better product
+  - Better (public) support
+  - More updates
+
+:::
+
+::::
+
+## Other considerations {.t2}
+
+- If planning for offline interview transfer, equipped with ...
+  - ... Bluetooth
+  - ... WiFi Direct
+- If GPS points or area matter ...
+  - ... number satellite constellations (GPS, Glonas, Beidou, etc.)
+  - ... Bluetooth to connect with GPS devices 
+
+## Number to buy {.t2}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### Field team
+
+- Supervisor
+- Interviewer
+
+:::
+
+::: {.column width="33%"}
+
+### Backup
+
+- Per team, kept with the team
+- Additional, kept with the head office
+
+:::
+
+::: {.column width="33%"}
+
+### Others
+
+- For extra field staff trained but not hired
+- For the head office team, to replicate issues flagged by the field
+
+:::
+
+::::
+
+# Routers `r fontawesome::fa(name = "wifi")` {background-color=var(--s3)}
+
+## Requirements {.t3}
+
+- Connect with mobile internet service provider
+- 4G or 5G connection strongly recommended
+
+## Number to buy {.t3}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### Field team
+
+One per team
+
+:::
+
+::: {.column width="33%"}
+
+### Backup
+
+Kept with the head office
+
+:::
+
+::: {.column width="33%"}
+
+### Others
+
+- For extra field staff trained but not hired
+- For the head office team, to be connected while on field supervision mission
+
+:::
+
+::::
+
+
+## Other considerations {.t3}
+
+- Mobile, with battery for autonomuous usage
+- Unlocked, so can use SIM card of other internet service providers, as needed
+
+# Other equipment `r fontawesome::fa(name = "plug")` `r fontawesome::fa(name = "sheet-plastic")` `r fontawesome::fa(name = "battery-three-quarters")` {background-color=var(--s4)}
+
+## Charging `r fontawesome::fa(name = "plug")` `r fontawesome::fa(name = "battery-three-quarters")` {.t4}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Battery packs
+
+- Smaller for each field worker (e.g., 8k mAh)
+- Larger ones for teams (e.g., 30k mAh)
+
+:::
+
+::: {.column width="50%"}
+
+### Charger
+
+- Power strip, so team can charge multiple tablets at once over night
+- Plug adapters, if tablet has different plug than country
+
+:::
+
+::::
+
+## Protection `r fontawesome::fa(name = "sheet-plastic")` {.t4}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Case
+
+- One per tablet
+- Consider a small number of extras, since typically not replaced
+
+:::
+
+::: {.column width="50%"}
+
+### Screen protector
+
+- One per tablet
+- Consider small number of extras, but larger number than of cases. Screen protectors might be replaced more regularly.
+
+:::
+
+::::
+
+

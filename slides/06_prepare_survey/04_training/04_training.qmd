@@ -1,0 +1,483 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: false
+---
+
+```{r}
+
+```
+
+# Training field staff `r fontawesome::fa(name = "chalkboard-user")``r fontawesome::fa(name = "users")` {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Organizational `r fontawesome::fa(name = "sitemap")`
+:::
+
+::: {.box .box-2}
+Pedagogical `r fontawesome::fa(name = "person-chalkboard")`
+:::
+
+::: {.box .box-3}
+Logistical  `r fontawesome::fa(name = "truck-plane")`
+:::
+
+
+# Organizational {background-color=var(--s1)}
+
+## Overview {.t1}
+
+::: {.box .box-1}
+When to train on CAPI software
+:::
+
+::: {.box .box-1}
+When to train supervisors
+:::
+
+# When to train on CAPI software {background-color=var(--s1)}
+
+## Two models {.t1}
+
+::: {.box .box-1}
+Model 1: Progress from content to tool
+:::
+
+::: {.box .box-1}
+Model 2: Interleave content and tool
+:::
+
+## Model 1: Progress from content to tool {.t1}
+
+::: {.box .box-1}
+Content
+:::
+
+::: {.box .box-1}
+Tool
+:::
+
+::: {.box .box-1}
+Practice
+:::
+
+## Commence with content {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image of paper questionnaire (could be sourced from other learning modules)
+
+:::
+
+::: {.column width="30%"}
+
+- Overview of module
+- How to administer
+- Who answers
+- Major concepts
+- Meaning of questions and answer options
+
+:::
+
+::::
+
+## Add tool {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of overview of Interviewer; perhaps overview of dashboard (sourced from another learning module)
+
+:::
+
+::: {.column width="30%"}
+
+### Interviewer basics
+
+- Overview of dashboard
+- How to sync
+- How to start an interview
+- How to move around
+    - Within section
+    - Across sections
+- How to (un)answer common question types
+- How to mark interview as complete
+
+:::
+
+::::
+
+## Practice content with tool {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of answering questions in a (sub)section of a realistic (vraisemblable) interview
+
+Consider using same video later in this presentation
+
+:::
+
+::: {.column width="30%"}
+
+- Fill out section
+- Group interview
+- Pair interview
+- Field practice
+
+:::
+
+::::
+
+## Model 2: Interleave content and tool {.t1}
+
+::: {.box .box-1}
+Introduce early
+:::
+
+::: {.box .box-1}
+Use often
+:::
+
+::: {.box .box-1}
+Practice
+:::
+
+## Introduce tool early {.t1}
+
+- Potentially as first thing in training
+- More likely as transition to first practice exercise
+- Just before first use
+
+## Use tool often {.t1}
+
+- For practice
+    - After each module, fill out module in CAPI
+    - After each section, conduct group interviews for section
+- For testing/getting feedback
+    - Knowledge checks
+    - Quizzes
+    - Tests
+
+## Practice content with tool {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: image or video of filling out part of a realistic (vraisemblable) interview section
+
+:::
+
+::: {.column width="30%"}
+
+- Fill out section
+- Group interview
+- Pair interview
+- Field practice
+
+:::
+
+::::
+
+# When to train supervisors {background-color=var(--s1)}
+
+## Two scenarios {.t1}
+
+::: {.box .box-1}
+Scenario 1: supervisors pre-selected
+:::
+
+::: {.box .box-1}
+Scenario 2: supervisors selected after training
+:::
+
+## Scenario 1: supervisors pre-selected {.t1}
+
+- If possible, after training of interviewers
+- If necessary, after hours during interviewer training
+
+## Scenario 2: supervisors selected after training {.t1}
+
+- Only option: after training
+
+## Both scenarios: time to learn and practice {.t1}
+
+- Learn skills--in classroom
+- Practice skills--in real or simulated setting
+
+<!--  -->
+
+# Pedagogical {background-color=var(--s2)}
+
+::: {.box .box-2}
+Approach
+:::
+
+::: {.box .box-2}
+Exercises
+:::
+
+## Approach {.t2}
+
+::: {.box .box-2}
+Ramp up responsiblity
+:::
+
+::: {.box .box-2}
+Plentiful practice
+:::
+
+## Ramp up responsiblity {.t2}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### I do
+
+- Trainer demonstrates process
+- Participants watch
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### We do
+
+1. Trainer demonstrates
+1. Participant replicates
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### You do
+
+1. Trainer gives instructions
+1. Participant does
+
+:::
+
+::::
+
+## Plentiful practice {.t2}
+
+TODO: think of content
+
+## Exercises {.t2}
+
+::: {.box .box-2}
+Guided tours
+:::
+
+::: {.box .box-2}
+Practice interviews
+:::
+
+
+## Guided tours {.t2}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### SuSo overview
+
+- HQ assigns
+- (Supervisor reassign)
+- Interviewer
+    - Interviews
+    - Syncs
+- HQ and/or supervisor
+    - Review
+    - Act
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### Syncing
+
+- How to sync
+- What sync does
+    - Send completed work
+    - Pull new or rejected interviews
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### Interviewing
+
+- Start interview
+- Move around
+    - Within section
+    - Across sections
+- (Un)answer question types relevant for this survey
+- Mark interview as complete
+
+:::
+
+::::
+
+## Practice interviews {.t2}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### Group
+
+- **Simulated interview**
+    - Two participants
+    - One plays the interviewer
+    - Other the respondent
+- **Everyone else follows**
+    - Listens to the exchange
+    - Captures the data
+- **Pause periodically for feedback**
+    - On interview
+    - On CAPI app usage
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### Pair
+
+- **Simulated interview**
+    - Divide all participants into two-person groups
+    - One plays the interviewer
+    - Other the respondent
+    - Both capture data
+- **Pause periodically**
+    - Change role within group
+    - Collect questions / comments from all groups
+    - Provide feedback
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### Field
+
+- **Real interview**
+    - Identify out-of-sample respondents
+    - Follow all survey protocols
+- **Supervise interviews**
+    - Sit in part of interview
+    - Get post-interview debrief
+- **Provide feedback**    
+    - Interview content
+    - CAPI use
+
+:::
+
+::::
+
+
+
+<!-- NOTE: need to flesh this out much more--potentially with content in comments below -->
+
+<!-- 
+## Overview of SuSo
+
+## Instructional method
+
+- I do
+- We do
+- You do
+
+## Use early, use often
+
+## Guided tour of dashboard, sync 
+
+- Present SuSo platform
+- Open SuSo, sync, dashboard, find hhold; have interviewers do the same
+- Show question types and structure(s) (e.g., section, sub-section, roster, etc.)
+
+## Guided tour of interview 
+
+## Guided tour of instrument
+
+
+## Group practice
+
+- Do interview together with interviewers (i.e., simulated interview and everyone fills out at same time)
+
+## Pair practice
+
+- Do interview with neighbor (and sync)
+
+## Field practice
+
+- If possible, by chunk
+- If not, all at once
+
+ -->
+
+<!--  -->
+
+# Logistical {background-color=var(--s3)}
+
+## Finding a venue {.t3}
+
+- Electricity
+- Internet
+
+## Staffing {.t3}
+
+- Pre-training
+    - Prepare devices for training
+- Training
+    - Trainer(s)
+    - Roaming (tech) support
+- Post-training
+    - Prepare devices for the field
+
+## Preparing equipment {.t3}
+
+- Prepare CAPI equipment
+    - See 06_prepare_devices.qmd
+    - Remove (unnecessary) friction
+        - Server login
+        - Connection to WiFi
+- Prepare routers
+    - Install SIM
+    - Confirm connection
+
+## Providing equipment {.t3}
+
+- Devices
+    - Tablets
+    - Routers
+- Chargers
+
+## Projecting {.t3}
+
+- Projector to connect to laptop
+- Software for displaying tablet screen on laptop
+    - [Samsung SideSync](https://www.samsung.com/africa_en/support/side-sync/)
+    - [scrcpy](https://github.com/Genymobile/scrcpy)
+
+
+## Training supervisors {.t3}
+
+Consider repeating slides from earlier on when to hold supervisor training
+
+## Providing (field) practice {.t3}
+
+Allow enough time to conduct at least 1-2 interviews

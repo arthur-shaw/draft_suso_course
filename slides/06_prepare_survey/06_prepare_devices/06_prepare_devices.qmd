@@ -1,0 +1,401 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: false
+---
+
+```{r}
+
+```
+
+# Prepare tablets  `r fontawesome::fa(name = "tablet-screen-button")` `r fontawesome::fa(name = "tablet-screen-button")` `r fontawesome::fa(name = "tablet-screen-button")` {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Install apps `r fontawesome::fa(name = "google-play")`
+:::
+
+::: {.box .box-2}
+Apply updates `r fontawesome::fa(name = "calendar-check")`
+:::
+
+::: {.box .box-3}
+Install Interviewer `r fontawesome::fa(name = "circle-play")`
+:::
+
+::: {.box .box-4}
+Lock device `r fontawesome::fa(name = "lock")`
+:::
+
+::: {.box .box-5}
+Prepare for survey `r fontawesome::fa(name = "list-check")` 
+:::
+
+
+<!--  -->
+# Install apps `r fontawesome::fa(name = "google-play")` {background-color=var(--s1)}
+
+## Which apps {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### General needs
+
+- Survey manual reader `r fontawesome::fa(name = "file-word")`/`r fontawesome::fa(name = "file-pdf")`
+- Project communication `r fontawesome::fa(name = "comments")`
+
+:::
+
+::: {.column width="50%"}
+
+### Specific needs
+
+- Data collection outside of SuSo
+- File storage `r fontawesome::fa(name = "cloud-arrow-up")`
+- Aids with GPS capture `r fontawesome::fa(name = "location-dot")`
+
+:::
+
+::::
+
+## How to install {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO:: video of process like [this](https://preparer-tablettes.netlify.app/#6)
+
+:::
+
+::: {.column width="30%"}
+
+- Connect to Google Play `r fontawesome::fa(name = "google-play")`
+- Search for the app  `r fontawesome::fa(name = "magnifying-glass")`
+- Install
+
+:::
+
+::::
+
+
+<!--  -->
+# Apply updates `r fontawesome::fa(name = "calendar-check")` {background-color=var(--s2)}
+
+## Android operating system `r fontawesome::fa(name = "android")` {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process like [this](https://preparer-tablettes.netlify.app/#8)
+NOTE: need to have an OS update available to show this; might need to use older device
+
+:::
+
+::: {.column width="30%"}
+
+### Observations
+
+- Method may vary by  `r fontawesome::fa(name = "tablet-screen-button")`
+- Google searches will help uncover the right process
+
+### Solutions
+
+- See  `r fontawesome::fa(name = "hand-point-left")` for Samsung Galaxy Tab [NOTE: update based on model]
+- For other Samsungs, see [here](https://www.samsung.com/us/support/answer/ANS00077582/).
+- For other brands, see general Android advice [here](https://support.google.com/android/answer/7680439?hl=en)
+
+:::
+
+::::
+
+## Installed applications  `r fontawesome::fa(name = "google-play")` {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process like [this](https://preparer-tablettes.netlify.app/#9)
+:::
+
+::: {.column width="30%"}
+
+- Open  `r fontawesome::fa(name = "google-play")`
+- Navigate to `My applications`
+- Navigate to the updates
+- Update apps as needed
+
+:::
+
+::::
+
+
+
+<!--  -->
+
+# Install Interviewer `r fontawesome::fa(name = "circle-play")` {background-color=var(--s3)}
+
+## Overview {.t3}
+
+::: {.box .box-3}
+Get
+:::
+
+::: {.box .box-3}
+Install
+:::
+
+## Method 1: Download on tablet {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+See 03_interviewer/setup/setup_interviewer.qmd and also [this](https://preparer-tablettes.netlify.app/#12)
+:::
+
+::: {.column width="30%"}
+
+### [On `r fontawesome::fa(name = "tablet-screen-button")`]{.txt-3}
+
+- Navigate to **your** server `r fontawesome::fa(name = "chrome")`
+- Tap on `DOWNLOAD INTERVIEWER APP` button
+- Select desired version
+    - Default: without map support
+    - Untick `Exclude ESRI Map support`
+- Tap on `DOWNLOAD LATEST INTERVIEWER APP` button to download `r fontawesome::fa(name = "file-arrow-down")`
+
+:::
+
+::::
+
+## Method 2: Download; distribute {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process. See past presentation [here](https://preparer-tablettes.netlify.app/#13)
+
+:::
+
+::: {.column width="30%"}
+
+### [On `r fontawesome::fa(name = "laptop")`]{.txt-3}
+
+- Navigate to **your** server `r fontawesome::fa(name = "chrome")`
+- Download the Interviwer app
+- Connect  `r fontawesome::fa(name = "laptop")` to  `r fontawesome::fa(name = "tablet-screen-button")` by  `r fontawesome::fa(name = "usb")`
+- Copy Interviewer file from `r fontawesome::fa(name = "laptop")` to  `r fontawesome::fa(name = "tablet-screen-button")`
+
+### [On `r fontawesome::fa(name = "tablet-screen-button")`]{.txt-3}
+
+- Confirm Interview file copied  `r fontawesome::fa(name = "file-circle-check")`
+- Install Interviewer as usual
+
+:::
+
+::::
+
+## Install {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+
+NOTE: same as 03_interviewer/setup/setup_interviewer.qmd
+:::
+
+::: {.column width="30%"}
+
+- Find the installer
+- Execute it
+- Allow installation from “unknown sources” for this install
+
+:::
+
+::::
+<!--  -->
+
+# Lock device `r fontawesome::fa(name = "lock")` {background-color=var(--s4)}
+
+## Overview {.t4}
+
+::: {.box .box-4}
+Create a restricted account
+:::
+
+::: {.box .box-4}
+Enable apps
+:::
+
+::: {.box .box-4}
+Deactivate updates
+:::
+
+## Create a restricted account {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process like in past slides [here](https://preparer-tablettes.netlify.app/#16)
+:::
+
+::: {.column width="30%"}
+
+- Open `Settings`
+- Select `Accounts and backups`
+- Tap on `Users`
+- Tap on `Add user or profile`
+- Select `User (restricted profile)`
+- Provide a user name
+- Save user
+
+:::
+
+::::
+
+## Enable apps {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process like in past slides [here](https://preparer-tablettes.netlify.app/#17)
+:::
+
+::: {.column width="30%"}
+
+### SuSo needs
+
+- Location (required)
+- Camera (required)
+- Interviewer app
+
+### Other needs
+
+- Utilities (e.g., files browser, `r fontawesome::fa(name = "file-word")`/`r fontawesome::fa(name = "file-pdf")` reader, etc.)
+- Other data capture applications
+
+:::
+
+::::
+
+## Deactivate updates {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of process like in past slides [here](https://preparer-tablettes.netlify.app/#18)
+
+:::
+
+::: {.column width="30%"}
+
+- Open `r fontawesome::fa(name = "google-play")`
+- Open  `r fontawesome::fa(name = "gear")`
+- Disable automatic updates
+
+:::
+
+::::
+
+<!--  -->
+
+# Prepare for survey `r fontawesome::fa(name = "list-check")` {background-color=var(--s5)}
+
+## Overview {.t5}
+
+::: {.box .box-5}
+Provide URL and user name
+:::
+
+::: {.box .box-5}
+Change password 
+:::
+
+::: {.box .box-5}
+Sync 
+:::
+
+<!-- NOTE: slides below copied from 03_interviewer/setup/setup_interviewer.qmd -->
+
+## Provide URL and user name {.t5}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: image of process
+:::
+
+::: {.column width="30%"}
+
+### [On `r fontawesome::fa(name = "laptop")`]{.txt-5}
+
+- Log into server as Headquarters
+- Open `Teams and Roles > Interviewers`
+- Select an interviewer account
+
+### [On `r fontawesome::fa(name = "tablet-screen-button")`]{.txt-5}
+
+- Open Interviewer
+- Tap on the QR icon `r fontawesome::fa(name = "qrcode")`
+- Read the `r fontawesome::fa(name = "qrcode")` on the `r fontawesome::fa(name = "laptop")` screen
+
+:::
+
+::::
+
+## Change password {.t5}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+:::
+
+::: {.column width="30%"}
+
+- Provide current password
+- Compose a new password--possibly same as the current one
+
+:::
+
+::::
+
+## Sync {.t5}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+:::
+
+::: {.column width="30%"}
+
+### How
+
+Either:
+
+- Tap sync button or
+- Tap sync icon
+
+### Why
+
+- Link the user's account and tablet
+- Confirm that synchronization works
+- Obtain initial assignments
+
+:::
+
+::::
