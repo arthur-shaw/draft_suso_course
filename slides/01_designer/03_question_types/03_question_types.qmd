@@ -93,13 +93,13 @@ Everything else
 
 ![](assets/attributes_required_optional.png){fig-align="center"}
 
-## Type {.t1}
-
-TODO: image of question type expanded in Designer
-
-## Type {.t1}
+## Question type {.t1}
 
 ![](assets/answering_all_question-_types.mp4){fig-align="center"}
+
+## Question tType {.t1}
+
+TODO: image of `Question type` field opened in context of "zoomed out" view of a question in Designer
 
 <!-- Variable name -->
 
