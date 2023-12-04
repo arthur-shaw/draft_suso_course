@@ -93,13 +93,13 @@ Everything else
 
 ![](assets/attributes_required_optional.png){fig-align="center"}
 
-## Type {.t1}
-
-TODO: image of question type expanded in Designer
-
-## Type {.t1}
+## Question type {.t1}
 
 ![](assets/answering_all_question-_types.mp4){fig-align="center"}
+
+## Question tType {.t1}
+
+TODO: image of `Question type` field opened in context of "zoomed out" view of a question in Designer
 
 <!-- Variable name -->
 
@@ -152,17 +152,23 @@ TODO: image of question type expanded in Designer
 
 ## Example {.t2}
 
-TODO: get picture on paper
-
-TODO: content here
+![](assets/single_select_on_paper.png){fig-align="center"}
 
 ## Single-select {.t2}
 
-TODO: either image of basic question in Designer or video of it with answer options being added.
+![](assets/single_select_on_interviewer.png){fig-align="center"}
+
+## Single-select {.t2}
+
+![](assets/single_select_on_designer.png){fig-align="center"}
 
 ## Display mode {.t2}
 
 ![](assets/single_select_display_mode.png){fig-align="center"}
+
+::: {.callout-note}
+**Display mode.** How answer options are presented and answers recorded.
+:::
 
 ## Radio button {.t2}
 
@@ -193,19 +199,35 @@ TODO: either image of basic question in Designer or video of it with answer opti
 
 ## Cascading combo box {.t2}
 
-TODO: content here
+TODO: example on paper
 
 ## Cascading combo box {.t2}
 
-TODO: content here
+:::: {.columns}
 
+::: {.column width="70%"}
+![](assets/cascading_combox.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- **Cascading.** Answer to one question determines which answer options are shown for another question.
+- **Combo box.** Answers entered by typing text and selecting most appropriate option.
+
+:::
+
+::::
+
+## Cascading combo box {.t2}
+
+![](assets/cascading_combox.png){fig-align="center"}
 
 
 # Second course: multi-select {background-color=var(--s3)}
 
 ## Example {.t3}
 
-![](assets/multi-select_paper.png){fig-align="center"}
+![](assets/multiselect_yn_paper.png){fig-align="center"}
 
 ## Designer options {.t3}
 
@@ -235,7 +257,7 @@ TODO: content here
 
 ## Yes/No buttons {.t3}
 
-TODO: image of paper instrument
+![](assets/multiselect_yn_paper.png){fig-align="center"}
 
 ## Yes/No buttons {.t3}
 
