@@ -207,7 +207,7 @@ TODO: content here
 
 ## Example {.t3}
 
-![](assets/multi-select_paper.png){fig-align="center"}
+![](assets/multiselect_yn_paper.png){fig-align="center"}
 
 ## Designer options {.t3}
 
