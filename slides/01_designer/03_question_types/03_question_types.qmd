@@ -152,7 +152,7 @@ TODO: image of question type expanded in Designer
 
 ## Example {.t2}
 
-TODO: get picture on paper
+![](assets/single_select_on_paper.png){fig-align="center"}
 
 TODO: content here
 
