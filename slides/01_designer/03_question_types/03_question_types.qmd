@@ -195,12 +195,28 @@ TODO: image of question type expanded in Designer
 
 ## Cascading combo box {.t2}
 
-TODO: content here
+TODO: example on paper
 
 ## Cascading combo box {.t2}
 
-TODO: content here
+:::: {.columns}
 
+::: {.column width="70%"}
+![](assets/cascading_combox.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- **Cascading.** Answer to one question determines which answer options are shown for another question.
+- **Combo box.** Answers entered by typing text and selecting most appropriate option.
+
+:::
+
+::::
+
+## Cascading combo box {.t2}
+
+![](assets/cascading_combox.png){fig-align="center"}
 
 
 # Second course: multi-select {background-color=var(--s3)}
