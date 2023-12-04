@@ -253,7 +253,7 @@ TODO: example on paper
 
 ## Yes/No buttons {.t3}
 
-TODO: image of paper instrument
+![](assets/multiselect_yn_paper.png){fig-align="center"}
 
 ## Yes/No buttons {.t3}
 
