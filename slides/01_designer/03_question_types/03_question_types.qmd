@@ -166,6 +166,10 @@ TODO: image of question type expanded in Designer
 
 ![](assets/single_select_display_mode.png){fig-align="center"}
 
+::: {.callout-note}
+**Display mode.** How answer options are presented and answers recorded.
+:::
+
 ## Radio button {.t2}
 
 ![](assets/single_select_radio_button.png){fig-align="center"}
