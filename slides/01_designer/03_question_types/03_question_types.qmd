@@ -154,11 +154,13 @@ TODO: image of question type expanded in Designer
 
 ![](assets/single_select_on_paper.png){fig-align="center"}
 
-TODO: content here
+## Single-select {.t2}
+
+![](assets/single_select_on_interviewer.png){fig-align="center"}
 
 ## Single-select {.t2}
 
-TODO: either image of basic question in Designer or video of it with answer options being added.
+![](assets/single_select_on_designer.png){fig-align="center"}
 
 ## Display mode {.t2}
 
