@@ -2,9 +2,9 @@
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#roadmap",
     "href": "slides/01_designer/03_question_types/03_question_types.html#roadmap",
-    "title": "Learning Survey Solutions",
-    "section": "Roadmap ",
-    "text": "Roadmap \n\n\n\nOverview\n\n\nSingle-select\n\n\nMulti-select\n\n\nNumeric\n\n\n\nText\n\n\nList\n\n\n\nDate\n\n\nGPS\n\n\nEverything else"
+    "title": "Question types",
+    "section": "",
+    "text": "Overview\n\n\nSingle-select\n\n\nMulti-select\n\n\nNumeric\n\n\n\nText\n\n\nList\n\n\n\nDate\n\n\nGPS\n\n\nEverything else"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#full-menu",
@@ -23,343 +23,343 @@
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#attributes",
     "href": "slides/01_designer/03_question_types/03_question_types.html#attributes",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Attributes",
     "text": "Attributes"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#type",
     "href": "slides/01_designer/03_question_types/03_question_types.html#type",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Type",
     "text": "Type\nTODO: image of question type expanded in Designer"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#type-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#type-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Type",
     "text": "Type\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#variable-name",
     "href": "slides/01_designer/03_question_types/03_question_types.html#variable-name",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Variable name",
     "text": "Variable name"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#variable-name-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#variable-name-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Variable name",
     "text": "Variable name"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#variable-label",
     "href": "slides/01_designer/03_question_types/03_question_types.html#variable-label",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Variable label",
     "text": "Variable label"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#variable-label-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#variable-label-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Variable label",
     "text": "Variable label"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#question-text",
     "href": "slides/01_designer/03_question_types/03_question_types.html#question-text",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Question text",
     "text": "Question text"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#question-text-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#question-text-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Question text",
     "text": "Question text"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#interviewer-instruction",
     "href": "slides/01_designer/03_question_types/03_question_types.html#interviewer-instruction",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Interviewer instruction",
     "text": "Interviewer instruction"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#interviewer-instruction-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#interviewer-instruction-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Interviewer instruction",
     "text": "Interviewer instruction"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#type-specific-attributes",
     "href": "slides/01_designer/03_question_types/03_question_types.html#type-specific-attributes",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Type-specific attributes",
     "text": "Type-specific attributes"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#example",
     "href": "slides/01_designer/03_question_types/03_question_types.html#example",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Example",
     "text": "Example\nTODO: get picture on paper\nTODO: content here"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#display-mode",
     "href": "slides/01_designer/03_question_types/03_question_types.html#display-mode",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Display mode",
     "text": "Display mode"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#radio-button",
     "href": "slides/01_designer/03_question_types/03_question_types.html#radio-button",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Radio button",
     "text": "Radio button"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#combo-box",
     "href": "slides/01_designer/03_question_types/03_question_types.html#combo-box",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Combo box",
-    "text": "Combo box\n\n\nRadio = Good\n\n\n\n\n\n\n\nCombo = Better (?)\n\n\nVideo"
+    "text": "Combo box\n\n\n\nRadio = Good\n\n\n\n\n\n\n\n\nCombo = Better (?)\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box",
     "href": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Cascading combo box",
     "text": "Cascading combo box\nTODO: content here"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Cascading combo box",
     "text": "Cascading combo box\nTODO: content here"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#example-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#example-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Example",
     "text": "Example"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#display-mode-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#display-mode-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Display mode",
     "text": "Display mode"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#checkboxes",
     "href": "slides/01_designer/03_question_types/03_question_types.html#checkboxes",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Checkboxes",
     "text": "Checkboxes\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons",
     "href": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Yes/No buttons",
     "text": "Yes/No buttons\nTODO: image of paper instrument"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Yes/No buttons",
     "text": "Yes/No buttons"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons-2",
     "href": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons-2",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Yes/No buttons",
     "text": "Yes/No buttons\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#combo-box-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#combo-box-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Combo box",
     "text": "Combo box\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#record-answer-order",
     "href": "slides/01_designer/03_question_types/03_question_types.html#record-answer-order",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Record answer order",
     "text": "Record answer order\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers",
     "href": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Max number of answers",
     "text": "Max number of answers\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#numeric",
     "href": "slides/01_designer/03_question_types/03_question_types.html#numeric",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Numeric",
     "text": "Numeric\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#integer",
     "href": "slides/01_designer/03_question_types/03_question_types.html#integer",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Integer",
     "text": "Integer"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#number-of-decimal-places",
     "href": "slides/01_designer/03_question_types/03_question_types.html#number-of-decimal-places",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Number of decimal places",
     "text": "Number of decimal places"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#use-1000s-separator",
     "href": "slides/01_designer/03_question_types/03_question_types.html#use-1000s-separator",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Use 1000s separator",
     "text": "Use 1000s separator"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#text-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#text-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Text",
     "text": "Text\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#pattern",
     "href": "slides/01_designer/03_question_types/03_question_types.html#pattern",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Pattern",
     "text": "Pattern\nTODO: provide example"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#list-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#list-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "List",
     "text": "List"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#list-2",
     "href": "slides/01_designer/03_question_types/03_question_types.html#list-2",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "List",
     "text": "List\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#list-3",
     "href": "slides/01_designer/03_question_types/03_question_types.html#list-3",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "List",
     "text": "List\nTODO: image of simple list question in Designer"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Max number of answers",
     "text": "Max number of answers\nTODO: video of question with list answers limited"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers-2",
     "href": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers-2",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Max number of answers",
     "text": "Max number of answers"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#date-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#date-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Date",
     "text": "Date\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#calendar-date",
     "href": "slides/01_designer/03_question_types/03_question_types.html#calendar-date",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Calendar date",
     "text": "Calendar date"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#timestamp",
     "href": "slides/01_designer/03_question_types/03_question_types.html#timestamp",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Timestamp",
     "text": "Timestamp"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#gps-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#gps-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "GPS",
     "text": "GPS\nTODO: video of result"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#gps-2",
     "href": "slides/01_designer/03_question_types/03_question_types.html#gps-2",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "GPS",
     "text": "GPS\nTODO: image of GPS type"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#everything-else-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#everything-else-1",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Everything else",
     "text": "Everything else\n\nPicture Barcode Audio Geography"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#single-select",
     "href": "slides/01_designer/03_question_types/03_question_types.html#single-select",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Single-select",
     "text": "Single-select\nTODO: either image of basic question in Designer or video of it with answer options being added."
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#designer-options",
     "href": "slides/01_designer/03_question_types/03_question_types.html#designer-options",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Designer options",
     "text": "Designer options\n\n\n\n\n\n\n\n\n\nDisplay mode. How answer options are presented and answers recorded.\nOther options. Whether to record answer order. Whether/how much to limit number of answers provided."
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#other-options",
     "href": "slides/01_designer/03_question_types/03_question_types.html#other-options",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Other options",
     "text": "Other options\n\nRecord answer order\n\n\nMax number of answers"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#example-2",
     "href": "slides/01_designer/03_question_types/03_question_types.html#example-2",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Example",
     "text": "Example"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#text-2",
     "href": "slides/01_designer/03_question_types/03_question_types.html#text-2",
-    "title": "Learning Survey Solutions",
+    "title": "Question types",
     "section": "Text",
     "text": "Text"
   },
@@ -1418,14 +1418,14 @@
     "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#two-supervisor-apps",
     "title": "Learning Survey Solutions",
     "section": "Two supervisor apps",
-    "text": "Two supervisor apps\n\n\nTODO: image of web app\n\nTODO: image of tablet app"
+    "text": "Two supervisor apps"
   },
   {
     "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#only-one-needs-setup",
     "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#only-one-needs-setup",
     "title": "Learning Survey Solutions",
     "section": "Only one needs setup",
-    "text": "Only one needs setup\n\n\nTODO: image of web app\n\nTODO: image of tablet app\nTODO: use CSS to draw thick line around image, potentially with drop shadow"
+    "text": "Only one needs setup"
   },
   {
     "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#roadmap",
@@ -1439,21 +1439,21 @@
     "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#download-1",
     "title": "Learning Survey Solutions",
     "section": "Download",
-    "text": "Download\n\n\nTODO: video of process\n\n\nNavigate to server\nLog in as supervisor\nClick on drop-down menu in upper right\nSelect Download Supervisor app\nClick on DOWNLOAD LATEST SUPERVISOR APP button"
+    "text": "Download\n\n\n\n\nVideo\n\n\n\n\nNavigate to server\nLog in as supervisor\nClick on drop-down menu in upper right\nSelect Download Supervisor app\nClick on DOWNLOAD LATEST SUPERVISOR APP button"
   },
   {
     "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#install-1",
     "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#install-1",
     "title": "Learning Survey Solutions",
     "section": "Install",
-    "text": "Install\n\n\nTODO: video of process\n\n\nFind the installer\nExecute it\nAllow installation from “unknown sources” for this install"
+    "text": "Install\n\n\n\n\nVideo\n\n\n\n\nFind the installer\nExecute it\nAllow installation from “unknown sources” for this install"
   },
   {
     "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#link-to-server",
     "href": "slides/04_supervisor/01_setup/01_supervisor_setup.html#link-to-server",
     "title": "Learning Survey Solutions",
     "section": "Link to server",
-    "text": "Link to server\n\n\nTODO: video of process\n\nOn \n\nNavigate to download page\nLocate the QR code\n\nOn \n\nOpen Supervisor\nTap on the QR icon \nRead the  on the  screen\nProvide user name and password"
+    "text": "Link to server\n\n\n\n\nVideo\n\n\n\nOn \n\nNavigate to download page\nLocate the QR code\n\nOn \n\nOpen Supervisor\nTap on the QR icon \nRead the  on the  screen\nProvide user name and password"
   },
   {
     "objectID": "slides/04_supervisor/01_setup/01_supervisor_setup.html#link-interviewer-app-to-supervisor",
@@ -1465,71 +1465,78 @@
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#roadmap",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#roadmap",
-    "title": "Learning Survey Solutions",
-    "section": "Roadmap ",
-    "text": "Roadmap \n\nSync\n\n\nAssign\n\n\nReview\n\n\nUpdate"
+    "title": "Use Supervisor",
+    "section": "",
+    "text": "Sync\n\n\nAssign\n\n\nReview\n\n\nUpdate"
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#sync-in-two-directions",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#sync-in-two-directions",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "Sync in two directions",
     "text": "Sync in two directions\n\nWith the Headquarters \n\n\nWith Interviewer"
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#with-the-headquarters",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#with-the-headquarters",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "With the Headquarters ",
-    "text": "With the Headquarters \n\n\nTODO: video of sync with Headquarters\n\nWhy\nGet from Headquarters new:\n\nAssignments\nInterviews\n\nHow\n\nConnect to the internet\nTap vertical sync icon (i.e., with  and )\nWait for synchronization to complete"
+    "text": "With the Headquarters \n\n\nTODO: video of sync with Headquarters\n\n\nWhy\nGet from Headquarters new:\n\nAssignments\nInterviews\n\n\n\nHow\n\nConnect to the internet\nTap vertical sync icon (i.e., with  and )\nWait for synchronization to complete"
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#sync_with_int",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#sync_with_int",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "With Interviewer ",
-    "text": "With Interviewer \n\n\nTODO: video of sync with Interviewer\n\nWhy\n\nPush new work (i.e., assignments, interviews)\nPull completed work\n\nHow\nOn Supervsor and Interviewer tablets:\n\nEnable / (if not already enabled)\nPress the horizontal sync button (i.e. )\nWait for synchronization to complete"
+    "text": "With Interviewer \n\n\nTODO: video of sync with Interviewer\n\n\nWhy\n\nPush new work (i.e., assignments, interviews)\nPull completed work\n\n\n\nHow\nOn Supervsor and Interviewer tablets:\n\nEnable / (if not already enabled)\nPress the horizontal sync button (i.e. )\nWait for synchronization to complete"
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#assign-1",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#assign-1",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "Assign",
     "text": "Assign\n\n\nTODO: video of making initial assignment\n\n\nSync with Headquarters  (if needed)\nTap on  to reveal menu\nTap on Tasks to assign\nFind assignment (e.g., scan or  &gt; Search)\nTap on ASSIGN button\nSelect Interviewer\nTap ASSIGN\nSync horizontally to Interviewer."
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#reassign",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#reassign",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "Reassign",
     "text": "Reassign\nTODO: either reproduce on 2 Samsungs or get clarification from Victor"
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#get-interview",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#get-interview",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "Get interview",
     "text": "Get interview\n\n\nTODO: video of process\n\n\nSync with Interviewer \nTap on  to reveal menu\nTap on Waiting for your action\nFind interview (e.g., scan or  &gt; Search)"
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#review-interview",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#review-interview",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "Review interview",
     "text": "Review interview\n\n\nTODO: video of reviewing, commenting, marking for action\n\n\nTap OPEN\nReview the content\nLeave question-level comments (optional)\n\nSupervisor observations\nAnswers to interviewer comments\n\nDecide on action: approve or reject"
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#get-software-update-on",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#get-software-update-on",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "Get software update on ",
-    "text": "Get software update on \n\n\nTODO: video of update process\n\nWhy\nGet updates for all software:\n\nSupervisor, to be applied to supervisor’s tablet\nInterviewer, to be synched horizontally to interviewer tablets\n\nHow\n\nTap on \nSelect Diagnostics\nTap on Version, the first entry on the screen\nWait for update to complete"
+    "text": "Get software update on \n\n\nTODO: video of update process\n\n\nWhy\nGet updates for all software:\n\nSupervisor, to be applied to supervisor’s tablet\nInterviewer, to be synched horizontally to interviewer tablets\n\n\n\nHow\n\nTap on \nSelect Diagnostics\nTap on Version, the first entry on the screen\nWait for update to complete"
   },
   {
     "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html#share-updates-with",
     "href": "slides/04_supervisor/02_use/02_supervisor_use.html#share-updates-with",
-    "title": "Learning Survey Solutions",
+    "title": "Use Supervisor",
     "section": "Share updates with ",
-    "text": "Share updates with \n\n\nTODO: video of update process\n\nOn  and  :\n\nEnable / (if not already enabled)\nPress the horizontal sync button (i.e. )\nWait for sync to complete\n\nOn  :\n\nGet and install the update\n\n\n\nIf automatic updates enabled on HQ\n\nfollow prompt to install mandatory update\n\n\n\n\n\nIf automatic updates NOT enabled\n\nfollow the same steps as for Supervisor"
+    "text": "Share updates with \n\n\nTODO: video of update process\n\n\nOn  and  :\n\nEnable / (if not already enabled)\nPress the horizontal sync button (i.e. )\nWait for sync to complete\n\n\n\nOn  :\n\nGet and install the update\n\n\n\nIf automatic updates enabled on HQ\n\nfollow prompt to install mandatory update\n\n\n\n\n\nIf automatic updates NOT enabled\n\nfollow the same steps as for Supervisor"
+  },
+  {
+    "objectID": "slides/04_supervisor/02_use/02_supervisor_use.html",
+    "href": "slides/04_supervisor/02_use/02_supervisor_use.html",
+    "title": "Use Supervisor",
+    "section": "",
+    "text": "Sync\n\n\nAssign\n\n\nReview\n\n\nUpdate"
   }
 ]
