@@ -52,7 +52,7 @@ With Interviewer `r fontawesome::fa(name = "tablet-screen-button")`
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of sync with Headquarters
+![](assets/vertical_sync.mp4){fig-align="center" height="850px"}
 :::
 
 ::: {.column width="30%"}
