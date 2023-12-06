@@ -1,7 +1,7 @@
 ---
 format: 
     revealjs: 
-        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        theme: [default, ../../css/core.scss, ../../css/colors.scss, assets/supervisor_use.scss]
         height: 900
         width: 1600
 highlight-style: github
@@ -20,15 +20,15 @@ execute:
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="70%"}
 
-TODO: image of web app
+![](assets/assignments_web.png){fig-align="center"}
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 
-TODO: image of tablet app
+![](assets/assignments_tablet.png){fig-align="center"}
 
 :::
 
@@ -38,17 +38,17 @@ TODO: image of tablet app
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="70%"}
 
-TODO: image of web app
+![](assets/assignments_web.png){fig-align="center"}
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 
-TODO: image of tablet app
-
-TODO: use CSS to draw thick line around image, potentially with drop shadow
+::: {.highlight-image}
+![](assets/assignments_tablet.png){fig-align="center"}
+:::
 
 :::
 
@@ -77,7 +77,7 @@ Link
 
 ::: {.column width="70%"}
 
-TODO: video of process
+![](assets/download_installer.mp4){fig-align="center"}
 
 :::
 
@@ -100,7 +100,7 @@ TODO: video of process
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of process
+![](assets/install_supervisor.mp4){fig-align="center" height="900px"}
 :::
 
 ::: {.column width="30%"}
@@ -119,7 +119,7 @@ TODO: video of process
 
 ::: {.column width="70%"}
 
-TODO: video of process
+![](assets/link_to_server.mp4){fig-align="center"}
 
 :::
 
