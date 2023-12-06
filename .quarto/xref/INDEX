@@ -61,5 +61,11 @@
   },
   "index.qmd": {
     "index.html": "4194a7c8"
+  },
+  "slides/04_supervisor/01_setup/01_supervisor_setup.qmd": {
+    "01_supervisor_setup.html": "691d8ec3"
+  },
+  "slides/04_supervisor/02_use/02_supervisor_use.qmd": {
+    "02_supervisor_use.html": "ffd8a837"
   }
 }

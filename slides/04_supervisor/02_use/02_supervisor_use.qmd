@@ -1,0 +1,245 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+highlight-style: github
+execute: 
+  eval: false
+  echo: true
+---
+
+# Use Supervisor {background-color=var(--suso)}
+
+```{r}
+
+```
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Sync
+:::
+
+::: {.box .box-2}
+Assign
+:::
+
+::: {.box .box-3}
+Review
+:::
+
+::: {.box .box-4}
+Update
+:::
+
+
+# Sync {background-color=var(--s1)}
+
+## Sync in two directions {.t1}
+
+::: {.box .box-1}
+With the Headquarters `r fontawesome::fa(name = "server")`
+:::
+
+::: {.box .box-1}
+With Interviewer `r fontawesome::fa(name = "tablet-screen-button")`
+:::
+
+## With the Headquarters `r fontawesome::fa(name = "server")` {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of sync with Headquarters
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+Get from Headquarters new:
+
+- Assignments
+- Interviews
+
+### How
+
+- Connect to the internet
+- Tap vertical sync icon (i.e., with `r fontawesome::fa(name = "cloud")` and `r fontawesome::fa(name = "arrow-up")``r fontawesome::fa(name = "arrow-down")`)
+- Wait for synchronization to complete
+
+:::
+
+::::
+
+## With Interviewer `r fontawesome::fa(name = "tablet-screen-button")` {.t1 #sync_with_int}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of sync with Interviewer
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+- Push new work (i.e., assignments, interviews)
+- Pull completed work
+
+### How
+
+On Supervsor and Interviewer tablets:
+
+- Enable `r fontawesome::fa(name = "wifi")`/`r fontawesome::fa(name = "bluetooth")` (if not already enabled)
+- Press the horizontal sync button (i.e. `r fontawesome::fa(name = "tablet-screen-button")``r fontawesome::fa(name = "arrows-left-right")``r fontawesome::fa(name = "tablet-screen-button")`)
+- Wait for synchronization to complete
+
+:::
+
+::::
+
+# Assign {background-color=var(--s2)}
+
+## Assign {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of making initial assignment
+:::
+
+::: {.column width="30%"}
+
+- Sync with Headquarters `r fontawesome::fa(name = "cloud")``r fontawesome::fa(name = "arrow-up")``r fontawesome::fa(name = "arrow-down")` (if needed)
+- Tap on `r fontawesome::fa(name = "bars")` to reveal menu
+- Tap on `Tasks to assign`
+- Find assignment (e.g., scan or `r fontawesome::fa(name = "ellipsis-vertical")` > `Search`)
+- Tap on `ASSIGN` button
+- Select Interviewer
+- Tap `ASSIGN`
+- Sync horizontally to Interviewer. 
+
+<!-- NOTE: can't link to slide with name that contains parenthesis. Need to post issue -->
+
+:::
+
+::::
+
+## Reassign {.t2}
+
+TODO: either reproduce on 2 Samsungs or get clarification from Victor
+
+# Review {background-color=var(--s3)}
+
+## Get interview {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of process
+:::
+
+::: {.column width="30%"}
+
+- Sync with Interviewer `r fontawesome::fa(name = "tablet-screen-button")``r fontawesome::fa(name = "arrows-left-right")``r fontawesome::fa(name = "tablet-screen-button")`
+- Tap on `r fontawesome::fa(name = "bars")` to reveal menu
+- Tap on `Waiting for your action`
+- Find interview (e.g., scan or `r fontawesome::fa(name = "ellipsis-vertical")` > `Search`)
+
+:::
+
+::::
+
+## Review interview {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of reviewing, commenting, marking for action
+:::
+
+::: {.column width="30%"}
+
+- Tap `OPEN`
+- Review the content
+- Leave question-level comments (optional)
+  - Supervisor observations
+  - Answers to interviewer comments
+- Decide on action: approve or reject
+
+<!-- TODO: update once Victor provides guide or can reproduce on my own -->
+
+:::
+
+::::
+
+# Update {background-color=var(--s4)}
+
+## Get software update on `r fontawesome::fa(name = "user-tie")``r fontawesome::fa(name = "tablet-screen-button")` {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of update process
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+Get updates for all software:
+
+- Supervisor, to be applied to supervisor's tablet
+- Interviewer, to be synched horizontally to interviewer tablets
+
+### How
+
+- Tap on `r fontawesome::fa(name = "ellipsis-vertical")`
+- Select `Diagnostics`
+- Tap on `Version`, the first entry on the screen
+- Wait for update to complete
+
+:::
+
+::::
+
+## Share updates with `r fontawesome::fa(name = "user")``r fontawesome::fa(name = "tablet-screen-button")` {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of update process
+:::
+
+::: {.column width="30%"}
+
+### On `r fontawesome::fa(name = "user-tie")``r fontawesome::fa(name = "tablet-screen-button")` and `r fontawesome::fa(name = "user")` `r fontawesome::fa(name = "tablet-screen-button")`:
+
+- Enable `r fontawesome::fa(name = "wifi")`/`r fontawesome::fa(name = "bluetooth")` (if not already enabled)
+- Press the horizontal sync button (i.e. `r fontawesome::fa(name = "tablet-screen-button")``r fontawesome::fa(name = "arrows-left-right")``r fontawesome::fa(name = "tablet-screen-button")`)
+- Wait for sync to complete
+
+### On `r fontawesome::fa(name = "user")` `r fontawesome::fa(name = "tablet-screen-button")`:
+
+- Get and install the update
+  - <details>
+    <summary>If automatic updates enabled on HQ</summary>
+  
+    follow prompt to install mandatory update
+  
+  </details>
+  
+  - <details>
+    <summary>If automatic updates NOT enabled</summary>
+  
+    follow the same steps as for Supervisor
+  
+  </details>
+  
+:::
+
+::::
+
