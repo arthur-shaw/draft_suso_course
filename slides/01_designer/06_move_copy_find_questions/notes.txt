@@ -1,0 +1,69 @@
+## Moving
+
+### Within (sub)sections video
+
+Show a few things, some of which aren't covered by th current video
+
+- Within section
+- Within sub-section
+- From section to sub-section (pop in)
+- From sub-section to section (pop out)
+
+See ZiHBS video [here](https://zim-hbs.suso-training.com/slides/07_move_copy_find_questions.html#/within-subsections) for some ideas.
+
+When revising the video, go directly to the point. In the current video, you spend a lot of time moving your cursor around to show that questions are out of order (e.g., the first ~13 seconds). Better to jump directly into moving the questions.
+
+#### Between sections video
+
+Consider going directly to how to move to another section. The video spend 50 seconds establishing context before showing how to move a question. Consider how to shorten the video--either removing the context from the start or finding a way to provide context more efficiently.
+
+## Copying
+
+### Within questionnaire video
+
+Consider showing the mechanics first and the use case later.
+
+Mechanics:
+
+- Copy
+- Paste
+  - With button
+  - With right-click menu
+
+Use case
+
+Show the nice example in your video of duplicating a question that is identical except for the variable name.
+
+### Between questionnaires video
+
+Consider ending the video after copying the first question (around 0:33). There's not too much value added by showing the process again.
+
+### Duplicate questions video
+
+Consider shortening to the minimum number of actions to demonstrate the problem:
+
+- Copy
+- Paste
+- Compile (without changing the variable name)
+- Give the duplicate variable a distinct name
+- Compile
+
+### Dependencies video
+
+This video appears to be missing. Please create a minimal video to demonstrate this:
+
+- Copy from one questionnaire
+- Paste to another questionnaire
+- Compile with validation issues
+- Navigate to duplicate question and how it depends on things that aren't in the destination questionnaire (e.g., condition references variables from source questionnaire)
+- Remove those Dependencies
+- Compile
+
+## Finding
+
+### Find in questionnaire video
+
+Two notes:
+
+- Try to go directly to the point. No need to show overview of questions to justify how many cases are found. (Actually, without paging through the results, it's odd to the viewer that there are 3 matches but only 1 variable with the provided name.)
+- Need to show paging through results (i.e. clicking on `NEXT` to show the 1st, 2nd, etc. instances found)
