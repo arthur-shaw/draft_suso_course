@@ -24,7 +24,7 @@ schedule_df <- tibble::tribble(
     "Designer", "Question types", NA, "slides/01_designer/03_question_types/03_question_types.qmd",   NA,
     "Designer", "Create basic questionnaire", NA, "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.qmd",   NA,
     "Designer", "Create groups", NA, "slides/01_designer/05_create_groups/05_create_groups.qmd",    NA,
-    "Designer", "Moving/copying questions", NA, NA, NA,
+    "Designer", "Moving/copying/finding questions", NA, NA, NA,
     "Designer", "Creating basic rosters", NA, NA, NA,
     "Designer", "Creating complex rosters", NA, NA, NA,
     "Designer", "Introduction to conditions", NA, NA, NA,
@@ -89,21 +89,21 @@ gt::tab_options(
 ) |>
 create_icon_w_link(
     column = course,
-    fa_name = "book-open-reader",
-    enabled_color = "#cf4446",
-    disabled_color = "#e9ecef"
+    icon_name = "book-open-reader",
+    color_enabled = "#cf4446",
+    color_disabled = "#e9ecef"
 ) |>
 create_icon_w_link(
     column = slides,
-    fa_name = "person-chalkboard",
-    enabled_color = "#cf4446",
-    disabled_color = "#e9ecef"
+    icon_name = "book-open-reader",
+    color_enabled = "#cf4446",
+    color_disabled = "#e9ecef"
 ) |>
 create_icon_w_link(
     column = assignment,
-    fa_name = "laptop-code",
-    enabled_color = "#cf4446",
-    disabled_color = "#e9ecef"
+    icon_name = "book-open-reader",
+    color_enabled = "#cf4446",
+    color_disabled = "#e9ecef"
 ) |>
 gt::cols_width(
     course ~ gt::px(150),

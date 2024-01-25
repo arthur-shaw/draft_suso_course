@@ -61,5 +61,8 @@
   },
   "index.qmd": {
     "index.html": "4194a7c8"
+  },
+  "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.qmd": {
+    "06_move_copy_find_questions.html": "7b9de3bc"
   }
 }

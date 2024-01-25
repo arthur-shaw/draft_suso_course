@@ -1026,7 +1026,7 @@
     "href": "schedule.html",
     "title": "Learning Survey Solutions",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying questions\n\n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying/finding questions\n\n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
   },
   {
     "objectID": "about.html",
@@ -1412,5 +1412,68 @@
     "title": "Create a basic questionnaire",
     "section": "Change with Victor",
     "text": "Change with Victor"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-subsections",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-subsections",
+    "title": "Learning Survey Solutions",
+    "section": "Within (sub)sections",
+    "text": "Within (sub)sections\n\n\n\n\nVideo\n\n\n\n\nHover over the left-hand part of the question\nDrag\nDrop\n\n\n\n\n\nWithin section (root of section)\nWithin sub-section\nFrom section to sub-section (pop in)\nFrom sub-section to section (pop out)"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-sections",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-sections",
+    "title": "Learning Survey Solutions",
+    "section": "Between sections",
+    "text": "Between sections\n\n\n\n\nVideo\n\n\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-questionnaire",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "Within questionnaire",
+    "text": "Within questionnaire\n\n\n\n\nVideo\n\n\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nPaste, either by\n\nClicking the PASTE button\nSelecting Paste after from the right-click menu"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-questionnaires",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-questionnaires",
+    "title": "Learning Survey Solutions",
+    "section": "Between questionnaires",
+    "text": "Between questionnaires\n\n\n\n\nVideo\n\n\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#but-exercise-caution",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#but-exercise-caution",
+    "title": "Learning Survey Solutions",
+    "section": "… but exercise caution",
+    "text": "… but exercise caution\n\nDuplicates\n\n\nDependencies"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#duplicates",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#duplicates",
+    "title": "Learning Survey Solutions",
+    "section": "Duplicates",
+    "text": "Duplicates\n\n\n\n\nVideo\n\n\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#dependencies",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#dependencies",
+    "title": "Learning Survey Solutions",
+    "section": "Dependencies",
+    "text": "Dependencies\n\n\nTODO: content here\n\n\nDelete broken references (e.g., questions, lookup tables, tc.)"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-section",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-section",
+    "title": "Learning Survey Solutions",
+    "section": "In section",
+    "text": "In section\n\n\n\n\nVideo\n\n\n\n\nClick on search icon\nType\nSee matching items"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-questionnaire",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "In questionnaire",
+    "text": "In questionnaire\n\n\n\n\nVideo\n\n\n\n\nType Ctrl + H\nType query in Find what field\nClick on FIND ALL button\nPage through search results"
   }
 ]
