@@ -89,21 +89,21 @@ gt::tab_options(
 ) |>
 create_icon_w_link(
     column = course,
-    fa_name = "book-open-reader",
-    enabled_color = "#cf4446",
-    disabled_color = "#e9ecef"
+    icon_name = "book-open-reader",
+    color_enabled = "#cf4446",
+    color_disabled = "#e9ecef"
 ) |>
 create_icon_w_link(
     column = slides,
-    fa_name = "person-chalkboard",
-    enabled_color = "#cf4446",
-    disabled_color = "#e9ecef"
+    icon_name = "book-open-reader",
+    color_enabled = "#cf4446",
+    color_disabled = "#e9ecef"
 ) |>
 create_icon_w_link(
     column = assignment,
-    fa_name = "laptop-code",
-    enabled_color = "#cf4446",
-    disabled_color = "#e9ecef"
+    icon_name = "book-open-reader",
+    color_enabled = "#cf4446",
+    color_disabled = "#e9ecef"
 ) |>
 gt::cols_width(
     course ~ gt::px(150),

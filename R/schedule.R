@@ -1,63 +1,117 @@
-#' Create an icon with a link in a `gt` table
+#' Create a div pointing to site content
 #' 
-#' Transform a column a column with that may contain links into
-#' a column of fontawesome icons. Cells with a link will have a primary color and
-#' wrapped in an <a> tag. Cells without a link will have a secondary color.
+#' @description
+#' The function ingests a character vector and returns a div.
+#' 
+#' If `x` is `NA_character`, a div of this form:
+#' 
+#' <div
+#'   role = "img",
+#'   style = "color #XXXX"
+#' >
+#'   <!-- fontawesome icon -->
+#'   <svg></svg>
+#' </div>
+#' 
+#' If `x` is not NA, a div of this form:
+#' 
+#' <a href = "path">
+#'   <div
+#'     role = "img",
+#'     style = "color #XXXX"
+#'   >
+#'     <!-- fontawesome icon -->
+#'     <svg></svg>
+#'   </div>
+#' </a>
+#' 
+#' @param x Character. Relative path to site content.
+#' @param icon_name Character. Name of a fontawesome icon that is passed to `fontawesome::fa()`
+#' @param color_enabled Character. Color of "enabled" icons for cells with URI.
+#' CSS color attribute. Color name or hex code.
+#' @param color_disabled Character. Color of "disabled" icons for cells with URI.
+#' CSS color attribute. Color name or hex code.
+#' 
+#' @importFrom glue glue
+#' @importFrom htmltools div a
+create_div <- function(
+    x,
+    icon_name,
+    color_enabled,
+    color_disabled
+) {
+
+    # determine icon style
+    if (!is.na(x)) {
+        icon_style <- glue::glue("color: {color_enabled}")
+    } else {
+        icon_style <- glue::glue("color: {color_disabled}")
+    }
+    
+    # create div containing fontawesome icon
+    # applying proper styling
+    fa_icon_div <- htmltools::div(
+        role = "img",
+        style = icon_style,
+        fontawesome::fa(name = icon_name)
+    )
+
+    # create outer div with link
+    if (!is.na(x)) {
+        div <- htmltools::a(
+            href = x,
+            fa_icon_div
+        )
+    } else {
+        div <- fa_icon_div
+    }
+        
+    return(div)
+
+}
+
+#' Transform `gt` column from txt to a div containing an icon and (maybe) link.
+#' 
+#' @description
+#' Transform a column that may contain links into  a column of fontawesome
+#' icons. 
+#' Cells with a link will have a primary color and wrapped in an <a> tag.
+#' Cells without a link will be a div and contain an icon of a secondary color.
 #' 
 #' @param gt_object `gt` table object
 #' @param column Bare name for a single table column
-#' @param fa_name Character. Name of a fontawesome icon that is passed to `fontawesome::fa()`
-#' @param enabled_color Character. Color of "enabled" icons for cells with URI. CSS color attribute. Color name or hex code.
-#' @param disabled_color Character. Color of "disabled" icons for cells with URI. CSS color attribute. Color name or hex code.
+#' @inheritParams create_div
 #' 
-#' @importFrom gt text_transform cells_body 
-#' @importFrom glue glue
-#' @importFrom htmltools div a
+#' @importFrom gt text_transform cells_body
+#' @importFrom purrr map_chr
 create_icon_w_link <- function(
     gt_object,
     column,
-    fa_name,
-    enabled_color,
-    disabled_color
+    icon_name,
+    color_enabled,
+    color_disabled
 ) {
+
     gt::text_transform(
-        gt_object,
+        data = gt_object,
         locations = gt::cells_body(columns = {{column}}),
         fn = function(x) {
-            lapply(X = x, FUN = function(xy) {
-                # form fontawesome
-                fa_icon <- list(
-                    fontawesome::fa(name = fa_name)
-                )
-                # apply different styling depending on 
-                # whether there's a link or not
-                if (is.na(xy)) {
-                    icon_style <- glue::glue("color: {disabled_color}")
-                } else {
-                    icon_style <- glue::glue("color: {enabled_color}")
-                }
-                # create the the fontawesome icon
-                # base: icon + styling
-                fa_icon <- htmltools::div(
-                    role = "img", fa_icon, style = icon_style
-                )
-                # if the column contains a link,
-                # wrap the icon in an <a> tag
-                # that points the URI in the column
-                if (!is.na(xy)) {
-                    fa_icon <- htmltools::a(
-                        href = xy,
-                        fa_icon
+            
+            purrr::map_chr(
+                .x = x,
+                .f = ~ as.character(
+                    create_div(
+                        x = .x,
+                        icon_name = icon_name,
+                        color_enabled = color_enabled,
+                        color_disabled = color_disabled
                     )
-                }
-
-                # return the icon
-                # with the appropriate styling
-                # and outer tag, if applicable
-                fa_icon
-            }
+                    
+                )
             )
+
         }
 
     )
+
 }
