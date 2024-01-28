@@ -1,0 +1,255 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+---
+
+```{r}
+
+```
+
+# `r fontawesome::fa(name = "up-down-left-right")` Moving, `r fontawesome::fa(name = "copy")`copying, `r fontawesome::fa(name = "magnifying-glass")` finding questions {background-color=var(--suso)}
+
+<!-- Moving -->
+
+# `r fontawesome::fa(name = "up-down-left-right")` Moving {background-color=var(--s1)}
+
+
+## Within (sub)sections {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/move_questions_within_section.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### How
+
+- Hover over the left-hand part of the question
+- Drag
+- Drop
+
+### Why
+
+- Put questions in order
+- Move question to a group (e.g., roster, sub-section)
+
+:::
+
+::::
+
+::: {.notes}
+
+- Within section (root of section)
+- Within roster
+- Within sub-section
+- From section to sub-section (pop in)
+- From sub-section to section (pop out)
+
+:::
+
+## Between sections {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/move_questions_between_sections.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### How
+
+- Click on the target question
+- Scroll to the bottom of the right-hand panel
+- Click on `MOVE TO`
+- Select the destination section
+
+### Why
+
+- Move question to the section where they belong
+
+:::
+
+::::
+
+<!-- Copying -->
+
+# `r fontawesome::fa(name = "paste")` Copying {background-color=var(--s2)}
+
+## Within questionnaire {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/copy_questions_within_questionnaire.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### How
+
+- Right-click on question
+- Select `Copy`
+- Click just before desired paste point
+- Paste, either by <details> <summary>...</summary>
+
+    - Clicking the `PASTE` button
+    - Selecting `Paste after` from the right-click menu
+
+</details>
+
+
+### Why
+
+- Create new object that shares many attributes of an existing object
+
+:::
+
+::::
+
+## Between questionnaires {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/copy_questions_between_questionnaires.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### How
+
+- Right-click on question
+- Select `Copy`
+- Click just before desired insertion point
+- Right-click on object
+- Select `Paste after`
+
+### Why
+
+- Create new object in target questionnaire that shares many attributes of an existing object in the source questionnaire
+
+:::
+
+::::
+
+## ... but exercise caution {.t2}
+
+::: {.box .box-2}
+Duplicates
+:::
+
+::: {.box .box-2}
+Dependencies
+:::
+
+## Duplicates {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/duplicate_questions.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Problem
+
+- Variable names are unique IDs
+- Compilation error
+
+### Solution
+
+- Navigate to the pasted question
+- Change its variable name
+
+:::
+
+::::
+
+## Dependencies {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/dependencies_from_source_qnr.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Problem
+
+- When object is copied, all of its attributes are copied
+- This includes references to objects that only exist in the source questionnaire, but not the target questionnaire
+
+### Solution
+
+- Identify references to objects in the source questionnaire 
+- Delete them
+
+:::
+
+::::
+
+
+# `r fontawesome::fa(name = "magnifying-glass")` Finding {background-color=var(--s3)}
+
+## In section {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/find_in_section.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### How
+
+- Click on search icon
+- Type
+- See matching items
+
+### Why
+
+- More quickly navigate to target question
+- Check that question (text) exists in the section
+
+:::
+
+::::
+
+## In questionnaire {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/find_in_questionnaire.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### How
+
+- Type `Ctrl + H`
+- Type query in `Find what field`
+- Click on `FIND ALL` button
+- Page through search results
+
+### Why
+
+- Find variable
+- Find object with target text
+
+:::
+
+::::
+
+<!-- 
+Reference here: https://docs.mysurvey.solutions/questionnaire-designer/interface/find-and-replace-/
+ -->
