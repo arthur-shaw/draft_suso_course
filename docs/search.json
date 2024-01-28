@@ -23,51 +23,51 @@
   {
     "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#roadmap",
     "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#roadmap",
-    "title": "Designer: the whole game",
-    "section": "",
-    "text": "Login \n\n\nSearch \n\n\nCreate \n\n\nDevelop \n\n\nTest \n\n\nShare"
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nLogin \n\n\nSearch \n\n\nCreate \n\n\nDevelop \n\n\nTest \n\n\nShare"
   },
   {
     "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#login",
     "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#login",
-    "title": "Designer: the whole game",
-    "section": "",
-    "text": "TODO: video of:\n\nnavigate to URL\nprovide login and password"
+    "title": "Learning Survey Solutions",
+    "section": "Login ",
+    "text": "Login \nTODO: video of:\n\nnavigate to URL\nprovide login and password"
   },
   {
     "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#search",
     "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#search",
-    "title": "Designer: the whole game",
-    "section": "",
-    "text": "TODO: video of:\n\nclick on QUESTIONNAIRES SHARED WITH ME, PUBLIC, MY QUESTIONNAIRES tabs\nuse search bar"
+    "title": "Learning Survey Solutions",
+    "section": "Search ",
+    "text": "Search \nTODO: video of:\n\nclick on QUESTIONNAIRES SHARED WITH ME, PUBLIC, MY QUESTIONNAIRES tabs\nuse search bar"
   },
   {
     "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#create",
     "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#create",
-    "title": "Designer: the whole game",
-    "section": "",
-    "text": "TODO: video of:\n\nClick button to create\nProvide name and variable name\nShow name and variable name in UI"
+    "title": "Learning Survey Solutions",
+    "section": "Create ",
+    "text": "Create \nTODO: video of:\n\nClick button to create\nProvide name and variable name\nShow name and variable name in UI"
   },
   {
     "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#develop",
     "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#develop",
-    "title": "Designer: the whole game",
-    "section": "",
-    "text": "TODO: video of:\n\nAdd sections\nAdd questions (creating a duplicate question to trigger compile error on purpose)\nAdd roster\nAdd (enablement) conditions"
+    "title": "Learning Survey Solutions",
+    "section": "Develop ",
+    "text": "Develop \nTODO: video of:\n\nAdd sections\nAdd questions (creating a duplicate question to trigger compile error on purpose)\nAdd roster\nAdd (enablement) conditions"
   },
   {
     "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#test",
     "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#test",
-    "title": "Designer: the whole game",
-    "section": "",
-    "text": "TODO: video of:\npress COMPILE\nsee error, hover over, click on link, remedy; press COMPILE again\npress TEST"
+    "title": "Learning Survey Solutions",
+    "section": "Test ",
+    "text": "Test \n\nTODO: video of:\npress COMPILE\nsee error, hover over, click on link, remedy; press COMPILE again\npress TEST"
   },
   {
     "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#share",
     "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#share",
-    "title": "Designer: the whole game",
-    "section": "",
-    "text": "TODO: video of:\n\nClick share button\nProvide email/user name\nToggle permissions\nSend edit request"
+    "title": "Learning Survey Solutions",
+    "section": "Share ",
+    "text": "Share \nTODO: video of:\n\nClick share button\nProvide email/user name\nToggle permissions\nSend edit request"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html",
@@ -79,70 +79,70 @@
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#roadmap",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#roadmap",
-    "title": "Getting started with Designer",
-    "section": "",
-    "text": "Sign up\n\n\nLog in\n\n\nPeruse\n\n\nSearch\n\n\nCreate\n\n\nShare"
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap",
+    "text": "Roadmap\n\nSign up\n\n\nLog in\n\n\nPeruse\n\n\nSearch\n\n\nCreate\n\n\nShare"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Navigate to: https://designer.mysurvey.solutions/\nClick on Register\nCreate an account\n\nSee step-by-step directions here"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-2",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-2",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Created by me, whether shared or not"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-3",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-3",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Shared with me, whether with read or read/write privileges"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-4",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-4",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Publicly shared in read-only mode\nOrganized in folders\nTo view, open\nTo edit, create a copy and edit that copy"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-5",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-5",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Answer option categories compiled by IHSN"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-7",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-7",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Search on questionnaire title\nWithin current scope (e.g., over “My Questionnaires”)"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-8",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-8",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Questionnaire title. Display name of questionnaire (e.g., Zimbabwe PICES 2023)\nQuestionnaire variable. File name that captures main level of data (e.g., households -&gt; households.dta)"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-9",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-9",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Open questionnaire\nClick on SETTINGS in upper right-hand corner"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-11",
     "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-11",
-    "title": "Getting started with Designer",
+    "title": "Learning Survey Solutions",
     "section": "",
     "text": "Select access level for collaborator: Edit or View.\nCompose email or user name associated with Survey Solutions account.\nClick INVITE to grant the specified access and have Survey Solutions send an invitation email."
   },
@@ -562,140 +562,140 @@
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "What do we mean by “groups” ?",
     "text": "What do we mean by “groups” ?\n\n\n\n Sections"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups-1",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups-1",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "What do we mean by “groups” ?",
     "text": "What do we mean by “groups” ?\n\n\n\n Sections\n\n\n Sub-sections\n\n\nTODO: need image of sub-sections example on paper"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How they look on paper",
     "text": "How they look on paper"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-1",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-1",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How they look on paper",
     "text": "How they look on paper\nTODO: TODO: content here"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How they look in CAPI",
     "text": "How they look in CAPI\n\n\nTODO: Image of TOC in Designer\n\nTODO: Image or video (ideally) of TOC in Interviewer"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#one-is-system-generated",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#one-is-system-generated",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "One is system-generated",
     "text": "One is system-generated\n\n\nTODO: image of cover page section\n\n\nSection like any other\nWith two exeptions:\n\nCannot be deleted\nQuestions here appear as ID vars"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How to create",
     "text": "How to create\n\n\nTODO: content here\n\n\nClick on \nClick on ADD NEW SECTION\nProvide attributes\n\nTitle\nVariable name (optional)\nEnabling condition (optional)"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-make-the-title-better",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-make-the-title-better",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How to make the title better",
     "text": "How to make the title better\n\nMake it short\n\n\nConsider emojis"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#make-it-short",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#make-it-short",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "Make it short",
-    "text": "Make it short\n\n\nTODO: content here\n\n\nPrinciples\n\nConsider form factor\nConsider function\n\n\n\nPractices\n\nCheck whether it fits in UI\n\nNavigation bar\nTitle bar"
+    "text": "Make it short\n\n\nTODO: content here\n\nPrinciples\n\nConsider form factor\nConsider function\n\nPractices\n\nCheck whether it fits in UI\n\nNavigation bar\nTitle bar"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#consider-emojis",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#consider-emojis",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "Consider emojis",
     "text": "Consider emojis\n\n\nTODO: content here\n\n\nCommunicate\nCheck whether it works"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sections",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sections",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How to put questions in sections",
     "text": "How to put questions in sections\n\nAdd them\n\n\nMove them"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#add-them",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#add-them",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "Add them",
     "text": "Add them\n\n\nTODO: content here\n\n\nOpen a section\nCreate a question inside\n\nEither ADD A QUESTION or\nRight click and select Add question after"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#move-them",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#move-them",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "Move them",
     "text": "Move them\n\n\nTODO: content here\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-2",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-2",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How they look on paper",
     "text": "How they look on paper\nTODO: content here"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-3",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-3",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How they look on paper",
     "text": "How they look on paper\nTODO: content here"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi-1",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi-1",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How they look in CAPI",
     "text": "How they look in CAPI\n\n\nTODO: content here\n\nTODO: content here"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create-1",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create-1",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How to create",
     "text": "How to create\n\n\nTODO: content here\n\n\nEither click on ADD SUB-SECTION\nOr right-click and select Add sub-section after"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sub-sections",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sub-sections",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "How to put questions in sub-sections",
     "text": "How to put questions in sub-sections\n\nAdd them there\n\n\nMove them there"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#add-them-there",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#add-them-there",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "Add them there",
     "text": "Add them there\n\n\nTODO: content here\n\n\nRight-click on question in sub-section\nSelect Add question after"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#move-them-there",
     "href": "slides/01_designer/05_create_groups/05_create_groups.html#move-them-there",
-    "title": "Creating groups (of questions)",
+    "title": "Learning Survey Solutions",
     "section": "Move them there",
     "text": "Move them there\n\n\nTODO: content here\n\n\nHover over the left-hand part of the question\nDrag near the desired sub-section\nDrag to the right under the sub-section\nConfirm that the question is indented under the sub-section"
   },
@@ -772,91 +772,91 @@
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#roadmap",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#roadmap",
-    "title": "Server overview ",
-    "section": "",
-    "text": "Overview of UI\n\n\nDemonstration of the whole game"
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nOverview of UI\n\n\nDemonstration of the whole game"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#login",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#login",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Login",
     "text": "Login"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#main-page",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#main-page",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Main page",
-    "text": "Main page\n\n\n\n\n\n\nWill only show components used in this module"
+    "text": "Main page\n\n\nWill only show components used in this module"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#workspaces",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#workspaces",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Workspaces",
     "text": "Workspaces\n\n\nVideo\n\n\n\nNote what changes when workspace is changes:\n\nName in UI\nQuestionnaires in report\nURL in address bar"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#users",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#users",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Users",
     "text": "Users\n\n\nVideo"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#survey-setup",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#survey-setup",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Survey Setup",
     "text": "Survey Setup\n\n\nVideo"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#steps",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#steps",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Steps",
     "text": "Steps\n\nAccess the server\n\n\nCreate workspace\n\n\nCreate users\n\n\nImport the questionnaire\n\n\nCreate the assignments\n\n\nImport assignments"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#access-the-server",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#access-the-server",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Access the server",
     "text": "Access the server\n\n\nVideo"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#create-workspace",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#create-workspace",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Create workspace",
     "text": "Create workspace\n\n\nVideo"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#create-users",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#create-users",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Create users",
     "text": "Create users\n\n\nVideo"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#import-the-questionnaire",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#import-the-questionnaire",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Import the questionnaire",
     "text": "Import the questionnaire\n\n\nVideo"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#create-the-assignments",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#create-the-assignments",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Create the assignments",
     "text": "Create the assignments\nTODO: Craft a simpler video. Meant this to cover creating the assignment file–but a quick, simplified overview to give taste. See the Create assignments section in review_zim_course/slides_not_on_zim_site/16_prepare_server.html#/create-assignments. Something like this:\n\nGet a template. See here\nFill out template.\nSave as tab-delimited file."
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#import-assignments",
     "href": "slides/02_headquarters/01_server_overview/01_server_overview.html#import-assignments",
-    "title": "Server overview ",
+    "title": "Learning Survey Solutions",
     "section": "Import assignments",
     "text": "Import assignments\nTODO: Craft a video like this"
   },
