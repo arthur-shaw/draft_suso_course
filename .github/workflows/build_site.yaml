@@ -58,7 +58,7 @@ jobs:
         shell: Rscript {0}
 
        - name: Remove development .gitignore and restore deployment one
-        run: |
+         run: |
           rm .gitignore
           echo "/.quarto/" >> .gitignore
 
