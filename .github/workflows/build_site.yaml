@@ -57,8 +57,8 @@ jobs:
         run: pak::pak(c("glue", "htmltools", "here", "gt", "purrr", "tibble", "fs", "dplyr", "fontawesome", "emoji", "quarto"))
         shell: Rscript {0}
 
-       - name: Remove development .gitignore and restore deployment one
-         run: |
+      - name: Remove development .gitignore and restore deployment one
+        run: |
           rm .gitignore
           echo "/.quarto/" >> .gitignore
 
