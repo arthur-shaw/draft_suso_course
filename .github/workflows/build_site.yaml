@@ -54,7 +54,7 @@ jobs:
         shell: Rscript {0}
 
       - name: Install R packages need to build site
-        run: pak::pak(c("glue", "htmltools", "here", "gt", "purrr", "tibble", "fs", "dplyr", "fontawesome", "quarto"))
+        run: pak::pak(c("glue", "htmltools", "here", "gt", "purrr", "tibble", "fs", "dplyr", "fontawesome", "emoji", "quarto"))
         shell: Rscript {0}
       
       - name: Build site
