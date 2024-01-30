@@ -28,7 +28,7 @@ format:
 :::
 
 ::: {.column width="70%"}
-![](assets/sections_paper.png){fig-align="center"}
+![](assets/sections_paper_toc.png){fig-align="center"}
 :::
 
 ::::
@@ -51,7 +51,9 @@ format:
 :::
 
 ::: {.column width="70%"}
-TODO: need image of sub-sections example on paper
+
+![](assets/sub-sections_paper_overview.mp4){fig-align="center"}
+
 :::
 
 ::::
@@ -61,11 +63,11 @@ TODO: need image of sub-sections example on paper
 
 ## How they look on paper {.t2}
 
-![](assets/sections_paper.png){fig-align="center"}
+![](assets/sections_paper_toc.png){fig-align="center"}
 
 ## How they look on paper {.t2}
 
-TODO: TODO: content here
+![](assets/sections_paper_content.png)
 
 ## How they look in CAPI {.t2}
 
@@ -73,13 +75,17 @@ TODO: TODO: content here
 
 ::: {.column width="50%"}
 
-TODO: Image of TOC in Designer
+### [Designer]{.txt-2}
+
+![](assets/sections_designer.mp4){fig-align="center"}
 
 :::
 
 ::: {.column width="50%"}
 
-TODO: Image or video (ideally) of TOC in Interviewer
+### [Interviewer]{.txt-2}
+
+![](assets/section_interviewer.mp4){fig-align="center"}
 
 :::
 
@@ -91,7 +97,7 @@ TODO: Image or video (ideally) of TOC in Interviewer
 
 ::: {.column width="70%"}
 
-TODO: image of cover page section
+![](assets/section_system-generated.mp4){fig-align="center"}
 
 :::
 
@@ -106,12 +112,12 @@ TODO: image of cover page section
 
 ::::
 
-## How to create {.t2}
+## How to create the rest {.t2}
 
 :::: {.columns}
 
 ::: {.column width="80%"}
-TODO: content here
+![](assets/section_how_to_create.mp4){fig-align="center"}
 :::
 
 ::: {.column width="20%"}
@@ -146,7 +152,7 @@ Consider emojis
 
 ::: {.column width="70%"}
 
-TODO: content here
+![](assets/sections_make_short.mp4){fig-align="center"}
 
 :::
 
@@ -174,14 +180,23 @@ TODO: content here
 
 ::: {.column width="70%"}
 
-TODO: content here
+![](assets/sections_add_emojis.mp4){fig-align="center"}
 
 :::
 
 ::: {.column width="30%"}
 
-- Communicate
-- Check whether it works
+### Principles
+
+- Communicate ideas quickly
+- Make sections distinctive
+
+### Practices
+
+Check that it works:
+
+- Communicates clearly
+- Appears correctly
 
 :::
 
@@ -204,7 +219,7 @@ Move them
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: content here
+![](assets/section_add_questions.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -221,7 +236,7 @@ TODO: content here
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: content here
+![](assets/section_move_questions.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -237,22 +252,30 @@ TODO: content here
 
 ## How they look on paper {.t3}
 
-TODO: content here
+![](assets/sub-sections_paper_overview.mp4){fig-align="center"}
 
 ## How they look on paper {.t3}
 
-TODO: content here
+![](assets/sub-sections_paper_contents.png){fig-align="center"}
 
 ## How they look in CAPI {.t3}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-TODO: content here
+
+### [Designer]{.txt-3}
+
+![](assets/sub-sections_designer.mp4){fig-align="center"}
+
 :::
 
 ::: {.column width="50%"}
-TODO: content here
+
+### [Interviewer]{.txt-3}
+
+![](assets/sub-sections_interviewer.mp4){fig-align="center"}
+
 :::
 
 ::::
@@ -262,7 +285,7 @@ TODO: content here
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: content here
+![](assets/sub-section_create.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -287,7 +310,7 @@ Move them there
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: content here
+![](assets/sub-section_create_question.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -302,7 +325,7 @@ TODO: content here
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: content here
+![](assets/sub-section_move_questions.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
