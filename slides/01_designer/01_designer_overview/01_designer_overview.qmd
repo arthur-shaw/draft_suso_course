@@ -46,48 +46,81 @@ Share `r fontawesome::fa(name = "share-from-square")`
 
 ## Login `r fontawesome::fa(name = "right-to-bracket")` {.suso}
 
-TODO: video of:
+![](assets/login.mp4){fig-align="center"}
 
-- navigate to URL
-- provide login and password
+::: {.notes}
+
+- Navigate to [Designer](https://designer.mysurvey.solutions/)
+- Provide login and password
+
+:::
 
 ## Search `r fontawesome::fa(name = "magnifying-glass")` {.suso}
 
-TODO: video of: 
+![](assets/search.mp4){fig-align="center"}
 
-- click on `QUESTIONNAIRES SHARED WITH ME`, `PUBLIC`, `MY QUESTIONNAIRES` tabs
-- use search bar 
+::: {.notes}
+
+- Choose a collection of questionnaires
+  - Your: `MY QUESTIONNAIRES`
+  - Shared with you: `QUESTIONNAIRES SHARED WITH ME`
+  - Public: `PUBLIC`
+- Provide a search term
+- Execute the search, either
+  - Pressing `Enter` or
+  - Clicking on `r fontawesome::fa(name = "magnifying-glass")`
+
+:::
 
 ## Create `r fontawesome::fa(name = "folder-plus")` {.suso}
 
-TODO: video of:
+![](assets/create_qnr.mp4){fig-align="center"}
 
-- Click button to create
-- Provide name and variable name
-- Show name and variable name in UI
+::: {.notes}
+
+- Click on `CREATE NEW  `
+- Provide questionnaire name and variable name
+
+:::
 
 ## Develop `r fontawesome::fa(name = "laptop-code")` {.suso}
 
-TODO: video of:
+![](assets/develop.mp4){fig-align="center"}
+
+::: {.notes}
 
 - Add sections
 - Add questions (creating a duplicate question to trigger compile error on purpose)
 - Add roster
 - Add (enablement) conditions
 
+:::
+
 ## Test `r fontawesome::fa(name = "vial-circle-check")` {.suso}
 
-- TODO: video of:
+![](assets/test.mp4){fig-align="center"}
 
-- press COMPILE
+::: {.notes}
+
+- press `COMPILE`
 - see error, hover over, click on link, remedy; press COMPILE again
+- resolve error
+- press `COMPILE` again
 - press TEST
+- change questionnaire
+- upate web tester and see changes reflected
+
+:::
 
 ## Share `r fontawesome::fa(name = "share-from-square")` {.suso}
 
-TODO: video of:
+![](assets/share.mp4){fig-align="center"}
+
+::: {.notes}
 
 - Click share button
 - Provide email/user name
 - Toggle permissions
 - Send edit request
+
+:::
