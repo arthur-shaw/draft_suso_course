@@ -137,14 +137,14 @@
     "href": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box",
     "title": "Learning Survey Solutions",
     "section": "Cascading combo box",
-    "text": "Cascading combo box\nTODO: example on paper"
+    "text": "Cascading combo box\n\n\n\n\nVideo\n\n\n\n\nCascading. Answer to one question determines which answer options are shown for another question.\nCombo box. Answers entered by typing text and selecting most appropriate option."
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box-1",
     "title": "Learning Survey Solutions",
     "section": "Cascading combo box",
-    "text": "Cascading combo box\n\n\n\n\nVideo\n\n\n\n\nCascading. Answer to one question determines which answer options are shown for another question.\nCombo box. Answers entered by typing text and selecting most appropriate option."
+    "text": "Cascading combo box\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#example-1",
@@ -1425,14 +1425,14 @@
     "href": "slides/01_designer/03_question_types/03_question_types.html#question-ttype",
     "title": "Learning Survey Solutions",
     "section": "Question tType",
-    "text": "Question tType\nTODO: image of Question type field opened in context of “zoomed out” view of a question in Designer"
+    "text": "Question tType"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#question-type",
     "href": "slides/01_designer/03_question_types/03_question_types.html#question-type",
     "title": "Learning Survey Solutions",
     "section": "Question type",
-    "text": "Question type\n\n\nVideo"
+    "text": "Question type"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#single-select-1",
@@ -1440,5 +1440,19 @@
     "title": "Learning Survey Solutions",
     "section": "Single-select",
     "text": "Single-select"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#question-type-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#question-type-1",
+    "title": "Learning Survey Solutions",
+    "section": "Question Type",
+    "text": "Question Type\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#checkboxes-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#checkboxes-1",
+    "title": "Learning Survey Solutions",
+    "section": "Checkboxes",
+    "text": "Checkboxes\n\n\nVideo"
   }
 ]
