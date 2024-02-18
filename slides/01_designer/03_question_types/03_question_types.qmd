@@ -95,11 +95,11 @@ Everything else
 
 ## Question type {.t1}
 
+![](assets/attributes_question_type.png){fig-align="center"}
+
+## Question Type {.t1}
+
 ![](assets/answering_all_question-_types.mp4){fig-align="center"}
-
-## Question tType {.t1}
-
-TODO: image of `Question type` field opened in context of "zoomed out" view of a question in Designer
 
 <!-- Variable name -->
 
@@ -115,7 +115,7 @@ TODO: image of `Question type` field opened in context of "zoomed out" view of a
 
 ## Variable label {.t1}
 
-![](assets/attributes_variable_label.png)
+![](assets/attributes_variable_label.png){fig-align="center"}
 
 ## Variable label {.t1}
 
@@ -196,17 +196,17 @@ TODO: image of `Question type` field opened in context of "zoomed out" view of a
 
 ::::
 
-
+<!-- 
 ## Cascading combo box {.t2}
 
-TODO: example on paper
+TODO: example on paper -->
 
 ## Cascading combo box {.t2}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/cascading_combox.mp4){fig-align="center"}
+![](assets/cascading_combo_box_interviewer.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -220,7 +220,7 @@ TODO: example on paper
 
 ## Cascading combo box {.t2}
 
-![](assets/cascading_combox.png){fig-align="center"}
+![](assets/cascading_combo_box_designer.mp4){fig-align="center"}
 
 
 # Second course: multi-select {background-color=var(--s3)}
@@ -255,6 +255,10 @@ TODO: example on paper
 
 ![](assets/multi-select_checkboxes.mp4){fig-align="center"}
 
+## Checkboxes {.t3}
+
+![](assets/multi-select_checkbox_alt.mp4){fig-align="center"}
+
 ## Yes/No buttons {.t3}
 
 ![](assets/multiselect_yn_paper.png){fig-align="center"}
@@ -285,10 +289,25 @@ Max number of answers
 
 ![](assets/multi-select_record_answer_order.mp4){fig-align="center"}
 
+<!-- 
+
+var: s11q18
+order of frequency
+
+ -->
 ## Max number of answers {.t3}
 
 ![](assets/multi-select_max_answers.mp4){fig-align="center"}
 
+<!-- 
+
+var: s11q18
+order of frequency
+
+AND
+
+two answers
+ -->
 
 
 # Third course: numeric {background-color=var(--s4)}
