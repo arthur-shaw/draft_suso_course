@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying/finding questions\n\n\n  \n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "suso_course",
@@ -7,144 +21,410 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups",
+    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#roadmap",
+    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#roadmap",
     "title": "Learning Survey Solutions",
-    "section": "What do we mean by “groups” ?",
-    "text": "What do we mean by “groups” ?\n\n\n\n Sections"
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nCreate questionnaire\n\n\nAdd questions\n\n\nProvide attributes\n\n\nCopy/paste and move questions\n\n\nTest questionnaires"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups-1",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups-1",
+    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#create-questionnaire-1",
+    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#create-questionnaire-1",
     "title": "Learning Survey Solutions",
-    "section": "What do we mean by “groups” ?",
-    "text": "What do we mean by “groups” ?\n\n\n\n Sections\n\n\n Sub-sections\n\n\n\n\nVideo"
+    "section": "Create questionnaire",
+    "text": "Create questionnaire\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper",
+    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#add-questions-1",
+    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#add-questions-1",
     "title": "Learning Survey Solutions",
-    "section": "How they look on paper",
-    "text": "How they look on paper"
+    "section": "Add questions",
+    "text": "Add questions\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-1",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-1",
+    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#provide-attributes-1",
+    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#provide-attributes-1",
     "title": "Learning Survey Solutions",
-    "section": "How they look on paper",
-    "text": "How they look on paper"
+    "section": "Provide attributes",
+    "text": "Provide attributes\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi",
+    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#copypaste",
+    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#copypaste",
     "title": "Learning Survey Solutions",
-    "section": "How they look in CAPI",
-    "text": "How they look in CAPI\n\n\nDesigner\n\n\nVideo\n\n\n\nInterviewer\n\n\nVideo"
+    "section": "Copy/paste",
+    "text": "Copy/paste\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#one-is-system-generated",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#one-is-system-generated",
+    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#move",
+    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#move",
     "title": "Learning Survey Solutions",
-    "section": "One is system-generated",
-    "text": "One is system-generated\n\n\n\n\nVideo\n\n\n\n\nSection like any other\nWith two exeptions:\n\nCannot be deleted\nQuestions here appear as ID vars"
+    "section": "Move",
+    "text": "Move\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create-the-rest",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create-the-rest",
+    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#test-questionnaire-1",
+    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#test-questionnaire-1",
     "title": "Learning Survey Solutions",
-    "section": "How to create the rest",
-    "text": "How to create the rest\n\n\n\n\nVideo\n\n\n\n\nClick on \nClick on ADD NEW SECTION\nProvide attributes\n\nTitle\nVariable name (optional)\nEnabling condition (optional)"
+    "section": "Test questionnaire",
+    "text": "Test questionnaire\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-make-the-title-better",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-make-the-title-better",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#roadmap",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#roadmap",
     "title": "Learning Survey Solutions",
-    "section": "How to make the title better",
-    "text": "How to make the title better\n\nMake it short\n\n\nConsider emojis"
+    "section": "Roadmap",
+    "text": "Roadmap\n\nSign up\n\n\nLog in\n\n\nPeruse\n\n\nSearch\n\n\nCreate\n\n\nShare"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#make-it-short",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#make-it-short",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section",
     "title": "Learning Survey Solutions",
-    "section": "Make it short",
-    "text": "Make it short\n\n\n\n\nVideo\n\n\n\nPrinciples\n\nConsider form factor\nConsider function\n\nPractices\n\nCheck whether it fits in UI\n\nNavigation bar\nTitle bar"
+    "section": "",
+    "text": "Navigate to: https://designer.mysurvey.solutions/\nClick on Register\nCreate an account\n\nSee step-by-step directions here"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#consider-emojis",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#consider-emojis",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-2",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-2",
     "title": "Learning Survey Solutions",
-    "section": "Consider emojis",
-    "text": "Consider emojis\n\n\n\n\nVideo\n\n\n\nPrinciples\n\nCommunicate ideas quickly\nMake sections distinctive\n\nPractices\nCheck that it works:\n\nCommunicates clearly\nAppears correctly"
+    "section": "",
+    "text": "Created by me, whether shared or not"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sections",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sections",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-3",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-3",
     "title": "Learning Survey Solutions",
-    "section": "How to put questions in sections",
-    "text": "How to put questions in sections\n\nAdd them\n\n\nMove them"
+    "section": "",
+    "text": "Shared with me, whether with read or read/write privileges"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#add-them",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#add-them",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-4",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-4",
     "title": "Learning Survey Solutions",
-    "section": "Add them",
-    "text": "Add them\n\n\n\n\nVideo\n\n\n\n\nOpen a section\nCreate a question inside\n\nEither ADD A QUESTION or\nRight click and select Add question after"
+    "section": "",
+    "text": "Publicly shared in read-only mode\nOrganized in folders\nTo view, open\nTo edit, create a copy and edit that copy"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#move-them",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#move-them",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-5",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-5",
     "title": "Learning Survey Solutions",
-    "section": "Move them",
-    "text": "Move them\n\n\n\n\nVideo\n\n\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
+    "section": "",
+    "text": "Answer option categories compiled by IHSN"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-2",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-2",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-7",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-7",
     "title": "Learning Survey Solutions",
-    "section": "How they look on paper",
-    "text": "How they look on paper\n\n\nVideo"
+    "section": "",
+    "text": "Search on questionnaire title\nWithin current scope (e.g., over “My Questionnaires”)"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-3",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-3",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-8",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-8",
     "title": "Learning Survey Solutions",
-    "section": "How they look on paper",
-    "text": "How they look on paper"
+    "section": "",
+    "text": "Questionnaire title. Display name of questionnaire (e.g., Zimbabwe PICES 2023)\nQuestionnaire variable. File name that captures main level of data (e.g., households -&gt; households.dta)"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi-1",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi-1",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-9",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-9",
     "title": "Learning Survey Solutions",
-    "section": "How they look in CAPI",
-    "text": "How they look in CAPI\n\n\nDesigner\n\n\nVideo\n\n\n\nInterviewer\n\n\nVideo"
+    "section": "",
+    "text": "Open questionnaire\nClick on SETTINGS in upper right-hand corner"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create",
+    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-11",
+    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-11",
     "title": "Learning Survey Solutions",
-    "section": "How to create",
-    "text": "How to create\n\n\n\n\nVideo\n\n\n\n\nEither click on ADD SUB-SECTION\nOr right-click and select Add sub-section after"
+    "section": "",
+    "text": "Select access level for collaborator: Edit or View.\nCompose email or user name associated with Survey Solutions account.\nClick INVITE to grant the specified access and have Survey Solutions send an invitation email."
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sub-sections",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sub-sections",
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters",
     "title": "Learning Survey Solutions",
-    "section": "How to put questions in sub-sections",
-    "text": "How to put questions in sub-sections\n\nAdd them there\n\n\nMove them there"
+    "section": "How to think about rosters",
+    "text": "How to think about rosters\n\n\n\n\n\n\n\n\n\nDefined by two parameters\n\nNumber of rows (i.e., size)\nNames of rows (i.e., content)\n\nSize comes from one of two sources\n\nQuestion or\nFixed items in the roster itself\n\nContent is defined likewise\n\nQuestion or\nFixed contents of the roster itelf"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#add-them-there",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#add-them-there",
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters-1",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters-1",
     "title": "Learning Survey Solutions",
-    "section": "Add them there",
-    "text": "Add them there\n\n\n\n\nVideo\n\n\n\n\nRight-click on question in sub-section\nSelect Add question after"
+    "section": "How to think about rosters",
+    "text": "How to think about rosters\n\n\n\n\n\n\n\n\n\nDefined by two parameters\n\nNumber of rows (i.e., size)\nNames of rows (i.e., content)\n\nSize comes from one of two sources\n\nQuestion or\nFixed items in the roster itself\n\nContent is defined likewise\n\nQuestion or\nFixed contents of the roster itelf"
   },
   {
-    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#move-them-there",
-    "href": "slides/01_designer/05_create_groups/05_create_groups.html#move-them-there",
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters-2",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters-2",
     "title": "Learning Survey Solutions",
-    "section": "Move them there",
-    "text": "Move them there\n\n\n\n\nVideo\n\n\n\n\nHover over the left-hand part of the question\nDrag near the desired sub-section\nDrag to the right under the sub-section\nConfirm that the question is indented under the sub-section"
+    "section": "How to think about rosters",
+    "text": "How to think about rosters\n\n\n\n\n\n\n\n\n\nDefined by two parameters\n\nNumber of rows (i.e., size)\nNames of rows (i.e., content)\n\nSize comes from one of two sources\n\nQuestion or\nFixed items in the roster itself\n\nContent is defined likewise\n\nQuestion or\nFixed contents of the roster itelf"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters-3",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters-3",
+    "title": "Learning Survey Solutions",
+    "section": "How to think about rosters",
+    "text": "How to think about rosters\n\n\n\n\n\n\n\n\n\nDefined by two parameters\n\nNumber of rows (i.e., size)\nNames of rows (i.e., content)\n\nSize comes from one of two sources\n\nQuestion or\nFixed items in the roster itself\n\nContent is defined likewise\n\nQuestion or\nFixed contents of the roster itelf"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters-4",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#how-to-think-about-rosters-4",
+    "title": "Learning Survey Solutions",
+    "section": "How to think about rosters",
+    "text": "How to think about rosters\n\n\n\n\n\n\n\n\n\nDefined by two parameters\n\nNumber of rows (i.e., size)\nNames of rows (i.e., content)\n\nSize comes from one of two sources\n\nQuestion or\nFixed items in the roster itself\n\nContent is defined likewise\n\nQuestion or\nFixed contents of the roster itelf"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#list-question",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#list-question",
+    "title": "Learning Survey Solutions",
+    "section": "List question",
+    "text": "List question"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#multi-select-yesno-question",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#multi-select-yesno-question",
+    "title": "Learning Survey Solutions",
+    "section": "Multi-select yes/no question",
+    "text": "Multi-select yes/no question"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#numeric-question",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#numeric-question",
+    "title": "Learning Survey Solutions",
+    "section": "Numeric question",
+    "text": "Numeric question"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#fixed-set-of-items",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#fixed-set-of-items",
+    "title": "Learning Survey Solutions",
+    "section": "Fixed set of items",
+    "text": "Fixed set of items"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#create-a-roster-in-designer",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#create-a-roster-in-designer",
+    "title": "Learning Survey Solutions",
+    "section": "Create a roster in Designer",
+    "text": "Create a roster in Designer\n\n\n\n\nVideo\n\n\n\n\nCreate source question\n\n\nCreate roster\n\n\nSelect type (of source question)\nProvide variable name (ID)\nProvide name (name)\nSelect source question\nSelect how to display roster rows"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#unpacking-roster-attributes",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#unpacking-roster-attributes",
+    "title": "Learning Survey Solutions",
+    "section": "Unpacking roster attributes",
+    "text": "Unpacking roster attributes\n\n\n\n\n\n\n\n\n\nRoster source\n\n\nRoster ID\n\n\nRoster name\n\n\nSource question\n\n\nDisplay mode"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#roster-source",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#roster-source",
+    "title": "Learning Survey Solutions",
+    "section": "Roster source",
+    "text": "Roster source\n\n\n\n\nVideo\n\n\n\nWhat it is\nType of question for roster source\nWhat it does\n\nFilters to questions of designated type (e.g., list, multi-select yes/no)\nPermits easier selection of soure question"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#roster-id",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#roster-id",
+    "title": "Learning Survey Solutions",
+    "section": "Roster ID",
+    "text": "Roster ID\n\n\n\n\nVideo\n\n\n\nWhat it is\nVariable name for the roster\nWhat it does\n\nAllows references to roster in conditions\nProvides name for roster in data export"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#roster-name",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#roster-name",
+    "title": "Learning Survey Solutions",
+    "section": "Roster name",
+    "text": "Roster name\n\n\n\n\nVideo\n\n\n\nWhat it is\nTemplate for text on roster row buttons\nWhat it does\nDetermines what text appears on roster row buttons"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#source-question",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#source-question",
+    "title": "Learning Survey Solutions",
+    "section": "Source question",
+    "text": "Source question\n\n\n\n\nVideo\n\n\n\nWhat it is\nQuestion that defines a roster.\nWhat it does\nDefines:\n\nNumber of rows (e.g., household members)\nContent of row titles (e.g., names of members)"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#display-mode",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#display-mode",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode",
+    "text": "Display mode\nBy mode\n\n\n CAPI\n\nSub-section\nFlat (aka plain mode)\n\n\n CAWI\n\nMatrix\nTable"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#display-mode-sub-section",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#display-mode-sub-section",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode > Sub-section",
+    "text": "Display mode &gt; Sub-section\n\n\n\n\n\n\n\n\n\nDefault display mode\nGood for any kind of roster\nBest for rosters with lots of questions"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#display-mode-flat",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#display-mode-flat",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode > Flat",
+    "text": "Display mode &gt; Flat\n\n\n\n\nVideo\n\n\n\n\nWorks best for simple rosters\nLimited to roster with:\n\nFew items\nNo nested roster"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#concept",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#concept",
+    "title": "Learning Survey Solutions",
+    "section": "Concept",
+    "text": "Concept"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#outside-of-rosters",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#outside-of-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "Outside of rosters",
+    "text": "Outside of rosters\n\n\n\n\nVideo\n\n\n\n\nShow the value of one question in the text of another variable\nConstruct reference: variable name surrounded by % (e.g., myvar -&gt; %myvar%)\nSee more here."
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#inside-of-rosters",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#inside-of-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "Inside of rosters",
+    "text": "Inside of rosters\n\nVariable values\n\n\nRow names"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#variable-values",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#variable-values",
+    "title": "Learning Survey Solutions",
+    "section": "Variable values",
+    "text": "Variable values\n\n\n\n\nVideo\n\n\n\n\nSame approach as outside roster\nConstruct reference"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#row-names",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#row-names",
+    "title": "Learning Survey Solutions",
+    "section": "Row names",
+    "text": "Row names\n\n\n\n\nVideo\n\n\n\n\nReferences to row names must use keyboards\n%rostertitle% = row names of current roster\n%your_roster_variable% = rows of a specific roster (which could be the current one)"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#example-1-household-members",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#example-1-household-members",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household members",
+    "text": "Example 1: household members\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#example-2-asset-ownership",
+    "href": "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.html#example-2-asset-ownership",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: asset ownership",
+    "text": "Example 2: asset ownership\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-subsections",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-subsections",
+    "title": "Learning Survey Solutions",
+    "section": "Within (sub)sections",
+    "text": "Within (sub)sections\n\n\n\n\nVideo\n\n\n\nHow\n\nHover over the left-hand part of the question\nDrag\nDrop\n\nWhy\n\nPut questions in order\nMove question to a group (e.g., roster, sub-section)\n\n\n\n\n\nWithin section (root of section)\nWithin roster\nWithin sub-section\nFrom section to sub-section (pop in)\nFrom sub-section to section (pop out)"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-sections",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-sections",
+    "title": "Learning Survey Solutions",
+    "section": "Between sections",
+    "text": "Between sections\n\n\n\n\nVideo\n\n\n\nHow\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section\n\nWhy\n\nMove question to the section where they belong"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-questionnaire",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "Within questionnaire",
+    "text": "Within questionnaire\n\n\n\n\nVideo\n\n\n\nHow\n\nRight-click on question\nSelect Copy\nClick just before desired paste point\nPaste, either by\n\n\n…\n\n\nClicking the PASTE button\nSelecting Paste after from the right-click menu\n\n\n\nWhy\n\nCreate new object that shares many attributes of an existing object"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-questionnaires",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-questionnaires",
+    "title": "Learning Survey Solutions",
+    "section": "Between questionnaires",
+    "text": "Between questionnaires\n\n\n\n\nVideo\n\n\n\nHow\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after\n\nWhy\n\nCreate new object in target questionnaire that shares many attributes of an existing object in the source questionnaire"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#but-exercise-caution",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#but-exercise-caution",
+    "title": "Learning Survey Solutions",
+    "section": "… but exercise caution",
+    "text": "… but exercise caution\n\nDuplicates\n\n\nDependencies"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#duplicates",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#duplicates",
+    "title": "Learning Survey Solutions",
+    "section": "Duplicates",
+    "text": "Duplicates\n\n\n\n\nVideo\n\n\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#dependencies",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#dependencies",
+    "title": "Learning Survey Solutions",
+    "section": "Dependencies",
+    "text": "Dependencies\n\n\n\n\nVideo\n\n\n\nProblem\n\nWhen object is copied, all of its attributes are copied\nThis includes references to objects that only exist in the source questionnaire, but not the target questionnaire\n\nSolution\n\nIdentify references to objects in the source questionnaire\nDelete them"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-section",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-section",
+    "title": "Learning Survey Solutions",
+    "section": "In section",
+    "text": "In section\n\n\n\n\nVideo\n\n\n\nHow\n\nClick on search icon\nType\nSee matching items\n\nWhy\n\nMore quickly navigate to target question\nCheck that question (text) exists in the section"
+  },
+  {
+    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-questionnaire",
+    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "In questionnaire",
+    "text": "In questionnaire\n\n\n\n\nVideo\n\n\n\nHow\n\nType Ctrl + H\nType query in Find what field\nClick on FIND ALL button\nPage through search results\n\nWhy\n\nFind variable\nFind object with target text"
+  },
+  {
+    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#roadmap",
+    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nLogin \n\n\nSearch \n\n\nCreate \n\n\nDevelop \n\n\nTest \n\n\nShare"
+  },
+  {
+    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#login",
+    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#login",
+    "title": "Learning Survey Solutions",
+    "section": "Login ",
+    "text": "Login \n\n\nVideo\n\n\n\n\nNavigate to Designer\nProvide login and password"
+  },
+  {
+    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#search",
+    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#search",
+    "title": "Learning Survey Solutions",
+    "section": "Search ",
+    "text": "Search \n\n\nVideo\n\n\n\n\nChoose a collection of questionnaires\n\nYour: MY QUESTIONNAIRES\nShared with you: QUESTIONNAIRES SHARED WITH ME\nPublic: PUBLIC\n\nProvide a search term\nExecute the search, either\n\nPressing Enter or\nClicking on"
+  },
+  {
+    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#create",
+    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#create",
+    "title": "Learning Survey Solutions",
+    "section": "Create ",
+    "text": "Create \n\n\nVideo\n\n\n\n\nClick on CREATE NEW\nProvide questionnaire name and variable name"
+  },
+  {
+    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#develop",
+    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#develop",
+    "title": "Learning Survey Solutions",
+    "section": "Develop ",
+    "text": "Develop \n\n\nVideo\n\n\n\n\nAdd sections\nAdd questions (creating a duplicate question to trigger compile error on purpose)\nAdd roster\nAdd (enablement) conditions"
+  },
+  {
+    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#test",
+    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#test",
+    "title": "Learning Survey Solutions",
+    "section": "Test ",
+    "text": "Test \n\n\nVideo\n\n\n\n\npress COMPILE\nsee error, hover over, click on link, remedy; press COMPILE again\nresolve error\npress COMPILE again\npress TEST\nchange questionnaire\nupate web tester and see changes reflected"
+  },
+  {
+    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#share",
+    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#share",
+    "title": "Learning Survey Solutions",
+    "section": "Share ",
+    "text": "Share \n\n\nVideo\n\n\n\n\nClick share button\nProvide email/user name\nToggle permissions\nSend edit request"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#roadmap",
@@ -511,263 +791,214 @@
     "text": "Everything else\n\nPicture Barcode Audio Geography"
   },
   {
-    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#roadmap",
-    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#roadmap",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups",
     "title": "Learning Survey Solutions",
-    "section": "Roadmap ",
-    "text": "Roadmap \n\nCreate questionnaire\n\n\nAdd questions\n\n\nProvide attributes\n\n\nCopy/paste and move questions\n\n\nTest questionnaires"
+    "section": "What do we mean by “groups” ?",
+    "text": "What do we mean by “groups” ?\n\n\n\n Sections"
   },
   {
-    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#create-questionnaire-1",
-    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#create-questionnaire-1",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups-1",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups-1",
     "title": "Learning Survey Solutions",
-    "section": "Create questionnaire",
-    "text": "Create questionnaire\n\n\nVideo"
+    "section": "What do we mean by “groups” ?",
+    "text": "What do we mean by “groups” ?\n\n\n\n Sections\n\n\n Sub-sections\n\n\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#add-questions-1",
-    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#add-questions-1",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper",
     "title": "Learning Survey Solutions",
-    "section": "Add questions",
-    "text": "Add questions\n\n\nVideo"
+    "section": "How they look on paper",
+    "text": "How they look on paper"
   },
   {
-    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#provide-attributes-1",
-    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#provide-attributes-1",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-1",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-1",
     "title": "Learning Survey Solutions",
-    "section": "Provide attributes",
-    "text": "Provide attributes\n\n\nVideo"
+    "section": "How they look on paper",
+    "text": "How they look on paper"
   },
   {
-    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#copypaste",
-    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#copypaste",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi",
     "title": "Learning Survey Solutions",
-    "section": "Copy/paste",
-    "text": "Copy/paste\n\n\nVideo"
+    "section": "How they look in CAPI",
+    "text": "How they look in CAPI\n\n\nDesigner\n\n\nVideo\n\n\n\nInterviewer\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#move",
-    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#move",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#one-is-system-generated",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#one-is-system-generated",
     "title": "Learning Survey Solutions",
-    "section": "Move",
-    "text": "Move\n\n\nVideo"
+    "section": "One is system-generated",
+    "text": "One is system-generated\n\n\n\n\nVideo\n\n\n\n\nSection like any other\nWith two exeptions:\n\nCannot be deleted\nQuestions here appear as ID vars"
   },
   {
-    "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#test-questionnaire-1",
-    "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#test-questionnaire-1",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create-the-rest",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create-the-rest",
     "title": "Learning Survey Solutions",
-    "section": "Test questionnaire",
-    "text": "Test questionnaire\n\n\nVideo"
+    "section": "How to create the rest",
+    "text": "How to create the rest\n\n\n\n\nVideo\n\n\n\n\nClick on \nClick on ADD NEW SECTION\nProvide attributes\n\nTitle\nVariable name (optional)\nEnabling condition (optional)"
   },
   {
-    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#roadmap",
-    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#roadmap",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-make-the-title-better",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-make-the-title-better",
     "title": "Learning Survey Solutions",
-    "section": "Roadmap ",
-    "text": "Roadmap \n\nLogin \n\n\nSearch \n\n\nCreate \n\n\nDevelop \n\n\nTest \n\n\nShare"
+    "section": "How to make the title better",
+    "text": "How to make the title better\n\nMake it short\n\n\nConsider emojis"
   },
   {
-    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#login",
-    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#login",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#make-it-short",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#make-it-short",
     "title": "Learning Survey Solutions",
-    "section": "Login ",
-    "text": "Login \n\n\nVideo\n\n\n\n\nNavigate to Designer\nProvide login and password"
+    "section": "Make it short",
+    "text": "Make it short\n\n\n\n\nVideo\n\n\n\nPrinciples\n\nConsider form factor\nConsider function\n\nPractices\n\nCheck whether it fits in UI\n\nNavigation bar\nTitle bar"
   },
   {
-    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#search",
-    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#search",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#consider-emojis",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#consider-emojis",
     "title": "Learning Survey Solutions",
-    "section": "Search ",
-    "text": "Search \n\n\nVideo\n\n\n\n\nChoose a collection of questionnaires\n\nYour: MY QUESTIONNAIRES\nShared with you: QUESTIONNAIRES SHARED WITH ME\nPublic: PUBLIC\n\nProvide a search term\nExecute the search, either\n\nPressing Enter or\nClicking on"
+    "section": "Consider emojis",
+    "text": "Consider emojis\n\n\n\n\nVideo\n\n\n\nPrinciples\n\nCommunicate ideas quickly\nMake sections distinctive\n\nPractices\nCheck that it works:\n\nCommunicates clearly\nAppears correctly"
   },
   {
-    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#create",
-    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#create",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sections",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sections",
     "title": "Learning Survey Solutions",
-    "section": "Create ",
-    "text": "Create \n\n\nVideo\n\n\n\n\nClick on CREATE NEW\nProvide questionnaire name and variable name"
+    "section": "How to put questions in sections",
+    "text": "How to put questions in sections\n\nAdd them\n\n\nMove them"
   },
   {
-    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#develop",
-    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#develop",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#add-them",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#add-them",
     "title": "Learning Survey Solutions",
-    "section": "Develop ",
-    "text": "Develop \n\n\nVideo\n\n\n\n\nAdd sections\nAdd questions (creating a duplicate question to trigger compile error on purpose)\nAdd roster\nAdd (enablement) conditions"
+    "section": "Add them",
+    "text": "Add them\n\n\n\n\nVideo\n\n\n\n\nOpen a section\nCreate a question inside\n\nEither ADD A QUESTION or\nRight click and select Add question after"
   },
   {
-    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#test",
-    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#test",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#move-them",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#move-them",
     "title": "Learning Survey Solutions",
-    "section": "Test ",
-    "text": "Test \n\n\nVideo\n\n\n\n\npress COMPILE\nsee error, hover over, click on link, remedy; press COMPILE again\nresolve error\npress COMPILE again\npress TEST\nchange questionnaire\nupate web tester and see changes reflected"
+    "section": "Move them",
+    "text": "Move them\n\n\n\n\nVideo\n\n\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
   },
   {
-    "objectID": "slides/01_designer/01_designer_overview/01_designer_overview.html#share",
-    "href": "slides/01_designer/01_designer_overview/01_designer_overview.html#share",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-2",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-2",
     "title": "Learning Survey Solutions",
-    "section": "Share ",
-    "text": "Share \n\n\nVideo\n\n\n\n\nClick share button\nProvide email/user name\nToggle permissions\nSend edit request"
+    "section": "How they look on paper",
+    "text": "How they look on paper\n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#roadmap",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#roadmap",
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-3",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-on-paper-3",
+    "title": "Learning Survey Solutions",
+    "section": "How they look on paper",
+    "text": "How they look on paper"
+  },
+  {
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi-1",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-they-look-in-capi-1",
+    "title": "Learning Survey Solutions",
+    "section": "How they look in CAPI",
+    "text": "How they look in CAPI\n\n\nDesigner\n\n\nVideo\n\n\n\nInterviewer\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-create",
+    "title": "Learning Survey Solutions",
+    "section": "How to create",
+    "text": "How to create\n\n\n\n\nVideo\n\n\n\n\nEither click on ADD SUB-SECTION\nOr right-click and select Add sub-section after"
+  },
+  {
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sub-sections",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#how-to-put-questions-in-sub-sections",
+    "title": "Learning Survey Solutions",
+    "section": "How to put questions in sub-sections",
+    "text": "How to put questions in sub-sections\n\nAdd them there\n\n\nMove them there"
+  },
+  {
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#add-them-there",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#add-them-there",
+    "title": "Learning Survey Solutions",
+    "section": "Add them there",
+    "text": "Add them there\n\n\n\n\nVideo\n\n\n\n\nRight-click on question in sub-section\nSelect Add question after"
+  },
+  {
+    "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#move-them-there",
+    "href": "slides/01_designer/05_create_groups/05_create_groups.html#move-them-there",
+    "title": "Learning Survey Solutions",
+    "section": "Move them there",
+    "text": "Move them there\n\n\n\n\nVideo\n\n\n\n\nHover over the left-hand part of the question\nDrag near the desired sub-section\nDrag to the right under the sub-section\nConfirm that the question is indented under the sub-section"
+  },
+  {
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#roadmap",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#roadmap",
     "title": "Learning Survey Solutions",
     "section": "Roadmap",
-    "text": "Roadmap\n\nSign up\n\n\nLog in\n\n\nPeruse\n\n\nSearch\n\n\nCreate\n\n\nShare"
+    "text": "Roadmap\n\nTypes of users\n\n\nCreate one at a time\n\n\nCreate in batch"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#types",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#types",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Navigate to: https://designer.mysurvey.solutions/\nClick on Register\nCreate an account\n\nSee step-by-step directions here"
+    "section": "Types",
+    "text": "Types\n\nInterviewer\n\n\nSupervisor\n\n\nObserver\n\n\nHeadquarters\n\n\nAdmin\n\n\nAPI"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-2",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-2",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#types-1",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#types-1",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Created by me, whether shared or not"
+    "section": "Types",
+    "text": "Types\n\n\nFor field operations\n\nInterviewer\n\n\nSupervisor\n\n\nObserver\n\n\nHeadquarters\n\n\nFor technical tasks\n\nAdmin\n\n\nAPI"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-3",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-3",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#for-field-operations-1",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#for-field-operations-1",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Shared with me, whether with read or read/write privileges"
+    "section": "For field operations",
+    "text": "For field operations\n\nInterviewer. Complete interviews,\nSupervisor. Reassign work, review interviews.\nHeadquarters. Manages survey:\n\nCreates users (i.e., Interviewer, Supervisor)\nImports interviews\nCreates assignments\nReviews interviews\nExports data\n\nObserver. Like Headquarters, but can only observe."
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-4",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-4",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#for-technical-tasks-1",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#for-technical-tasks-1",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Publicly shared in read-only mode\nOrganized in folders\nTo view, open\nTo edit, create a copy and edit that copy"
+    "section": "For technical tasks",
+    "text": "For technical tasks\n\nAdmin. Like “super” Headquarters.\n\nCan do everything Headquarters can.\nCan do things Headquarters cannot:\n\nCreate workspaces.\nCreate all users (including Headquarters).\n\n\nAPI. Like “super” Headquarters, but through API rather than GUI"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-5",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-5",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#users",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#users",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Answer option categories compiled by IHSN"
+    "section": "Users",
+    "text": "Users\n\n\n\n\nVideo\n\n\n\n\nClick on \nClick on Users"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-7",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-7",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#navigate-to-users-screen",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#navigate-to-users-screen",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Search on questionnaire title\nWithin current scope (e.g., over “My Questionnaires”)"
+    "section": "Navigate to users screen",
+    "text": "Navigate to users screen\n\n\n\n\nVideo\n\n\nTODO: replace with version on cleaner server.\n\n\nClick on  icon\nClick on Users tab"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-8",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-8",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#use-one-of-two-methods",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#use-one-of-two-methods",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Questionnaire title. Display name of questionnaire (e.g., Zimbabwe PICES 2023)\nQuestionnaire variable. File name that captures main level of data (e.g., households -&gt; households.dta)"
+    "section": "Use one of two methods",
+    "text": "Use one of two methods\n\nOne at a time  \n\n\nIn bulk"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-9",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-9",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#one-at-a-time",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#one-at-a-time",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Open questionnaire\nClick on SETTINGS in upper right-hand corner"
+    "section": "One at a time ",
+    "text": "One at a time \n\n\n\n\nVideo\n\n\n\n\nClick on ADD USER\nProvide attributes\nSave"
   },
   {
-    "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-11",
-    "href": "slides/01_designer/02_designer_intro/02_designer_intro.html#section-11",
+    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#in-bulk",
+    "href": "slides/02_headquarters/05_create_users/05_create_users.html#in-bulk",
     "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Select access level for collaborator: Edit or View.\nCompose email or user name associated with Survey Solutions account.\nClick INVITE to grant the specified access and have Survey Solutions send an invitation email."
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-subsections",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-subsections",
-    "title": "Learning Survey Solutions",
-    "section": "Within (sub)sections",
-    "text": "Within (sub)sections\n\n\n\n\nVideo\n\n\n\nHow\n\nHover over the left-hand part of the question\nDrag\nDrop\n\nWhy\n\nPut questions in order\nMove question to a group (e.g., roster, sub-section)\n\n\n\n\n\nWithin section (root of section)\nWithin roster\nWithin sub-section\nFrom section to sub-section (pop in)\nFrom sub-section to section (pop out)"
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-sections",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-sections",
-    "title": "Learning Survey Solutions",
-    "section": "Between sections",
-    "text": "Between sections\n\n\n\n\nVideo\n\n\n\nHow\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section\n\nWhy\n\nMove question to the section where they belong"
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-questionnaire",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-questionnaire",
-    "title": "Learning Survey Solutions",
-    "section": "Within questionnaire",
-    "text": "Within questionnaire\n\n\n\n\nVideo\n\n\n\nHow\n\nRight-click on question\nSelect Copy\nClick just before desired paste point\nPaste, either by\n\n\n…\n\n\nClicking the PASTE button\nSelecting Paste after from the right-click menu\n\n\n\nWhy\n\nCreate new object that shares many attributes of an existing object"
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-questionnaires",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#between-questionnaires",
-    "title": "Learning Survey Solutions",
-    "section": "Between questionnaires",
-    "text": "Between questionnaires\n\n\n\n\nVideo\n\n\n\nHow\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after\n\nWhy\n\nCreate new object in target questionnaire that shares many attributes of an existing object in the source questionnaire"
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#but-exercise-caution",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#but-exercise-caution",
-    "title": "Learning Survey Solutions",
-    "section": "… but exercise caution",
-    "text": "… but exercise caution\n\nDuplicates\n\n\nDependencies"
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#duplicates",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#duplicates",
-    "title": "Learning Survey Solutions",
-    "section": "Duplicates",
-    "text": "Duplicates\n\n\n\n\nVideo\n\n\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#dependencies",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#dependencies",
-    "title": "Learning Survey Solutions",
-    "section": "Dependencies",
-    "text": "Dependencies\n\n\n\n\nVideo\n\n\n\nProblem\n\nWhen object is copied, all of its attributes are copied\nThis includes references to objects that only exist in the source questionnaire, but not the target questionnaire\n\nSolution\n\nIdentify references to objects in the source questionnaire\nDelete them"
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-section",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-section",
-    "title": "Learning Survey Solutions",
-    "section": "In section",
-    "text": "In section\n\n\n\n\nVideo\n\n\n\nHow\n\nClick on search icon\nType\nSee matching items\n\nWhy\n\nMore quickly navigate to target question\nCheck that question (text) exists in the section"
-  },
-  {
-    "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-questionnaire",
-    "href": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#in-questionnaire",
-    "title": "Learning Survey Solutions",
-    "section": "In questionnaire",
-    "text": "In questionnaire\n\n\n\n\nVideo\n\n\n\nHow\n\nType Ctrl + H\nType query in Find what field\nClick on FIND ALL button\nPage through search results\n\nWhy\n\nFind variable\nFind object with target text"
-  },
-  {
-    "objectID": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#roadmap",
-    "href": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#roadmap",
-    "title": "Learning Survey Solutions",
-    "section": "Roadmap",
-    "text": "Roadmap\n\nWhat\n\n\nWhy\n\n\nHow"
-  },
-  {
-    "objectID": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#what",
-    "href": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#what",
-    "title": "Learning Survey Solutions",
-    "section": "What",
-    "text": "What\n\n\nTODO: video of toggling between different workspaces that show different questionnaires, different interviews, different data\n\n\nSplit server into (mostly) isolated divisions\nSegregate own objects (e.g., questionnaires, interviews, assignments, etc.)\nRestrict user access by workspace (i.e., whitelist users)\nAllow only admin access to all workspaces\nSee more here"
-  },
-  {
-    "objectID": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#why",
-    "href": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#why",
-    "title": "Learning Survey Solutions",
-    "section": "Why",
-    "text": "Why\n\n\nTODO: same video as in prior slide\n\nPractical reasons\n\nDifferent surveys (e.g., living standards, labor force, etc.)\nDifferent phases of same survey (e.g., pretest, pilot, training, data collection, etc.)"
-  },
-  {
-    "objectID": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#how",
-    "href": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#how",
-    "title": "Learning Survey Solutions",
-    "section": "How",
-    "text": "How\n\n\n\n\nVideo\n\n\n\n\nLog in as admin\nClick on  icon\nClick on Workspaces tab\nClick on the NEW button\nProvide parameters (i.e., name and display name)\nPress name"
+    "section": "In bulk ",
+    "text": "In bulk \n\n\nTODO: video of process for adding multiple users via simple tab file\n\n\nClick on UPLOAD USERS\nSelect a default workspace\nDownload .tab template and fill it. See details here.\nSelect a tab-delimited file\nClick on UPLOAD .TAB FILE"
   },
   {
     "objectID": "slides/02_headquarters/01_server_overview/01_server_overview.html#roadmap",
@@ -861,34 +1092,6 @@
     "text": "Import assignments\nTODO: Craft a video like this"
   },
   {
-    "objectID": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#roadmap",
-    "href": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#roadmap",
-    "title": "Learning Survey Solutions",
-    "section": "Roadmap ",
-    "text": "Roadmap \n\nWhat\n\n\nWhy\n\n\nHow"
-  },
-  {
-    "objectID": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#what",
-    "href": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#what",
-    "title": "Learning Survey Solutions",
-    "section": "What",
-    "text": "What\n\n\nFact 1: Headquarters distributes questionnaires\n\n\nFact 2: Questionnaires need to come from somewhere\n\n\nFact 3: Designer is that somewhere\n\n\nFact 4: Importing copies a questionnaire snapshot from Designer to Headquarters\n\n\nFact 5: Headquarters manages several different questionnaire snapshots as versions"
-  },
-  {
-    "objectID": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#why",
-    "href": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#why",
-    "title": "Learning Survey Solutions",
-    "section": "Why",
-    "text": "Why\n\n\n\nGet started \n\nDuring initial server, must import questionnaire before assignments can be made.\n\n\n\n\n\nUpdate \n\nWhen changes happen to the questionnaire, must import changes from Designer to Headquarters (e.g., add questions, correct conditions, etc.)\n\n\n\n\n\nTest \n\nWhen developing, may want to import to test (e.g., see how works on Interviewer, distribute tests to tablets, etc.)"
-  },
-  {
-    "objectID": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#how",
-    "href": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#how",
-    "title": "Learning Survey Solutions",
-    "section": "How",
-    "text": "How\n\n\n\n\nVideo\n\n\n\n\nClick on the Survey Setup menu\nSelect Questionnaires\nClick on IMPORT QUESTIONNAIRE\nEnter login and password for Designer\nClick to select a questionnaire"
-  },
-  {
     "objectID": "slides/02_headquarters/03_access_server/03_access_server.html#connect",
     "href": "slides/02_headquarters/03_access_server/03_access_server.html#connect",
     "title": "Learning Survey Solutions",
@@ -908,76 +1111,6 @@
     "title": "Learning Survey Solutions",
     "section": "Access same URL, but have different UI/rights",
     "text": "Access same URL, but have different UI/rights\n\n\nTODO: video of login with different accounts\n\n\nAdmin. Create workspaces, users.\nHeadquarters. Create assignments, interviews.\nSupervisor. 1 Reassign, review.\nInterviewer. 2 Complete interviews\n\n\n\n\n\n\n\nA Tablet preferredA Tablet preferred"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#roadmap",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#roadmap",
-    "title": "Learning Survey Solutions",
-    "section": "Roadmap",
-    "text": "Roadmap\n\nTypes of users\n\n\nCreate one at a time\n\n\nCreate in batch"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#types",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#types",
-    "title": "Learning Survey Solutions",
-    "section": "Types",
-    "text": "Types\n\nInterviewer\n\n\nSupervisor\n\n\nObserver\n\n\nHeadquarters\n\n\nAdmin\n\n\nAPI"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#types-1",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#types-1",
-    "title": "Learning Survey Solutions",
-    "section": "Types",
-    "text": "Types\n\n\nFor field operations\n\nInterviewer\n\n\nSupervisor\n\n\nObserver\n\n\nHeadquarters\n\n\nFor technical tasks\n\nAdmin\n\n\nAPI"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#for-field-operations-1",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#for-field-operations-1",
-    "title": "Learning Survey Solutions",
-    "section": "For field operations",
-    "text": "For field operations\n\nInterviewer. Complete interviews,\nSupervisor. Reassign work, review interviews.\nHeadquarters. Manages survey:\n\nCreates users (i.e., Interviewer, Supervisor)\nImports interviews\nCreates assignments\nReviews interviews\nExports data\n\nObserver. Like Headquarters, but can only observe."
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#for-technical-tasks-1",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#for-technical-tasks-1",
-    "title": "Learning Survey Solutions",
-    "section": "For technical tasks",
-    "text": "For technical tasks\n\nAdmin. Like “super” Headquarters.\n\nCan do everything Headquarters can.\nCan do things Headquarters cannot:\n\nCreate workspaces.\nCreate all users (including Headquarters).\n\n\nAPI. Like “super” Headquarters, but through API rather than GUI"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#users",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#users",
-    "title": "Learning Survey Solutions",
-    "section": "Users",
-    "text": "Users\n\n\n\n\nVideo\n\n\n\n\nClick on \nClick on Users"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#navigate-to-users-screen",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#navigate-to-users-screen",
-    "title": "Learning Survey Solutions",
-    "section": "Navigate to users screen",
-    "text": "Navigate to users screen\n\n\n\n\nVideo\n\n\nTODO: replace with version on cleaner server.\n\n\nClick on  icon\nClick on Users tab"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#use-one-of-two-methods",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#use-one-of-two-methods",
-    "title": "Learning Survey Solutions",
-    "section": "Use one of two methods",
-    "text": "Use one of two methods\n\nOne at a time  \n\n\nIn bulk"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#one-at-a-time",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#one-at-a-time",
-    "title": "Learning Survey Solutions",
-    "section": "One at a time ",
-    "text": "One at a time \n\n\n\n\nVideo\n\n\n\n\nClick on ADD USER\nProvide attributes\nSave"
-  },
-  {
-    "objectID": "slides/02_headquarters/05_create_users/05_create_users.html#in-bulk",
-    "href": "slides/02_headquarters/05_create_users/05_create_users.html#in-bulk",
-    "title": "Learning Survey Solutions",
-    "section": "In bulk ",
-    "text": "In bulk \n\n\nTODO: video of process for adding multiple users via simple tab file\n\n\nClick on UPLOAD USERS\nSelect a default workspace\nDownload .tab template and fill it. See details here.\nSelect a tab-delimited file\nClick on UPLOAD .TAB FILE"
   },
   {
     "objectID": "slides/02_headquarters/07_create_assignments/07_create_assignments.html#roadmap",
@@ -1106,6 +1239,62 @@
     "text": "Export tab-delimited output\n\n\nObjectives 🎯\n\nExport to tab-delimited format\nSave where expected\n\n\n\n\n* =============================================================================\n* Export to a tab-delimited file\n* =============================================================================\n\nexport delimited using \n    \"`dir_out'/assignments_to_import.tab\", /// where to write the file\n    delimiter(tab)  /// tab-delimited format\n    nolabel         /// how to handle labelled data: write numbers; not labels\n    replace"
   },
   {
+    "objectID": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#roadmap",
+    "href": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap",
+    "text": "Roadmap\n\nWhat\n\n\nWhy\n\n\nHow"
+  },
+  {
+    "objectID": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#what",
+    "href": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#what",
+    "title": "Learning Survey Solutions",
+    "section": "What",
+    "text": "What\n\n\nTODO: video of toggling between different workspaces that show different questionnaires, different interviews, different data\n\n\nSplit server into (mostly) isolated divisions\nSegregate own objects (e.g., questionnaires, interviews, assignments, etc.)\nRestrict user access by workspace (i.e., whitelist users)\nAllow only admin access to all workspaces\nSee more here"
+  },
+  {
+    "objectID": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#why",
+    "href": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#why",
+    "title": "Learning Survey Solutions",
+    "section": "Why",
+    "text": "Why\n\n\nTODO: same video as in prior slide\n\nPractical reasons\n\nDifferent surveys (e.g., living standards, labor force, etc.)\nDifferent phases of same survey (e.g., pretest, pilot, training, data collection, etc.)"
+  },
+  {
+    "objectID": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#how",
+    "href": "slides/02_headquarters/04_create_workspace/04_create_workspace.html#how",
+    "title": "Learning Survey Solutions",
+    "section": "How",
+    "text": "How\n\n\n\n\nVideo\n\n\n\n\nLog in as admin\nClick on  icon\nClick on Workspaces tab\nClick on the NEW button\nProvide parameters (i.e., name and display name)\nPress name"
+  },
+  {
+    "objectID": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#roadmap",
+    "href": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\nWhat\n\n\nWhy\n\n\nHow"
+  },
+  {
+    "objectID": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#what",
+    "href": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#what",
+    "title": "Learning Survey Solutions",
+    "section": "What",
+    "text": "What\n\n\nFact 1: Headquarters distributes questionnaires\n\n\nFact 2: Questionnaires need to come from somewhere\n\n\nFact 3: Designer is that somewhere\n\n\nFact 4: Importing copies a questionnaire snapshot from Designer to Headquarters\n\n\nFact 5: Headquarters manages several different questionnaire snapshots as versions"
+  },
+  {
+    "objectID": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#why",
+    "href": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#why",
+    "title": "Learning Survey Solutions",
+    "section": "Why",
+    "text": "Why\n\n\n\nGet started \n\nDuring initial server, must import questionnaire before assignments can be made.\n\n\n\n\n\nUpdate \n\nWhen changes happen to the questionnaire, must import changes from Designer to Headquarters (e.g., add questions, correct conditions, etc.)\n\n\n\n\n\nTest \n\nWhen developing, may want to import to test (e.g., see how works on Interviewer, distribute tests to tablets, etc.)"
+  },
+  {
+    "objectID": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#how",
+    "href": "slides/02_headquarters/06_import_questionnaire/06_import_questionnaire.html#how",
+    "title": "Learning Survey Solutions",
+    "section": "How",
+    "text": "How\n\n\n\n\nVideo\n\n\n\n\nClick on the Survey Setup menu\nSelect Questionnaires\nClick on IMPORT QUESTIONNAIRE\nEnter login and password for Designer\nClick to select a questionnaire"
+  },
+  {
     "objectID": "slides/02_headquarters/02_get_server/02_get_server.html#roadmap",
     "href": "slides/02_headquarters/02_get_server/02_get_server.html#roadmap",
     "title": "Learning Survey Solutions",
@@ -1174,19 +1363,5 @@
     "title": "Learning Survey Solutions",
     "section": "Scripted ",
     "text": "Scripted \n\nAzureDocker\n\n\n\n\n\n\nhttps://docs.mysurvey.solutions/headquarters/config/docker/\n\n\n\n\n\n\nhttps://docs.mysurvey.solutions/headquarters/config/azure-setup/"
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Learning Survey Solutions",
-    "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying/finding questions\n\n\n  \n\n\n    Creating basic rosters\n\n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
