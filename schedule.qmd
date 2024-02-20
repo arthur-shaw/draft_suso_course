@@ -26,7 +26,7 @@ schedule_df <- tibble::tribble(
     "Designer", "Create groups", NA, "slides/01_designer/05_create_groups/05_create_groups.qmd",    NA,
     "Designer", "Moving/copying/finding questions", NA, "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.qmd", NA,
     "Designer", "Creating basic rosters", NA, "slides/01_designer/07_create_basic_rosters/07_create_basic_rosters.qmd", NA,
-    "Designer", "Creating complex rosters", NA, NA, NA,
+    "Designer", "Creating complex rosters", NA, "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.qmd", NA,
     "Designer", "Introduction to conditions", NA, NA, NA,
     "Designer", "Conditions in rosters", NA, NA, NA,
     "Designer", "Design for UX/survey protocol", NA, NA, NA,
