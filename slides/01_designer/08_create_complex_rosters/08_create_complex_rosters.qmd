@@ -1,0 +1,251 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+---
+
+```{r}
+
+```
+
+# `r fontawesome::fa(name = "table")` `r fontawesome::fa(name = "table")` Creating complex rosters {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+`r fontawesome::fa(name = "table")` | `r fontawesome::fa(name = "table")` Split rosters
+:::
+
+::: {.box .box-2}
+`r fontawesome::fa(name = "table")` > `r fontawesome::fa(name = "table")` > `r fontawesome::fa(name = "table")` Nested rosters
+:::
+
+# `r fontawesome::fa(name = "table")` | `r fontawesome::fa(name = "table")`  Split rosters {background-color=var(--s1)}
+
+## Definition {.t1}
+
+Single logical roster unit divided into pieces because of:
+
+- Survey protocol and/or
+- Thematic groupings
+
+## Example 1: household composition {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/split_roster_hhroster_papi.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [PAPI process `r fontawesome::fa(name = "clipboard-question")`]{.txt-1}
+
+1. Capture basic info on all members
+2. Capture detailed info
+
+:::
+
+::::
+
+## Example 1: household composition {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/split_roster_hhroster_capi.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [CAPI design `r fontawesome::fa(name = "tablet-screen-button")`]{.txt-1}
+
+- Create two rosters
+    - Different object
+    - Different roster ID
+- But each roster points to same source
+- Place one part in one section
+- Place other part in another section
+
+:::
+
+::::
+
+## Example 2: education {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/split_roster_educ_papi.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [PAPI process `r fontawesome::fa(name = "clipboard-question")`]{.txt-1}
+
+- All member-level rosters are continuation of household composition
+- May filter to subset of members (e.g., age > 3)
+- But all member-level rosters
+    - Carry forward members from household compostion
+    - Include IDs of those members
+
+:::
+
+::::
+
+## Example 2: education {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/split_roster_educ_capi.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [CAPI design `r fontawesome::fa(name = "tablet-screen-button")`]{.txt-1}
+
+- Create education roster in new section
+    - Different object
+    - Different roster ID
+- But both rosters points to same source
+
+:::
+
+::::
+
+## Summary {.t1}
+
+- Each roster must have a unique name, but may share the same source
+- All rosters with the same source question are considered the same roster
+    - Variables exist in same context
+    - Data export in the same file
+
+
+# `r fontawesome::fa(name = "table")` > `r fontawesome::fa(name = "table")` > `r fontawesome::fa(name = "table")` Nested rosters {background-color=var(--s2)}
+
+## Definition {.t2}
+
+Roster that:
+
+- Results from more than 1 round of enumerating things
+- Contains row IDs for each round of enumeration
+
+## Example 1: Parcel-plot roster {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/nested_roster_parcel_plot_papi.png){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [PAPI process `r fontawesome::fa(name = "clipboard-question")`]{.txt-2}
+
+- Parcels may contain 1 or more plots
+- Parcels are areas with the same management 
+- Plots are areas with the same cropping pattern
+
+:::
+
+::::
+
+## Example 2: Parcel-plot-crop roster {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/nested_roster_parcel_plot_crop_papi.png){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [PAPI process `r fontawesome::fa(name = "clipboard-question")`]{.txt-2}
+
+- Parcels may contain 1 or more plots
+- Plots may have 1 or more crops planted on it
+
+:::
+
+::::
+
+## How to create a nested roster{.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/nested_roster_concept.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [CAPI design `r fontawesome::fa(name = "tablet-screen-button")`]{.txt-2}
+
+- Create a first roster in a section
+- Create a continuation of that roster in another section
+- Create a new roster inside of the continued roster
+
+:::
+
+::::
+
+## Example: How to create a parcel-crop roster {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/nested_roster_parcel_crop_papi.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [PAPI process `r fontawesome::fa(name = "clipboard-question")`]{.txt-2}
+
+- List all parcels in `SECTION 1A: AGRICULTURE - PARCELS`
+- List crops for each parcel in `SECTION 1B: AGRICULTURE CROPS BY PARCEL`
+- Link entries in each section by parcel ID
+
+:::
+
+::::
+
+## Example: How to create a parcel-crop roster {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/nested_roster_parcel_crop_capi.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### [CAPI design `r fontawesome::fa(name = "tablet-screen-button")`]{.txt-2}
+
+- Create a first roster in a section
+- Create a continuation of that roster in another section
+- Create a new roster inside of the continued roster
+:::
+
+::::
+
