@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Learning Survey Solutions",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying/finding questions\n\n\n  \n\n\n    Creating basic rosters\n\n\n  \n\n\n    Creating complex rosters\n\n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying/finding questions\n\n\n  \n\n\n    Creating basic rosters\n\n\n  \n\n\n    Creating complex rosters\n\n\n  \n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
   },
   {
     "objectID": "about.html",
@@ -313,6 +313,97 @@
     "title": "Learning Survey Solutions",
     "section": "Example 2: asset ownership",
     "text": "Example 2: asset ownership\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#roadmap",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\n |  Split rosters\n\n\n &gt;  &gt;  Nested rosters"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#definition",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#definition",
+    "title": "Learning Survey Solutions",
+    "section": "Definition",
+    "text": "Definition\nSingle logical roster unit divided into pieces because of:\n\nSurvey protocol and/or\nThematic groupings"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-1-household-composition",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-1-household-composition",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household composition",
+    "text": "Example 1: household composition\n\n\n\n\nVideo\n\n\n\nPAPI process \n\nCapture basic info on all members\nCapture detailed info"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-1-household-composition-1",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-1-household-composition-1",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household composition",
+    "text": "Example 1: household composition\n\n\n\n\nVideo\n\n\n\nCAPI design \n\nCreate two rosters\n\nDifferent object\nDifferent roster ID\n\nBut each roster points to same source\nPlace one part in one section\nPlace other part in another section"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-2-education",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-2-education",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: education",
+    "text": "Example 2: education\n\n\n\n\nVideo\n\n\n\nPAPI process \n\nAll member-level rosters are continuation of household composition\nMay filter to subset of members (e.g., age &gt; 3)\nBut all member-level rosters\n\nCarry forward members from household compostion\nInclude IDs of those members"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-2-education-1",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-2-education-1",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: education",
+    "text": "Example 2: education\n\n\n\n\nVideo\n\n\n\nCAPI design \n\nCreate education roster in new section\n\nDifferent object\nDifferent roster ID\n\nBut both rosters points to same source"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#summary",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#summary",
+    "title": "Learning Survey Solutions",
+    "section": "Summary",
+    "text": "Summary\n\nEach roster must have a unique name, but may share the same source\nAll rosters with the same source question are considered the same roster\n\nVariables exist in same context\nData export in the same file"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#definition-1",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#definition-1",
+    "title": "Learning Survey Solutions",
+    "section": "Definition",
+    "text": "Definition\nRoster that:\n\nResults from more than 1 round of enumerating things\nContains row IDs for each round of enumeration"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-1-parcel-plot-roster",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-1-parcel-plot-roster",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: Parcel-plot roster",
+    "text": "Example 1: Parcel-plot roster\n\n\n\n\n\n\n\n\nPAPI process \n\nParcels may contain 1 or more plots\nParcels are areas with the same management\nPlots are areas with the same cropping pattern"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-2-parcel-plot-crop-roster",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-2-parcel-plot-crop-roster",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: Parcel-plot-crop roster",
+    "text": "Example 2: Parcel-plot-crop roster\n\n\n\n\n\n\n\n\nPAPI process \n\nParcels may contain 1 or more plots\nPlots may have 1 or more crops planted on it"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#how-to-create-a-nested-roster",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#how-to-create-a-nested-roster",
+    "title": "Learning Survey Solutions",
+    "section": "How to create a nested roster",
+    "text": "How to create a nested roster\n\n\n\n\nVideo\n\n\n\nCAPI design \n\nCreate a first roster in a section\nCreate a continuation of that roster in another section\nCreate a new roster inside of the continued roster"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-how-to-create-a-parcel-crop-roster",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-how-to-create-a-parcel-crop-roster",
+    "title": "Learning Survey Solutions",
+    "section": "Example: How to create a parcel-crop roster",
+    "text": "Example: How to create a parcel-crop roster\n\n\n\n\nVideo\n\n\n\nPAPI process \n\nList all parcels in SECTION 1A: AGRICULTURE - PARCELS\nList crops for each parcel in SECTION 1B: AGRICULTURE CROPS BY PARCEL\nLink entries in each section by parcel ID"
+  },
+  {
+    "objectID": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-how-to-create-a-parcel-crop-roster-1",
+    "href": "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.html#example-how-to-create-a-parcel-crop-roster-1",
+    "title": "Learning Survey Solutions",
+    "section": "Example: How to create a parcel-crop roster",
+    "text": "Example: How to create a parcel-crop roster\n\n\n\n\nVideo\n\n\n\nCAPI design \n\nCreate a first roster in a section\nCreate a continuation of that roster in another section\nCreate a new roster inside of the continued roster"
   },
   {
     "objectID": "slides/01_designer/06_move_copy_find_questions/06_move_copy_find_questions.html#within-subsections",
