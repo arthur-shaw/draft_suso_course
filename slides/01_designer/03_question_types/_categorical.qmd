@@ -309,7 +309,46 @@ Conditionally hide/show answer options
 
 # Multi-select `r fontawesome::fa(name = "check-double")` {background-color=var(--s2)}
 
-## Multi-select {.t2}
+## Multi-select `r fontawesome::fa(name = "check-double")` {.t2}
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![](assets/categorical/multi_select/mutli_select_papi_example_1.png){fig-align="center"}
+:::
+
+::: {.column width="25%" .fragment}
+![](assets/categorical/multi_select/multi_select_papi_example_2.png){fig-align="center"}
+:::
+
+::: {.column width="50%" .fragment}
+![](assets/categorical/multi_select/multi_select_papi_example_3.png){fig-align="center"}
+:::
+
+::::
+
+::: {.notes}
+
+### Energy sources
+
+- Select all that apply
+- Record only those options that are applicable
+- No limit on number of options
+
+### Cookstove fuel
+
+- Select all that apply--but with two differences
+- Max number: 2
+- Record order of selection also (i.e., in order of frequency)
+
+### Lack of money
+
+- Provide multiple answers
+- Record a yes or no for each item
+
+:::
+
+::::
 
 ## Options {.t2}
 
@@ -354,15 +393,43 @@ Record answer order
 ::: {.box .box-2}
 Max number of answers
 :::
+
+## Options {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/categorical/multi_select/multi_select_options.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+::: {.box .box-2}
+Display mode
+:::
+
+::: {.box .box-2}
+Record answer order
+:::
+
+::: {.box .box-2}
+Max number of answers
+:::
+
+:::
+
+::::
 
 ## Display mode {.t2}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of question types questionnaire
 
-https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c47039167928481cf42d2/chapter/3cdcef8f2adb92e6401f080737d90e1e/group/3cdcef8f2adb92e6401f080737d90e1e
+![](assets/categorical/multi_select/multi_select_options_rapid_demo.mp4){fig-align="center"}
+
 :::
 
 ::: {.column width="30%"}
@@ -380,7 +447,7 @@ https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c4703916792
 
 ::: {.column width="70%"}
 
-TODO: video of a single question transformed between the 3 display modes
+![](assets/categorical/multi_select/multi_select_display_mode.mp4){fig-align="center"}
 
 :::
 
@@ -395,8 +462,48 @@ TODO: video of a single question transformed between the 3 display modes
 
 ## Record answer order {.t2}
 
-TODO: video of creating and answering a question where this record answer disabled then enabled
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/categorical/multi_select/multi_select_answer_order.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+Record answers and their order of importance
+
+### How
+
+Tick the `Record answer order` box
+
+
+:::
+
+::::
 
 ## Max number of answers {.t2}
 
-TODO: video of creating and answering a question with max number of answers
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/categorical/multi_select/mutli_select_number_of_answers.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+Limit the number of answers provided (e.g., two most important sources of electricity)
+
+### How
+
+- Provide a number in the `Max number of answers` box.
+- If no answer is provided, there is no maximum.
+
+:::
+
+::::
