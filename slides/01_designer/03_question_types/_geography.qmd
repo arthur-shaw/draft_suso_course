@@ -1,0 +1,24 @@
+## Geography {.t7}
+
+## Options {.t7}
+
+::: {.box .box-2}
+Geography type
+:::
+
+::: {.box .box-2}
+Input mode
+:::
+
+## Geography type {.t7}
+
+Polygon
+Polyline
+Point
+Multi-point
+
+## Input mode
+
+Manual
+Automatic
+Semi-automatic

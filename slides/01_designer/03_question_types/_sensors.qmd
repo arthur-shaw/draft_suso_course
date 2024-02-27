@@ -1,0 +1,134 @@
+## Sensors {.t6}
+
+::: {.box .box-6}
+GPS
+:::
+
+::: {.box .box-6}
+Picture
+:::
+
+::: {.box .box-6}
+Barcode
+:::
+
+::: {.box .box-6}
+Audio
+:::
+
+## GPS {.t6}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of creating question and showing it (probably on tablet, since GPS on web tester not supported)
+
+NOTE: record this at the office so that GPS of office rather than of home is disclosed
+:::
+
+::: {.column width="30%"}
+
+- Capture GPS coordinates upon button press
+- Export as several variables:
+  - Longitude
+  - Latitude
+  - Altitude
+  - Accuracy
+
+<!-- TODO: check whether time isn't also captured -->
+
+:::
+
+::::
+
+## Picture {.t6}
+
+::: {.box .box-2}
+Picture
+:::
+
+::: {.box .box-2}
+Signature
+:::
+
+## Picture {.t6}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of creating and using
+
+:::
+
+::: {.column width="30%"}
+
+- Can retake as needed
+- Exports as
+  - image name in the microdata
+  - folder of images grouped by `interview__id` in the binary data
+
+:::
+
+::::
+
+## Signature {.t6}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of creating, showing, and answering
+
+:::
+
+::: {.column width="30%"}
+
+- Enable as `Use signature pad`
+- Draw signature
+- Export as image
+
+<!-- Documentation: https://docs.mysurvey.solutions/questionnaire-designer/questions/capturing-signatures-with-a-picture-question/ -->
+
+:::
+
+::::
+
+## Barcode {.t6}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of creating question and scanning different barcodes
+:::
+
+::: {.column width="30%"}
+
+- Scan barcode/QR code
+- Export as string of information contained in the barcode
+
+:::
+
+::::
+
+## Audio {.t6}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of creating and using question
+:::
+
+::: {.column width="30%"}
+
+- Capture audio using tablet's microphone
+- Exports as:
+  - Name of file in microdata
+  - Audio file (`.mp4`) in binary data
+
+:::
+
+::::
+
+<!-- Documentation: https://docs.mysurvey.solutions/questionnaire-designer/questions/audio-question/ -->
+

@@ -16,7 +16,7 @@ execute:
 
 :::: {.columns}
 
-<!-- first column -->
+<!-- First column -->
 
 ::: {.column width="33%"}
 
@@ -25,130 +25,72 @@ execute:
 Overview
 :::
 
-::: {.box .box-2}
-Single-select
-:::
-
-::: {.box .box-3}
-Multi-select
-:::
-
-::: {.box .box-4}
-Numeric
-:::
-
-
 :::
 
 <!-- Second column -->
 
 ::: {.column width="33%"}
 
+::: {.box .box-2}
+Categorical
+:::
+
+::: {.box .box-3}
+Numeric
+:::
+
+::: {.box .box-4}
+Text `r fontawesome::fa(name = "file-lines")`
+:::
 
 ::: {.box .box-5}
-Text
+Date `r fontawesome::fa(name = "calendar")` / `r fontawesome::fa(name = "stopwatch")` 
 :::
 
-::: {.box .box-6}
-List
 :::
 
-
-:::
 
 <!-- Third column -->
 
 ::: {.column width="33%"}
 
+::: {.box .box-6}
+Sensors
+:::
 
 ::: {.box .box-7}
-Date
+Geography
 :::
 
-::: {.box .box-8}
-GPS
 :::
-
-::: {.box .box-9}
-Everything else
-:::
-
-
-:::
-
 
 ::::
 
-## Full menu {.t1}
+# Overview {background-color=var(--s1)}
 
-![](assets/question_types.png){fig-align="center"}
+{{< include _overview.qmd >}}
 
-## Today's specials {.t1}
+# Categorical {background-color=var(--s2)}
 
-![](assets/question_types_covered.png){fig-align="center"}
+{{< include _categorical.qmd >}}
 
-# How to order {background-color=var(--s1)}
+# Numeric {background-color=var(--s3)}
 
-## Attributes {.t1}
+{{< include _numeric.qmd >}}
 
-![](assets/attributes_required_optional.png){fig-align="center"}
+# Text {background-color=var(--s4)}
 
-## Question type {.t1}
+{{< include _text.qmd >}}
 
-![](assets/attributes_question_type.png){fig-align="center"}
+# Date {background-color=var(--s5)}
 
-## Question Type {.t1}
+{{< include _date.qmd >}}
 
-![](assets/answering_all_question-_types.mp4){fig-align="center"}
+# Sensors {background-color=var(--s6)}
 
-<!-- Variable name -->
+{{< include _sensors.qmd >}}
 
-## Variable name {.t1}
-
-![](assets/attributes_varname.png){fig-align="center"}
-
-## Variable name {.t1}
-
-![](assets/attributes_varname_result.png){fig-align="center"}
-
-<!-- Variable label -->
-
-## Variable label {.t1}
-
-![](assets/attributes_variable_label.png){fig-align="center"}
-
-## Variable label {.t1}
-
-![](assets/attributes_variable_label_result.png){fig-align="center"}
-
-<!-- Question text -->
-
-## Question text {.t1}
-
-![](assets/attributes_question_text.png){fig-align="center"}
-
-## Question text {.t1}
-
-![](assets/attributes_question_text_result.png){fig-align="center"}
-
-<!-- Interviewer instruction -->
-
-## Interviewer instruction {.t1}
-
-![](assets/attributes_interviewer_instruction.png){fig-align="center"}
-
-## Interviewer instruction {.t1}
-
-![](assets/attributes_interviewer_instruction_result.png){fig-align="center"}
-
-
-## Type-specific attributes {.t1}
-
-![](assets/attributes_type_specific.png){fig-align="center"}
-
-
-
-# First course: single-select {background-color=var(--s2)}
+# Geography {background-color=var(--s7)}
 
 ## Example {.t2}
 

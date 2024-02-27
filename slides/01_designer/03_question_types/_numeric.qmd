@@ -1,0 +1,72 @@
+## Numeric {.t3}
+
+<!-- TODO: PAPI example -->
+
+## Options {.t2}
+
+::: {.box .box-2}
+Integer
+:::
+
+::: {.box .box-2}
+Number of decimals
+:::
+
+::: {.box .box-2}
+Number of decimals
+:::
+
+::: {.box .box-2}
+Use 1000 separator
+:::
+
+## Integer {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of toggling Integer on and off and showing result
+:::
+
+::: {.column width="30%"}
+
+- **Enabled.** Default. Restricts input to integer values.
+- **Disabled.** Allows numbers with and without decimals. No limit on the number of decimal places.
+
+:::
+
+::::
+
+## Number of decimals {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of typing number in Designer, seeing result in Tester, and revising
+:::
+
+::: {.column width="30%"}
+
+- **When empty.** No limit on number of decimal places.
+- **When filled.** Maximum number of decimal places allowed.
+
+:::
+
+::::
+
+## Use 1000 separator {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of toggling on and off, showing result in Tester
+:::
+
+::: {.column width="30%"}
+
+- Affects display on tablet.
+- Does not affect how data are stored.
+
+:::
+
+::::

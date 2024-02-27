@@ -1,0 +1,40 @@
+## Date {.t5}
+
+::: {.box .box-5}
+Calendar date `r fontawesome::fa(name = "calendar-day")`
+:::
+
+::: {.box .box-5}
+Timestamp `r fontawesome::fa(name = "stopwatch")`
+:::
+
+## Calendar `r fontawesome::fa(name = "calendar-day") `{.t5}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of creating and using question, showing with and without default date
+:::
+
+::: {.column width="30%"}
+
+- Pick a calendar date
+- Default date. If not set, no default. If set, default value for calendar picker.
+
+:::
+
+::::
+
+## Timestamp `r fontawesome::fa(name = "stopwatch")` {.t5}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of creating and using
+:::
+
+::: {.column width="30%"}
+When pressed, captures the device's system time
+:::
+
+::::

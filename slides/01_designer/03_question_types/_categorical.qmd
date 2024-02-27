@@ -1,0 +1,402 @@
+## Categorical {.t2}
+
+::: {.box .box-2}
+Single-select `r fontawesome::fa(name = "check")`
+:::
+
+::: {.box .box-2}
+Multi-select `r fontawesome::fa(name = "check-double")`
+:::
+
+# Single-select `r fontawesome::fa(name = "check")` {background-color=var(--s2)}
+
+## Single-select `r fontawesome::fa(name = "check")` {.t2}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+![](assets/categorical/single_select_papi_example_1.png){fig-align="center"}
+:::
+
+::: {.column width="33%" .fragment}
+![](assets/categorical/single_select_papi_example_2.png){fig-align="center"}
+:::
+
+::: {.column width="33%" .fragment}
+![](assets/categorical/single_select_papi_example_3.png){fig-align="center"}
+:::
+
+::::
+
+::: {.notes}
+
+### Relationship
+
+- one option selected
+
+### Consumption
+
+Two categorical questions:
+
+- Yes/no. Might imagine that this could be reused across several questions.
+- Units. Might benefit from being filtered as a function of the food item (e.g., g/kg for solids, mL/L for liquids, etc.)
+
+### Drinking water
+
+- Large set of answer options: 14
+- Might benefit from on-the-fly filtering (e.g., "pipe" ->  first three options)
+
+:::
+
+## CAPI options {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/categorical/categorical_capi_options.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+::: {.box .box-2}
+Display mode
+:::
+
+::: {.box .box-2}
+Sources of categories
+:::
+
+::: {.box .box-2}
+Filter
+:::
+
+:::
+
+::::
+
+## Display mode {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+
+![](assets/categorical/single_select_variant_demo.mp4){fig-align="center"}
+
+Follow along in the `Question types` public questionnaire [here](https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c47039167928481cf42d2/chapter/44c87f723fff4e5e89258da490081aa4/question/b46d21c4fdb47b6796da913f1f37100b#questionnaireSettingsTab)
+
+:::
+
+::: {.column width="30%"}
+- Radio button
+- Combo box
+- Cascading combo box
+:::
+
+::::
+
+## Display mode {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/categorical/single_select_display_mode.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+- Radio button
+- Combo box
+- Cascading combo box
+:::
+
+::::
+
+<!-- 
+
+Consider for inclusion if not too long: discussion of when to chose one over the other
+
+Maybe this is better for the design for UX lesson
+
+## Radio button
+
+- Why
+- Why not
+
+## Combo box
+
+- Why
+- Why not
+
+## Cascading combo box
+
+- Why
+- Why not
+
+
+ -->
+
+## Sources of categories {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/categorical/sources_of_categories.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+::: {.box .box-2}
+User defined categories
+:::
+
+::: {.box .box-2}
+Reusable categories
+:::
+
+::: {.box .box-2}
+List question or question from roster group
+:::
+
+:::
+
+::::
+
+
+## User defined categories {.t2}
+
+::: {.box .box-2}
+Category view
+:::
+
+::: {.box .box-2}
+Text view
+:::
+
+
+## Category view {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/categorical/input_categories_category_view.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- Can copy-paste answer options from the questionnaire
+- But must do so one by one
+:::
+
+::::
+
+
+## Text view {.t2}
+
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/categorical/input_categories_text_view.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Can copy-paste answer options from the questionnaire
+- But must follow expected format (or be transformed into that format):
+
+```
+First option....1
+Second option....1
+```
+
+:::
+
+::::
+
+## Reusable categories {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/categorical/input_categories_reusable.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### When
+
+Same set of answer options are used for several questions
+
+### How
+
+- Click on `Categories` in the left-hand pane
+- Add a new set of categories
+- Add categories
+- Select that reusable categories for relevant questions
+
+::: {.notes}
+
+For more details on:
+
+- Why: See `Design for efficiency/modularity` presentation.
+- How: See the [reusable categories article](https://docs.mysurvey.solutions/questionnaire-designer/toolbar/reusable-categories/) in the documentation.
+
+:::
+
+:::
+
+::::
+
+
+## List question or question from roster group {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/categorical/input_categories_linked.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+Draw answers from another a list made elswhere in the interview:
+
+- List question
+- Roster (e.g., ID of the respondent)
+
+### How
+
+- Select `List question or question from roster group` as the source of categories
+
+::: {.notes}
+
+See `Create basic rosters` presentation for more details on how to select elements of roster
+
+:::
+
+:::
+
+::::
+
+
+## Filter {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/categorical/filter_condition_rapid_demo.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+Conditionally hide/show answer options
+
+### How
+
+- Write a logical condition. When true, option shown. Otherwise, option hidden.
+- See the `Introduction to Conditions` presentation for more details
+- See also the [documentation on the filter conditions](https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-filtered-answer-options/).
+
+:::
+
+::::
+
+# Multi-select `r fontawesome::fa(name = "check-double")` {background-color=var(--s2)}
+
+## Multi-select {.t2}
+
+## Options {.t2}
+
+::: {.box .box-2}
+Display mode
+:::
+
+::: {.box .box-2}
+Source of categories
+:::
+
+::: {.box .box-2}
+Filter
+:::
+
+::: {.box .box-2}
+Record answer order
+:::
+
+::: {.box .box-2}
+Max number of answers
+:::
+
+## Options {.t2}
+
+::: {.box .box-2}
+Display mode
+:::
+
+::: {.box .box-grey}
+Source of categories
+:::
+
+::: {.box .box-grey}
+Filter
+:::
+
+::: {.box .box-2}
+Record answer order
+:::
+
+::: {.box .box-2}
+Max number of answers
+:::
+
+## Display mode {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+TODO: video of question types questionnaire
+
+https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c47039167928481cf42d2/chapter/3cdcef8f2adb92e6401f080737d90e1e/group/3cdcef8f2adb92e6401f080737d90e1e
+:::
+
+::: {.column width="30%"}
+- Checkboxes
+- Yes/No buttons
+- Combo box
+:::
+
+::::
+
+
+## Display mode {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+TODO: video of a single question transformed between the 3 display modes
+
+:::
+
+::: {.column width="30%"}
+- Checkboxes
+- Yes/No buttons
+- Combo box
+:::
+
+::::
+
+
+## Record answer order {.t2}
+
+TODO: video of creating and answering a question where this record answer disabled then enabled
+
+## Max number of answers {.t2}
+
+TODO: video of creating and answering a question with max number of answers
