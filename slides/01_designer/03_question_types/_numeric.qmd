@@ -1,8 +1,34 @@
 ## Numeric {.t3}
 
-<!-- TODO: PAPI example -->
+:::: {.columns}
+
+::: {.column width="33%"}
+![](assets/numeric/numeric_papi_example_1.png){fig-align="center"}
+:::
+
+::: {.column width="33%" .fragment}
+![](assets/numeric/numeric_papi_example_2.png){fig-align="center"}
+:::
+
+::: {.column width="33%" .fragment}
+![](assets/numeric/numeric_papi_example_3.png){fig-align="center"}
+:::
+
+::::
 
 ## Options {.t2}
+
+![](assets/numeric/numeric_option_demo.mp4){fig-align="center"}
+
+## Options {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/numeric/numeric_capi_option_overview.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
 
 ::: {.box .box-2}
 Integer
@@ -20,12 +46,20 @@ Number of decimals
 Use 1000 separator
 :::
 
+::: {.box .box-2}
+Add special value
+:::
+
+:::
+
+::::
+
 ## Integer {.t3}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of toggling Integer on and off and showing result
+![](assets/numeric/numeric_integer.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -42,7 +76,7 @@ TODO: video of toggling Integer on and off and showing result
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of typing number in Designer, seeing result in Tester, and revising
+![](assets/numeric/numeric_number_of_decimals.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -59,7 +93,7 @@ TODO: video of typing number in Designer, seeing result in Tester, and revising
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of toggling on and off, showing result in Tester
+![](assets/numeric/numeric_thousand_separator.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
