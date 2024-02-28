@@ -16,7 +16,7 @@ Timestamp `r fontawesome::fa(name = "stopwatch")`
 
 ## Calendar `r fontawesome::fa(name = "calendar-day") `{.t5}
 
-
+![](assets/date/calendar/date_capi_demo.mp4){fig-align="center"}
 
 ## Calendar `r fontawesome::fa(name = "calendar-day") `{.t5}
 
