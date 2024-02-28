@@ -22,7 +22,7 @@ execute:
 
 
 ::: {.box .box-1}
-Overview
+Overview `r fontawesome::fa(name = "tower-observation")`
 :::
 
 :::
@@ -32,15 +32,15 @@ Overview
 ::: {.column width="33%"}
 
 ::: {.box .box-2}
-Categorical
+Categorical `r fontawesome::fa(name = "check")` / `r fontawesome::fa(name = "check-double")`
 :::
 
 ::: {.box .box-3}
-Numeric
+Numeric `r fontawesome::fa(name = "1")``r fontawesome::fa(name = "2")``r fontawesome::fa(name = "3")`
 :::
 
 ::: {.box .box-4}
-Text `r fontawesome::fa(name = "file-lines")`
+Text `r fontawesome::fa(name = "comment")` / `r fontawesome::fa(name = "bars")`
 :::
 
 ::: {.box .box-5}
@@ -55,11 +55,11 @@ Date `r fontawesome::fa(name = "calendar")` / `r fontawesome::fa(name = "stopwat
 ::: {.column width="33%"}
 
 ::: {.box .box-6}
-Sensors
+Sensors `r fontawesome::fa(name = "location-dot")` / `r fontawesome::fa(name = "camera")` / `r fontawesome::fa(name = "barcode")` / `r fontawesome::fa(name = "microphone")`
 :::
 
 ::: {.box .box-7}
-Geography
+Geography `r fontawesome::fa(name = "draw-polygon")`
 :::
 
 :::
