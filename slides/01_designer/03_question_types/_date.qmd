@@ -8,12 +8,22 @@ Calendar date `r fontawesome::fa(name = "calendar-day")`
 Timestamp `r fontawesome::fa(name = "stopwatch")`
 :::
 
+# Calendar `r fontawesome::fa(name = "calendar-day") `{background-color=var(--s5)}
+
+## Calendar `r fontawesome::fa(name = "calendar-day") `{.t5}
+
+![](assets/date/calendar/date_papi_example_1.png){fig-align="center"}
+
+## Calendar `r fontawesome::fa(name = "calendar-day") `{.t5}
+
+
+
 ## Calendar `r fontawesome::fa(name = "calendar-day") `{.t5}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of creating and using question, showing with and without default date
+![](assets/date/calendar/date_calendar.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -25,12 +35,21 @@ TODO: video of creating and using question, showing with and without default dat
 
 ::::
 
+# Timestamp `r fontawesome::fa(name = "stopwatch")` {background-color=var(--s5)}
+## Timestamp `r fontawesome::fa(name = "stopwatch")` {.t5}
+
+![](assets/date/timestamp/timestamp_papi_example_1.png){fig-align="center"}
+
+## Timestamp `r fontawesome::fa(name = "stopwatch")` {.t5}
+
+![](assets/date/timestamp/timestamp_demo.mp4){fig-align="center"}
+
 ## Timestamp `r fontawesome::fa(name = "stopwatch")` {.t5}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of creating and using
+![](assets/date/timestamp/date_timestamp.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
