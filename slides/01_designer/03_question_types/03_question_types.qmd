@@ -12,6 +12,10 @@ execute:
 
 # Question types {background-color=var(--suso)}
 
+```{r}
+
+```
+
 ## Roadmap `r fontawesome::fa(name = "route")` {.suso}
 
 :::: {.columns}
