@@ -1,0 +1,57 @@
+## Attributes {.t1}
+
+![](assets/overview/attributes_required_optional.png){fig-align="center"}
+
+## Question type {.t1}
+
+![](assets/overview/attributes_question_type.png){fig-align="center"}
+
+## Question Type {.t1}
+
+![](assets/overview/answering_all_question_types.mp4){fig-align="center"}
+
+<!-- Variable name -->
+
+## Variable name {.t1}
+
+![](assets/overview/attributes_varname.png){fig-align="center"}
+
+## Variable name {.t1}
+
+![](assets/overview/attributes_varname_result.png){fig-align="center"}
+
+<!-- Variable label -->
+
+## Variable label {.t1}
+
+![](assets/overview/attributes_variable_label.png){fig-align="center"}
+
+## Variable label {.t1}
+
+![](assets/overview/attributes_variable_label_result.png){fig-align="center"}
+
+<!-- Question text -->
+
+## Question text {.t1}
+
+![](assets/overview/attributes_question_text.png){fig-align="center"}
+
+## Question text {.t1}
+
+![](assets/overview/attributes_question_text_result.png){fig-align="center"}
+
+<!-- Interviewer instruction -->
+
+## Interviewer instruction {.t1}
+
+![](assets/overview/attributes_interviewer_instruction.png){fig-align="center"}
+
+## Interviewer instruction {.t1}
+
+![](assets/overview/attributes_interviewer_instruction_result.png){fig-align="center"}
+
+
+## Type-specific attributes {.t1}
+
+![](assets/overview/attributes_type_specific.png){fig-align="center"}
+

@@ -1,0 +1,100 @@
+## Geography {.t7}
+
+
+## Options {.t7}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+<!-- TODO: video of selectors -->
+:::
+
+::: {.column width="30%"}
+
+::: {.box .box-2}
+Geography type
+:::
+
+::: {.box .box-2}
+Input mode
+:::
+
+:::
+
+::::
+
+# Geography type {background-color=var(--s7)}
+
+## Geography type {.t7}
+
+::: {.box .box-7}
+Polygon
+:::
+
+::: {.box .box-7}
+Polyline
+:::
+
+::: {.box .box-7}
+Point
+:::
+
+::: {.box .box-7}
+Multi-point
+:::
+
+
+## Polygon {.t7}
+
+## Polyline {.t7}
+
+## Point {.t7}
+
+## Multi-point {.t7}
+
+# Input mode {background-color=var(--s7)}
+
+## Input mode {.t7}
+
+::: {.box .box-7}
+Manual
+:::
+
+::: {.box .box-7}
+Automatic
+:::
+
+::: {.box .box-7}
+Semi-automatic
+:::
+
+
+## Manual {.t7}
+
+## Automatic {.t7}
+
+## Semi-automatic {.t7}
+
+## Requirements `r fontawesome::fa(name = "triangle-exclamation")` {.t7}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### [Hard]{.txt-7}
+
+- **CAPI mode.** Geography questions are not supported in web interviews.
+- **Interviewer App with ESRI map support.** See step 3 [here](https://docs.mysurvey.solutions/interviewer/config/download-and-install-the-interviewer-application/) on how to install this.
+
+:::
+
+::: {.column width="50%"}
+
+### [Soft]{.txt-7}
+
+- **Base maps preferred.** Geography questions capture points. Those points may be easier to collect and correct if base maps show the space in which the points are collected.
+- **Good GPS preferred.** Geography questions capture points of the minimum required precision. Better precision will likely result in better measurement. Better precision comes from a GPS unit that has high accuracy and draws on several constellations of satellites (e.g., GPS, BeiDou, Glonass)
+
+:::
+
+::::

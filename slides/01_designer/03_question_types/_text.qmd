@@ -1,0 +1,203 @@
+## Text {.t4}
+ 
+::: {.box .box-4}
+Text `r fontawesome::fa(name = "comment")`
+:::
+
+::: {.box .box-4}
+List `r fontawesome::fa(name = "bars")`
+:::
+
+# Text `r fontawesome::fa(name = "comment")` {background-color=var(--s4)}
+
+## Text `r fontawesome::fa(name = "comment") `{.t4}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+![](assets/text/text/text_papi_example_1.png){fig-align="center"}
+:::
+
+::: {.column width="33%" .fragment}
+![](assets/text/text/text_papi_example_2.png){fig-align="center"}
+:::
+
+::: {.column width="33%" .fragment}
+![](assets/text/text/text_papi_example_3.png){fig-align="center"}
+:::
+
+::::
+
+::: {.notes}
+
+### Location of parcel
+
+Open text
+
+### Other (specify)
+
+Open text that follows
+
+### Phone number
+
+Structured text. Phone numbers typically follow a pattern
+
+:::
+
+## Options {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/text/text/text_capi_option_overview.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+::: {.box .box-4}
+Pattern
+:::
+
+:::
+
+::::
+
+## Text `r fontawesome::fa(name = "comment") `{.t4}
+
+![](assets/text/text/text_option_demo.mp4){fig-align="center"}
+
+<!-- 
+
+https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c47039167928481cf42d2/chapter/a3d3bf44c5731c51f43520b254e95aa3/group/a3d3bf44c5731c51f43520b254e95aa3
+ -->
+
+## Pattern {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/text/text/text_pattern.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+Restrict what can be recorded
+
+### How
+
+| Character | Represents |
+| --------- | ---------- |
+| `~`         | One alpha character (i.e., A-Z, a-z) |
+| `#`         | One numeric character (i.e., 0-9) |
+| `*`         | One alphanumeric character (i.e., A-z, a-z, 0-9) |
+
+
+:::
+
+::: {.notes}
+
+###  Examples
+
+| Pattern | Represents |
+| --------- | ---------- |
+| `##/##/##`  | Date |
+| `0# ## ## ## ##` | [French phone number](https://en.wikipedia.org/wiki/Telephone_numbers_in_France) |
+| `~~ ####` | [Flight number](https://en.wikipedia.org/wiki/Flight_number) |
+
+:::
+
+
+::::
+
+# List `r fontawesome::fa(name = "bars")` {background-color=var(--s4)}
+
+## List `r fontawesome::fa(name = "bars")` {.t4}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/text/list/list_papi_example_1.png){fig-align="center"}
+:::
+
+::: {.column width="50%" .fragment}
+![](assets/text/list/list_papi_example_2.png){fig-align="center"}
+:::
+
+::::
+
+::: {.notes}
+
+### Household member list
+
+- Canonical list in almost all household surveys
+- One list entry per household member
+
+### Other (specify)
+
+Open text that follows
+
+### Parcel list
+
+- List to be completed before rest of parcel roster
+- Sometimes unclear whether from paper instrument what the list should capture
+- In this case, description and location. Are these separate questions or information that could be gathered in a list.
+
+:::
+
+
+## List `r fontawesome::fa(name = "bars")` {.t4}
+
+![](assets/text/list/list_capi_demo.mp4){fig-align="center"}
+
+<!-- TODO: video of Question Types questionnaire
+
+https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c47039167928481cf42d2/chapter/65d72ff2c95dbbabaf3077c30f779e1d/group/65d72ff2c95dbbabaf3077c30f779e1d
+
+ -->
+
+
+## Options {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/text/list/list_option_overview.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+::: {.box .box-4}
+Max number of answers
+:::
+
+:::
+
+::::
+
+## Max number of answers {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/text/list/list_max_number_of_options.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Why
+
+Limit the number of
+
+- Answers per question instructions
+- Roster rows per Survey SOlutions requirements. See `Creating basic rosters` for more.
+
+### How
+
+- Provide a number
+- Otherwise, there is no limit
+
+:::
+
+::::

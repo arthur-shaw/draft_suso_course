@@ -1,0 +1,106 @@
+## Numeric {.t3}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+![](assets/numeric/numeric_papi_example_1.png){fig-align="center"}
+:::
+
+::: {.column width="33%" .fragment}
+![](assets/numeric/numeric_papi_example_2.png){fig-align="center"}
+:::
+
+::: {.column width="33%" .fragment}
+![](assets/numeric/numeric_papi_example_3.png){fig-align="center"}
+:::
+
+::::
+
+## Options {.t3}
+
+![](assets/numeric/numeric_option_demo.mp4){fig-align="center"}
+
+## Options {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/numeric/numeric_capi_option_overview.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+::: {.box .box-3}
+Integer
+:::
+
+::: {.box .box-3}
+Number of decimals
+:::
+
+::: {.box .box-3}
+Number of decimals
+:::
+
+::: {.box .box-3}
+Use 1000 separator
+:::
+
+::: {.box .box-3}
+Add special value
+:::
+
+:::
+
+::::
+
+## Integer {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/numeric/numeric_integer.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- **Enabled.** Default. Restricts input to integer values.
+- **Disabled.** Allows numbers with and without decimals. No limit on the number of decimal places.
+
+:::
+
+::::
+
+## Number of decimals {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/numeric/numeric_number_of_decimals.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- **When empty.** No limit on number of decimal places.
+- **When filled.** Maximum number of decimal places allowed.
+
+:::
+
+::::
+
+## Use 1000 separator {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/numeric/numeric_thousand_separator.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Affects display on tablet.
+- Does not affect how data are stored.
+
+:::
+
+::::
