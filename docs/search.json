@@ -522,21 +522,7 @@
     "href": "slides/01_designer/03_question_types/03_question_types.html#roadmap",
     "title": "Learning Survey Solutions",
     "section": "Roadmap ",
-    "text": "Roadmap \n\n\n\nOverview\n\n\nSingle-select\n\n\nMulti-select\n\n\nNumeric\n\n\n\nText\n\n\nList\n\n\n\nDate\n\n\nGPS\n\n\nEverything else"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#full-menu",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#full-menu",
-    "title": "Learning Survey Solutions",
-    "section": "Full menu",
-    "text": "Full menu"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#todays-specials",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#todays-specials",
-    "title": "Learning Survey Solutions",
-    "section": "Today’s specials",
-    "text": "Today’s specials"
+    "text": "Roadmap \n\n\n\nOverview \n\n\n\nCategorical  / \n\n\nNumeric \n\n\nText  / \n\n\nDate  / \n\n\n\nSensors  /  /  / \n\n\nGeography"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#attributes",
@@ -546,18 +532,18 @@
     "text": "Attributes"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#type",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#type",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#question-type",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#question-type",
     "title": "Learning Survey Solutions",
-    "section": "Type",
-    "text": "Type\nTODO: image of question type expanded in Designer"
+    "section": "Question type",
+    "text": "Question type"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#type-1",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#type-1",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#question-type-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#question-type-1",
     "title": "Learning Survey Solutions",
-    "section": "Type",
-    "text": "Type\n\n\nVideo"
+    "section": "Question Type",
+    "text": "Question Type\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#variable-name",
@@ -623,263 +609,375 @@
     "text": "Type-specific attributes"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#example",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#example",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#categorical-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#categorical-1",
     "title": "Learning Survey Solutions",
-    "section": "Example",
-    "text": "Example\nTODO: get picture on paper\nTODO: content here"
+    "section": "Categorical",
+    "text": "Categorical\n\nSingle-select \n\n\nMulti-select"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#single-select",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#single-select",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#single-select-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#single-select-1",
     "title": "Learning Survey Solutions",
-    "section": "Single-select",
-    "text": "Single-select\nTODO: either image of basic question in Designer or video of it with answer options being added."
+    "section": "Single-select ",
+    "text": "Single-select \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRelationship\n\none option selected\n\nConsumption\nTwo categorical questions:\n\nYes/no. Might imagine that this could be reused across several questions.\nUnits. Might benefit from being filtered as a function of the food item (e.g., g/kg for solids, mL/L for liquids, etc.)\n\nDrinking water\n\nLarge set of answer options: 14\nMight benefit from on-the-fly filtering (e.g., “pipe” -&gt; first three options)"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#capi-options",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#capi-options",
+    "title": "Learning Survey Solutions",
+    "section": "CAPI options",
+    "text": "CAPI options\n\n\n\n\nVideo\n\n\n\n\nDisplay mode\n\n\nSources of categories\n\n\nFilter"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#display-mode",
     "href": "slides/01_designer/03_question_types/03_question_types.html#display-mode",
     "title": "Learning Survey Solutions",
     "section": "Display mode",
-    "text": "Display mode"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#radio-button",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#radio-button",
-    "title": "Learning Survey Solutions",
-    "section": "Radio button",
-    "text": "Radio button"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#combo-box",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#combo-box",
-    "title": "Learning Survey Solutions",
-    "section": "Combo box",
-    "text": "Combo box\n\n\nRadio = Good\n\n\n\n\n\n\n\nCombo = Better (?)\n\n\nVideo"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box",
-    "title": "Learning Survey Solutions",
-    "section": "Cascading combo box",
-    "text": "Cascading combo box\nTODO: content here"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box-1",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#cascading-combo-box-1",
-    "title": "Learning Survey Solutions",
-    "section": "Cascading combo box",
-    "text": "Cascading combo box\nTODO: content here"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#example-1",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#example-1",
-    "title": "Learning Survey Solutions",
-    "section": "Example",
-    "text": "Example"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#designer-options",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#designer-options",
-    "title": "Learning Survey Solutions",
-    "section": "Designer options",
-    "text": "Designer options\n\n\n\n\n\n\n\n\n\nDisplay mode. How answer options are presented and answers recorded.\nOther options. Whether to record answer order. Whether/how much to limit number of answers provided."
+    "text": "Display mode\n\n\n\n\nVideo\n\n\nFollow along in the Question types public questionnaire here\n\n\nRadio button\nCombo box\nCascading combo box"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#display-mode-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#display-mode-1",
     "title": "Learning Survey Solutions",
     "section": "Display mode",
-    "text": "Display mode"
+    "text": "Display mode\n\n\n\n\nVideo\n\n\n\n\nRadio button\nCombo box\nCascading combo box"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#checkboxes",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#checkboxes",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#sources-of-categories",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#sources-of-categories",
     "title": "Learning Survey Solutions",
-    "section": "Checkboxes",
-    "text": "Checkboxes\n\n\nVideo"
+    "section": "Sources of categories",
+    "text": "Sources of categories\n\n\n\n\nVideo\n\n\n\n\nUser defined categories\n\n\nReusable categories\n\n\nList question or question from roster group"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#user-defined-categories",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#user-defined-categories",
     "title": "Learning Survey Solutions",
-    "section": "Yes/No buttons",
-    "text": "Yes/No buttons\nTODO: image of paper instrument"
+    "section": "User defined categories",
+    "text": "User defined categories\n\nCategory view\n\n\nText view"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons-1",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons-1",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#category-view",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#category-view",
     "title": "Learning Survey Solutions",
-    "section": "Yes/No buttons",
-    "text": "Yes/No buttons"
+    "section": "Category view",
+    "text": "Category view\n\n\n\n\nVideo\n\n\n\n\nCan copy-paste answer options from the questionnaire\nBut must do so one by one"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons-2",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#yesno-buttons-2",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#text-view",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#text-view",
     "title": "Learning Survey Solutions",
-    "section": "Yes/No buttons",
-    "text": "Yes/No buttons\n\n\nVideo"
+    "section": "Text view",
+    "text": "Text view\n\n\n\n\nVideo\n\n\n\n\nCan copy-paste answer options from the questionnaire\nBut must follow expected format (or be transformed into that format):\n\nFirst option....1\nSecond option....1"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#combo-box-1",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#combo-box-1",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#reusable-categories",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#reusable-categories",
     "title": "Learning Survey Solutions",
-    "section": "Combo box",
-    "text": "Combo box\n\n\nVideo"
+    "section": "Reusable categories",
+    "text": "Reusable categories\n\n\n\n\nVideo\n\n\n\nWhen\nSame set of answer options are used for several questions\nHow\n\nClick on Categories in the left-hand pane\nAdd a new set of categories\nAdd categories\nSelect that reusable categories for relevant questions\n\n\nFor more details on:\n\nWhy: See Design for efficiency/modularity presentation.\nHow: See the reusable categories article in the documentation."
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#other-options",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#other-options",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#list-question-or-question-from-roster-group",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#list-question-or-question-from-roster-group",
     "title": "Learning Survey Solutions",
-    "section": "Other options",
-    "text": "Other options\n\nRecord answer order\n\n\nMax number of answers"
+    "section": "List question or question from roster group",
+    "text": "List question or question from roster group\n\n\n\n\nVideo\n\n\n\nWhy\nDraw answers from another a list made elswhere in the interview:\n\nList question\nRoster (e.g., ID of the respondent)\n\nHow\n\nSelect List question or question from roster group as the source of categories\n\n\nSee Create basic rosters presentation for more details on how to select elements of roster"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#filter",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#filter",
+    "title": "Learning Survey Solutions",
+    "section": "Filter",
+    "text": "Filter\n\n\n\n\nVideo\n\n\n\nWhy\nConditionally hide/show answer options\nHow\n\nWrite a logical condition. When true, option shown. Otherwise, option hidden.\nSee the Introduction to Conditions presentation for more details\nSee also the documentation on the filter conditions."
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#multi-select-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#multi-select-1",
+    "title": "Learning Survey Solutions",
+    "section": "Multi-select ",
+    "text": "Multi-select \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnergy sources\n\nSelect all that apply\nRecord only those options that are applicable\nNo limit on number of options\n\nCookstove fuel\n\nSelect all that apply–but with two differences\nMax number: 2\nRecord order of selection also (i.e., in order of frequency)\n\nLack of money\n\nProvide multiple answers\nRecord a yes or no for each item\n\n\n::::"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#options",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#options",
+    "title": "Learning Survey Solutions",
+    "section": "Options",
+    "text": "Options\n\nDisplay mode\n\n\nSource of categories\n\n\nFilter\n\n\nRecord answer order\n\n\nMax number of answers"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#options-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#options-1",
+    "title": "Learning Survey Solutions",
+    "section": "Options",
+    "text": "Options\n\nDisplay mode\n\n\nSource of categories\n\n\nFilter\n\n\nRecord answer order\n\n\nMax number of answers"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#options-2",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#options-2",
+    "title": "Learning Survey Solutions",
+    "section": "Options",
+    "text": "Options\n\n\n\n\nVideo\n\n\n\n\nDisplay mode\n\n\nRecord answer order\n\n\nMax number of answers"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#display-mode-2",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#display-mode-2",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode",
+    "text": "Display mode\n\n\n\n\nVideo\n\n\n\n\nCheckboxes\nYes/No buttons\nCombo box"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#display-mode-3",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#display-mode-3",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode",
+    "text": "Display mode\n\n\n\n\nVideo\n\n\n\n\nCheckboxes\nYes/No buttons\nCombo box"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#record-answer-order",
     "href": "slides/01_designer/03_question_types/03_question_types.html#record-answer-order",
     "title": "Learning Survey Solutions",
     "section": "Record answer order",
-    "text": "Record answer order\n\n\nVideo"
+    "text": "Record answer order\n\n\n\n\nVideo\n\n\n\nWhy\nRecord answers and their order of importance\nHow\nTick the Record answer order box"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers",
     "href": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers",
     "title": "Learning Survey Solutions",
     "section": "Max number of answers",
-    "text": "Max number of answers\n\n\nVideo"
+    "text": "Max number of answers\n\n\n\n\nVideo\n\n\n\nWhy\nLimit the number of answers provided (e.g., two most important sources of electricity)\nHow\n\nProvide a number in the Max number of answers box.\nIf no answer is provided, there is no maximum."
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#example-2",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#example-2",
-    "title": "Learning Survey Solutions",
-    "section": "Example",
-    "text": "Example"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#numeric",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#numeric",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#numeric-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#numeric-1",
     "title": "Learning Survey Solutions",
     "section": "Numeric",
-    "text": "Numeric\n\n\nVideo"
+    "text": "Numeric"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#options-3",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#options-3",
+    "title": "Learning Survey Solutions",
+    "section": "Options",
+    "text": "Options\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#options-4",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#options-4",
+    "title": "Learning Survey Solutions",
+    "section": "Options",
+    "text": "Options\n\n\n\n\nVideo\n\n\n\n\nInteger\n\n\nNumber of decimals\n\n\nNumber of decimals\n\n\nUse 1000 separator\n\n\nAdd special value"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#integer",
     "href": "slides/01_designer/03_question_types/03_question_types.html#integer",
     "title": "Learning Survey Solutions",
     "section": "Integer",
-    "text": "Integer"
+    "text": "Integer\n\n\n\n\nVideo\n\n\n\n\nEnabled. Default. Restricts input to integer values.\nDisabled. Allows numbers with and without decimals. No limit on the number of decimal places."
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#number-of-decimal-places",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#number-of-decimal-places",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#number-of-decimals",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#number-of-decimals",
     "title": "Learning Survey Solutions",
-    "section": "Number of decimal places",
-    "text": "Number of decimal places"
+    "section": "Number of decimals",
+    "text": "Number of decimals\n\n\n\n\nVideo\n\n\n\n\nWhen empty. No limit on number of decimal places.\nWhen filled. Maximum number of decimal places allowed."
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#use-1000s-separator",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#use-1000s-separator",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#use-1000-separator",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#use-1000-separator",
     "title": "Learning Survey Solutions",
-    "section": "Use 1000s separator",
-    "text": "Use 1000s separator"
+    "section": "Use 1000 separator",
+    "text": "Use 1000 separator\n\n\n\n\nVideo\n\n\n\n\nAffects display on tablet.\nDoes not affect how data are stored."
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#text-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#text-1",
     "title": "Learning Survey Solutions",
     "section": "Text",
-    "text": "Text\n\n\nVideo"
+    "text": "Text\n\nText \n\n\nList"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#text-2",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#text-2",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#text-3",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#text-3",
     "title": "Learning Survey Solutions",
-    "section": "Text",
-    "text": "Text"
+    "section": "Text ",
+    "text": "Text \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLocation of parcel\nOpen text\nOther (specify)\nOpen text that follows\nPhone number\nStructured text. Phone numbers typically follow a pattern"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#options-5",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#options-5",
+    "title": "Learning Survey Solutions",
+    "section": "Options",
+    "text": "Options\n\n\n\n\n\n\n\n\n\nPattern"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#text-4",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#text-4",
+    "title": "Learning Survey Solutions",
+    "section": "Text ",
+    "text": "Text \n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#pattern",
     "href": "slides/01_designer/03_question_types/03_question_types.html#pattern",
     "title": "Learning Survey Solutions",
     "section": "Pattern",
-    "text": "Pattern\nTODO: provide example"
+    "text": "Pattern\n\n\n\n\nVideo\n\n\n\nWhy\nRestrict what can be recorded\nHow\n\n\n\nCharacter\nRepresents\n\n\n\n\n~\nOne alpha character (i.e., A-Z, a-z)\n\n\n#\nOne numeric character (i.e., 0-9)\n\n\n*\nOne alphanumeric character (i.e., A-z, a-z, 0-9)\n\n\n\n\nExamples\n\n\n\nPattern\nRepresents\n\n\n\n\n##/##/##\nDate\n\n\n0# ## ## ## ##\nFrench phone number\n\n\n~~ ####\nFlight number"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#list-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#list-1",
     "title": "Learning Survey Solutions",
-    "section": "List",
-    "text": "List"
+    "section": "List ",
+    "text": "List \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHousehold member list\n\nCanonical list in almost all household surveys\nOne list entry per household member\n\nOther (specify)\nOpen text that follows\nParcel list\n\nList to be completed before rest of parcel roster\nSometimes unclear whether from paper instrument what the list should capture\nIn this case, description and location. Are these separate questions or information that could be gathered in a list."
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#list-2",
     "href": "slides/01_designer/03_question_types/03_question_types.html#list-2",
     "title": "Learning Survey Solutions",
-    "section": "List",
-    "text": "List\n\n\nVideo"
+    "section": "List ",
+    "text": "List \n\n\nVideo"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#list-3",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#list-3",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#options-6",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#options-6",
     "title": "Learning Survey Solutions",
-    "section": "List",
-    "text": "List\nTODO: image of simple list question in Designer"
+    "section": "Options",
+    "text": "Options\n\n\n\n\n\n\n\n\n\nMax number of answers"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers-1",
     "title": "Learning Survey Solutions",
     "section": "Max number of answers",
-    "text": "Max number of answers\nTODO: video of question with list answers limited"
-  },
-  {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers-2",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#max-number-of-answers-2",
-    "title": "Learning Survey Solutions",
-    "section": "Max number of answers",
-    "text": "Max number of answers"
+    "text": "Max number of answers\n\n\n\n\nVideo\n\n\n\nWhy\nLimit the number of\n\nAnswers per question instructions\nRoster rows per Survey SOlutions requirements. See Creating basic rosters for more.\n\nHow\n\nProvide a number\nOtherwise, there is no limit"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#date-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#date-1",
     "title": "Learning Survey Solutions",
     "section": "Date",
-    "text": "Date\n\n\nVideo"
+    "text": "Date\n\nCalendar date \n\n\nTimestamp"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#calendar-date",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#calendar-date",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#calendar-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#calendar-1",
     "title": "Learning Survey Solutions",
-    "section": "Calendar date",
-    "text": "Calendar date"
+    "section": "Calendar ",
+    "text": "Calendar"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#timestamp",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#timestamp",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#calendar-2",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#calendar-2",
     "title": "Learning Survey Solutions",
-    "section": "Timestamp",
+    "section": "Calendar ",
+    "text": "Calendar \n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#calendar-3",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#calendar-3",
+    "title": "Learning Survey Solutions",
+    "section": "Calendar ",
+    "text": "Calendar \n\n\n\n\nVideo\n\n\n\n\nPick a calendar date\nDefault date. If not set, no default. If set, default value for calendar picker."
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#timestamp-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#timestamp-1",
+    "title": "Learning Survey Solutions",
+    "section": "Timestamp ",
     "text": "Timestamp"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#timestamp-2",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#timestamp-2",
+    "title": "Learning Survey Solutions",
+    "section": "Timestamp ",
+    "text": "Timestamp \n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#timestamp-3",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#timestamp-3",
+    "title": "Learning Survey Solutions",
+    "section": "Timestamp ",
+    "text": "Timestamp \n\n\n\n\nVideo\n\n\n\nWhen pressed, captures the device’s system time"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#sensors-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#sensors-1",
+    "title": "Learning Survey Solutions",
+    "section": "Sensors  /  /  / ",
+    "text": "Sensors  /  /  / \n\nGPS \n\n\nPicture \n\n\nBarcode \n\n\nAudio"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#gps",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#gps",
+    "title": "Learning Survey Solutions",
+    "section": "GPS ",
+    "text": "GPS"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#gps-1",
     "href": "slides/01_designer/03_question_types/03_question_types.html#gps-1",
     "title": "Learning Survey Solutions",
-    "section": "GPS",
-    "text": "GPS\nTODO: video of result"
+    "section": "GPS ",
+    "text": "GPS"
   },
   {
     "objectID": "slides/01_designer/03_question_types/03_question_types.html#gps-2",
     "href": "slides/01_designer/03_question_types/03_question_types.html#gps-2",
     "title": "Learning Survey Solutions",
-    "section": "GPS",
-    "text": "GPS\nTODO: image of GPS type"
+    "section": "GPS ",
+    "text": "GPS \n\n\nTODO: video of creating question and showing it (probably on tablet, since GPS on web tester not supported)\nNOTE: record this at the office so that GPS of office rather than of home is disclosed\n\n\nCapture GPS coordinates upon button press\nExport as several variables:\n\nLongitude\nLatitude\nAccuracy\nAltitude\nTimestamp\n\nSee more here"
   },
   {
-    "objectID": "slides/01_designer/03_question_types/03_question_types.html#everything-else-1",
-    "href": "slides/01_designer/03_question_types/03_question_types.html#everything-else-1",
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#picture",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#picture",
     "title": "Learning Survey Solutions",
-    "section": "Everything else",
-    "text": "Everything else\n\nPicture Barcode Audio Geography"
+    "section": "Picture ",
+    "text": "Picture \n\nSource: 2015-16 Ethiopia Socioeconomic Survey, Water Quality Testing Module"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#picture-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#picture-1",
+    "title": "Learning Survey Solutions",
+    "section": "Picture ",
+    "text": "Picture \n\n\n\n\n\n\n\n\n\nPicture \n\n\nSignature"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#picture-2",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#picture-2",
+    "title": "Learning Survey Solutions",
+    "section": "Picture ",
+    "text": "Picture \n\n\n\n\nVideo\n\n\n\nOn CAPI\n\nCan retake as needed\nExports as\n\nimage name in the microdata\nfolder of images grouped by interview__id in the binary data\n\n\nOn CAWI\nUpload an image file\nNotes\nSee more here"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#signature",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#signature",
+    "title": "Learning Survey Solutions",
+    "section": "Signature ",
+    "text": "Signature \n\n\n\n\nVideo\n\n\n\nOn CAPI\n\nEnable as Use signature pad\nDraw signature\nExport as image\n\nOn CAWI\n\nUpload an image file\n\nNotes\nSee more here"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#barcode",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#barcode",
+    "title": "Learning Survey Solutions",
+    "section": "Barcode ",
+    "text": "Barcode \n\nSource: 2015-16 Ethiopia Socioeconomic Survey, Water Quality Testing Module"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#barcode-1",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#barcode-1",
+    "title": "Learning Survey Solutions",
+    "section": "Barcode ",
+    "text": "Barcode \n\n\n\n\nVideo\n\n\n\n\nScan barcode/QR code\nExport as string of information contained in the barcode\nSee more here"
+  },
+  {
+    "objectID": "slides/01_designer/03_question_types/03_question_types.html#audio",
+    "href": "slides/01_designer/03_question_types/03_question_types.html#audio",
+    "title": "Learning Survey Solutions",
+    "section": "Audio ",
+    "text": "Audio \n\n\n\n\nVideo\n\n\n\n\nCapture audio using tablet’s microphone\nExports as:\n\nName of file in microdata\nAudio file (.mp4) in binary data\n\nSee more here"
   },
   {
     "objectID": "slides/01_designer/05_create_groups/05_create_groups.html#what-do-we-mean-by-groups",
