@@ -1,22 +1,30 @@
 ## Sensors {.t6}
 
 ::: {.box .box-6}
-GPS
+GPS `r fontawesome::fa(name = "location-dot")`
 :::
 
 ::: {.box .box-6}
-Picture
+Picture `r fontawesome::fa(name = "camera")`
 :::
 
 ::: {.box .box-6}
-Barcode
+Barcode `r fontawesome::fa(name = "barcode")`
 :::
 
 ::: {.box .box-6}
-Audio
+Audio `r fontawesome::fa(name = "microphone")`
 :::
 
-## GPS {.t6}
+## GPS `r fontawesome::fa(name = "location-dot") `{.t6}
+
+![](assets/sensors/gps_papi_example_1.png){fig-align="center"}
+
+## GPS `r fontawesome::fa(name = "location-dot") `{.t6}
+
+<!-- TODO: demo from question types questionnaire -->
+
+## GPS `r fontawesome::fa(name = "location-dot") `{.t6}
 
 :::: {.columns}
 
@@ -32,91 +40,133 @@ NOTE: record this at the office so that GPS of office rather than of home is dis
 - Export as several variables:
   - Longitude
   - Latitude
-  - Altitude
   - Accuracy
+  - Altitude
+  - Timestamp
+- See more [here](https://docs.mysurvey.solutions/questionnaire-designer/questions/gps-question/)
+:::
 
-<!-- TODO: check whether time isn't also captured -->
+::::
+
+## Picture `r fontawesome::fa(name = "camera")` {.t6}
+
+![](assets/sensors/picture_papi_example_1.png){fig-align="center"}
+
+Source: [2015-16 Ethiopia Socioeconomic Survey, Water Quality Testing Module](https://microdata.worldbank.org/index.php/catalog/2783/related-materials)
+
+## Picture `r fontawesome::fa(name = "camera")` {.t6}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/sensors/picture_options.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+::: {.box .box-6}
+Picture `r fontawesome::fa(name = "camera")`
+:::
+
+::: {.box .box-6}
+Signature `r fontawesome::fa(name = "signature")`
+:::
 
 :::
 
 ::::
 
-## Picture {.t6}
-
-::: {.box .box-2}
-Picture
-:::
-
-::: {.box .box-2}
-Signature
-:::
-
-## Picture {.t6}
+## Picture `r fontawesome::fa(name = "camera")` {.t6}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
 
-TODO: video of creating and using
+![](assets/sensors/picture.mp4){fig-align="center"}
 
 :::
 
 ::: {.column width="30%"}
+
+### On CAPI
 
 - Can retake as needed
 - Exports as
   - image name in the microdata
   - folder of images grouped by `interview__id` in the binary data
 
+### On CAWI
+
+Upload an image file
+
+### Notes
+
+See more [here](https://docs.mysurvey.solutions/questionnaire-designer/questions/picture-question/)
+
 :::
 
 ::::
 
-## Signature {.t6}
+## Signature `r fontawesome::fa(name = "signature")` {.t6}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
 
-TODO: video of creating, showing, and answering
+![](assets/sensors/signature.mp4){fig-align="center"}
 
 :::
 
 ::: {.column width="30%"}
 
+### On CAPI
+
 - Enable as `Use signature pad`
 - Draw signature
 - Export as image
 
-<!-- Documentation: https://docs.mysurvey.solutions/questionnaire-designer/questions/capturing-signatures-with-a-picture-question/ -->
+### On CAWI
+
+- Upload an image file
+
+### Notes
+
+See more [here](https://docs.mysurvey.solutions/questionnaire-designer/questions/capturing-signatures-with-a-picture-question/)
 
 :::
 
 ::::
 
-## Barcode {.t6}
+## Barcode `r fontawesome::fa(name = "barcode")` {.t6}
+
+![](assets/sensors/barcode_papi_example_1.png){fig-align="center"}
+
+Source: [2015-16 Ethiopia Socioeconomic Survey, Water Quality Testing Module](https://microdata.worldbank.org/index.php/catalog/2783/related-materials)
+
+## Barcode `r fontawesome::fa(name = "barcode")` {.t6}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of creating question and scanning different barcodes
+![](assets/sensors/barcode.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
 
 - Scan barcode/QR code
 - Export as string of information contained in the barcode
+- See more [here](https://docs.mysurvey.solutions/questionnaire-designer/questions/barcode-question/)
 
 :::
 
 ::::
 
-## Audio {.t6}
+## Audio `r fontawesome::fa(name = "microphone")` {.t6}
 
 :::: {.columns}
 
 ::: {.column width="70%"}
-TODO: video of creating and using question
+![](assets/sensors/audio.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -125,6 +175,7 @@ TODO: video of creating and using question
 - Exports as:
   - Name of file in microdata
   - Audio file (`.mp4`) in binary data
+- See more [here](https://docs.mysurvey.solutions/questionnaire-designer/questions/audio-question/)
 
 :::
 
