@@ -66,27 +66,27 @@ Geography `r fontawesome::fa(name = "draw-polygon")`
 
 ::::
 
-# Overview {background-color=var(--s1)}
+# Overview `r fontawesome::fa(name = "tower-observation")` {background-color=var(--s1)}
 
 {{< include _overview.qmd >}}
 
-# Categorical {background-color=var(--s2)}
+# Categorical `r fontawesome::fa(name = "check")` / `r fontawesome::fa(name = "check-double")` {background-color=var(--s2)}
 
 {{< include _categorical.qmd >}}
 
-# Numeric {background-color=var(--s3)}
+# Numeric `r fontawesome::fa(name = "1")``r fontawesome::fa(name = "2")``r fontawesome::fa(name = "3")` {background-color=var(--s3)}
 
 {{< include _numeric.qmd >}}
 
-# Text {background-color=var(--s4)}
+# Text `r fontawesome::fa(name = "comment")` / `r fontawesome::fa(name = "bars")` {background-color=var(--s4)}
 
 {{< include _text.qmd >}}
 
-# Date {background-color=var(--s5)}
+# Date `r fontawesome::fa(name = "calendar")` / `r fontawesome::fa(name = "stopwatch")` {background-color=var(--s5)}
 
 {{< include _date.qmd >}}
 
-# Sensors {background-color=var(--s6)}
+# Sensors `r fontawesome::fa(name = "location-dot")` / `r fontawesome::fa(name = "camera")` / `r fontawesome::fa(name = "barcode")` / `r fontawesome::fa(name = "microphone")` {background-color=var(--s6)}
 
 {{< include _sensors.qmd >}}
 

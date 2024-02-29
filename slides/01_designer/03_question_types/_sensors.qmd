@@ -1,4 +1,4 @@
-## Sensors {.t6}
+## Sensors `r fontawesome::fa(name = "location-dot")` / `r fontawesome::fa(name = "camera")` / `r fontawesome::fa(name = "barcode")` / `r fontawesome::fa(name = "microphone")` {.t6}
 
 ::: {.box .box-6}
 GPS `r fontawesome::fa(name = "location-dot")`

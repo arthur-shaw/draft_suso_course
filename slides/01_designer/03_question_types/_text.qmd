@@ -1,16 +1,16 @@
-## Text {.t3}
-
-::: {.box .box-3}
+## Text {.t4}
+ 
+::: {.box .box-4}
 Text `r fontawesome::fa(name = "comment")`
 :::
 
-::: {.box .box-3}
+::: {.box .box-4}
 List `r fontawesome::fa(name = "bars")`
 :::
 
-# Text `r fontawesome::fa(name = "comment")` {background-color=var(--s3)}
+# Text `r fontawesome::fa(name = "comment")` {background-color=var(--s4)}
 
-## Text `r fontawesome::fa(name = "comment") `{.t3}
+## Text `r fontawesome::fa(name = "comment") `{.t4}
 
 :::: {.columns}
 
@@ -44,7 +44,7 @@ Structured text. Phone numbers typically follow a pattern
 
 :::
 
-## Options {.t3}
+## Options {.t4}
 
 :::: {.columns}
 
@@ -54,7 +54,7 @@ Structured text. Phone numbers typically follow a pattern
 
 ::: {.column width="30%"}
 
-::: {.box .box-3}
+::: {.box .box-4}
 Pattern
 :::
 
@@ -62,7 +62,7 @@ Pattern
 
 ::::
 
-## Text `r fontawesome::fa(name = "comment") `{.t3}
+## Text `r fontawesome::fa(name = "comment") `{.t4}
 
 ![](assets/text/text/text_option_demo.mp4){fig-align="center"}
 
@@ -71,7 +71,7 @@ Pattern
 https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c47039167928481cf42d2/chapter/a3d3bf44c5731c51f43520b254e95aa3/group/a3d3bf44c5731c51f43520b254e95aa3
  -->
 
-## Pattern {.t3}
+## Pattern {.t4}
 
 :::: {.columns}
 
@@ -111,9 +111,9 @@ Restrict what can be recorded
 
 ::::
 
-# List `r fontawesome::fa(name = "bars")` {background-color=var(--s3)}
+# List `r fontawesome::fa(name = "bars")` {background-color=var(--s4)}
 
-## List `r fontawesome::fa(name = "bars")` {.t3}
+## List `r fontawesome::fa(name = "bars")` {.t4}
 
 :::: {.columns}
 
@@ -147,7 +147,7 @@ Open text that follows
 :::
 
 
-## List `r fontawesome::fa(name = "bars")` {.t3}
+## List `r fontawesome::fa(name = "bars")` {.t4}
 
 ![](assets/text/list/list_capi_demo.mp4){fig-align="center"}
 
@@ -158,7 +158,7 @@ https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c4703916792
  -->
 
 
-## Options {.t3}
+## Options {.t4}
 
 :::: {.columns}
 
@@ -168,7 +168,7 @@ https://designer.mysurvey.solutions/questionnaire/details/9e37f1c59e1c4703916792
 
 ::: {.column width="30%"}
 
-::: {.box .box-3}
+::: {.box .box-4}
 Max number of answers
 :::
 
@@ -176,7 +176,7 @@ Max number of answers
 
 ::::
 
-## Max number of answers {.t3}
+## Max number of answers {.t4}
 
 :::: {.columns}
 
