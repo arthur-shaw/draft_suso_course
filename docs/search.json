@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Learning Survey Solutions",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying/finding questions\n\n\n  \n\n\n    Creating basic rosters\n\n\n  \n\n\n    Creating complex rosters\n\n\n  \n\n\n    Introduction to conditions\n\n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Designer\n    \n    Overview\n\n\n  \n\n\n    Introduction\n\n\n  \n\n\n    Question types\n\n\n  \n\n\n    Create basic questionnaire\n\n\n  \n\n\n    Create groups\n\n\n  \n\n\n    Moving/copying/finding questions\n\n\n  \n\n\n    Creating basic rosters\n\n\n  \n\n\n    Creating complex rosters\n\n\n  \n\n\n    Introduction to conditions\n\n\n  \n\n\n    Conditions in rosters\n\n\n\n    Design for UX/survey protocol\n\n\n\n    Design for efficiency/modularity\n\n\n\n    \n      Headquarter\n    \n    Server Overview\n\n\n  \n\n\n    Get a server\n\n\n  \n\n\n    Access server\n\n\n  \n\n\n    Create workspace\n\n\n  \n\n\n    Create users\n\n\n  \n\n\n    Import questionnaire\n\n\n  \n\n\n    Create assignments\n\n\n  \n\n\n    Import assignments\n\n\n\n    \n      Supervisor\n    \n    Set up Supervisor\n\n\n\n    Use Supervisor\n\n\n\n    \n      Interviewer\n    \n    Set up Interviewer\n\n\n\n    Use Interviewer\n\n\n\n    \n      Managing a survey\n    \n    Managing with Interviewer\n\n\n\n    Monitor with Supervisor\n\n\n\n    Monitor with Headquarters\n\n\n\n    Get/use data from Survey Solutions\n\n\n\n    Monitor with Survey Solutions' data\n\n\n\n    \n      Preparing a survey\n    \n    Overview of the CAPI survey process\n\n\n\n    Procuring the right equipment\n\n\n\n    Testing the application\n\n\n\n    Setting up tablets\n\n\n\n    Preparing a training\n\n\n\n    Managing the data quality system\n\n\n\n    Maintenance/Troubleshooting"
   },
   {
     "objectID": "about.html",
@@ -19,6 +19,265 @@
     "title": "suso_course",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#roadmap",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap ",
+    "text": "Roadmap \n\n\n\nWhat do conditions do\n\n\n\nEnabling conditions\n\n\nFilter conditions\n\n\nValidation conditions\n\n\n\nSyntax\n\n\n\nVariables"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#in-cspro",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#in-cspro",
+    "title": "Learning Survey Solutions",
+    "section": "In CSPro",
+    "text": "In CSPro\n\n\n\n\n\n\n\n\nScope\n\nWhere focus goes next\nWhether answers make sense\nWhat mode of data entry\nHow data are exported"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#in-survey-solutions",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#in-survey-solutions",
+    "title": "Learning Survey Solutions",
+    "section": "In Survey Solutions",
+    "text": "In Survey Solutions\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScope\n\nWhen questions should be asked\nWhether answers make sense\nWhether answer options are shown\nWhat value variables take on\nWhat mode of data entry\nHow data are exported"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-they-do",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-they-do",
+    "title": "Learning Survey Solutions",
+    "section": "What they do",
+    "text": "What they do\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-to-put-them",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-to-put-them",
+    "title": "Learning Survey Solutions",
+    "section": "Where to put them",
+    "text": "Where to put them\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-they-work",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-they-work",
+    "title": "Learning Survey Solutions",
+    "section": "How they work",
+    "text": "How they work\n\n\n\n\nVideo\n\n\n\nCondition\n// enabled only if attended a training\nattended == 1\nBehavior\n\nDepends on a logical condition\nIf true, enable\nIf false (or null), disable\n(If no condition, enabled by default)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-they-work",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-they-work",
+    "title": "Learning Survey Solutions",
+    "section": "Where they work",
+    "text": "Where they work\n\n\n\n\nVideo\n\n\n\nWhere enablements can be written\n\nSections\nSub-sections\nRoster rows1\nQuestions\n[Answer options]2\nStatic texts\n\n\n\nTo be covered in detail next lessonCovered in the next section of this presentation"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-conditions-differ",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-conditions-differ",
+    "title": "Learning Survey Solutions",
+    "section": "How Survey Solutions’ conditions differ",
+    "text": "How Survey Solutions’ conditions differ\n\n\n\n\n\n\n\n\n\nWhere to put it. Put on question to skip rather than question that triggers the skip."
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-conditions-differ-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-conditions-differ-1",
+    "title": "Learning Survey Solutions",
+    "section": "How Survey Solutions’ conditions differ",
+    "text": "How Survey Solutions’ conditions differ\n\n\n\n\n\n\n\n\n\nWhere to put it. Put on question to skip rather than question that triggers the skip.\nWhat to expect as return value. Evaluate to TRUE/FALSE rather than an action (e.g., skip to question X)."
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-conditions-differ-2",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-conditions-differ-2",
+    "title": "Learning Survey Solutions",
+    "section": "How Survey Solutions’ conditions differ",
+    "text": "How Survey Solutions’ conditions differ\n\n\n\n\nVideo\n\n\n\n\nWhere to put it. Put on question to skip rather than question that triggers the skip.\nWhat to expect as return value. Evaluate to TRUE/FALSE rather than an action (e.g., skip to question X).\nWhen evaluated. Evaluated continously throughout data entry session, with some default values."
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-they-do-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-they-do-1",
+    "title": "Learning Survey Solutions",
+    "section": "What they do",
+    "text": "What they do\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-to-put-them-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-to-put-them-1",
+    "title": "Learning Survey Solutions",
+    "section": "Where to put them",
+    "text": "Where to put them\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-they-work-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-they-work-1",
+    "title": "Learning Survey Solutions",
+    "section": "How they work",
+    "text": "How they work\n\n\n\n\nVideo\n\n\n\nCondition\n// if the maximum answer value is answered...\nIsAnswered(max_answer_value) ? \n// ... then limit the options to those whose value is less than or equal to it\n@optioncode &lt;= max_answer_value : \n// otherwise, show all options\ntrue\nBehavior\n\nDepends on a logical condition that reference options\nIf true, enable option\nIf false (or null), disable\n(If no condition, enabled by default)\nSee more details here"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-they-work-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-they-work-1",
+    "title": "Learning Survey Solutions",
+    "section": "Where they work",
+    "text": "Where they work\n\n\n\n\nVideo\n\n\n\nCategorical questions\n\nSingle-select\nMulti-select"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-they-do-2",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-they-do-2",
+    "title": "Learning Survey Solutions",
+    "section": "What they do",
+    "text": "What they do\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-to-put-them-2",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-to-put-them-2",
+    "title": "Learning Survey Solutions",
+    "section": "Where to put them",
+    "text": "Where to put them\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-they-work-2",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-they-work-2",
+    "title": "Learning Survey Solutions",
+    "section": "How they work",
+    "text": "How they work\n\n\n\n\nVideo\n\n\n\nCondition\n// no more than 2 sessions are possible\nself &lt;= 2\nBehavior\n\nDepends on a logical condition\nIf true, valid answer -&gt; nothing happens\nIf false, invalide answer -&gt; message and change in UI\n(If no condition, valid by default)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-they-work-2",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#where-they-work-2",
+    "title": "Learning Survey Solutions",
+    "section": "Where they work",
+    "text": "Where they work\n\n\n\n\nVideo\n\n\n\nWhere validations can be written\n\nQuestions\nStatic texts"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-differs-from-other-capi-apps",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-differs-from-other-capi-apps",
+    "title": "Learning Survey Solutions",
+    "section": "How Survey Solutions differs from other CAPI apps",
+    "text": "How Survey Solutions differs from other CAPI apps\n\n\n// no more than 2 sessions are possible\nself &lt;= 2\n\n\nDescribe valid answers. Not invalid answers. Think assert in Stata."
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-differs-from-other-capi-apps-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-differs-from-other-capi-apps-1",
+    "title": "Learning Survey Solutions",
+    "section": "How Survey Solutions differs from other CAPI apps",
+    "text": "How Survey Solutions differs from other CAPI apps\n\n\n\n\n\n\n\n\n\nDescribe valid answers. Not invalid answers. Think assert in Stata.\nNo need to search for message. Messages are local to validations, not global to the application."
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-differs-from-other-capi-apps-2",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-survey-solutions-differs-from-other-capi-apps-2",
+    "title": "Learning Survey Solutions",
+    "section": "How Survey Solutions differs from other CAPI apps",
+    "text": "How Survey Solutions differs from other CAPI apps\n\n\n\n\nVideo\n\n\n\n\nDescribe valid answers. Not invalid answers. Think assert in Stata.\nNo need to search for message. Messages are local to validations, not global to the application.\nImpossible to block invalid answers. Design choice to allow invalid answers and not block fieldwork/data entry. No equivalent of CSPro’s reenter. But other mechanisms for dealing with invalid answers."
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#basic-operators",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#basic-operators",
+    "title": "Learning Survey Solutions",
+    "section": "Basic operators1",
+    "text": "Basic operators1\n\n\nRelational\n\nEqual: ==\nNot-equal: !=\nAnd the rest: &gt;, &gt;=, &lt;=, &lt;\n\n\n\nLogical\n\nAnd: &&\nOr: ||\nNot: !\n\n\n\nMathematical\n\nAdd: +\nSubtract: -\nMultiply: *\nDivide: %\n\n\n\nSee more here. For example, the ternary operator is quite useful."
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#comments",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#comments",
+    "title": "Learning Survey Solutions",
+    "section": "Comments",
+    "text": "Comments\n\n\nInline\n// this is a comment\nx == 1\n\n\nBlock\n/* \nthis\nis a block\ncomment\n*/\n\nx == 1\n\n\nBoth\n/* \nthis\nis a block\ncomment\n*/\n\n// this is another comment\nx == 1"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#commands-in-general",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#commands-in-general",
+    "title": "Learning Survey Solutions",
+    "section": "Commands in general",
+    "text": "Commands in general\n\n\nProperties\n\n/* \nPattern: object.Property\nNote: properties are case-sensitive\n*/\n\n// how long a list is\nmy_list.Length\n\n// what the year component of a date is\nmy_birthday.Value.Year\n\n\nMethods\n\n/* \nPattern: object.Method(args)\nNote: methods:\n- are case-sensitive\n- belong to question (data) types\n*/\n\n// whether a single-select value lies in a range\nsingle_select.InRange(1, 5)\n\n// whether option 2 was one of the values selected\ncheckbox.Contains(2)\n\n/* invalid methods and their equivalents */\n\n// wrong: single_select.Contains(2)\n// right: single_select == 1 \n\n// wrong: checkbox.InRange(1, 5)\n// right: checkbox.ContainsAny(1, 2, 3, 4, 5)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#commands-per-question-type",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#commands-per-question-type",
+    "title": "Learning Survey Solutions",
+    "section": "Commands per question type",
+    "text": "Commands per question type\n\n\n\n\n\n\n\n\n\nCategorical: single-select\nCategorical: multi-select\nNumeric\nDate\nText\nGPS\nList\nBarcode\nPicture\nAudio\nGeography"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select",
+    "title": "Learning Survey Solutions",
+    "section": "Categorical: single-select",
+    "text": "Categorical: single-select\nRelational\n\n\n\n\n\n\n\n\n// capture \"other\" answer if \"other (specify)\" selected\nq06 == 7"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select-1",
+    "title": "Learning Survey Solutions",
+    "section": "Categorical: single-select",
+    "text": "Categorical: single-select\nInRange\n\n\n\n\n\n\n\n\n// administer B20 when the household member is married (i.e., answer 1 or 2 to B19)\nhh_b19.InRange(1,2)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select-2",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select-2",
+    "title": "Learning Survey Solutions",
+    "section": "Categorical: single-select",
+    "text": "Categorical: single-select\nInList\n\n\n\n\n\n\n\n\n// enable question 6 when answer is 1, 4, or 5 is chosen for question 4\nag_q4.InList(1,4,5)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select-3",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select-3",
+    "title": "Learning Survey Solutions",
+    "section": "Categorical: single-select",
+    "text": "Categorical: single-select\nIsNoneOf\n\n\n\n\n\n\n\n\n\nWith InRange, identify those values that enable F13\n// enable F13 if one of these answers selected for F12\nhh_f12.InRange(3,10)\n\n\nWith IsNoneOf, identify those values that do NOT enable F13\n// enable F13 if no firewood option is chosen for F12\nhh_f12.IsNoneOf(1,2)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select-4",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#categorical-single-select-4",
+    "title": "Learning Survey Solutions",
+    "section": "Categorical: single-select",
+    "text": "Categorical: single-select\nCount values\n\n\n\n\n\n\n\n\n/* enable the questions after E06_6 if there is at least 1 \"yes\" answer */\n\n// count the number of \"yes\" answers, and verify that it is greater than 0\nCountValue(1,hh_e06_1,hh_e06_2,hh_e06_3,hh_e06_4,hh_e06_5,hh_e06_6) &gt; 0\n\n NOTE: This expression might be best used to determine the value of a variable. So let’s talk about variables (!= questions)…"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-is-a-variable",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-is-a-variable",
+    "title": "Learning Survey Solutions",
+    "section": "What is a variable",
+    "text": "What is a variable\n\n\n\n\n\n\n\n\n\nQuestion answered by a computer rather than interviewer"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-is-a-variable-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#what-is-a-variable-1",
+    "title": "Learning Survey Solutions",
+    "section": "What is a variable",
+    "text": "What is a variable\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion answered by a computer rather than interviewer\nObject whose value is evaluated by an expression\n\nStatic expression (e.g., a fixed string value that depends on nothing)\nDynamic expression (e.g., a computation whose values derives from one or more question)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#why-use-a-variable",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#why-use-a-variable",
+    "title": "Learning Survey Solutions",
+    "section": "Why use a variable",
+    "text": "Why use a variable\n\n\n\n\n\n\n\n\n\nComputer can answer questions more reliably than a person (e.g., ENUMERATOR: CHECK...)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#why-use-a-variable-1",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#why-use-a-variable-1",
+    "title": "Learning Survey Solutions",
+    "section": "Why use a variable",
+    "text": "Why use a variable\n\n\n\n\n\n\n\n\n\nComputer can answer questions more reliably than a person (e.g., ENUMERATOR: CHECK...)\nValue of an expression needs to be saved (e.g., randomization)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#why-use-a-variable-2",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#why-use-a-variable-2",
+    "title": "Learning Survey Solutions",
+    "section": "Why use a variable",
+    "text": "Why use a variable\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputer can answer questions more reliably than a person (e.g., ENUMERATOR: CHECK...)\nValue of an expression needs to be saved (e.g., randomization)\nValue of an expression is used in other expressions"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-to-create-a-variable",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#how-to-create-a-variable",
+    "title": "Learning Survey Solutions",
+    "section": "How to create a variable",
+    "text": "How to create a variable\n\n\n\n\nVideo\n\n\n\n\n\n\nCreate a variable\n\n\nClick on ADD VARIABLE button or\nRight-click and select Add variable after\n\n\n\n\nSelect the (data) type\n\n\nBoolean\nDouble\nDate/Time\nLong integer\nString\n\n\nGive the usual attributes\n\nVariable name\nVariable label\n\nDefine its value with an expression that yield a value of the expected data type\n(Optionally) Select whether not to export (default: export)"
+  },
+  {
+    "objectID": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#example-non-farm-enterprise-filter",
+    "href": "slides/01_designer/09_conditions_intro/09_conditions_intro.html#example-non-farm-enterprise-filter",
+    "title": "Learning Survey Solutions",
+    "section": "Example: Non-farm enterprise filter",
+    "text": "Example: Non-farm enterprise filter\n\n\nVideo"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#roadmap",
