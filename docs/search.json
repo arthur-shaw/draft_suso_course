@@ -291,42 +291,42 @@
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#create-questionnaire-1",
     "title": "Learning Survey Solutions",
     "section": "Create questionnaire",
-    "text": "Create questionnaire\n\n\nVideo"
+    "text": "Create questionnaire\n\n\n\n\nVideo\n\n\n\n\nClick on CREATE NEW\nFill the required fields:\n\nQuestionnaire title. Name users see.\nQuestionnaire variable. Name system uses. See more here.\n\nClick on CREATE.\n\n\n\n\nQuestionnaire title\nHow the questionnaire will be seen\n\nIn Designer, by developers\nIn HQ, by survey managers\nIn Interviewer, by interivewers\n\nQuestionnaire variable\nName used for main data file"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#add-questions-1",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#add-questions-1",
     "title": "Learning Survey Solutions",
     "section": "Add questions",
-    "text": "Add questions\n\n\nVideo"
+    "text": "Add questions\n\n\n\n\nVideo\n\n\n\nTwo methods\n\nClick ADD QUESTION button\nSelect Add question after from the right-click menu\n\n\n\n\nWhile both methods add a question, they are subtly different:\n\nADD QUESTION adds a question at the end of the list of objects.\nAdd question after inserts a question where the user right-clicks\n\nChoose the best method for the job.\nSee docs here"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#provide-attributes-1",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#provide-attributes-1",
     "title": "Learning Survey Solutions",
     "section": "Provide attributes",
-    "text": "Provide attributes\n\n\nVideo"
+    "text": "Provide attributes\n\n\n\n\nVideo\n\n\n\nDeconstruct PAPI\n\nChoose best SuSo question type(s)\nIdentify SuSo components\n\nConstruct CAPI\n\nSelect Question type\nProvide Variable name\nFill Question text\nProvide other question type-specific attributes\n\n\n\n\nDeconstruct PAPI\n\nWhen choosing SuSo type, there may be a few options. Choose the one that best fits the need.\nWhen identifying SuSo components:\n\nLook at the PAPI components\nDetermine which of them belong where in SuSo\nOrder may be different in SuSo\n\n\nConstruct CAPI\nMostly copy-paste"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#copypaste",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#copypaste",
     "title": "Learning Survey Solutions",
     "section": "Copy/paste",
-    "text": "Copy/paste\n\n\nVideo"
+    "text": "Copy/paste\n\n\n\n\nVideo\n\n\n\nCopy\n\nRight-click\nSelect Copy\n\nPaste\nTwo methods:\n\nPress PASTE button\nSelect Paste after from the right-click menu\n\n\n\n\nCopy\nNote: SuSo keeps copied object in the “clipboard”. No real need to copy again. Done in slides for purely pedagogical purposes.\nPaste\nAs with creating questions, there is a subtle difference between the two methods\n\nPASTE adds to the end of the object list\nPaste after inserts after where the user right-clicks"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#move",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#move",
     "title": "Learning Survey Solutions",
     "section": "Move",
-    "text": "Move\n\n\nVideo"
+    "text": "Move\n\n\n\n\nVideo\n\n\n\n\nFind a question\nMove to the left-hand margin until the cursor becomes \nClick and drag question to desired location"
   },
   {
     "objectID": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#test-questionnaire-1",
     "href": "slides/01_designer/04_create_basic_qnr/04_create_basic_qnr.html#test-questionnaire-1",
     "title": "Learning Survey Solutions",
     "section": "Test questionnaire",
-    "text": "Test questionnaire\n\n\nVideo"
+    "text": "Test questionnaire\n\n\n\n\nVideo\n\n\n\n\nClick on TEST\n\nIf there are errors, Designer will provide a list. See more here.\nIf no errors, Designer will open a web-based tester in a new web browser tab. See more here.\n\nUpdate the version of the questionnaire being tested by clicking"
   },
   {
     "objectID": "slides/01_designer/02_designer_intro/02_designer_intro.html#roadmap",

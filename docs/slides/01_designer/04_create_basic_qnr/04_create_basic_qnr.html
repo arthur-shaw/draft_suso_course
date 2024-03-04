@@ -354,11 +354,46 @@
 </section>
 <section id="create-questionnaire-1" class="slide level2 t1">
 <h2>Create questionnaire</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><video data-src="assets/create_questionnaire.mp4" controls=""><a href="assets/create_questionnaire.mp4">Video</a></video></p>
 </figure>
 </div>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Click on <code>CREATE NEW</code></li>
+<li>Fill the required fields:
+<ul>
+<li><code>Questionnaire title</code>. Name users see.</li>
+<li><code>Questionnaire variable</code>. Name system uses. See more <a href="https://docs.mysurvey.solutions/questionnaire-designer/components/questionnaire-variable/">here</a>.</li>
+</ul></li>
+<li>Click on <code>CREATE</code>.</li>
+</ul>
+</div>
+</div>
+<aside class="notes">
+<h3 id="questionnaire-title"><code>Questionnaire title</code></h3>
+<p>How the questionnaire will be seen</p>
+<ul>
+<li>In Designer, by developers</li>
+<li>In HQ, by survey managers</li>
+<li>In Interviewer, by interivewers</li>
+</ul>
+<h3 id="questionnaire-variable"><code>Questionnaire variable</code></h3>
+<p>Name used for main data file</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="add-questions" class="title-slide slide level1 center" data-background-color="var(--s2)">
@@ -367,11 +402,40 @@
 </section>
 <section id="add-questions-1" class="slide level2 t2">
 <h2>Add questions</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><video data-src="assets/add_question.mp4" controls=""><a href="assets/add_question.mp4">Video</a></video></p>
+<p><video data-src="assets/add_questions.mp4" controls=""><a href="assets/add_questions.mp4">Video</a></video></p>
 </figure>
 </div>
+</div><div class="column" style="width:30%;">
+<h3 id="two-methods">Two methods</h3>
+<ol type="1">
+<li>Click <code>ADD QUESTION</code> button</li>
+<li>Select <code>Add question after</code> from the right-click menu</li>
+</ol>
+</div>
+</div>
+<aside class="notes">
+<p>While both methods add a question, they are subtly different:</p>
+<ul>
+<li><code>ADD QUESTION</code> adds a question at the end of the list of objects.</li>
+<li><code>Add question after</code> inserts a question where the user right-clicks</li>
+</ul>
+<p>Choose the best method for the job.</p>
+<p>See docs <a href="https://docs.mysurvey.solutions/questionnaire-designer/components/create-and-modify-components-/#Create">here</a></p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
 <section id="provide-attributes" class="title-slide slide level1 center" data-background-color="var(--s3)">
@@ -380,11 +444,52 @@
 </section>
 <section id="provide-attributes-1" class="slide level2 t3">
 <h2>Provide attributes</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><video data-src="assets/provide_attributes.mp4" controls=""><a href="assets/provide_attributes.mp4">Video</a></video></p>
 </figure>
 </div>
+</div><div class="column" style="width:30%;">
+<h3 id="deconstruct-papi">Deconstruct PAPI</h3>
+<ul>
+<li>Choose best SuSo question type(s)</li>
+<li>Identify SuSo components</li>
+</ul>
+<h3 id="construct-capi">Construct CAPI</h3>
+<ul>
+<li>Select <code>Question type</code></li>
+<li>Provide <code>Variable name</code></li>
+<li>Fill <code>Question text</code></li>
+<li>Provide other question type-specific attributes</li>
+</ul>
+</div>
+</div>
+<aside class="notes">
+<h3 id="deconstruct-papi-1">Deconstruct PAPI</h3>
+<ul>
+<li>When choosing SuSo type, there may be a few options. Choose the one that best fits the need.</li>
+<li>When identifying SuSo components:
+<ul>
+<li>Look at the PAPI components</li>
+<li>Determine which of them belong where in SuSo</li>
+<li>Order may be different in SuSo</li>
+</ul></li>
+</ul>
+<h3 id="construct-capi-1">Construct CAPI</h3>
+<p>Mostly copy-paste</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section id="copypaste-and-move-questions" class="title-slide slide level1 center" data-background-color="var(--s4)">
 <h1>Copy/paste and move questions</h1>
@@ -393,18 +498,64 @@
 
 <section id="copypaste" class="slide level2 t4">
 <h2>Copy/paste</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><video data-src="assets/copy_and_paste.mp4" controls=""><a href="assets/copy_and_paste.mp4">Video</a></video></p>
 </figure>
 </div>
+</div><div class="column" style="width:30%;">
+<h3 id="copy">Copy</h3>
+<ul>
+<li>Right-click</li>
+<li>Select <code>Copy</code></li>
+</ul>
+<h3 id="paste">Paste</h3>
+<p>Two methods:</p>
+<ul>
+<li>Press <code>PASTE</code> button</li>
+<li>Select <code>Paste after</code> from the right-click menu</li>
+</ul>
+</div>
+</div>
+<aside class="notes">
+<h3 id="copy-1">Copy</h3>
+<p>Note: SuSo keeps copied object in the “clipboard”. No real need to copy again. Done in slides for purely pedagogical purposes.</p>
+<h3 id="paste-1">Paste</h3>
+<p>As with creating questions, there is a subtle difference between the two methods</p>
+<ul>
+<li><code>PASTE</code> adds to the end of the object list</li>
+<li><code>Paste after</code> inserts after where the user right-clicks</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="move" class="slide level2 t4">
 <h2>Move</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><video data-src="assets/move_question.mp4" controls=""><a href="assets/move_question.mp4">Video</a></video></p>
+<p><video data-src="assets/move.mp4" controls=""><a href="assets/move.mp4">Video</a></video></p>
 </figure>
+</div>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Find a question</li>
+<li>Move to the left-hand margin until the cursor becomes <svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M278.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8h32v96H128V192c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64c-12.5 12.5-12.5 32.8 0 45.3l64 64c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V288h96v96H192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8H288V288h96v32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64c12.5-12.5 12.5-32.8 0-45.3l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6v32H288V128h32c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64z"></path></svg></li>
+<li>Click and drag question to desired location</li>
+</ul>
+</div>
 </div>
 </section>
 <section>
@@ -414,10 +565,23 @@
 </section>
 <section id="test-questionnaire-1" class="slide level2 t5">
 <h2>Test questionnaire</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><video data-src="assets/test_questionnaire.mp4" controls=""><a href="assets/test_questionnaire.mp4">Video</a></video></p>
+<p><video data-src="assets/test.mp4" controls=""><a href="assets/test.mp4">Video</a></video></p>
 </figure>
+</div>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Click on <code>TEST</code>
+<ul>
+<li>If there are errors, Designer will provide a list. See more <a href="https://docs.mysurvey.solutions/questionnaire-designer/messages/compile_errors/">here</a>.</li>
+<li>If no errors, Designer will open a web-based tester in a new web browser tab. See more <a href="https://docs.mysurvey.solutions/questionnaire-designer/testing/testing-your-questionnaire-with-the-online-tester/">here</a>.</li>
+</ul></li>
+<li>Update the version of the questionnaire being tested by clicking <svg aria-hidden="true" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M2 334.5c-3.8 8.8-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0 0-288c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32l0 288-72 0c-9.6 0-18.2 5.7-22 14.5z"></path></svg><svg aria-hidden="true" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M318 177.5c3.8-8.8 2-19-4.6-26l-136-144C172.9 2.7 166.6 0 160 0s-12.9 2.7-17.4 7.5l-136 144c-6.6 7-8.4 17.2-4.6 26S14.4 192 24 192H96l0 288c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32l0-288h72c9.6 0 18.2-5.7 22-14.5z"></path></svg></li>
+</ul>
+</div>
 </div>
 
 <div class="footer footer-default">
