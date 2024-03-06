@@ -1,0 +1,325 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+---
+
+```{r}
+
+```
+
+# Conditions in rosters {background-color=var(--suso)}
+
+# Overview of conditions {background-color=var(--s1)}
+
+## Conditions outside rosters {.t1}
+
+![](assets/conditions_vars_at_same_lvl.png){fig-align="center"}
+
+## Conditions in rosters {.t1}
+
+![](assets/conditions_in_roster.png){fig-align="center"}
+
+## Conditions in rosters {.t1}
+
+![](assets/conditions_in_roster_row.png){fig-align="center"}
+
+## Conditions in rosters {.t1}
+
+![](assets/conditions_across_roster_rows.png){fig-align="center"}
+
+## Conditions in rosters {.t1}
+
+![](assets/conditions_in_and_across_roster_rows.png){fig-align="center"}
+
+
+# `r fontawesome::fa(name = "left-right")` Conditions in row {background-color=var(--s2)}
+
+## Enabling roster row based on attribute {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/enable_row_based_on_attrib.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Take all members
+- Show only those age >= 15
+
+:::
+
+::::
+
+
+## Enabling roster row based on attribute {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/demo_enable_row_based_on_attrib.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Click on roster
+- Add enablement condition to roster
+- Craft a condition that enables/disables based on attributes 
+
+:::
+
+::::
+
+
+## Enabling based on row number {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/enable_row_based_on_row_number.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Capture description of program for `"Other (specify)" (96)`
+- Otherwise, no
+
+:::
+
+::::
+
+
+## Enabling based on row number {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/demo_enable_row_based_on_row_number.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- Click on roster
+- Add enablement condition to roster
+- Craft a condition based on `@rowcode`
+:::
+
+::::
+
+# `r fontawesome::fa(name = "up-down")` Conditions across rows {background-color=var(--s3)}
+
+## General syntax {.t3}
+
+`name_of_roster.Query(x=>x.var_to_query==1)`
+
+```{r}
+#| label: query table
+qry_tbl <- data.frame(
+    item = c(
+        "name_of_roster",
+        "Query",
+        "x",
+        "x.var_to_query"
+    ),
+    explanation = c(
+        "Name of the collection to query",
+        "Query operator",
+        "Anonymous variable that captures the queried content",
+        "Query variable(s); instance of that (those) variable(s)"
+    )
+)
+
+qry_tbl |>
+gt::gt() |>
+gt::cols_label(
+    item = "Item",
+    explanation = "Explanation"
+) |>
+gt::tab_options(
+    heading.background.color = "#1c51b7"
+)
+```
+
+## Common queries {.t3}
+
+::: {.panel-tabset}
+
+### Any 
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- **_Explanation:_** At least one element of the collection meets the query criteria.
+- **_Result:_** `true`/`false`.
+
+:::
+
+::: {.column width="70%"}
+
+```cs
+// check whether there is any member designated as head
+members.Any(x=>x.relationship == 1)
+
+/*
+```
+
+**Unpacking the expression above**
+
+- `members` : roster ID for the target roster
+- `x` : anonymous variable to capture query results
+- `x.relationship` : query variable `relationship` in the roster
+
+:::
+
+::::
+
+### All
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- **_Explanation:_** All elements of the collection meet the query criteria
+- **_Result:_** `true`/`false`.
+
+:::
+
+::: {.column width="70%"}
+
+```cs
+
+// all household members have a relationship to the head
+// that is, the relationship variable is not `null`
+members.All(x=>x.relationship != null)
+```
+
+NOTE: this is often a pre-condition for a condition. 
+
+See the full example in "Case 2" [here](https://docs.mysurvey.solutions/syntax-guide/cslanguage/syntax-guide-using-linq-expressions-for-conditions-in-rosters/) 
+
+
+:::
+
+::::
+
+### Count
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+- **_Explanation._** Count the number of elements that meet the criteria
+- **_Result_**. Count.
+
+:::
+
+::: {.column width="70%"}
+
+```cs
+// number of members designated as household head
+members.Count(x=>x.relationship == 1)
+
+```
+
+:::
+
+
+::::
+
+:::
+
+## Number teas drunk {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/demo_count_rows.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- Find teas roster
+- Find question about whether drank yesterday
+- Compose condition about whether any tea drunk yesterday
+:::
+
+::::
+
+## No more than one head {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/demo_only_one_head.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- If member is head, confirm count of heads == 1
+- Otherwise, OK
+
+:::
+
+::::
+
+## Age of child relative to head {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/demo_age_difference.mp4)
+:::
+
+::: {.column width="30%"}
+
+- **Case 1:** if head, then no child w/ age diff < 13
+- **Case 2:** if child, then no head w/ age diff < 13
+- **Case 3:** if neither head nor child, OK
+
+:::
+
+::::
+
+## Age of child relative to head {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+```cs
+/* 
+CONFIRM THAT THE AGE DIFFERENCE
+BETWEEN THE HEAD AND CHILD IS APPROPRIATE
+*/
+
+// case 1: if head, no child in the roster whose age difference is too small
+s01q03 == 1 ? !members.Any(x=>x.s01q03==3 && (s01q04_years - x.s01q04_years) < 13) :
+
+// case 2: if child, no head whose age diffference is too small
+s01q03 == 3 ? !members.Any(x=>x.s01q03==1 && (x.s01q04_years - s01q04_years) < 13) :
+
+// case 3: if neither head nor child, OK
+true
+```
+:::
+
+::: {.column width="30%"}
+
+### Unpacking the code
+
+- Ternary operator (`?` ... `:`)
+  - Before `?` ~= `if`
+  - Between `?` and `:` ~= `then`
+  - After `:` ~= `else`
+- `!Any()` == none
+- Variables with and without `x.` prefix
+  - Without: current row (e.g. `s01q03 == 1`)
+  - With: query target
+
+:::
+
+::::
+
+
