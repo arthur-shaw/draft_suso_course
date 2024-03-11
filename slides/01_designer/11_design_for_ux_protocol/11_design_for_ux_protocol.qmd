@@ -1,0 +1,595 @@
+---
+format: 
+    revealjs: 
+        theme: [default, ../../css/core.scss, ../../css/colors.scss]
+        height: 900
+        width: 1600
+        code-overflow: wrap
+---
+
+```{r}
+
+```
+
+# Design for UX/survey protocol {background-color=var(--suso)}
+
+## Roadmap `r fontawesome::fa(name = "route")` {.suso}
+
+::: {.box .box-1}
+Increase readability `r fontawesome::fa(name = "glasses")`
+:::
+
+::: {.box .box-2}
+Improve inputs `r fontawesome::fa(name = "hand-pointer")`
+:::
+
+::: {.box .box-3}
+Integrate links `r fontawesome::fa(name = "link")`
+:::
+
+::: {.box .box-4}
+Follow protocol `r fontawesome::fa(name = "list-ol")`
+:::
+
+
+# Increase readability `r fontawesome::fa(name = "glasses")` {background-color=var(--s1)}
+
+## Increase readability `r fontawesome::fa(name = "glasses")` {.t1}
+
+::: {.box .box-1}
+Color `r fontawesome::fa(name = "palette")`
+:::
+
+::: {.box .box-1}
+Spacing `r fontawesome::fa(name = "maximize")`
+:::
+
+::: {.box .box-1}
+Emojis `r fontawesome::fa(name = "icons")`
+:::
+
+::: {.box .box-1}
+And more `r fontawesome::fa(name = "magnifying-glass-plus")`
+:::
+
+# Color `r fontawesome::fa(name = "palette")` {background-color=var(--s1)}
+
+## `r fontawesome::fa(name = "palette")` Why {.t1}
+
+### [Which is easier to read?]{.txt-1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.question}
+WHAT IS THE MAIN MATERIAL USED FOR THE HOUSE FLOOR?
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.question}
+WHAT IS THE <font color="blue">MAIN MATERIAL</font> USED FOR THE HOUSE <font color="blue">FLOOR</font>?
+:::
+:::
+
+::::
+
+
+## `r fontawesome::fa(name = "palette")` How {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+This:
+
+```html
+<font color = "blue">Blue</font>
+<font color = "#e33d30">Red<font>
+```
+
+Yields:
+
+<font color = "blue">Blue</font><br>
+<font color = "#e33d30">Red</font>
+
+:::
+
+::: {.column width="50%"}
+
+### Steps to replicate
+
+1. Use [HTML font tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font)
+1. Specify a color
+    - [Named color](https://www.w3schools.com/colors/colors_names.asp) ^[Using the HTML 4.0.1 specification.]
+    - [HEX colors](https://www.w3schools.com/colors/colors_hexadecimal.asp)
+
+
+:::
+
+::::
+
+
+## `r fontawesome::fa(name = "palette")` When {.t1}
+
+
+::: {.panel-tabset}
+
+### Key words
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.question}
+WHAT IS THE <font color="blue">MAIN MATERIAL</font> USED FOR THE HOUSE <font color="blue">FLOOR</font>?
+:::
+
+:::
+
+::: {.column width="50%"}
+
+```html
+WHAT IS THE <font color="blue">MAIN MATERIAL</font>
+USED FOR THE HOUSE <font color="blue">FLOOR</font>?
+```
+
+:::
+
+::::
+
+### Recall period
+
+:::: {.columns .incremental}
+
+::: {.column width="50%"}
+
+::: {.question}
+During the <font color = "green">past 7 days</font>, did  members of your household consume [ITEM] within the household?
+:::
+
+:::
+
+::: {.column width="50%"}
+
+```html
+During the <font color = "green">past 7 days</font>, 
+did  members of your household consume [ITEM] 
+within the household?
+```
+
+:::
+
+::::
+
+### Changing words
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.question}
+During the past 7 days, did  members of your household consume <font color="red">[ITEM]</font> within the household?
+:::
+
+:::
+
+::: {.column width="50%"}
+
+```html
+During the past 7 days, did  members of your household 
+consume <font color="red">[ITEM]</font> 
+within the household?
+```
+
+:::
+
+::::
+
+
+### Combinations
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.question}
+During the <font color = "green">past 7 days</font>, did  members of your household consume <font color="red">[ITEM]</font> within the household?
+:::
+
+:::
+
+::: {.column width="50%"}
+
+```html
+During the <font color = "green">past 7 days</font>, 
+did  members of your household consume 
+<font color="red">[ITEM]</font>
+within the household?
+```
+
+:::
+
+::::
+
+
+:::
+
+# Spacing `r fontawesome::fa(name = "maximize")` {background-color=var(--s1)}
+
+## `r fontawesome::fa(name = "maximize")` Why {.t1}
+
+![](assets/spacing_problem.mp4){fig-align="center"}
+
+## `r fontawesome::fa(name = "maximize")` How {.t1}
+
+::: {.panel-tabset}
+
+### Line breaks
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+Code:
+
+```html
+This is some text
+<br><br>
+SOME TEXT AFTER A SPACE
+```
+
+Result:
+
+This is some text
+<br><br>
+SOME TEXT AFTER A SPACE
+
+:::
+
+::: {.column width="30%"}
+
+- Use the HTML `<br>` tag. See more [here](https://www.w3schools.com/TAGS/tag_br.asp).
+- One `<br>` returns to the next line
+- Another `<br>` returns to another line, creating the effect of an empty line
+
+:::
+
+::::
+
+### Paragraphs
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+Code:
+
+```html
+<p>This is some paragraph text</p>
+<p>SOME TEST AFTER A SPACE</p>
+```
+
+Result:
+
+<p>This is some paragraph text</p>
+<p>SOME TEST AFTER A SPACE</p>
+
+:::
+
+::: {.column width="30%"}
+
+- Use the HTML <p> tag. See more [here](https://www.w3schools.com/TAGS/tag_p.asp).
+- Upside: browser automatically adds a blank line before and after each tag
+- Downside: need to surround text with `<p>`
+
+:::
+
+::::
+
+
+:::
+
+## `r fontawesome::fa(name = "maximize")` When {.t1}
+
+::: {.panel-tabset}
+
+### Units/instructions
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.question}
+What is [NAME]'s father’s main occupation ?
+<br><br>
+DESCRIBE IN A FEW WORDS E.G. PRIMARY SCHOOL TEACHER, BRICK LAYER, ETC.
+:::
+
+:::
+
+::: {.column width="50%"}
+
+```html
+What is [NAME]'s father’s main occupation ?
+<br><br>
+DESCRIBE IN A FEW WORDS 
+E.G. PRIMARY SCHOOL TEACHER, BRICK LAYER, ETC.
+```
+
+:::
+
+::::
+
+
+### Long text
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.question}
+<p>Did your household purchase materials with the intention of undertaking the maintenance or repair of the household itself in the past 12 months?</p>
+
+<p>Consider activities of repair and maintanance that have to be undertaken regularly in order to maintain the dwelling in good working order, that do not change the dwelling’s performance, capacity or expected service life and that, as such, are normally carried out by both owner occupiers and tenants</p>
+:::
+
+:::
+
+::: {.column width="50%"}
+
+```html
+<p>
+    Did your household purchase materials 
+    with the intention of undertaking 
+    the maintenance or repair of the household 
+    itself in the past 12 months?
+</p>
+
+<p>
+    Consider activities of repair and 
+    maintanance that have to be undertaken 
+    regularly in order to maintain the dwelling 
+    in good working order, that do not change 
+    the dwelling’s performance, capacity or 
+    expected service life and that, as such, 
+    are normally carried out by both 
+    owner occupiers and tenants
+</p>
+```
+
+:::
+
+::::
+
+:::
+
+
+# Emojis `r fontawesome::fa(name = "icons")`{background-color=var(--s1)}
+
+## `r fontawesome::fa(name = "icons")` Why {.t1}
+
+TODO: image with and without
+
+## `r fontawesome::fa(name = "icons")` How {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Get an emoji
+
+::: {.panel-tabset}
+
+### On Windows `r fontawesome::fa(name = "windows")`
+
+- Press `r fontawesome::fa(name = "windows")` + `.`
+- Type to search for an emoji
+- Type `Enter` to write that emoji
+- See more [here](https://support.microsoft.com/en-us/windows/windows-keyboard-tips-and-tricks-588e0b72-0fff-6d3f-aeee-6e5116097942#ID0EBD=Windows_10).
+
+### On the internet `r fontawesome::fa(name = "chrome")`
+
+- Find a website that contains emojis (e.g. [Emojipedia](https://emojipedia.org/))
+- Search for an emoji
+- Copy the emoji
+- Paste it
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+### Use in SuSo
+
+- Emojis are (Unicode) text
+- Write/copy as any other text
+- Save/test. YMMV.
+- See more [here](https://docs.mysurvey.solutions/questionnaire-designer/techniques/formatting-text/#other-elements-you-can-include).
+
+:::
+
+::::
+
+## `r fontawesome::fa(name = "icons")` When {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Section
+
+![](assets/emoji_sections.png){fig-align="center"}
+
+:::
+
+::: {.column width="50%"}
+
+### Sub-section
+
+![](assets/emoji_subsections.png){fig-align="center"}
+
+:::
+
+::::
+
+## And more `r fontawesome::fa(name = "magnifying-glass-plus")` {.t1}
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/techniques/formatting-text/", height = "750px")
+```
+
+See more [here](https://docs.mysurvey.solutions/questionnaire-designer/techniques/formatting-text/)
+
+
+# Improve inputs `r fontawesome::fa(name = "hand-pointer")` {background-color=var(--s2)}
+
+## Radio buttons too long {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/radio_button_too_long.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Too many options
+- Occupy most/all of a screen
+- Easier to search by typing than scrolling
+
+:::
+
+::::
+
+## Combo box too limiting {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/combo_box_too_limiting.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Interviewers don't know list
+- Interviewers don't know to search
+- Only see first 20 options
+
+:::
+
+::::
+
+## When to use {.t2}
+
+:::: {.columns .incremental}
+
+::: {.column width="50%"}
+
+### Radio buttons
+
+- Less than 10 answer options
+- Answer list to be read aloud
+- Answer list not known / not amenable to search by typing
+
+:::
+
+::: {.column width="50%"}
+
+### Combo box
+
+- More than 10 answer options
+- Interviewer knows that searching to be done
+- Answer list known / amenable to typing
+
+:::
+
+::::
+
+# Integrate links `r fontawesome::fa(name = "link")` {background-color=var(--s3)}
+
+## `r fontawesome::fa(name = "link")` Why {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/links_why.png){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+- Which questions involved in the error
+- How to find them quickly
+
+:::
+
+::::
+
+::: {.notes}
+
+### Which questions
+
+- Describing questions at length (which)
+- Hard-coding question numbers (which may change)
+
+### How to find
+
+- Navigation might not be simple
+
+:::
+
+## `r fontawesome::fa(name = "link")` How {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+```markdown
+[text to link](variable_name)
+```
+
+:::
+
+::: {.column width="30%"}
+
+- Put text in brackets (i.e., `[]`)
+- Put the target variable name in parentheses (i.e., `()`)
+- See more [here](https://docs.mysurvey.solutions/questionnaire-designer/components/questionnaire-hyperlinks/)
+
+:::
+
+::::
+
+## `r fontawesome::fa(name = "link")` When {.t3}
+
+![](assets/links_example.mp4){fig-align="center"}
+
+
+# Follow protocol `r fontawesome::fa(name = "list-ol") `{background-color=var(--s4)}
+
+## When order matters {.t4}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/protocol_papi.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- First, enumerate
+- Then, detail
+
+:::
+
+::::
+
+## First, enumerate; then, detail {.t4}
+
+![](assets/first-enumerate_then-details.mp4){fig-align="center"}
