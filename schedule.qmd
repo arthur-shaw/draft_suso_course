@@ -29,7 +29,7 @@ schedule_df <- tibble::tribble(
     "Designer", "Creating complex rosters", NA, "slides/01_designer/08_create_complex_rosters/08_create_complex_rosters.qmd", NA,
     "Designer", "Introduction to conditions", NA, "slides/01_designer/09_conditions_intro/09_conditions_intro.qmd", NA,
     "Designer", "Conditions in rosters", NA, "slides/01_designer/10_conditions_in_rosters/10_conditions_in_rosters.qmd", NA,
-    "Designer", "Design for UX/survey protocol", NA, NA, NA,
+    "Designer", "Design for UX/survey protocol", NA, "slides/01_designer/11_design_for_ux_protocol/11_design_for_ux_protocol.qmd", NA,
     "Designer", "Design for efficiency/modularity", NA, NA, NA,
     # Headquarters
     "Headquarter",  "Server Overview", NA, "slides/02_headquarters/01_server_overview/01_server_overview.qmd",  NA,
